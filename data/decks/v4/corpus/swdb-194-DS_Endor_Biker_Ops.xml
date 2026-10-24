@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_234" title="Alter" />
+  <card blueprintId="1_249" title="Imperial Barrier" />
+  <card blueprintId="1_288" title="Kessel" />
+  <card blueprintId="1_324" title="Vader's Lightsaber" />
+  <card blueprintId="1_324" title="Vader's Lightsaber" />
+  <card blueprintId="2_132" title="Ghhhk" />
+  <card blueprintId="2_132" title="Ghhhk" />
+  <card blueprintId="2_146" title="Kashyyyk" />
+  <card blueprintId="2_155" title="Victory-Class Star Destroyer" />
+  <card blueprintId="2_155" title="Victory-Class Star Destroyer" />
+  <card blueprintId="3_133" title="Scruffy-Looking Nerf Herder" />
+  <card blueprintId="4_139" title="Control" />
+  <card blueprintId="6_160" title="Twi'lek Advisor" />
+  <card blueprintId="7_257" title="Masterful Move" />
+  <card blueprintId="8_178" title="AT-ST Dual Cannon" />
+  <card blueprintId="8_91" title="AT-ST Pilot" />
+  <card blueprintId="8_91" title="AT-ST Pilot" />
+  <card blueprintId="8_91" title="AT-ST Pilot" />
+  <card blueprintId="8_135" title="Always Thinking With Your Stomach" />
+  <card blueprintId="8_92" title="Biker Scout Trooper" />
+  <card blueprintId="8_92" title="Biker Scout Trooper" />
+  <card blueprintId="8_93" title="Colonel Dyer" />
+  <card blueprintId="8_136" title="Combat Readiness" />
+  <card blueprintId="8_136" title="Combat Readiness" />
+  <card blueprintId="8_95" title="Corporal Avarik" />
+  <card blueprintId="8_97" title="Corporal Drelosyn" />
+  <card blueprintId="8_98" title="Corporal Misik" />
+  <card blueprintId="8_157" title="Endor" />
+  <card blueprintId="8_142" title="Endor Occupation" />
+  <card blueprintId="8_167" title="Endor Operations" />
+  <card blueprintId="8_160" title="Endor: Bunker" />
+  <card blueprintId="8_161" title="Endor: Dark Forest" />
+  <card blueprintId="8_162" title="Endor: Dense Forest" />
+  <card blueprintId="8_164" title="Endor: Forest Clearing" />
+  <card blueprintId="8_166" title="Endor: Landing Platform (Docking Bay)" />
+  <card blueprintId="8_124" title="Establish Secret Base" />
+  <card blueprintId="8_145" title="High-speed Tactics" />
+  <card blueprintId="8_101" title="Lieutenant Arnet" />
+  <card blueprintId="8_105" title="Major Hewex" />
+  <card blueprintId="8_127" title="Ominous Rumors" />
+  <card blueprintId="8_128" title="Perimeter Patrol" />
+  <card blueprintId="8_151" title="Pitiful Little Band" />
+  <card blueprintId="8_130" title="Relentless Tracking" />
+  <card blueprintId="8_111" title="Sergeant Barich" />
+  <card blueprintId="8_112" title="Sergeant Elsek" />
+  <card blueprintId="8_113" title="Sergeant Irol" />
+  <card blueprintId="8_169" title="Speeder Bike" />
+  <card blueprintId="8_169" title="Speeder Bike" />
+  <card blueprintId="8_169" title="Speeder Bike" />
+  <card blueprintId="8_169" title="Speeder Bike" />
+  <card blueprintId="8_172" title="Tempest Scout 1" />
+  <card blueprintId="8_174" title="Tempest Scout 3" />
+  <card blueprintId="8_175" title="Tempest Scout 4" />
+  <card blueprintId="8_176" title="Tempest Scout 5" />
+  <card blueprintId="8_177" title="Tempest Scout 6" />
+  <card blueprintId="9_97" title="Admiral Chiraneau" />
+  <card blueprintId="9_113" title="Lord Vader" />
+  <card blueprintId="9_113" title="Lord Vader" />
+  <card blueprintId="9_172" title="The Emperor's Shield" />
+  <card blueprintId="13_87" title="Stormtrooper Garrison" />
+</deck>

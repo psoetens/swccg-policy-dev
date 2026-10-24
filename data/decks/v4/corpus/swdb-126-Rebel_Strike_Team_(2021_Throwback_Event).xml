@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="3_71" title="Anakin's Lightsaber" />
+  <card blueprintId="3_32" title="Bacta Tank" />
+  <card blueprintId="6_79" title="Weapon Levitation" />
+  <card blueprintId="7_62" title="Goo Nee Tay" />
+  <card blueprintId="8_35" title="Battle Plan" />
+  <card blueprintId="8_2" title="Chewbacca Of Kashyyyk" />
+  <card blueprintId="8_4" title="Corporal Beezer" />
+  <card blueprintId="8_7" title="Corporal Kensaric" />
+  <card blueprintId="8_8" title="Daughter Of Skywalker" />
+  <card blueprintId="8_43" title="Deactivate The Shield Generator" />
+  <card blueprintId="8_68" title="Endor" />
+  <card blueprintId="8_69" title="Endor: Back Door" />
+  <card blueprintId="8_70" title="Endor: Bunker" />
+  <card blueprintId="8_72" title="Endor: Dense Forest" />
+  <card blueprintId="8_74" title="Endor: Great Forest" />
+  <card blueprintId="8_76" title="Endor: Landing Platform (Docking Bay)" />
+  <card blueprintId="8_77" title="Endor: Rebel Landing Site (Forest)" />
+  <card blueprintId="8_90" title="Explosive Charge" />
+  <card blueprintId="8_14" title="General Crix Madine" />
+  <card blueprintId="8_15" title="General Solo" />
+  <card blueprintId="8_56" title="I Know" />
+  <card blueprintId="8_40" title="Insurrection" />
+  <card blueprintId="8_19" title="Lieutenant Page" />
+  <card blueprintId="8_23" title="Orrimaarko" />
+  <card blueprintId="8_78" title="Rebel Strike Team" />
+  <card blueprintId="8_27" title="Sergeant Brooks Carlson" />
+  <card blueprintId="8_29" title="Sergeant Junkin" />
+  <card blueprintId="8_63" title="Throw Me Another Charge" />
+  <card blueprintId="8_33" title="Wuta" />
+  <card blueprintId="9_6" title="Admiral Ackbar" />
+  <card blueprintId="9_32" title="Close Air Support" />
+  <card blueprintId="9_32" title="Close Air Support" />
+  <card blueprintId="9_8" title="Colonel Cracken" />
+  <card blueprintId="9_11" title="Corporal Midge" />
+  <card blueprintId="9_13" title="General Calrissian" />
+  <card blueprintId="9_68" title="Gold Squadron 1" />
+  <card blueprintId="9_72" title="Green Squadron 3" />
+  <card blueprintId="9_51" title="Heading For The Medical Frigate" />
+  <card blueprintId="9_74" title="Home One" />
+  <card blueprintId="9_33" title="Honor Of The Jedi" />
+  <card blueprintId="9_4" title="I'll Take The Leader" />
+  <card blueprintId="9_52" title="Insertion Planning" />
+  <card blueprintId="9_52" title="Insertion Planning" />
+  <card blueprintId="9_21" title="Lieutenant Blount" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="9_90" title="Luke's Lightsaber" />
+  <card blueprintId="9_27" title="Major Panno" />
+  <card blueprintId="9_38" title="Menace Fades" />
+  <card blueprintId="9_28" title="Nien Nunb" />
+  <card blueprintId="9_81" title="Red Squadron 1" />
+  <card blueprintId="9_39" title="Squadron Assignments" />
+  <card blueprintId="9_41" title="Strike Planning" />
+  <card blueprintId="9_84" title="Tala 1" />
+  <card blueprintId="9_85" title="Tala 2" />
+  <card blueprintId="9_30" title="Tycho Celchu" />
+  <card blueprintId="9_31" title="Wedge Antilles, Red Squadron Leader" />
+  <card blueprintId="9_47" title="Your Insight Serves You Well" />
+  <card blueprintId="10_5" title="Corran Horn" />
+  <card blueprintId="10_10" title="Luke Skywalker, Rebel Scout" />
+</deck>

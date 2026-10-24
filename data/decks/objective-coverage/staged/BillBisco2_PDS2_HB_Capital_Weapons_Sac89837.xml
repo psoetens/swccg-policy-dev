@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="9_5" title="Taking Them With Us" />
+  <card blueprintId="9_5" title="Taking Them With Us" />
+  <card blueprintId="9_5" title="Taking Them With Us" />
+  <card blueprintId="6_6" title="Baragwin" />
+  <card blueprintId="6_6" title="Baragwin" />
+  <card blueprintId="9_7" title="Captain Verrack" />
+  <card blueprintId="1_9" title="Figrin D'an" />
+  <card blueprintId="6_19" title="Ishi Tib" />
+  <card blueprintId="9_18" title="Karie Neth" />
+  <card blueprintId="9_20" title="Kin Kian" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="7_37" title="R3-T2 (Arthree-Teetoo)" />
+  <card blueprintId="9_31" title="Wedge Antilles, Red Squadron Leader" />
+  <card blueprintId="9_31" title="Wedge Antilles, Red Squadron Leader" />
+  <card blueprintId="3_25" title="Wes Janson" />
+  <card blueprintId="8_35" title="Battle Plan" />
+  <card blueprintId="4_21" title="Do, Or Do Not" />
+  <card blueprintId="9_33" title="Honor Of The Jedi" />
+  <card blueprintId="8_40" title="Insurrection" />
+  <card blueprintId="6_56" title="Projection Of A Skywalker" />
+  <card blueprintId="6_56" title="Projection Of A Skywalker" />
+  <card blueprintId="9_43" title="Superficial Damage" />
+  <card blueprintId="7_80" title="Weapons Display" />
+  <card blueprintId="7_81" title="Wise Advice" />
+  <card blueprintId="9_47" title="Your Insight Serves You Well" />
+  <card blueprintId="4_48" title="Control" />
+  <card blueprintId="9_51" title="Heading For The Medical Frigate" />
+  <card blueprintId="1_88" title="Hyper Escape" />
+  <card blueprintId="106_5" title="It's A Hit!" />
+  <card blueprintId="6_72" title="Nar Shaddaa Wind Chimes" />
+  <card blueprintId="7_96" title="On Target" />
+  <card blueprintId="7_96" title="On Target" />
+  <card blueprintId="7_98" title="Power Pivot" />
+  <card blueprintId="7_100" title="Rapid Fire" />
+  <card blueprintId="7_100" title="Rapid Fire" />
+  <card blueprintId="7_104" title="Stay Sharp!" />
+  <card blueprintId="7_104" title="Stay Sharp!" />
+  <card blueprintId="8_67" title="Chandrila" />
+  <card blueprintId="8_68" title="Endor" />
+  <card blueprintId="1_126" title="Kessel" />
+  <card blueprintId="6_83" title="Kiffex" />
+  <card blueprintId="7_123" title="Rendezvous Point" />
+  <card blueprintId="9_60" title="Sullust" />
+  <card blueprintId="1_127" title="Tatooine" />
+  <card blueprintId="7_136" title="Hidden Base" />
+  <card blueprintId="9_80" title="Nebulon-B Frigate" />
+  <card blueprintId="9_80" title="Nebulon-B Frigate" />
+  <card blueprintId="9_80" title="Nebulon-B Frigate" />
+  <card blueprintId="9_80" title="Nebulon-B Frigate" />
+  <card blueprintId="9_80" title="Nebulon-B Frigate" />
+  <card blueprintId="9_80" title="Nebulon-B Frigate" />
+  <card blueprintId="9_80" title="Nebulon-B Frigate" />
+  <card blueprintId="9_89" title="Heavy Turbolaser Battery" />
+  <card blueprintId="9_89" title="Heavy Turbolaser Battery" />
+  <card blueprintId="9_89" title="Heavy Turbolaser Battery" />
+  <card blueprintId="9_89" title="Heavy Turbolaser Battery" />
+  <card blueprintId="9_89" title="Heavy Turbolaser Battery" />
+  <card blueprintId="7_159" title="Intruder Missile" />
+  <card blueprintId="7_159" title="Intruder Missile" />
+  <card blueprintId="7_159" title="Intruder Missile" />
+  <cardOutsideDeck blueprintId="8_67" title="Chandrila" />
+  <cardOutsideDeck blueprintId="8_68" title="Endor" />
+  <cardOutsideDeck blueprintId="1_126" title="Kessel" />
+  <cardOutsideDeck blueprintId="6_83" title="Kiffex" />
+  <cardOutsideDeck blueprintId="9_60" title="Sullust" />
+  <cardOutsideDeck blueprintId="1_127" title="Tatooine" />
+</deck>

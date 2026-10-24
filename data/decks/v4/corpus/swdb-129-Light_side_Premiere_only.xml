@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_42" title="A Tremor In The Force" />
+  <card blueprintId="1_2" title="Beru Lars" />
+  <card blueprintId="1_72" title="Beru Stew" />
+  <card blueprintId="1_152" title="Blaster" />
+  <card blueprintId="1_152" title="Blaster" />
+  <card blueprintId="1_4" title="BoShek" />
+  <card blueprintId="1_5" title="C-3PO (See-Threepio)" />
+  <card blueprintId="1_73" title="Cantina Brawl" />
+  <card blueprintId="1_74" title="Collision!" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_45" title="Crash Site Memorial" />
+  <card blueprintId="1_122" title="Dantooine" />
+  <card blueprintId="1_124" title="Death Star: Docking Bay 327" />
+  <card blueprintId="1_35" title="Electrobinoculars" />
+  <card blueprintId="1_82" title="Gift Of The Mentor" />
+  <card blueprintId="1_88" title="Hyper Escape" />
+  <card blueprintId="1_155" title="Jedi Lightsaber" />
+  <card blueprintId="1_92" title="Jedi Presence" />
+  <card blueprintId="1_126" title="Kessel" />
+  <card blueprintId="1_93" title="Krayt Dragon Howl" />
+  <card blueprintId="1_19" title="Luke Skywalker" />
+  <card blueprintId="1_95" title="Luke's Back" />
+  <card blueprintId="1_95" title="Luke's Back" />
+  <card blueprintId="1_149" title="Luke's X-34 Landspeeder" />
+  <card blueprintId="1_97" title="Nabrun Leids" />
+  <card blueprintId="1_21" title="Obi-Wan Kenobi" />
+  <card blueprintId="1_57" title="Obi-Wan's Cape" />
+  <card blueprintId="1_100" title="Old Ben" />
+  <card blueprintId="1_22" title="Owen Lars" />
+  <card blueprintId="1_103" title="Panic" />
+  <card blueprintId="1_26" title="Rebel Guard" />
+  <card blueprintId="1_28" title="Rebel Trooper" />
+  <card blueprintId="1_28" title="Rebel Trooper" />
+  <card blueprintId="1_28" title="Rebel Trooper" />
+  <card blueprintId="1_107" title="Return Of A Jedi" />
+  <card blueprintId="1_107" title="Return Of A Jedi" />
+  <card blueprintId="1_30" title="Shistavanen Wolfman" />
+  <card blueprintId="1_30" title="Shistavanen Wolfman" />
+  <card blueprintId="1_30" title="Shistavanen Wolfman" />
+  <card blueprintId="1_151" title="SoroSuub V-35 Landspeeder" />
+  <card blueprintId="1_31" title="Talz" />
+  <card blueprintId="1_31" title="Talz" />
+  <card blueprintId="1_31" title="Talz" />
+  <card blueprintId="1_127" title="Tatooine" />
+  <card blueprintId="1_40" title="Tatooine Utility Belt" />
+  <card blueprintId="1_40" title="Tatooine Utility Belt" />
+  <card blueprintId="1_128" title="Tatooine: Cantina" />
+  <card blueprintId="1_129" title="Tatooine: Docking Bay 94" />
+  <card blueprintId="1_132" title="Tatooine: Lars' Moisture Farm" />
+  <card blueprintId="1_133" title="Tatooine: Mos Eisley" />
+  <card blueprintId="1_134" title="Tatooine: Obi-Wan's Hut" />
+  <card blueprintId="1_66" title="Traffic Control" />
+  <card blueprintId="1_33" title="Wioslea" />
+  <card blueprintId="1_146" title="X-wing" />
+  <card blueprintId="1_146" title="X-wing" />
+  <card blueprintId="1_146" title="X-wing" />
+  <card blueprintId="1_147" title="Y-wing" />
+  <card blueprintId="1_147" title="Y-wing" />
+  <card blueprintId="1_147" title="Y-wing" />
+  <card blueprintId="1_69" title="Yerka Mig" />
+</deck>

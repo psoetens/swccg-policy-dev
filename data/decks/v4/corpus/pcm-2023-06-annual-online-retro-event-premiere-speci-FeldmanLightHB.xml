@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="6_1" title="8D8" />
+  <card blueprintId="108_3" title="Luke With Lightsaber" />
+  <card blueprintId="7_32" title="Melas" />
+  <card blueprintId="2_14" title="R2-D2 (Artoo-Detoo)" />
+  <card blueprintId="2_14" title="R2-D2 (Artoo-Detoo)" />
+  <card blueprintId="1_24" title="R2-X2 (Artoo-Extoo)" />
+  <card blueprintId="2_23" title="Wedge Antilles" />
+  <card blueprintId="4_11" title="Landing Claw" />
+  <card blueprintId="4_21" title="Do, Or Do Not" />
+  <card blueprintId="5_24" title="Haven" />
+  <card blueprintId="4_27" title="Never Tell Me The Odds" />
+  <card blueprintId="4_27" title="Never Tell Me The Odds" />
+  <card blueprintId="7_73" title="Rebel Fleet" />
+  <card blueprintId="1_66" title="Traffic Control" />
+  <card blueprintId="2_41" title="What're You Tryin' To Push On Us?" />
+  <card blueprintId="2_41" title="What're You Tryin' To Push On Us?" />
+  <card blueprintId="7_81" title="Wise Advice" />
+  <card blueprintId="2_49" title="Grimtaash" />
+  <card blueprintId="2_49" title="Grimtaash" />
+  <card blueprintId="1_87" title="How Did We Get Into This Mess?" />
+  <card blueprintId="1_87" title="How Did We Get Into This Mess?" />
+  <card blueprintId="1_88" title="Hyper Escape" />
+  <card blueprintId="1_90" title="It Could Be Worse" />
+  <card blueprintId="106_5" title="It's A Hit!" />
+  <card blueprintId="7_97" title="Organized Attack" />
+  <card blueprintId="7_97" title="Organized Attack" />
+  <card blueprintId="2_54" title="Out Of Commission" />
+  <card blueprintId="2_54" title="Out Of Commission" />
+  <card blueprintId="7_98" title="Power Pivot" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="1_113" title="Surprise Assault" />
+  <card blueprintId="1_113" title="Surprise Assault" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="4_66" title="Transmission Terminated" />
+  <card blueprintId="4_66" title="Transmission Terminated" />
+  <card blueprintId="4_66" title="Transmission Terminated" />
+  <card blueprintId="4_67" title="Tunnel Vision" />
+  <card blueprintId="4_67" title="Tunnel Vision" />
+  <card blueprintId="106_2" title="Corulag" />
+  <card blueprintId="2_64" title="Kashyyyk" />
+  <card blueprintId="1_126" title="Kessel" />
+  <card blueprintId="6_83" title="Kiffex" />
+  <card blueprintId="7_123" title="Rendezvous Point" />
+  <card blueprintId="1_127" title="Tatooine" />
+  <card blueprintId="1_135" title="Yavin 4" />
+  <card blueprintId="7_136" title="Hidden Base" />
+  <card blueprintId="103_1" title="Gold Leader In Gold 1" />
+  <card blueprintId="106_4" title="Gold Squadron Y-wing" />
+  <card blueprintId="106_4" title="Gold Squadron Y-wing" />
+  <card blueprintId="106_4" title="Gold Squadron Y-wing" />
+  <card blueprintId="103_2" title="Red Leader In Red 1" />
+  <card blueprintId="106_7" title="Red Squadron X-wing" />
+  <card blueprintId="106_7" title="Red Squadron X-wing" />
+  <card blueprintId="106_7" title="Red Squadron X-wing" />
+  <card blueprintId="7_149" title="Spiral" />
+  <card blueprintId="2_73" title="Tantive IV" />
+  <card blueprintId="7_162" title="X-wing Laser Cannon" />
+  <card blueprintId="7_162" title="X-wing Laser Cannon" />
+  <cardOutsideDeck blueprintId="106_2" title="Corulag" />
+  <cardOutsideDeck blueprintId="2_64" title="Kashyyyk" />
+  <cardOutsideDeck blueprintId="1_127" title="Tatooine" />
+  <cardOutsideDeck blueprintId="1_135" title="Yavin 4" />
+</deck>

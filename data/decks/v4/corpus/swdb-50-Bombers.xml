@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_164" title="Admiral Motti" />
+  <card blueprintId="1_173" title="DS-61-2" />
+  <card blueprintId="1_174" title="DS-61-3" />
+  <card blueprintId="1_179" title="Grand Moff Tarkin" />
+  <card blueprintId="1_296" title="Yavin 4" />
+  <card blueprintId="2_88" title="DS-61-4" />
+  <card blueprintId="2_143" title="Death Star" />
+  <card blueprintId="2_132" title="Ghhhk" />
+  <card blueprintId="2_146" title="Kashyyyk" />
+  <card blueprintId="2_147" title="Kiffex" />
+  <card blueprintId="2_98" title="Officer Evax" />
+  <card blueprintId="3_82" title="Admiral Ozzel" />
+  <card blueprintId="3_154" title="Blizzard 1" />
+  <card blueprintId="3_155" title="Blizzard 2" />
+  <card blueprintId="3_87" title="General Veers" />
+  <card blueprintId="3_143" title="Hoth" />
+  <card blueprintId="3_89" title="Lieutenant Cabbel" />
+  <card blueprintId="4_117" title="Bombing Run" />
+  <card blueprintId="4_117" title="Bombing Run" />
+  <card blueprintId="4_117" title="Bombing Run" />
+  <card blueprintId="4_179" title="Proton Bombs" />
+  <card blueprintId="4_179" title="Proton Bombs" />
+  <card blueprintId="4_179" title="Proton Bombs" />
+  <card blueprintId="4_179" title="Proton Bombs" />
+  <card blueprintId="4_173" title="TIE Bomber" />
+  <card blueprintId="4_173" title="TIE Bomber" />
+  <card blueprintId="4_173" title="TIE Bomber" />
+  <card blueprintId="4_173" title="TIE Bomber" />
+  <card blueprintId="4_173" title="TIE Bomber" />
+  <card blueprintId="4_173" title="TIE Bomber" />
+  <card blueprintId="4_173" title="TIE Bomber" />
+  <card blueprintId="4_173" title="TIE Bomber" />
+  <card blueprintId="4_173" title="TIE Bomber" />
+  <card blueprintId="4_173" title="TIE Bomber" />
+  <card blueprintId="6_160" title="Twi'lek Advisor" />
+  <card blueprintId="6_160" title="Twi'lek Advisor" />
+  <card blueprintId="6_160" title="Twi'lek Advisor" />
+  <card blueprintId="7_246" title="All Power To Weapons" />
+  <card blueprintId="7_246" title="All Power To Weapons" />
+  <card blueprintId="7_246" title="All Power To Weapons" />
+  <card blueprintId="7_246" title="All Power To Weapons" />
+  <card blueprintId="7_246" title="All Power To Weapons" />
+  <card blueprintId="7_175" title="Darth Vader, Dark Lord Of The Sith" />
+  <card blueprintId="7_175" title="Darth Vader, Dark Lord Of The Sith" />
+  <card blueprintId="7_227" title="Dreaded Imperial Starfleet" />
+  <card blueprintId="7_253" title="I Can't Shake Him!" />
+  <card blueprintId="7_253" title="I Can't Shake Him!" />
+  <card blueprintId="7_253" title="I Can't Shake Him!" />
+  <card blueprintId="7_235" title="Planetary Subjugation" />
+  <card blueprintId="7_262" title="Short Range Fighters" />
+  <card blueprintId="7_241" title="Sienar Fleet Systems" />
+  <card blueprintId="7_295" title="Wakeelmui" />
+  <card blueprintId="7_295" title="Wakeelmui" />
+  <card blueprintId="106_10" title="Black Squadron TIE" />
+  <card blueprintId="106_10" title="Black Squadron TIE" />
+  <card blueprintId="106_10" title="Black Squadron TIE" />
+  <card blueprintId="106_13" title="Dreadnaught-Class Heavy Cruiser" />
+  <card blueprintId="106_13" title="Dreadnaught-Class Heavy Cruiser" />
+  <card blueprintId="106_13" title="Dreadnaught-Class Heavy Cruiser" />
+  <card blueprintId="106_13" title="Dreadnaught-Class Heavy Cruiser" />
+</deck>

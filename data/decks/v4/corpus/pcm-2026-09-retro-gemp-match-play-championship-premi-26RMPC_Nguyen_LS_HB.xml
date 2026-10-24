@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="9_3" title="Concentrate All Fire" />
+  <card blueprintId="9_3" title="Concentrate All Fire" />
+  <card blueprintId="110_1" title="Boushh" />
+  <card blueprintId="108_3" title="Luke With Lightsaber" />
+  <card blueprintId="108_4" title="Obi-Wan With Lightsaber" />
+  <card blueprintId="7_48" title="TK-422" />
+  <card blueprintId="8_34" title="Aim High" />
+  <card blueprintId="9_33" title="Honor Of The Jedi" />
+  <card blueprintId="7_73" title="Rebel Fleet" />
+  <card blueprintId="9_43" title="Superficial Damage" />
+  <card blueprintId="7_80" title="Weapons Display" />
+  <card blueprintId="2_41" title="What're You Tryin' To Push On Us?" />
+  <card blueprintId="2_41" title="What're You Tryin' To Push On Us?" />
+  <card blueprintId="7_81" title="Wise Advice" />
+  <card blueprintId="9_47" title="Your Insight Serves You Well" />
+  <card blueprintId="7_82" title="All Wings Report In" />
+  <card blueprintId="2_49" title="Grimtaash" />
+  <card blueprintId="9_51" title="Heading For The Medical Frigate" />
+  <card blueprintId="2_50" title="Houjix" />
+  <card blueprintId="1_88" title="Hyper Escape" />
+  <card blueprintId="1_88" title="Hyper Escape" />
+  <card blueprintId="1_91" title="I've Got A Bad Feeling About This" />
+  <card blueprintId="7_98" title="Power Pivot" />
+  <card blueprintId="7_98" title="Power Pivot" />
+  <card blueprintId="7_100" title="Rapid Fire" />
+  <card blueprintId="7_100" title="Rapid Fire" />
+  <card blueprintId="7_100" title="Rapid Fire" />
+  <card blueprintId="7_104" title="Stay Sharp!" />
+  <card blueprintId="7_104" title="Stay Sharp!" />
+  <card blueprintId="7_105" title="Steady Aim" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="4_67" title="Tunnel Vision" />
+  <card blueprintId="4_67" title="Tunnel Vision" />
+  <card blueprintId="9_56" title="Aquaris" />
+  <card blueprintId="8_68" title="Endor" />
+  <card blueprintId="7_121" title="Forest" />
+  <card blueprintId="2_64" title="Kashyyyk" />
+  <card blueprintId="1_126" title="Kessel" />
+  <card blueprintId="6_83" title="Kiffex" />
+  <card blueprintId="7_123" title="Rendezvous Point" />
+  <card blueprintId="9_60" title="Sullust" />
+  <card blueprintId="7_136" title="Hidden Base" />
+  <card blueprintId="7_140" title="B-wing Attack Fighter" />
+  <card blueprintId="7_140" title="B-wing Attack Fighter" />
+  <card blueprintId="7_140" title="B-wing Attack Fighter" />
+  <card blueprintId="7_140" title="B-wing Attack Fighter" />
+  <card blueprintId="7_140" title="B-wing Attack Fighter" />
+  <card blueprintId="9_66" title="B-wing Bomber" />
+  <card blueprintId="9_64" title="Blue Squadron B-wing" />
+  <card blueprintId="9_64" title="Blue Squadron B-wing" />
+  <card blueprintId="9_64" title="Blue Squadron B-wing" />
+  <card blueprintId="9_87" title="Concussion Missiles" />
+  <card blueprintId="9_87" title="Concussion Missiles" />
+  <card blueprintId="9_87" title="Concussion Missiles" />
+  <card blueprintId="9_87" title="Concussion Missiles" />
+  <card blueprintId="9_87" title="Concussion Missiles" />
+  <card blueprintId="9_88" title="Enhanced Proton Torpedoes" />
+  <card blueprintId="7_159" title="Intruder Missile" />
+  <card blueprintId="2_81" title="SW-4 Ion Cannon" />
+  <cardOutsideDeck blueprintId="9_56" title="Aquaris" />
+  <cardOutsideDeck blueprintId="8_68" title="Endor" />
+  <cardOutsideDeck blueprintId="2_64" title="Kashyyyk" />
+  <cardOutsideDeck blueprintId="1_126" title="Kessel" />
+  <cardOutsideDeck blueprintId="6_83" title="Kiffex" />
+  <cardOutsideDeck blueprintId="9_60" title="Sullust" />
+</deck>

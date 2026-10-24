@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="10_5" title="Corran Horn" />
+  <card blueprintId="3_10" title="General Carlist Rieekan" />
+  <card blueprintId="1_10" title="General Dodonna" />
+  <card blueprintId="12_8" title="Horox Ryyder" />
+  <card blueprintId="12_8" title="Horox Ryyder" />
+  <card blueprintId="13_27" title="Lando Calrissian, Scoundrel" />
+  <card blueprintId="1_17" title="Leia Organa" />
+  <card blueprintId="12_11" title="Liana Merian" />
+  <card blueprintId="12_11" title="Liana Merian" />
+  <card blueprintId="12_11" title="Liana Merian" />
+  <card blueprintId="108_3" title="Luke With Lightsaber" />
+  <card blueprintId="12_15" title="Mas Amedda" />
+  <card blueprintId="108_4" title="Obi-Wan With Lightsaber" />
+  <card blueprintId="12_23" title="Queen Amidala, Ruler Of Naboo" />
+  <card blueprintId="12_23" title="Queen Amidala, Ruler Of Naboo" />
+  <card blueprintId="12_23" title="Queen Amidala, Ruler Of Naboo" />
+  <card blueprintId="12_23" title="Queen Amidala, Ruler Of Naboo" />
+  <card blueprintId="14_27" title="Qui-Gon Jinn With Lightsaber" />
+  <card blueprintId="14_27" title="Qui-Gon Jinn With Lightsaber" />
+  <card blueprintId="12_29" title="Senator Palpatine" />
+  <card blueprintId="12_29" title="Senator Palpatine" />
+  <card blueprintId="12_29" title="Senator Palpatine" />
+  <card blueprintId="12_31" title="Supreme Chancellor Valorum" />
+  <card blueprintId="12_31" title="Supreme Chancellor Valorum" />
+  <card blueprintId="12_32" title="Tendau Bendon" />
+  <card blueprintId="12_32" title="Tendau Bendon" />
+  <card blueprintId="13_48" title="Yoda, Master Of The Force" />
+  <card blueprintId="13_5" title="An Unusual Amount Of Fear" />
+  <card blueprintId="12_40" title="Ascertaining The Truth" />
+  <card blueprintId="13_11" title="Colo Claw Fish" />
+  <card blueprintId="7_60" title="Draw Their Fire" />
+  <card blueprintId="12_43" title="I Will Not Defer" />
+  <card blueprintId="12_45" title="Plea To The Court" />
+  <card blueprintId="12_47" title="Security Control" />
+  <card blueprintId="14_35" title="Senate Hovercam" />
+  <card blueprintId="14_35" title="Senate Hovercam" />
+  <card blueprintId="9_41" title="Strike Planning" />
+  <card blueprintId="12_48" title="The Gravest Of Circumstances" />
+  <card blueprintId="11_29" title="A Jedi's Resilience" />
+  <card blueprintId="11_29" title="A Jedi's Resilience" />
+  <card blueprintId="11_29" title="A Jedi's Resilience" />
+  <card blueprintId="12_54" title="Alter" />
+  <card blueprintId="9_51" title="Heading For The Medical Frigate" />
+  <card blueprintId="12_61" title="Might Of The Republic" />
+  <card blueprintId="12_61" title="Might Of The Republic" />
+  <card blueprintId="12_61" title="Might Of The Republic" />
+  <card blueprintId="12_61" title="Might Of The Republic" />
+  <card blueprintId="9_54" title="Rebel Leadership" />
+  <card blueprintId="14_46" title="Wesa Gotta Grand Army" />
+  <card blueprintId="14_46" title="Wesa Gotta Grand Army" />
+  <card blueprintId="14_46" title="Wesa Gotta Grand Army" />
+  <card blueprintId="14_46" title="Wesa Gotta Grand Army" />
+  <card blueprintId="12_75" title="Coruscant: Galactic Senate" />
+  <card blueprintId="12_76" title="Coruscant: Jedi Council Chamber" />
+  <card blueprintId="9_57" title="Home One: Docking Bay" />
+  <card blueprintId="3_59" title="Hoth: Echo Docking Bay" />
+  <card blueprintId="12_79" title="Naboo: Battle Plains" />
+  <card blueprintId="14_49" title="Naboo: Boss Nass' Chambers" />
+  <card blueprintId="12_88" title="Plead My Case To The Senate" />
+  <card blueprintId="13_21" title="Han, Chewie, And The Falcon" />
+  <cardOutsideDeck blueprintId="13_1" title="A Close Race" />
+  <cardOutsideDeck blueprintId="13_3" title="A Tragedy Has Occurred" />
+  <cardOutsideDeck blueprintId="13_4" title="Aim High" />
+  <cardOutsideDeck blueprintId="13_8" title="Battle Plan" />
+  <cardOutsideDeck blueprintId="13_15" title="Do, Or Do Not" />
+  <cardOutsideDeck blueprintId="13_16" title="Don't Do That Again" />
+  <cardOutsideDeck blueprintId="13_38" title="Planetary Defenses" />
+  <cardOutsideDeck blueprintId="13_47" title="Wise Advice" />
+  <cardOutsideDeck blueprintId="13_47" title="Wise Advice" />
+  <cardOutsideDeck blueprintId="13_49" title="Your Insight Serves You Well" />
+</deck>

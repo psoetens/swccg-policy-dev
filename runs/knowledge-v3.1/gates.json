@@ -1,0 +1,13 @@
+{
+  "note": "Written by the reviewer (Claude) on 2026-09-28 after the implementing agent stopped; each gate cites its evidence file under reports/data/knowledge-v3.1/.",
+  "A": {"passed": true, "evidence": ["amendment9-grid-context-roundtrip.json", "amendment9-model-growth.json"],
+        "status": "Grid/context round-trip and table-growth checks pass."},
+  "B": {"passed": true, "evidence": ["amendment9-small.json", "amendment9-padded-curves-883001.json", "amendment9-padded-curves-883002.json", "amendment9-padded-curves-883003.json", "amendment9-gate-override.json"],
+        "status": "Small probes pass; padded curves: all 5 tasks >=99% at 18,000 steps on 3/3 seeds (user override required 2/3). Mid-run dips on seeds 883001/883003 retained as a stability caveat."},
+  "C": {"passed": true, "evidence": ["amendment9-abi-markers.json", "amendment9-browser-markers.json", "amendment9-preflight-trained-logp.json"],
+        "status": "ABI/native/browser marker parity and trained-export behavior-logp reconstruction pass."},
+  "D": {"passed": true, "evidence": ["amendment9-gate-d.json"],
+        "status": "V3.1 c6 312.3 accepted decisions/s = 97.1% of B1 (threshold 80%); resource limits met."},
+  "E": {"passed": true, "evidence": ["bc-integration/summary.json", "../../knowledge-v3.1-bc-integration.md"],
+        "status": "Reporting-only gate complete. No V3.1 advantage over V3.0 (test 90.1% vs 91.0%; held-out decks 86.4% vs 86.2%); BC logits explode (max 1.9k-15.5k) and V3.1 regresses in epoch 2. User authorized the RL pilot regardless (2026-09-28)."}
+}

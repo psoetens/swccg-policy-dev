@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_121" title="Alderaan" />
+  <card blueprintId="1_5" title="C-3PO (See-Threepio)" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_8" title="Dutch" />
+  <card blueprintId="1_141" title="Gold 1" />
+  <card blueprintId="1_11" title="Han Solo" />
+  <card blueprintId="1_154" title="Han's Heavy Blaster Pistol" />
+  <card blueprintId="1_157" title="Obi-Wan's Lightsaber" />
+  <card blueprintId="2_77" title="Bowcaster" />
+  <card blueprintId="2_3" title="Chewbacca" />
+  <card blueprintId="2_69" title="Gold 2" />
+  <card blueprintId="2_73" title="Tantive IV" />
+  <card blueprintId="3_1" title="2-1B (Too-Onebee)" />
+  <card blueprintId="3_6" title="Echo Base Trooper" />
+  <card blueprintId="3_7" title="Echo Base Trooper Officer" />
+  <card blueprintId="3_65" title="Medium Transport" />
+  <card blueprintId="3_66" title="Rogue 1" />
+  <card blueprintId="3_67" title="Rogue 2" />
+  <card blueprintId="3_68" title="Rogue 3" />
+  <card blueprintId="4_80" title="Anoat" />
+  <card blueprintId="4_2" title="Yoda" />
+  <card blueprintId="5_1" title="Captain Han Solo" />
+  <card blueprintId="6_1" title="8D8" />
+  <card blueprintId="6_3" title="Artoo" />
+  <card blueprintId="7_4" title="Ben Kenobi" />
+  <card blueprintId="7_144" title="Medium Bulk Freighter" />
+  <card blueprintId="7_154" title="Rogue 4" />
+  <card blueprintId="8_86" title="Chewbacca's Bowcaster" />
+  <card blueprintId="8_8" title="Daughter Of Skywalker" />
+  <card blueprintId="8_10" title="Endor Scout Trooper" />
+  <card blueprintId="8_87" title="Ewok Bow" />
+  <card blueprintId="8_88" title="Ewok Catapult" />
+  <card blueprintId="8_11" title="Ewok Sentry" />
+  <card blueprintId="8_89" title="Ewok Spear" />
+  <card blueprintId="8_12" title="Ewok Spearman" />
+  <card blueprintId="8_13" title="Ewok Tribesman" />
+  <card blueprintId="9_62" title="A-wing" />
+  <card blueprintId="9_86" title="A-wing Cannon" />
+  <card blueprintId="9_6" title="Admiral Ackbar" />
+  <card blueprintId="9_63" title="Blue Squadron 5" />
+  <card blueprintId="9_64" title="Blue Squadron B-wing" />
+  <card blueprintId="9_75" title="Independence" />
+  <card blueprintId="9_76" title="Liberty" />
+  <card blueprintId="9_90" title="Luke's Lightsaber" />
+  <card blueprintId="9_77" title="Luminous" />
+  <card blueprintId="9_78" title="Masanya" />
+  <card blueprintId="9_79" title="Mon Calamari Star Cruiser" />
+  <card blueprintId="9_80" title="Nebulon-B Frigate" />
+  <card blueprintId="11_49" title="Qui-Gon Jinn's Lightsaber" />
+  <card blueprintId="12_3" title="Coruscant Guard" />
+  <card blueprintId="12_16" title="Master Qui-Gon" />
+  <card blueprintId="12_90" title="Naboo Defense Fighter" />
+  <card blueprintId="12_21" title="Plo Koon" />
+  <card blueprintId="12_91" title="Queen's Royal Starship" />
+  <card blueprintId="12_93" title="Republic Cruiser" />
+  <card blueprintId="14_53" title="Bravo 1" />
+  <card blueprintId="14_54" title="Bravo 2" />
+  <card blueprintId="102_3" title="Leia" />
+  <card blueprintId="108_3" title="Luke With Lightsaber" />
+  <card blueprintId="13_21" title="Han, Chewie, And The Falcon" />
+</deck>

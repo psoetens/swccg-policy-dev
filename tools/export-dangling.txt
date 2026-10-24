@@ -1,0 +1,14 @@
+# dropped scripts whose name still appears in exported code (mostly comments)
+cn_groundtruth.sh
+context_v5_server_chain.sh
+critic_diag_report.py
+critic_long_chain.sh
+dna_arm.sh
+extend_dna.py
+fetch_wiki_decks.py
+identity_probe.py
+import_cct_jp_decks.py
+objective_chain.sh
+objective_chain2.sh
+strength_watch.sh
+tc_stage_a.sh

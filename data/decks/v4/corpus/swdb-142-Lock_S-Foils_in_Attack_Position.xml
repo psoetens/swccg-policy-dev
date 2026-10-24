@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_70" title="A Few Maneuvers" />
+  <card blueprintId="1_70" title="A Few Maneuvers" />
+  <card blueprintId="1_70" title="A Few Maneuvers" />
+  <card blueprintId="1_3" title="Biggs Darklighter" />
+  <card blueprintId="1_8" title="Dutch" />
+  <card blueprintId="1_10" title="General Dodonna" />
+  <card blueprintId="1_141" title="Gold 1" />
+  <card blueprintId="1_142" title="Gold 5" />
+  <card blueprintId="1_13" title="Jek Porkins" />
+  <card blueprintId="1_19" title="Luke Skywalker" />
+  <card blueprintId="1_102" title="Out Of Nowhere" />
+  <card blueprintId="1_23" title="Pops" />
+  <card blueprintId="1_158" title="Proton Torpedoes" />
+  <card blueprintId="1_158" title="Proton Torpedoes" />
+  <card blueprintId="1_158" title="Proton Torpedoes" />
+  <card blueprintId="1_144" title="Red 1" />
+  <card blueprintId="1_145" title="Red 3" />
+  <card blueprintId="1_29" title="Red Leader" />
+  <card blueprintId="1_146" title="X-wing" />
+  <card blueprintId="1_146" title="X-wing" />
+  <card blueprintId="1_146" title="X-wing" />
+  <card blueprintId="1_135" title="Yavin 4" />
+  <card blueprintId="1_136" title="Yavin 4: Docking Bay" />
+  <card blueprintId="1_137" title="Yavin 4: Jungle" />
+  <card blueprintId="1_138" title="Yavin 4: Massassi Throne Room" />
+  <card blueprintId="1_139" title="Yavin 4: Massassi War Room" />
+  <card blueprintId="2_43" title="Advance Preparation" />
+  <card blueprintId="2_42" title="Attack Run" />
+  <card blueprintId="2_62" title="Death Star: Trench" />
+  <card blueprintId="2_62" title="Death Star: Trench" />
+  <card blueprintId="2_69" title="Gold 2" />
+  <card blueprintId="2_19" title="Rebel Tech" />
+  <card blueprintId="2_19" title="Rebel Tech" />
+  <card blueprintId="2_70" title="Red 2" />
+  <card blueprintId="2_72" title="Red 6" />
+  <card blueprintId="2_21" title="Tiree" />
+  <card blueprintId="2_23" title="Wedge Antilles" />
+  <card blueprintId="2_67" title="Yavin 4: Briefing Room" />
+  <card blueprintId="2_68" title="Yavin 4: Massassi Ruins" />
+  <card blueprintId="2_59" title="You're All Clear Kid!" />
+  <card blueprintId="5_24" title="Haven" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="7_11" title="Colonel Feyn Gospic" />
+  <card blueprintId="7_117" title="Death Star" />
+  <card blueprintId="7_16" title="Elyhek Rue" />
+  <card blueprintId="7_17" title="Firin Morett" />
+  <card blueprintId="7_31" title="Major Palo Torshan" />
+  <card blueprintId="7_95" title="Old Times" />
+  <card blueprintId="7_35" title="Princess Organa" />
+  <card blueprintId="7_145" title="Red 10" />
+  <card blueprintId="7_146" title="Red 7" />
+  <card blueprintId="7_75" title="S-foils" />
+  <card blueprintId="7_103" title="Star Destroyer!" />
+  <card blueprintId="7_46" title="Theron Nett" />
+  <card blueprintId="7_134" title="Yavin 4: Massassi Headquarters" />
+  <card blueprintId="9_19" title="Keir Santage" />
+  <card blueprintId="9_83" title="Red Squadron 7" />
+  <card blueprintId="9_39" title="Squadron Assignments" />
+  <card blueprintId="111_2" title="Artoo-Detoo In Red 5" />
+  <card blueprintId="111_4" title="Massassi Base Operations" />
+</deck>

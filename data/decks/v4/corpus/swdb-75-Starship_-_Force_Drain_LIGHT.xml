@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_3" title="Biggs Darklighter" />
+  <card blueprintId="1_19" title="Luke Skywalker" />
+  <card blueprintId="1_143" title="Millennium Falcon" />
+  <card blueprintId="1_158" title="Proton Torpedoes" />
+  <card blueprintId="1_158" title="Proton Torpedoes" />
+  <card blueprintId="1_158" title="Proton Torpedoes" />
+  <card blueprintId="1_144" title="Red 1" />
+  <card blueprintId="1_145" title="Red 3" />
+  <card blueprintId="1_29" title="Red Leader" />
+  <card blueprintId="2_3" title="Chewbacca" />
+  <card blueprintId="2_65" title="Ralltiir" />
+  <card blueprintId="2_70" title="Red 2" />
+  <card blueprintId="2_81" title="SW-4 Ion Cannon" />
+  <card blueprintId="3_64" title="Ord Mantell" />
+  <card blueprintId="4_90" title="Raithal" />
+  <card blueprintId="5_1" title="Captain Han Solo" />
+  <card blueprintId="5_24" title="Haven" />
+  <card blueprintId="7_7" title="Bren Quersey" />
+  <card blueprintId="7_116" title="Coruscant" />
+  <card blueprintId="7_16" title="Elyhek Rue" />
+  <card blueprintId="7_97" title="Organized Attack" />
+  <card blueprintId="7_97" title="Organized Attack" />
+  <card blueprintId="7_98" title="Power Pivot" />
+  <card blueprintId="7_100" title="Rapid Fire" />
+  <card blueprintId="7_145" title="Red 10" />
+  <card blueprintId="7_146" title="Red 7" />
+  <card blueprintId="7_147" title="Red 8" />
+  <card blueprintId="7_126" title="Spaceport Docking Bay" />
+  <card blueprintId="7_104" title="Stay Sharp!" />
+  <card blueprintId="7_104" title="Stay Sharp!" />
+  <card blueprintId="7_46" title="Theron Nett" />
+  <card blueprintId="7_162" title="X-wing Laser Cannon" />
+  <card blueprintId="7_162" title="X-wing Laser Cannon" />
+  <card blueprintId="7_162" title="X-wing Laser Cannon" />
+  <card blueprintId="8_34" title="Aim High" />
+  <card blueprintId="9_6" title="Admiral Ackbar" />
+  <card blueprintId="9_7" title="Captain Verrack" />
+  <card blueprintId="9_13" title="General Calrissian" />
+  <card blueprintId="9_68" title="Gold Squadron 1" />
+  <card blueprintId="9_69" title="Gray Squadron 1" />
+  <card blueprintId="9_70" title="Gray Squadron 2" />
+  <card blueprintId="9_51" title="Heading For The Medical Frigate" />
+  <card blueprintId="9_74" title="Home One" />
+  <card blueprintId="9_57" title="Home One: Docking Bay" />
+  <card blueprintId="9_58" title="Home One: War Room" />
+  <card blueprintId="9_4" title="I'll Take The Leader" />
+  <card blueprintId="9_18" title="Karie Neth" />
+  <card blueprintId="9_20" title="Kin Kian" />
+  <card blueprintId="9_36" title="Launching The Assault" />
+  <card blueprintId="9_76" title="Liberty" />
+  <card blueprintId="9_22" title="Lieutenant s'Too Vees" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="9_90" title="Luke's Lightsaber" />
+  <card blueprintId="9_28" title="Nien Nunb" />
+  <card blueprintId="9_39" title="Squadron Assignments" />
+  <card blueprintId="9_60" title="Sullust" />
+  <card blueprintId="9_31" title="Wedge Antilles, Red Squadron Leader" />
+  <card blueprintId="9_47" title="Your Insight Serves You Well" />
+  <card blueprintId="108_2" title="Leia With Blaster Rifle" />
+  <card blueprintId="111_2" title="Artoo-Detoo In Red 5" />
+</deck>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_126" title="Kessel" />
+  <card blueprintId="1_143" title="Millennium Falcon" />
+  <card blueprintId="1_143" title="Millennium Falcon" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="1_32" title="WED-9-M1 'Bantha' Droid" />
+  <card blueprintId="1_119" title="Warrior's Courage" />
+  <card blueprintId="2_64" title="Kashyyyk" />
+  <card blueprintId="3_59" title="Hoth: Echo Docking Bay" />
+  <card blueprintId="4_30" title="Order To Engage" />
+  <card blueprintId="5_1" title="Captain Han Solo" />
+  <card blueprintId="5_1" title="Captain Han Solo" />
+  <card blueprintId="6_66" title="Fallen Portal" />
+  <card blueprintId="6_66" title="Fallen Portal" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="7_82" title="All Wings Report In" />
+  <card blueprintId="7_82" title="All Wings Report In" />
+  <card blueprintId="7_82" title="All Wings Report In" />
+  <card blueprintId="7_62" title="Goo Nee Tay" />
+  <card blueprintId="7_136" title="Hidden Base" />
+  <card blueprintId="7_32" title="Melas" />
+  <card blueprintId="7_73" title="Rebel Fleet" />
+  <card blueprintId="7_123" title="Rendezvous Point" />
+  <card blueprintId="7_126" title="Spaceport Docking Bay" />
+  <card blueprintId="7_126" title="Spaceport Docking Bay" />
+  <card blueprintId="8_68" title="Endor" />
+  <card blueprintId="8_23" title="Orrimaarko" />
+  <card blueprintId="9_66" title="B-wing Bomber" />
+  <card blueprintId="9_66" title="B-wing Bomber" />
+  <card blueprintId="9_66" title="B-wing Bomber" />
+  <card blueprintId="9_66" title="B-wing Bomber" />
+  <card blueprintId="9_66" title="B-wing Bomber" />
+  <card blueprintId="9_66" title="B-wing Bomber" />
+  <card blueprintId="9_66" title="B-wing Bomber" />
+  <card blueprintId="9_51" title="Heading For The Medical Frigate" />
+  <card blueprintId="9_57" title="Home One: Docking Bay" />
+  <card blueprintId="9_33" title="Honor Of The Jedi" />
+  <card blueprintId="9_60" title="Sullust" />
+  <card blueprintId="9_60" title="Sullust" />
+  <card blueprintId="12_41" title="Battle Plan &amp; Draw Their Fire" />
+  <card blueprintId="12_44" title="Insurrection &amp; Aim High" />
+  <card blueprintId="12_84" title="Tatooine" />
+  <card blueprintId="12_51" title="Your Insight Serves You Well &amp; Staging Areas" />
+  <card blueprintId="14_27" title="Qui-Gon Jinn With Lightsaber" />
+  <card blueprintId="108_2" title="Leia With Blaster Rifle" />
+  <card blueprintId="108_2" title="Leia With Blaster Rifle" />
+  <card blueprintId="108_3" title="Luke With Lightsaber" />
+  <card blueprintId="108_3" title="Luke With Lightsaber" />
+  <card blueprintId="108_4" title="Obi-Wan With Lightsaber" />
+  <card blueprintId="108_4" title="Obi-Wan With Lightsaber" />
+  <card blueprintId="10_5" title="Corran Horn" />
+  <card blueprintId="10_16" title="Out Of Commission &amp; Transmission Terminated" />
+  <card blueprintId="10_16" title="Out Of Commission &amp; Transmission Terminated" />
+  <card blueprintId="10_16" title="Out Of Commission &amp; Transmission Terminated" />
+  <card blueprintId="10_23" title="Sorry About The Mess &amp; Blaster Proficiency" />
+  <card blueprintId="10_23" title="Sorry About The Mess &amp; Blaster Proficiency" />
+  <card blueprintId="13_9" title="Chewie, Enraged" />
+  <card blueprintId="13_27" title="Lando Calrissian, Scoundrel" />
+  <cardOutsideDeck blueprintId="6_83" title="Kiffex" />
+</deck>

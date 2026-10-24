@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="2_143" title="Death Star" />
+  <card blueprintId="13_69" title="Fear Is My Ally" />
+  <card blueprintId="9_139" title="Prepared Defenses" />
+  <card blueprintId="7_242" title="Strategic Reserves" />
+  <card blueprintId="7_229" title="First Strike" />
+  <card blueprintId="7_219" title="A Day Long Remembered" />
+  <card blueprintId="1_178" title="General Tagge" />
+  <card blueprintId="1_179" title="Grand Moff Tarkin" />
+  <card blueprintId="2_86" title="Death Star Gunner" />
+  <card blueprintId="2_86" title="Death Star Gunner" />
+  <card blueprintId="2_86" title="Death Star Gunner" />
+  <card blueprintId="2_86" title="Death Star Gunner" />
+  <card blueprintId="2_86" title="Death Star Gunner" />
+  <card blueprintId="2_100" title="R3-T6 (Arthree-Teesix)" />
+  <card blueprintId="2_95" title="Lt. Pol Treidum" />
+  <card blueprintId="9_98" title="Admiral Piett" />
+  <card blueprintId="7_175" title="Darth Vader, Dark Lord Of The Sith" />
+  <card blueprintId="7_175" title="Darth Vader, Dark Lord Of The Sith" />
+  <card blueprintId="110_10" title="Mara Jade, The Emperor's Hand" />
+  <card blueprintId="9_109" title="Emperor Palpatine" />
+  <card blueprintId="13_87" title="Stormtrooper Garrison" />
+  <card blueprintId="13_87" title="Stormtrooper Garrison" />
+  <card blueprintId="13_87" title="Stormtrooper Garrison" />
+  <card blueprintId="1_173" title="DS-61-2" />
+  <card blueprintId="1_174" title="DS-61-3" />
+  <card blueprintId="2_88" title="DS-61-4" />
+  <card blueprintId="2_161" title="Superlaser" />
+  <card blueprintId="2_161" title="Superlaser" />
+  <card blueprintId="1_324" title="Vader's Lightsaber" />
+  <card blueprintId="110_11" title="Mara Jade's Lightsaber" />
+  <card blueprintId="4_167" title="Executor" />
+  <card blueprintId="1_299" title="Black 2" />
+  <card blueprintId="1_300" title="Black 3" />
+  <card blueprintId="2_151" title="Black 4" />
+  <card blueprintId="1_251" title="Imperial Reinforcements" />
+  <card blueprintId="1_251" title="Imperial Reinforcements" />
+  <card blueprintId="1_254" title="Kintan Strider" />
+  <card blueprintId="1_254" title="Kintan Strider" />
+  <card blueprintId="9_137" title="Imperial Command" />
+  <card blueprintId="9_137" title="Imperial Command" />
+  <card blueprintId="1_240" title="Dark Jedi Presence" />
+  <card blueprintId="1_240" title="Dark Jedi Presence" />
+  <card blueprintId="3_116" title="A Dark Time For The Rebellion" />
+  <card blueprintId="3_116" title="A Dark Time For The Rebellion" />
+  <card blueprintId="5_126" title="Vader's Cape" />
+  <card blueprintId="1_283" title="Death Star: Central Core" />
+  <card blueprintId="1_284" title="Death Star: Detention Block Corridor" />
+  <card blueprintId="7_280" title="Death Star: Detention Block Control Room" />
+  <card blueprintId="1_285" title="Death Star: Docking Bay 327" />
+  <card blueprintId="1_286" title="Death Star: Level 4 Military Corridor" />
+  <card blueprintId="1_287" title="Death Star: War Room" />
+  <card blueprintId="2_144" title="Death Star: Conference Room" />
+  <card blueprintId="7_275" title="Coruscant" />
+  <card blueprintId="1_281" title="Alderaan" />
+  <card blueprintId="12_169" title="Naboo" />
+  <card blueprintId="1_289" title="Tatooine" />
+  <card blueprintId="1_296" title="Yavin 4" />
+  <card blueprintId="2_130" title="Commence Primary Ignition" />
+  <card blueprintId="2_130" title="Commence Primary Ignition" />
+  <card blueprintId="2_130" title="Commence Primary Ignition" />
+</deck>

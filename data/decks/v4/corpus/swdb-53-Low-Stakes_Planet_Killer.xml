@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_164" title="Admiral Motti" />
+  <card blueprintId="1_234" title="Alter" />
+  <card blueprintId="1_311" title="Assault Rifle" />
+  <card blueprintId="1_299" title="Black 2" />
+  <card blueprintId="1_300" title="Black 3" />
+  <card blueprintId="1_312" title="Blaster Rifle" />
+  <card blueprintId="1_238" title="Counter Assault" />
+  <card blueprintId="1_173" title="DS-61-2" />
+  <card blueprintId="1_174" title="DS-61-3" />
+  <card blueprintId="1_314" title="Dark Jedi Lightsaber" />
+  <card blueprintId="1_283" title="Death Star: Central Core" />
+  <card blueprintId="1_284" title="Death Star: Detention Block Corridor" />
+  <card blueprintId="1_285" title="Death Star: Docking Bay 327" />
+  <card blueprintId="1_286" title="Death Star: Level 4 Military Corridor" />
+  <card blueprintId="1_172" title="Dr. Evazan" />
+  <card blueprintId="1_243" title="Elis Helrot" />
+  <card blueprintId="1_243" title="Elis Helrot" />
+  <card blueprintId="1_216" title="Fear Will Keep Them In Line" />
+  <card blueprintId="1_179" title="Grand Moff Tarkin" />
+  <card blueprintId="1_302" title="Imperial-Class Star Destroyer" />
+  <card blueprintId="1_318" title="Ion Cannon" />
+  <card blueprintId="1_318" title="Ion Cannon" />
+  <card blueprintId="1_252" title="It's Worse" />
+  <card blueprintId="1_254" title="Kintan Strider" />
+  <card blueprintId="1_190" title="Ponda Baba" />
+  <card blueprintId="1_191" title="Prophetess" />
+  <card blueprintId="1_228" title="Reactor Terminal" />
+  <card blueprintId="1_207" title="Stormtrooper Utility Belt" />
+  <card blueprintId="1_270" title="Tallon Roll" />
+  <card blueprintId="1_272" title="The Empire's Back" />
+  <card blueprintId="1_273" title="Trinto Duaba" />
+  <card blueprintId="1_296" title="Yavin 4" />
+  <card blueprintId="2_151" title="Black 4" />
+  <card blueprintId="2_130" title="Commence Primary Ignition" />
+  <card blueprintId="2_88" title="DS-61-4" />
+  <card blueprintId="2_85" title="Danz Borin" />
+  <card blueprintId="2_143" title="Death Star" />
+  <card blueprintId="2_86" title="Death Star Gunner" />
+  <card blueprintId="2_86" title="Death Star Gunner" />
+  <card blueprintId="2_86" title="Death Star Gunner" />
+  <card blueprintId="2_144" title="Death Star: Conference Room" />
+  <card blueprintId="2_158" title="Enhanced TIE Laser Cannon" />
+  <card blueprintId="2_158" title="Enhanced TIE Laser Cannon" />
+  <card blueprintId="2_161" title="Superlaser" />
+  <card blueprintId="2_155" title="Victory-Class Star Destroyer" />
+  <card blueprintId="4_166" title="Avenger" />
+  <card blueprintId="4_95" title="Commander Brandei" />
+  <card blueprintId="4_140" title="Defensive Fire" />
+  <card blueprintId="4_169" title="IG-2000" />
+  <card blueprintId="4_101" title="IG-88" />
+  <card blueprintId="4_170" title="Mist Hunter" />
+  <card blueprintId="4_164" title="Raithal" />
+  <card blueprintId="4_107" title="Zuckuss" />
+  <card blueprintId="4_180" title="Zuckuss' Snare Rifle" />
+  <card blueprintId="5_110" title="Ability, Ability, Ability" />
+  <card blueprintId="5_91" title="Boba Fett" />
+  <card blueprintId="5_120" title="Imperial Decree" />
+  <card blueprintId="5_149" title="Projective Telepathy" />
+  <card blueprintId="5_153" title="Shocking Revelation" />
+  <card blueprintId="5_127" title="Weather Vane" />
+</deck>

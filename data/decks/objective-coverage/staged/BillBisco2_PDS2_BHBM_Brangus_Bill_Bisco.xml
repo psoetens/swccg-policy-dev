@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="109_6" title="4-LOM With Concussion Rifle" />
+  <card blueprintId="7_169" title="Brangus Glee" />
+  <card blueprintId="7_169" title="Brangus Glee" />
+  <card blueprintId="2_84" title="Dannik Jerriko" />
+  <card blueprintId="108_6" title="Darth Vader With Lightsaber" />
+  <card blueprintId="1_171" title="Djas Puhr" />
+  <card blueprintId="9_109" title="Emperor Palpatine" />
+  <card blueprintId="9_109" title="Emperor Palpatine" />
+  <card blueprintId="109_11" title="IG-88 With Riot Gun" />
+  <card blueprintId="9_110" title="Janus Greejatus" />
+  <card blueprintId="9_110" title="Janus Greejatus" />
+  <card blueprintId="110_10" title="Mara Jade, The Emperor's Hand" />
+  <card blueprintId="9_120" title="Sim Aloo" />
+  <card blueprintId="1_210" title="Blast Door Controls" />
+  <card blueprintId="7_224" title="Come Here You Big Coward" />
+  <card blueprintId="9_123" title="Emperor's Power" />
+  <card blueprintId="7_229" title="First Strike" />
+  <card blueprintId="8_126" title="Imperial Arrest Order" />
+  <card blueprintId="9_127" title="Insignificant Rebellion" />
+  <card blueprintId="1_222" title="Lateral Damage" />
+  <card blueprintId="9_129" title="Mobilization Points" />
+  <card blueprintId="3_108" title="Mournful Roar" />
+  <card blueprintId="7_234" title="Oppressive Enforcement" />
+  <card blueprintId="1_227" title="Presence Of The Force" />
+  <card blueprintId="1_227" title="Presence Of The Force" />
+  <card blueprintId="8_131" title="Search And Destroy" />
+  <card blueprintId="7_241" title="Sienar Fleet Systems" />
+  <card blueprintId="2_128" title="There'll Be Hell To Pay" />
+  <card blueprintId="2_128" title="There'll Be Hell To Pay" />
+  <card blueprintId="2_128" title="There'll Be Hell To Pay" />
+  <card blueprintId="9_134" title="Your Destiny" />
+  <card blueprintId="9_136" title="Force Lightning" />
+  <card blueprintId="1_249" title="Imperial Barrier" />
+  <card blueprintId="7_257" title="Masterful Move" />
+  <card blueprintId="2_135" title="Monnok" />
+  <card blueprintId="1_263" title="Overload" />
+  <card blueprintId="9_139" title="Prepared Defenses" />
+  <card blueprintId="5_149" title="Projective Telepathy" />
+  <card blueprintId="7_259" title="Put All Sections On Alert" />
+  <card blueprintId="7_259" title="Put All Sections On Alert" />
+  <card blueprintId="1_268" title="Set For Stun" />
+  <card blueprintId="1_271" title="The Circle Is Now Complete" />
+  <card blueprintId="3_138" title="Trample" />
+  <card blueprintId="6_160" title="Twi'lek Advisor" />
+  <card blueprintId="5_169" title="Cloud City: East Platform (Docking Bay)" />
+  <card blueprintId="9_145" title="Death Star II: Docking Bay" />
+  <card blueprintId="9_145" title="Death Star II: Docking Bay" />
+  <card blueprintId="9_147" title="Death Star II: Throne Room" />
+  <card blueprintId="1_285" title="Death Star: Docking Bay 327" />
+  <card blueprintId="8_166" title="Endor: Landing Platform (Docking Bay)" />
+  <card blueprintId="7_282" title="Executor: Docking Bay" />
+  <card blueprintId="2_146" title="Kashyyyk" />
+  <card blueprintId="7_295" title="Wakeelmui" />
+  <card blueprintId="9_151" title="Bring Him Before Me" />
+  <card blueprintId="7_301" title="Bossk In Hound's Tooth" />
+  <card blueprintId="109_10" title="Dengar In Punishing One" />
+  <card blueprintId="9_172" title="The Emperor's Shield" />
+  <card blueprintId="9_173" title="The Emperor's Sword" />
+  <card blueprintId="110_12" title="Zuckuss In Mist Hunter" />
+  <card blueprintId="3_155" title="Blizzard 2" />
+  <cardOutsideDeck blueprintId="4_114" title="3,720 To 1" />
+  <cardOutsideDeck blueprintId="9_33" title="Honor Of The Jedi" />
+  <cardOutsideDeck blueprintId="5_29" title="Uncontrollable Fury" />
+  <cardOutsideDeck blueprintId="9_133" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="1_234" title="Alter" />
+  <cardOutsideDeck blueprintId="1_238" title="Counter Assault" />
+  <cardOutsideDeck blueprintId="8_57" title="Lost In The Wilderness" />
+  <cardOutsideDeck blueprintId="1_267" title="Sense" />
+  <cardOutsideDeck blueprintId="7_267" title="Trooper Sabacc" />
+</deck>

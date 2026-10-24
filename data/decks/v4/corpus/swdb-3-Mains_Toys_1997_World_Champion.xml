@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_234" title="Alter" />
+  <card blueprintId="1_168" title="Darth Vader" />
+  <card blueprintId="1_168" title="Darth Vader" />
+  <card blueprintId="1_168" title="Darth Vader" />
+  <card blueprintId="1_172" title="Dr. Evazan" />
+  <card blueprintId="1_243" title="Elis Helrot" />
+  <card blueprintId="1_243" title="Elis Helrot" />
+  <card blueprintId="1_179" title="Grand Moff Tarkin" />
+  <card blueprintId="1_179" title="Grand Moff Tarkin" />
+  <card blueprintId="1_179" title="Grand Moff Tarkin" />
+  <card blueprintId="1_248" title="I Have You Now" />
+  <card blueprintId="1_227" title="Presence Of The Force" />
+  <card blueprintId="1_228" title="Reactor Terminal" />
+  <card blueprintId="1_290" title="Tatooine: Cantina" />
+  <card blueprintId="1_293" title="Tatooine: Jundland Wastes" />
+  <card blueprintId="1_294" title="Tatooine: Lars' Moisture Farm" />
+  <card blueprintId="1_295" title="Tatooine: Mos Eisley" />
+  <card blueprintId="1_271" title="The Circle Is Now Complete" />
+  <card blueprintId="1_324" title="Vader's Lightsaber" />
+  <card blueprintId="1_324" title="Vader's Lightsaber" />
+  <card blueprintId="1_324" title="Vader's Lightsaber" />
+  <card blueprintId="2_143" title="Death Star" />
+  <card blueprintId="2_131" title="Evader" />
+  <card blueprintId="2_131" title="Evader" />
+  <card blueprintId="2_145" title="Imperial Holotable" />
+  <card blueprintId="2_95" title="Lt. Pol Treidum" />
+  <card blueprintId="2_135" title="Monnok" />
+  <card blueprintId="2_135" title="Monnok" />
+  <card blueprintId="2_135" title="Monnok" />
+  <card blueprintId="2_97" title="Mosep" />
+  <card blueprintId="2_137" title="Oo-ta Goo-ta, Solo?" />
+  <card blueprintId="2_128" title="There'll Be Hell To Pay" />
+  <card blueprintId="2_128" title="There'll Be Hell To Pay" />
+  <card blueprintId="3_82" title="Admiral Ozzel" />
+  <card blueprintId="3_154" title="Blizzard 1" />
+  <card blueprintId="3_155" title="Blizzard 2" />
+  <card blueprintId="3_156" title="Blizzard Scout 1" />
+  <card blueprintId="3_87" title="General Veers" />
+  <card blueprintId="3_144" title="Hoth: Defensive Perimeter (3rd Marker)" />
+  <card blueprintId="3_144" title="Hoth: Defensive Perimeter (3rd Marker)" />
+  <card blueprintId="3_148" title="Hoth: Ice Plains (5th Marker)" />
+  <card blueprintId="3_150" title="Hoth: Wampa Cave (7th Marker)" />
+  <card blueprintId="3_138" title="Trample" />
+  <card blueprintId="3_138" title="Trample" />
+  <card blueprintId="4_166" title="Avenger" />
+  <card blueprintId="4_118" title="Broken Concentration" />
+  <card blueprintId="4_93" title="Captain Needa" />
+  <card blueprintId="4_139" title="Control" />
+  <card blueprintId="4_139" title="Control" />
+  <card blueprintId="4_139" title="Control" />
+  <card blueprintId="4_158" title="Dagobah: Cave" />
+  <card blueprintId="4_167" title="Executor" />
+  <card blueprintId="4_163" title="Executor: Meditation Chamber" />
+  <card blueprintId="4_134" title="There Is No Try" />
+  <card blueprintId="4_134" title="There Is No Try" />
+  <card blueprintId="4_150" title="Those Rebels Won't Escape Us" />
+  <card blueprintId="4_135" title="Visage Of The Emperor" />
+  <card blueprintId="5_120" title="Imperial Decree" />
+  <card blueprintId="5_120" title="Imperial Decree" />
+  <card blueprintId="5_163" title="You Are Beaten" />
+</deck>

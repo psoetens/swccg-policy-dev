@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="7_4" title="Ben Kenobi" />
+  <card blueprintId="7_4" title="Ben Kenobi" />
+  <card blueprintId="5_1" title="Captain Han Solo" />
+  <card blueprintId="9_13" title="General Calrissian" />
+  <card blueprintId="1_15" title="Kal'Falnl C'ndros" />
+  <card blueprintId="108_2" title="Leia With Blaster Rifle" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="9_30" title="Tycho Celchu" />
+  <card blueprintId="9_31" title="Wedge Antilles, Red Squadron Leader" />
+  <card blueprintId="4_11" title="Landing Claw" />
+  <card blueprintId="8_35" title="Battle Plan" />
+  <card blueprintId="1_44" title="Beggar" />
+  <card blueprintId="1_48" title="Disarmed" />
+  <card blueprintId="1_48" title="Disarmed" />
+  <card blueprintId="7_60" title="Draw Their Fire" />
+  <card blueprintId="9_33" title="Honor Of The Jedi" />
+  <card blueprintId="8_40" title="Insurrection" />
+  <card blueprintId="4_30" title="Order To Engage" />
+  <card blueprintId="1_62" title="Revolution" />
+  <card blueprintId="9_40" title="Staging Areas" />
+  <card blueprintId="9_41" title="Strike Planning" />
+  <card blueprintId="2_41" title="What're You Tryin' To Push On Us?" />
+  <card blueprintId="2_41" title="What're You Tryin' To Push On Us?" />
+  <card blueprintId="7_81" title="Wise Advice" />
+  <card blueprintId="9_47" title="Your Insight Serves You Well" />
+  <card blueprintId="1_71" title="Alter" />
+  <card blueprintId="6_61" title="Blaster Deflection" />
+  <card blueprintId="5_41" title="Courage Of A Skywalker" />
+  <card blueprintId="2_49" title="Grimtaash" />
+  <card blueprintId="9_51" title="Heading For The Medical Frigate" />
+  <card blueprintId="1_90" title="It Could Be Worse" />
+  <card blueprintId="8_57" title="Lost In The Wilderness" />
+  <card blueprintId="2_54" title="Out Of Commission" />
+  <card blueprintId="2_54" title="Out Of Commission" />
+  <card blueprintId="2_54" title="Out Of Commission" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="1_109" title="Sense" />
+  <card blueprintId="1_109" title="Sense" />
+  <card blueprintId="1_109" title="Sense" />
+  <card blueprintId="5_69" title="Smoke Screen" />
+  <card blueprintId="2_57" title="Sorry About The Mess" />
+  <card blueprintId="1_113" title="Surprise Assault" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="4_67" title="Tunnel Vision" />
+  <card blueprintId="4_67" title="Tunnel Vision" />
+  <card blueprintId="6_79" title="Weapon Levitation" />
+  <card blueprintId="1_121" title="Alderaan" />
+  <card blueprintId="2_60" title="Clak'dor VII" />
+  <card blueprintId="8_68" title="Endor" />
+  <card blueprintId="9_57" title="Home One: Docking Bay" />
+  <card blueprintId="3_59" title="Hoth: Echo Docking Bay" />
+  <card blueprintId="7_123" title="Rendezvous Point" />
+  <card blueprintId="7_126" title="Spaceport Docking Bay" />
+  <card blueprintId="1_129" title="Tatooine: Docking Bay 94" />
+  <card blueprintId="7_136" title="Hidden Base" />
+  <card blueprintId="1_143" title="Millennium Falcon" />
+  <card blueprintId="9_90" title="Luke's Lightsaber" />
+  <card blueprintId="1_157" title="Obi-Wan's Lightsaber" />
+  <cardOutsideDeck blueprintId="8_68" title="Endor" />
+  <cardOutsideDeck blueprintId="7_124" title="Roche" />
+</deck>

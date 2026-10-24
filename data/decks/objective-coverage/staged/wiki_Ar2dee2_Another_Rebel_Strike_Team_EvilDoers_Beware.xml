@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="8_78" title="Rebel Strike Team" />
+  <card blueprintId="8_68" title="Endor" />
+  <card blueprintId="8_77" title="Endor: Rebel Landing Site (Forest)" />
+  <card blueprintId="9_51" title="Heading For The Medical Frigate" />
+  <card blueprintId="9_47" title="Your Insight Serves You Well" />
+  <card blueprintId="8_40" title="Insurrection" />
+  <card blueprintId="7_81" title="Wise Advice" />
+  <card blueprintId="4_21" title="Do, Or Do Not" />
+  <card blueprintId="9_41" title="Strike Planning" />
+  <card blueprintId="8_76" title="Endor: Landing Platform (Docking Bay)" />
+  <card blueprintId="8_70" title="Endor: Bunker" />
+  <card blueprintId="8_69" title="Endor: Back Door" />
+  <card blueprintId="8_72" title="Endor: Dense Forest" />
+  <card blueprintId="9_58" title="Home One: War Room" />
+  <card blueprintId="8_2" title="Chewbacca Of Kashyyyk" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="8_8" title="Daughter Of Skywalker" />
+  <card blueprintId="8_15" title="General Solo" />
+  <card blueprintId="108_4" title="Obi-Wan With Lightsaber" />
+  <card blueprintId="8_14" title="General Crix Madine" />
+  <card blueprintId="8_29" title="Sergeant Junkin" />
+  <card blueprintId="9_27" title="Major Panno" />
+  <card blueprintId="9_8" title="Colonel Cracken" />
+  <card blueprintId="9_21" title="Lieutenant Blount" />
+  <card blueprintId="9_30" title="Tycho Celchu" />
+  <card blueprintId="9_11" title="Corporal Midge" />
+  <card blueprintId="9_26" title="Major Olander Brit" />
+  <card blueprintId="8_27" title="Sergeant Brooks Carlson" />
+  <card blueprintId="8_19" title="Lieutenant Page" />
+  <card blueprintId="8_7" title="Corporal Kensaric" />
+  <card blueprintId="8_4" title="Corporal Beezer" />
+  <card blueprintId="8_23" title="Orrimaarko" />
+  <card blueprintId="2_14" title="R2-D2 (Artoo-Detoo)" />
+  <card blueprintId="8_33" title="Wuta" />
+  <card blueprintId="9_90" title="Luke's Lightsaber" />
+  <card blueprintId="1_155" title="Jedi Lightsaber" />
+  <card blueprintId="8_84" title="A280 Sharpshooter Rifle" />
+  <card blueprintId="3_71" title="Anakin's Lightsaber" />
+  <card blueprintId="8_86" title="Chewbacca's Bowcaster" />
+  <card blueprintId="8_56" title="I Know" />
+  <card blueprintId="8_56" title="I Know" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="8_62" title="This Is Absolutely Right" />
+  <card blueprintId="8_51" title="Fly Casual" />
+  <card blueprintId="6_66" title="Fallen Portal" />
+  <card blueprintId="5_68" title="Shocking Information" />
+  <card blueprintId="5_64" title="Punch It!" />
+  <card blueprintId="9_32" title="Close Air Support" />
+  <card blueprintId="8_39" title="I Wonder Who They Found" />
+  <card blueprintId="8_41" title="That's One" />
+  <card blueprintId="8_37" title="Count Me In" />
+  <card blueprintId="9_35" title="I'm With You Too" />
+  <card blueprintId="6_56" title="Projection Of A Skywalker" />
+  <card blueprintId="6_56" title="Projection Of A Skywalker" />
+  <card blueprintId="103_1" title="Gold Leader In Gold 1" />
+  <card blueprintId="103_2" title="Red Leader In Red 1" />
+  <card blueprintId="9_75" title="Independence" />
+  <card blueprintId="9_84" title="Tala 1" />
+  <card blueprintId="9_85" title="Tala 2" />
+  <card blueprintId="109_2" title="Lando In Millennium Falcon" />
+</deck>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_241" title="Dark Maneuvers" />
+  <card blueprintId="1_241" title="Dark Maneuvers" />
+  <card blueprintId="1_241" title="Dark Maneuvers" />
+  <card blueprintId="1_241" title="Dark Maneuvers" />
+  <card blueprintId="1_285" title="Death Star: Docking Bay 327" />
+  <card blueprintId="1_171" title="Djas Puhr" />
+  <card blueprintId="1_176" title="Feltipern Trevagg" />
+  <card blueprintId="1_249" title="Imperial Barrier" />
+  <card blueprintId="1_222" title="Lateral Damage" />
+  <card blueprintId="1_227" title="Presence Of The Force" />
+  <card blueprintId="1_227" title="Presence Of The Force" />
+  <card blueprintId="2_85" title="Danz Borin" />
+  <card blueprintId="2_132" title="Ghhhk" />
+  <card blueprintId="2_137" title="Oo-ta Goo-ta, Solo?" />
+  <card blueprintId="4_150" title="Those Rebels Won't Escape Us" />
+  <card blueprintId="6_95" title="Bane Malar" />
+  <card blueprintId="6_121" title="Ree-Yees" />
+  <card blueprintId="6_160" title="Twi'lek Advisor" />
+  <card blueprintId="6_160" title="Twi'lek Advisor" />
+  <card blueprintId="7_301" title="Bossk In Hound's Tooth" />
+  <card blueprintId="7_301" title="Bossk In Hound's Tooth" />
+  <card blueprintId="7_275" title="Coruscant" />
+  <card blueprintId="7_276" title="Coruscant: Docking Bay" />
+  <card blueprintId="7_277" title="Coruscant: Imperial City" />
+  <card blueprintId="7_304" title="Jabba's Space Cruiser" />
+  <card blueprintId="7_189" title="Makurth" />
+  <card blueprintId="7_236" title="Pride Of The Empire" />
+  <card blueprintId="7_200" title="Rystall" />
+  <card blueprintId="7_268" title="Watch Your Back!" />
+  <card blueprintId="8_118" title="Battle Order" />
+  <card blueprintId="8_126" title="Imperial Arrest Order" />
+  <card blueprintId="9_136" title="Force Lightning" />
+  <card blueprintId="9_129" title="Mobilization Points" />
+  <card blueprintId="9_139" title="Prepared Defenses" />
+  <card blueprintId="11_59" title="Lathe" />
+  <card blueprintId="109_6" title="4-LOM With Concussion Rifle" />
+  <card blueprintId="109_8" title="Boba Fett In Slave I" />
+  <card blueprintId="109_8" title="Boba Fett In Slave I" />
+  <card blueprintId="109_10" title="Dengar In Punishing One" />
+  <card blueprintId="109_10" title="Dengar In Punishing One" />
+  <card blueprintId="110_8" title="IG-88 In IG-2000" />
+  <card blueprintId="110_9" title="Jodo Kast" />
+  <card blueprintId="110_12" title="Zuckuss In Mist Hunter" />
+  <card blueprintId="110_12" title="Zuckuss In Mist Hunter" />
+  <card blueprintId="10_29" title="Agents Of Black Sun" />
+  <card blueprintId="10_31" title="Arica" />
+  <card blueprintId="10_32" title="Black Sun Fleet" />
+  <card blueprintId="10_34" title="Control &amp; Set For Stun" />
+  <card blueprintId="10_41" title="Guri" />
+  <card blueprintId="10_41" title="Guri" />
+  <card blueprintId="10_45" title="Prince Xizor" />
+  <card blueprintId="10_45" title="Prince Xizor" />
+  <card blueprintId="10_48" title="Snoova" />
+  <card blueprintId="10_49" title="Stinger" />
+  <card blueprintId="10_51" title="The Emperor" />
+  <card blueprintId="10_53" title="Vigo" />
+  <card blueprintId="10_53" title="Vigo" />
+  <card blueprintId="10_53" title="Vigo" />
+  <card blueprintId="10_53" title="Vigo" />
+  <card blueprintId="10_54" title="Virago" />
+</deck>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="9_4" title="I'll Take The Leader" />
+  <card blueprintId="9_4" title="I'll Take The Leader" />
+  <card blueprintId="9_6" title="Admiral Ackbar" />
+  <card blueprintId="6_6" title="Baragwin" />
+  <card blueprintId="6_6" title="Baragwin" />
+  <card blueprintId="5_1" title="Captain Han Solo" />
+  <card blueprintId="5_1" title="Captain Han Solo" />
+  <card blueprintId="9_12" title="First Officer Thaneespi" />
+  <card blueprintId="9_13" title="General Calrissian" />
+  <card blueprintId="108_2" title="Leia With Blaster Rifle" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="9_25" title="Major Haash'n" />
+  <card blueprintId="108_4" title="Obi-Wan With Lightsaber" />
+  <card blueprintId="108_4" title="Obi-Wan With Lightsaber" />
+  <card blueprintId="108_4" title="Obi-Wan With Lightsaber" />
+  <card blueprintId="2_14" title="R2-D2 (Artoo-Detoo)" />
+  <card blueprintId="9_30" title="Tycho Celchu" />
+  <card blueprintId="9_31" title="Wedge Antilles, Red Squadron Leader" />
+  <card blueprintId="5_12" title="Bionic Hand" />
+  <card blueprintId="5_12" title="Bionic Hand" />
+  <card blueprintId="4_10" title="Han's Toolkit" />
+  <card blueprintId="4_14" title="Rebel Flight Suit" />
+  <card blueprintId="4_21" title="Do, Or Do Not" />
+  <card blueprintId="7_68" title="Legendary Starfighter" />
+  <card blueprintId="4_30" title="Order To Engage" />
+  <card blueprintId="1_65" title="Special Modifications" />
+  <card blueprintId="9_39" title="Squadron Assignments" />
+  <card blueprintId="9_41" title="Strike Planning" />
+  <card blueprintId="9_47" title="Your Insight Serves You Well" />
+  <card blueprintId="1_70" title="A Few Maneuvers" />
+  <card blueprintId="1_70" title="A Few Maneuvers" />
+  <card blueprintId="7_85" title="Darklighter Spin" />
+  <card blueprintId="7_85" title="Darklighter Spin" />
+  <card blueprintId="5_44" title="Desperate Reach" />
+  <card blueprintId="9_51" title="Heading For The Medical Frigate" />
+  <card blueprintId="1_101" title="On The Edge" />
+  <card blueprintId="1_101" title="On The Edge" />
+  <card blueprintId="2_54" title="Out Of Commission" />
+  <card blueprintId="2_54" title="Out Of Commission" />
+  <card blueprintId="7_98" title="Power Pivot" />
+  <card blueprintId="5_64" title="Punch It!" />
+  <card blueprintId="9_56" title="Aquaris" />
+  <card blueprintId="106_2" title="Corulag" />
+  <card blueprintId="7_116" title="Coruscant" />
+  <card blueprintId="8_68" title="Endor" />
+  <card blueprintId="2_64" title="Kashyyyk" />
+  <card blueprintId="1_126" title="Kessel" />
+  <card blueprintId="6_83" title="Kiffex" />
+  <card blueprintId="7_123" title="Rendezvous Point" />
+  <card blueprintId="7_136" title="Hidden Base" />
+  <card blueprintId="9_68" title="Gold Squadron 1" />
+  <card blueprintId="9_72" title="Green Squadron 3" />
+  <card blueprintId="9_74" title="Home One" />
+  <card blueprintId="9_81" title="Red Squadron 1" />
+  <card blueprintId="7_149" title="Spiral" />
+  <card blueprintId="7_159" title="Intruder Missile" />
+  <card blueprintId="7_159" title="Intruder Missile" />
+  <card blueprintId="9_90" title="Luke's Lightsaber" />
+  <card blueprintId="7_162" title="X-wing Laser Cannon" />
+  <cardOutsideDeck blueprintId="9_56" title="Aquaris" />
+  <cardOutsideDeck blueprintId="106_2" title="Corulag" />
+  <cardOutsideDeck blueprintId="8_68" title="Endor" />
+  <cardOutsideDeck blueprintId="2_64" title="Kashyyyk" />
+  <cardOutsideDeck blueprintId="1_126" title="Kessel" />
+  <cardOutsideDeck blueprintId="6_83" title="Kiffex" />
+</deck>

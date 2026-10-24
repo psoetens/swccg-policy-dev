@@ -1,0 +1,9294 @@
+{
+ "rule": "A pair (card -> target) is a pool-v3 card of one side whose game text names a pool-v3 card of the other side: its title\n(bullets and \"(V)\" stripped) or one of its personas, as a whole word, case-sensitive (the name pattern of combo_map.py\nrule v2: not followed by \"'s\" or by another capitalised word, not inside / right after an [icon] bracket). Unlike the\ncombo map, \"cancel ...\", \"Immune to ...\", \"may not ...\" and \"opponent's ...\" clauses count: they are how a card answers\nan opponent's card. Pairs of two cards with the same title are skipped. Directed; the network links a card token to\nthe other side's card tokens in play only.\nRule v2 (after the first 50-pair check, 33/50 real): location targets are skipped (their names are place names:\n\"deploys only on Tatooine\" is about the planet, not the opponent's system card); a name preceded by \"your \" (the own\ncopy) or by a capitalised word (part of a longer title, \"Heart Of The Chasm\") does not count; every occurrence is tried.",
+ "summary": {
+  "pool_cards": 2135,
+  "pairs": 1313,
+  "cards_with_targets": 505,
+  "targets_named": 276,
+  "pairs_per_linked_card": 2.6,
+  "density": 0.00058,
+  "by_card_category": {
+   "EFFECT": 601,
+   "INTERRUPT": 345,
+   "CHARACTER": 172,
+   "OBJECTIVE": 59,
+   "ADMIRALS_ORDER": 2,
+   "EPIC_EVENT": 14,
+   "PODRACER": 2,
+   "LOCATION": 53,
+   "VEHICLE": 13,
+   "WEAPON": 10,
+   "DEVICE": 17,
+   "STARSHIP": 19,
+   "CREATURE": 2,
+   "JEDI_TEST": 4
+  },
+  "by_target_category": {
+   "INTERRUPT": 693,
+   "DEVICE": 18,
+   "EFFECT": 124,
+   "CHARACTER": 433,
+   "EPIC_EVENT": 6,
+   "WEAPON": 4,
+   "VEHICLE": 7,
+   "STARSHIP": 14,
+   "OBJECTIVE": 5,
+   "CREATURE": 9
+  },
+  "most_named_targets": [
+   [
+    "Alter",
+    402
+   ],
+   [
+    "Sense",
+    122
+   ],
+   [
+    "Control",
+    40
+   ],
+   [
+    "Jawa",
+    26
+   ],
+   [
+    "Luke",
+    18
+   ],
+   [
+    "Luke With Lightsaber",
+    18
+   ],
+   [
+    "Luke Skywalker, Rebel Scout",
+    18
+   ],
+   [
+    "Master Luke",
+    18
+   ],
+   [
+    "Luke Skywalker",
+    18
+   ],
+   [
+    "Commander Luke Skywalker",
+    18
+   ],
+   [
+    "Son Of Skywalker",
+    18
+   ],
+   [
+    "Luke Skywalker, Jedi Knight",
+    18
+   ],
+   [
+    "Undercover",
+    16
+   ],
+   [
+    "Lando Calrissian",
+    15
+   ],
+   [
+    "Revolution",
+    12
+   ]
+  ]
+ },
+ "pairs": [
+  {
+   "card": "102_6",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "102_6",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "102_6",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "102_6",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "106_17",
+   "target": "1_74",
+   "via": "Collision!",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "106_17",
+   "target": "1_88",
+   "via": "Hyper Escape",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "106_17",
+   "target": "1_90",
+   "via": "It Could Be Worse",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "106_17",
+   "target": "1_97",
+   "via": "Nabrun Leids",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "109_11",
+   "target": "1_38",
+   "via": "Restraining Bolt",
+   "card_category": "CHARACTER",
+   "target_category": "DEVICE"
+  },
+  {
+   "card": "109_12",
+   "target": "7_62",
+   "via": "Goo Nee Tay",
+   "card_category": "OBJECTIVE",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "109_9",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "109_9",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "109_9",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "109_9",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_29",
+   "target": "101_2",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_29",
+   "target": "108_3",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_29",
+   "target": "10_10",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_29",
+   "target": "110_2",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_29",
+   "target": "1_19",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_29",
+   "target": "3_3",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_29",
+   "target": "4_1",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_29",
+   "target": "9_24",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_31",
+   "target": "2_40",
+   "via": "Undercover",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "10_32",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "ADMIRALS_ORDER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_32",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "ADMIRALS_ORDER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_34",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_34",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_34",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_34",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_39",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_39",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_39",
+   "target": "4_11",
+   "via": "Landing Claw",
+   "card_category": "INTERRUPT",
+   "target_category": "DEVICE"
+  },
+  {
+   "card": "10_39",
+   "target": "4_47",
+   "via": "Closer?!",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_41",
+   "target": "1_38",
+   "via": "Restraining Bolt",
+   "card_category": "CHARACTER",
+   "target_category": "DEVICE"
+  },
+  {
+   "card": "10_42",
+   "target": "6_75",
+   "via": "Someone Who Loves You",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_51",
+   "target": "101_2",
+   "via": "Luke",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_51",
+   "target": "108_3",
+   "via": "Luke",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_51",
+   "target": "10_10",
+   "via": "Luke",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_51",
+   "target": "110_2",
+   "via": "Luke",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_51",
+   "target": "1_19",
+   "via": "Luke",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_51",
+   "target": "3_3",
+   "via": "Luke",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_51",
+   "target": "4_1",
+   "via": "Luke",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_51",
+   "target": "9_24",
+   "via": "Luke",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_52",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_52",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_52",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_52",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "110_6",
+   "target": "7_62",
+   "via": "Goo Nee Tay",
+   "card_category": "OBJECTIVE",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "111_6",
+   "target": "1_62",
+   "via": "Revolution",
+   "card_category": "OBJECTIVE",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "112_15",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "112_15",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "112_16",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "112_16",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "112_16",
+   "target": "9_33",
+   "via": "Honor Of The Jedi",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "112_17",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "112_17",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_62",
+   "target": "11_4",
+   "via": "Jar Jar",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_62",
+   "target": "14_10",
+   "via": "Jar Jar",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_64",
+   "target": "11_8",
+   "via": "Amidala",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_64",
+   "target": "12_22",
+   "via": "Amidala",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_64",
+   "target": "12_23",
+   "via": "Amidala",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_64",
+   "target": "14_25",
+   "via": "Amidala",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_68",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_68",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_69",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_69",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_69",
+   "target": "4_37",
+   "via": "Scramble",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "11_69",
+   "target": "9_40",
+   "via": "Staging Areas",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "11_70",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_70",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_71",
+   "target": "11_8",
+   "via": "Amidala",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_71",
+   "target": "12_22",
+   "via": "Amidala",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_71",
+   "target": "12_23",
+   "via": "Amidala",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_71",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_71",
+   "target": "14_25",
+   "via": "Amidala",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_71",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_72",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_72",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_73",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_73",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_75",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_75",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_76",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_76",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_77",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_77",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_80",
+   "target": "11_8",
+   "via": "Amidala",
+   "card_category": "EPIC_EVENT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_80",
+   "target": "12_22",
+   "via": "Amidala",
+   "card_category": "EPIC_EVENT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_80",
+   "target": "12_23",
+   "via": "Amidala",
+   "card_category": "EPIC_EVENT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_80",
+   "target": "14_25",
+   "via": "Amidala",
+   "card_category": "EPIC_EVENT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_87",
+   "target": "11_24",
+   "via": "Boonta Eve Podrace",
+   "card_category": "INTERRUPT",
+   "target_category": "EPIC_EVENT"
+  },
+  {
+   "card": "11_96",
+   "target": "11_37",
+   "via": "Losing Track",
+   "card_category": "PODRACER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_96",
+   "target": "11_38",
+   "via": "Neck And Neck",
+   "card_category": "PODRACER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_101",
+   "target": "5_38",
+   "via": "Clash Of Sabers",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_106",
+   "target": "11_24",
+   "via": "Boonta Eve Podrace",
+   "card_category": "CHARACTER",
+   "target_category": "EPIC_EVENT"
+  },
+  {
+   "card": "12_109",
+   "target": "2_40",
+   "via": "Undercover",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "12_120",
+   "target": "1_44",
+   "via": "Beggar",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "12_122",
+   "target": "9_33",
+   "via": "Honor Of The Jedi",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "12_128",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_128",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_129",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_129",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_129",
+   "target": "8_35",
+   "via": "Battle Plan",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "12_130",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_130",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_130",
+   "target": "7_62",
+   "via": "Goo Nee Tay",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "12_131",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_131",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_134",
+   "target": "6_66",
+   "via": "Fallen Portal",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_135",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_135",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_135",
+   "target": "1_97",
+   "via": "Nabrun Leids",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_139",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_139",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_140",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_140",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_141",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_141",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_143",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_143",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_144",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_144",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_144",
+   "target": "4_27",
+   "via": "Never Tell Me The Odds",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "12_146",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_146",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_146",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_146",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_148",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_148",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_149",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_149",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_152",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_152",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_152",
+   "target": "7_55",
+   "via": "Cloud City Celebration",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "12_159",
+   "target": "12_3",
+   "via": "Coruscant Guard",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "12_159",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_159",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_160",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_160",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_161",
+   "target": "5_55",
+   "via": "It's A Trap!",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_161",
+   "target": "5_69",
+   "via": "Smoke Screen",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_170",
+   "target": "14_32",
+   "via": "Gungan Energy Shield",
+   "card_category": "LOCATION",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "12_179",
+   "target": "1_113",
+   "via": "Surprise Assault",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_179",
+   "target": "7_62",
+   "via": "Goo Nee Tay",
+   "card_category": "OBJECTIVE",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "12_180",
+   "target": "1_62",
+   "via": "Revolution",
+   "card_category": "OBJECTIVE",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "13_58",
+   "target": "10_15",
+   "via": "Obi-Wan's Journal",
+   "card_category": "INTERRUPT",
+   "target_category": "DEVICE"
+  },
+  {
+   "card": "13_58",
+   "target": "5_38",
+   "via": "Clash Of Sabers",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_60",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_60",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_62",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_62",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_64",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_64",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_74",
+   "target": "1_48",
+   "via": "Disarmed",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "13_74",
+   "target": "5_38",
+   "via": "Clash Of Sabers",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_80",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_80",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_82",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_82",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_83",
+   "target": "12_57",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_83",
+   "target": "4_48",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_85",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_85",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_94",
+   "target": "2_54",
+   "via": "Out Of Commission",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_94",
+   "target": "7_98",
+   "via": "Power Pivot",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_107",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_107",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_113",
+   "target": "5_20",
+   "via": "Civil Disorder",
+   "card_category": "OBJECTIVE",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "14_76",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_76",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_94",
+   "target": "12_57",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_94",
+   "target": "4_48",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_96",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_96",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_97",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_97",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_98",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_98",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_166",
+   "target": "1_10",
+   "via": "General Dodonna",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_172",
+   "target": "1_48",
+   "via": "Disarmed",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "1_208",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_208",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_210",
+   "target": "1_105",
+   "via": "Rebel Barrier",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_210",
+   "target": "1_89",
+   "via": "Into The Garbage Chute, Flyboy",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_210",
+   "target": "1_98",
+   "via": "Narrow Escape",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_210",
+   "target": "2_45",
+   "via": "Blast The Door, Kid!",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_214",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_214",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_221",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_221",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_223",
+   "target": "101_2",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_223",
+   "target": "108_3",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_223",
+   "target": "10_10",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_223",
+   "target": "110_2",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_223",
+   "target": "1_19",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_223",
+   "target": "3_3",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_223",
+   "target": "4_1",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_223",
+   "target": "9_24",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_234",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_234",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_235",
+   "target": "1_103",
+   "via": "Panic",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_235",
+   "target": "1_110",
+   "via": "Skywalkers",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_235",
+   "target": "1_113",
+   "via": "Surprise Assault",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_235",
+   "target": "1_47",
+   "via": "Demotion",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "1_235",
+   "target": "1_60",
+   "via": "Rebel Planners",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "1_235",
+   "target": "1_76",
+   "via": "Don't Get Cocky",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_236",
+   "target": "102_3",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_236",
+   "target": "108_2",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_236",
+   "target": "110_1",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_236",
+   "target": "111_5",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_236",
+   "target": "13_29",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_236",
+   "target": "1_17",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_236",
+   "target": "5_7",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_236",
+   "target": "6_32",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_236",
+   "target": "7_35",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_236",
+   "target": "8_8",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_239",
+   "target": "1_105",
+   "via": "Rebel Barrier",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_248",
+   "target": "101_2",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_248",
+   "target": "108_3",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_248",
+   "target": "10_10",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_248",
+   "target": "110_2",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_248",
+   "target": "1_19",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_248",
+   "target": "3_3",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_248",
+   "target": "4_1",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_248",
+   "target": "9_24",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_255",
+   "target": "1_36",
+   "via": "Fusion Generator Supply Tanks",
+   "card_category": "INTERRUPT",
+   "target_category": "DEVICE"
+  },
+  {
+   "card": "1_261",
+   "target": "2_40",
+   "via": "Undercover",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "1_264",
+   "target": "1_28",
+   "via": "Rebel Trooper",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_267",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_267",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_276",
+   "target": "12_9",
+   "via": "Jawa",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_276",
+   "target": "1_12",
+   "via": "Jawa",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_279",
+   "target": "1_77",
+   "via": "Don't Underestimate Our Chances",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_280",
+   "target": "1_100",
+   "via": "Old Ben",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_280",
+   "target": "1_107",
+   "via": "Return Of A Jedi",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_280",
+   "target": "1_155",
+   "via": "Jedi Lightsaber",
+   "card_category": "INTERRUPT",
+   "target_category": "WEAPON"
+  },
+  {
+   "card": "1_280",
+   "target": "1_92",
+   "via": "Jedi Presence",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_288",
+   "target": "1_52",
+   "via": "Kessel Run",
+   "card_category": "LOCATION",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "1_309",
+   "target": "12_9",
+   "via": "Jawa",
+   "card_category": "VEHICLE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_309",
+   "target": "1_12",
+   "via": "Jawa",
+   "card_category": "VEHICLE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_321",
+   "target": "101_2",
+   "via": "Luke",
+   "card_category": "WEAPON",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_321",
+   "target": "108_3",
+   "via": "Luke",
+   "card_category": "WEAPON",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_321",
+   "target": "10_10",
+   "via": "Luke",
+   "card_category": "WEAPON",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_321",
+   "target": "110_2",
+   "via": "Luke",
+   "card_category": "WEAPON",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_321",
+   "target": "1_19",
+   "via": "Luke",
+   "card_category": "WEAPON",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_321",
+   "target": "3_3",
+   "via": "Luke",
+   "card_category": "WEAPON",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_321",
+   "target": "4_1",
+   "via": "Luke",
+   "card_category": "WEAPON",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_321",
+   "target": "9_24",
+   "via": "Luke",
+   "card_category": "WEAPON",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "2_107",
+   "target": "2_40",
+   "via": "Undercover",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "2_114",
+   "target": "1_150",
+   "via": "Sandcrawler",
+   "card_category": "DEVICE",
+   "target_category": "VEHICLE"
+  },
+  {
+   "card": "2_115",
+   "target": "9_79",
+   "via": "Mon Calamari Star Cruiser",
+   "card_category": "DEVICE",
+   "target_category": "STARSHIP"
+  },
+  {
+   "card": "2_119",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_119",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_121",
+   "target": "1_62",
+   "via": "Revolution",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "2_127",
+   "target": "12_57",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_127",
+   "target": "4_48",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_128",
+   "target": "12_57",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_128",
+   "target": "4_48",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_129",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_129",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_132",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_132",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_133",
+   "target": "2_42",
+   "via": "Attack Run",
+   "card_category": "INTERRUPT",
+   "target_category": "EPIC_EVENT"
+  },
+  {
+   "card": "2_137",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_137",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_137",
+   "target": "1_52",
+   "via": "Kessel Run",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "2_141",
+   "target": "1_59",
+   "via": "Plastoid Armor",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "2_141",
+   "target": "2_30",
+   "via": "Cell 2187",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "2_141",
+   "target": "2_44",
+   "via": "Alternatives To Fighting",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_141",
+   "target": "2_54",
+   "via": "Out Of Commission",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_143",
+   "target": "1_62",
+   "via": "Revolution",
+   "card_category": "LOCATION",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "2_146",
+   "target": "7_50",
+   "via": "Wookiee",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "2_148",
+   "target": "2_73",
+   "via": "Tantive IV",
+   "card_category": "LOCATION",
+   "target_category": "STARSHIP"
+  },
+  {
+   "card": "2_152",
+   "target": "109_2",
+   "via": "Falcon",
+   "card_category": "STARSHIP",
+   "target_category": "STARSHIP"
+  },
+  {
+   "card": "2_152",
+   "target": "13_21",
+   "via": "Falcon",
+   "card_category": "STARSHIP",
+   "target_category": "STARSHIP"
+  },
+  {
+   "card": "2_152",
+   "target": "1_143",
+   "via": "Falcon",
+   "card_category": "STARSHIP",
+   "target_category": "STARSHIP"
+  },
+  {
+   "card": "2_152",
+   "target": "9_68",
+   "via": "Falcon",
+   "card_category": "STARSHIP",
+   "target_category": "STARSHIP"
+  },
+  {
+   "card": "2_93",
+   "target": "1_38",
+   "via": "Restraining Bolt",
+   "card_category": "CHARACTER",
+   "target_category": "DEVICE"
+  },
+  {
+   "card": "2_95",
+   "target": "2_40",
+   "via": "Undercover",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "3_108",
+   "target": "104_1",
+   "via": "Chewie",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_108",
+   "target": "109_1",
+   "via": "Chewie",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_108",
+   "target": "10_3",
+   "via": "Chewie",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_108",
+   "target": "13_9",
+   "via": "Chewie",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_108",
+   "target": "2_3",
+   "via": "Chewie",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_108",
+   "target": "2_58",
+   "via": "Wookiee Roar",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "3_108",
+   "target": "8_2",
+   "via": "Chewie",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_121",
+   "target": "3_78",
+   "via": "Planet Defender Ion Cannon",
+   "card_category": "INTERRUPT",
+   "target_category": "WEAPON"
+  },
+  {
+   "card": "3_125",
+   "target": "104_1",
+   "via": "Chewie",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_125",
+   "target": "109_1",
+   "via": "Chewie",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_125",
+   "target": "10_3",
+   "via": "Chewie",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_125",
+   "target": "13_9",
+   "via": "Chewie",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_125",
+   "target": "2_3",
+   "via": "Chewie",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_125",
+   "target": "6_70",
+   "via": "Life Debt",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "3_125",
+   "target": "8_2",
+   "via": "Chewie",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_131",
+   "target": "1_88",
+   "via": "Hyper Escape",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "3_133",
+   "target": "102_3",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_133",
+   "target": "108_2",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_133",
+   "target": "110_1",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_133",
+   "target": "111_5",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_133",
+   "target": "13_29",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_133",
+   "target": "1_119",
+   "via": "Warrior's Courage",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "3_133",
+   "target": "1_17",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_133",
+   "target": "5_7",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_133",
+   "target": "6_32",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_133",
+   "target": "7_35",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "3_133",
+   "target": "8_56",
+   "via": "I Know",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "3_133",
+   "target": "8_8",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_101",
+   "target": "1_38",
+   "via": "Restraining Bolt",
+   "card_category": "CHARACTER",
+   "target_category": "DEVICE"
+  },
+  {
+   "card": "4_114",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_114",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_116",
+   "target": "101_2",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "102_3",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "104_1",
+   "via": "Chewie",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "108_2",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "108_3",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "109_1",
+   "via": "Chewie",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "109_3",
+   "via": "Lando",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "10_10",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "10_3",
+   "via": "Chewie",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "110_1",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "110_2",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "111_5",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "112_3",
+   "via": "Lando",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "12_35",
+   "via": "Yoda",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "13_27",
+   "via": "Lando",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "13_29",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "13_48",
+   "via": "Yoda",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "13_9",
+   "via": "Chewie",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "1_17",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "1_19",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "2_3",
+   "via": "Chewie",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "3_3",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "4_1",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "4_2",
+   "via": "Yoda",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "5_5",
+   "via": "Lando",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "5_7",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "6_32",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "6_42",
+   "via": "Lando",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "7_35",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "8_2",
+   "via": "Chewie",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "8_8",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "9_13",
+   "via": "Lando",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_116",
+   "target": "9_24",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_121",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_121",
+   "target": "1_47",
+   "via": "Demotion",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "4_121",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_124",
+   "target": "109_2",
+   "via": "Falcon",
+   "card_category": "EFFECT",
+   "target_category": "STARSHIP"
+  },
+  {
+   "card": "4_124",
+   "target": "13_21",
+   "via": "Falcon",
+   "card_category": "EFFECT",
+   "target_category": "STARSHIP"
+  },
+  {
+   "card": "4_124",
+   "target": "1_143",
+   "via": "Falcon",
+   "card_category": "EFFECT",
+   "target_category": "STARSHIP"
+  },
+  {
+   "card": "4_124",
+   "target": "9_68",
+   "via": "Falcon",
+   "card_category": "EFFECT",
+   "target_category": "STARSHIP"
+  },
+  {
+   "card": "4_132",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_132",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_134",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_134",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_134",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_134",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_135",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_135",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_139",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_139",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_139",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_139",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_147",
+   "target": "1_87",
+   "via": "How Did We Get Into This Mess?",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_147",
+   "target": "3_32",
+   "via": "Bacta Tank",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "4_150",
+   "target": "4_11",
+   "via": "Landing Claw",
+   "card_category": "INTERRUPT",
+   "target_category": "DEVICE"
+  },
+  {
+   "card": "4_150",
+   "target": "4_47",
+   "via": "Closer?!",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_158",
+   "target": "12_35",
+   "via": "Yoda",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_158",
+   "target": "13_48",
+   "via": "Yoda",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_158",
+   "target": "4_2",
+   "via": "Yoda",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_165",
+   "target": "1_62",
+   "via": "Revolution",
+   "card_category": "LOCATION",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_110",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_110",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_111",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_111",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_112",
+   "target": "12_57",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_112",
+   "target": "4_48",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_113",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_113",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_114",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_114",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_115",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_115",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_116",
+   "target": "102_3",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_116",
+   "target": "108_2",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_116",
+   "target": "110_1",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_116",
+   "target": "111_5",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_116",
+   "target": "13_29",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_116",
+   "target": "1_17",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_116",
+   "target": "5_7",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_116",
+   "target": "6_32",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_116",
+   "target": "7_35",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_116",
+   "target": "8_8",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_118",
+   "target": "101_2",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_118",
+   "target": "108_3",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_118",
+   "target": "10_10",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_118",
+   "target": "110_2",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_118",
+   "target": "1_19",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_118",
+   "target": "3_3",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_118",
+   "target": "4_1",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_118",
+   "target": "9_24",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_120",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_120",
+   "target": "1_62",
+   "via": "Revolution",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_120",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_121",
+   "target": "12_57",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_121",
+   "target": "1_48",
+   "via": "Disarmed",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_121",
+   "target": "4_48",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_125",
+   "target": "101_2",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_125",
+   "target": "108_3",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_125",
+   "target": "10_10",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_125",
+   "target": "110_2",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_125",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_125",
+   "target": "1_19",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_125",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_125",
+   "target": "3_3",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_125",
+   "target": "4_1",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_125",
+   "target": "9_24",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_127",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_127",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_128",
+   "target": "101_2",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "102_3",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "104_1",
+   "via": "Chewie",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "108_2",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "108_3",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "109_1",
+   "via": "Chewie",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "10_10",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "10_3",
+   "via": "Chewie",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "110_1",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "110_2",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "111_5",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_128",
+   "target": "13_29",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "13_9",
+   "via": "Chewie",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "1_17",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "1_19",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_128",
+   "target": "2_3",
+   "via": "Chewie",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "3_3",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "4_1",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "5_7",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "6_32",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "7_35",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "8_2",
+   "via": "Chewie",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "8_8",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_128",
+   "target": "9_24",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_129",
+   "target": "101_2",
+   "via": "Luke",
+   "card_category": "EPIC_EVENT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_129",
+   "target": "108_3",
+   "via": "Luke",
+   "card_category": "EPIC_EVENT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_129",
+   "target": "10_10",
+   "via": "Luke",
+   "card_category": "EPIC_EVENT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_129",
+   "target": "110_2",
+   "via": "Luke",
+   "card_category": "EPIC_EVENT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_129",
+   "target": "1_19",
+   "via": "Luke",
+   "card_category": "EPIC_EVENT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_129",
+   "target": "3_3",
+   "via": "Luke",
+   "card_category": "EPIC_EVENT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_129",
+   "target": "4_1",
+   "via": "Luke",
+   "card_category": "EPIC_EVENT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_129",
+   "target": "9_24",
+   "via": "Luke",
+   "card_category": "EPIC_EVENT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_134",
+   "target": "109_3",
+   "via": "Lando",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_134",
+   "target": "112_3",
+   "via": "Lando",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_134",
+   "target": "13_27",
+   "via": "Lando",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_134",
+   "target": "5_30",
+   "via": "Weather Vane",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_134",
+   "target": "5_5",
+   "via": "Lando",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_134",
+   "target": "6_42",
+   "via": "Lando",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_134",
+   "target": "9_13",
+   "via": "Lando",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_147",
+   "target": "1_61",
+   "via": "Restricted Deployment",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_147",
+   "target": "2_31",
+   "via": "Commence Recharging",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_147",
+   "target": "2_34",
+   "via": "Logistical Delay",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_147",
+   "target": "4_17",
+   "via": "Asteroid Sanctuary",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_147",
+   "target": "4_30",
+   "via": "Order To Engage",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_147",
+   "target": "4_37",
+   "via": "Scramble",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_152",
+   "target": "5_30",
+   "via": "Weather Vane",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_156",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_156",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_162",
+   "target": "1_100",
+   "via": "Old Ben",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_162",
+   "target": "1_82",
+   "via": "Gift Of The Mentor",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_168",
+   "target": "1_72",
+   "via": "Beru Stew",
+   "card_category": "LOCATION",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_168",
+   "target": "2_46",
+   "via": "Blue Milk",
+   "card_category": "LOCATION",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_168",
+   "target": "4_72",
+   "via": "Yoda Stew",
+   "card_category": "LOCATION",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_172",
+   "target": "109_3",
+   "via": "Lando",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_172",
+   "target": "112_3",
+   "via": "Lando",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_172",
+   "target": "13_27",
+   "via": "Lando",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_172",
+   "target": "5_5",
+   "via": "Lando",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_172",
+   "target": "6_42",
+   "via": "Lando",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_172",
+   "target": "9_13",
+   "via": "Lando",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "6_103",
+   "target": "6_69",
+   "via": "Ke Chu Ke Kukuta?",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_107",
+   "target": "12_57",
+   "via": "Control",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_107",
+   "target": "12_9",
+   "via": "Jawa",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "6_107",
+   "target": "1_118",
+   "via": "Utinni!",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_107",
+   "target": "1_12",
+   "via": "Jawa",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "6_107",
+   "target": "4_48",
+   "via": "Control",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_126",
+   "target": "7_50",
+   "via": "Wookiee",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "6_133",
+   "target": "6_88",
+   "via": "Skiff",
+   "card_category": "CHARACTER",
+   "target_category": "VEHICLE"
+  },
+  {
+   "card": "6_141",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_141",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_141",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_141",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_144",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_144",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_147",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_147",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_149",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_149",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_150",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_150",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_150",
+   "target": "2_49",
+   "via": "Grimtaash",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_151",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_151",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_158",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_158",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_162",
+   "target": "1_62",
+   "via": "Revolution",
+   "card_category": "LOCATION",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "6_171",
+   "target": "1_62",
+   "via": "Revolution",
+   "card_category": "LOCATION",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "7_171",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_171",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_180",
+   "target": "12_9",
+   "via": "Jawa",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_180",
+   "target": "1_12",
+   "via": "Jawa",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_180",
+   "target": "6_65",
+   "via": "Dune Sea Sabacc",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_182",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_182",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_186",
+   "target": "1_97",
+   "via": "Nabrun Leids",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_187",
+   "target": "109_3",
+   "via": "Lando",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_187",
+   "target": "112_3",
+   "via": "Lando",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_187",
+   "target": "13_27",
+   "via": "Lando",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_187",
+   "target": "5_5",
+   "via": "Lando",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_187",
+   "target": "6_42",
+   "via": "Lando",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_187",
+   "target": "9_13",
+   "via": "Lando",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_188",
+   "target": "101_2",
+   "via": "Luke",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_188",
+   "target": "108_3",
+   "via": "Luke",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_188",
+   "target": "10_10",
+   "via": "Luke",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_188",
+   "target": "110_2",
+   "via": "Luke",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_188",
+   "target": "1_19",
+   "via": "Luke",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_188",
+   "target": "3_3",
+   "via": "Luke",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_188",
+   "target": "4_1",
+   "via": "Luke",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_188",
+   "target": "9_24",
+   "via": "Luke",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_201",
+   "target": "6_57",
+   "via": "Sandwhirl",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "7_205",
+   "target": "3_37",
+   "via": "Ice Storm",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "7_215",
+   "target": "102_4",
+   "via": "Luke's T-16 Skyhopper",
+   "card_category": "CREATURE",
+   "target_category": "VEHICLE"
+  },
+  {
+   "card": "7_217",
+   "target": "4_11",
+   "via": "Landing Claw",
+   "card_category": "DEVICE",
+   "target_category": "DEVICE"
+  },
+  {
+   "card": "7_218",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_218",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_219",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_219",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_223",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_223",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_224",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_224",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_224",
+   "target": "4_17",
+   "via": "Asteroid Sanctuary",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "7_225",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_225",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_226",
+   "target": "101_2",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_226",
+   "target": "108_3",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_226",
+   "target": "10_10",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_226",
+   "target": "110_2",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_226",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_226",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_226",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_226",
+   "target": "1_19",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_226",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_226",
+   "target": "3_3",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_226",
+   "target": "4_1",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_226",
+   "target": "9_24",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_229",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_229",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_232",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_232",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_233",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_233",
+   "target": "1_62",
+   "via": "Revolution",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "7_233",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_234",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_234",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_234",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_234",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_235",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_235",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_235",
+   "target": "4_17",
+   "via": "Asteroid Sanctuary",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "7_236",
+   "target": "12_57",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_236",
+   "target": "4_48",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_237",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_237",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_238",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_238",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_240",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_240",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_241",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_241",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_243",
+   "target": "102_3",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_243",
+   "target": "108_2",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_243",
+   "target": "110_1",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_243",
+   "target": "111_5",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_243",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_243",
+   "target": "13_29",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_243",
+   "target": "1_17",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_243",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_243",
+   "target": "5_7",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_243",
+   "target": "6_32",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_243",
+   "target": "7_35",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_243",
+   "target": "8_8",
+   "via": "Leia",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_244",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_244",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_259",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_259",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_261",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_261",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_262",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_262",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_269",
+   "target": "109_3",
+   "via": "Lando",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_269",
+   "target": "112_3",
+   "via": "Lando",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_269",
+   "target": "13_27",
+   "via": "Lando",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_269",
+   "target": "5_39",
+   "via": "Cloud City Sabacc",
+   "card_category": "LOCATION",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_269",
+   "target": "5_5",
+   "via": "Lando",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_269",
+   "target": "6_42",
+   "via": "Lando",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_269",
+   "target": "9_13",
+   "via": "Lando",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_281",
+   "target": "6_57",
+   "via": "Sandwhirl",
+   "card_category": "LOCATION",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "7_283",
+   "target": "2_6",
+   "via": "Corellian",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_297",
+   "target": "101_2",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_297",
+   "target": "108_3",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_297",
+   "target": "10_10",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_297",
+   "target": "110_2",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_297",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_297",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_297",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_297",
+   "target": "1_19",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_297",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_297",
+   "target": "3_3",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_297",
+   "target": "4_1",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_297",
+   "target": "9_24",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_316",
+   "target": "12_9",
+   "via": "Jawa",
+   "card_category": "VEHICLE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_316",
+   "target": "1_12",
+   "via": "Jawa",
+   "card_category": "VEHICLE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "8_103",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_103",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_105",
+   "target": "8_43",
+   "via": "Deactivate The Shield Generator",
+   "card_category": "CHARACTER",
+   "target_category": "EPIC_EVENT"
+  },
+  {
+   "card": "8_108",
+   "target": "1_101",
+   "via": "On The Edge",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_108",
+   "target": "5_59",
+   "via": "Off The Edge",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_110",
+   "target": "4_27",
+   "via": "Never Tell Me The Odds",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "8_114",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_114",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_114",
+   "target": "1_99",
+   "via": "Noble Sacrifice",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_116",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_116",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_118",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_118",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_118",
+   "target": "8_35",
+   "via": "Battle Plan",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "8_119",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_119",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_119",
+   "target": "4_37",
+   "via": "Scramble",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "8_120",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_120",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_121",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_121",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_121",
+   "target": "7_69",
+   "via": "Maneuvering Flaps",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "8_121",
+   "target": "7_75",
+   "via": "S-foils",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "8_123",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_123",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_123",
+   "target": "6_12",
+   "via": "Elom",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "8_124",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_124",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_125",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_125",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_126",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_126",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_126",
+   "target": "1_97",
+   "via": "Nabrun Leids",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_127",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_127",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_128",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_128",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_129",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_129",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_130",
+   "target": "2_40",
+   "via": "Undercover",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "8_132",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_132",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_132",
+   "target": "7_136",
+   "via": "Hidden Base",
+   "card_category": "EFFECT",
+   "target_category": "OBJECTIVE"
+  },
+  {
+   "card": "8_142",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_142",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_142",
+   "target": "7_55",
+   "via": "Cloud City Celebration",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "8_149",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_149",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_96",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_96",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_100",
+   "target": "4_11",
+   "via": "Landing Claw",
+   "card_category": "CHARACTER",
+   "target_category": "DEVICE"
+  },
+  {
+   "card": "9_102",
+   "target": "7_137",
+   "via": "Local Uprising",
+   "card_category": "CHARACTER",
+   "target_category": "OBJECTIVE"
+  },
+  {
+   "card": "9_104",
+   "target": "1_113",
+   "via": "Surprise Assault",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_113",
+   "target": "5_29",
+   "via": "Uncontrollable Fury",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "9_121",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_121",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_122",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_122",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_123",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_123",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_125",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_125",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_126",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_126",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_127",
+   "target": "101_2",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_127",
+   "target": "108_3",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_127",
+   "target": "10_10",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_127",
+   "target": "110_2",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_127",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_127",
+   "target": "1_19",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_127",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_127",
+   "target": "3_3",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_127",
+   "target": "4_1",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_127",
+   "target": "9_24",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_128",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_128",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_129",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_129",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_132",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_132",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_133",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_133",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_133",
+   "target": "4_27",
+   "via": "Never Tell Me The Odds",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "9_134",
+   "target": "101_2",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_134",
+   "target": "108_3",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_134",
+   "target": "10_10",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_134",
+   "target": "110_2",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_134",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_134",
+   "target": "1_19",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_134",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_134",
+   "target": "3_3",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_134",
+   "target": "4_1",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_134",
+   "target": "9_24",
+   "via": "Luke",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_139",
+   "target": "12_54",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_139",
+   "target": "1_71",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_140",
+   "target": "101_2",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_140",
+   "target": "102_3",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_140",
+   "target": "108_2",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_140",
+   "target": "108_3",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_140",
+   "target": "10_10",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_140",
+   "target": "110_1",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_140",
+   "target": "110_2",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_140",
+   "target": "111_5",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_140",
+   "target": "12_68",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_140",
+   "target": "13_29",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_140",
+   "target": "1_109",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_140",
+   "target": "1_17",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_140",
+   "target": "1_19",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_140",
+   "target": "3_3",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_140",
+   "target": "4_1",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_140",
+   "target": "5_7",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_140",
+   "target": "6_32",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_140",
+   "target": "7_35",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_140",
+   "target": "8_8",
+   "via": "Leia",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_140",
+   "target": "9_24",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_141",
+   "target": "101_2",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_141",
+   "target": "108_3",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_141",
+   "target": "10_10",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_141",
+   "target": "110_2",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_141",
+   "target": "1_19",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_141",
+   "target": "3_3",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_141",
+   "target": "4_1",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_141",
+   "target": "9_24",
+   "via": "Luke",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_147",
+   "target": "1_62",
+   "via": "Revolution",
+   "card_category": "LOCATION",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "9_148",
+   "target": "1_62",
+   "via": "Revolution",
+   "card_category": "LOCATION",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "9_150",
+   "target": "1_62",
+   "via": "Revolution",
+   "card_category": "LOCATION",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "9_150",
+   "target": "5_24",
+   "via": "Haven",
+   "card_category": "LOCATION",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "9_151",
+   "target": "101_2",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_151",
+   "target": "108_3",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_151",
+   "target": "10_10",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_151",
+   "target": "110_2",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_151",
+   "target": "1_19",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_151",
+   "target": "3_3",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_151",
+   "target": "4_1",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_151",
+   "target": "9_24",
+   "via": "Luke",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_168",
+   "target": "9_87",
+   "via": "Concussion Missiles",
+   "card_category": "STARSHIP",
+   "target_category": "WEAPON"
+  },
+  {
+   "card": "9_175",
+   "target": "1_146",
+   "via": "X-wing",
+   "card_category": "STARSHIP",
+   "target_category": "STARSHIP"
+  },
+  {
+   "card": "101_3",
+   "target": "101_6",
+   "via": "Vader's Obsession",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "101_3",
+   "target": "108_6",
+   "via": "Vader",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "101_3",
+   "target": "1_168",
+   "via": "Vader",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "101_3",
+   "target": "7_175",
+   "via": "Vader",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "101_3",
+   "target": "9_113",
+   "via": "Vader",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "102_4",
+   "target": "7_215",
+   "via": "Womp Rat",
+   "card_category": "VEHICLE",
+   "target_category": "CREATURE"
+  },
+  {
+   "card": "106_5",
+   "target": "1_243",
+   "via": "Elis Helrot",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "106_5",
+   "target": "1_252",
+   "via": "It's Worse",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "106_5",
+   "target": "1_255",
+   "via": "Limited Resources",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "106_5",
+   "target": "1_266",
+   "via": "Scanning Crew",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "106_5",
+   "target": "1_270",
+   "via": "Tallon Roll",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "106_8",
+   "target": "12_124",
+   "via": "Tusken Raider",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "106_8",
+   "target": "1_196",
+   "via": "Tusken Raider",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "109_2",
+   "target": "5_99",
+   "via": "Lando",
+   "card_category": "STARSHIP",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "109_4",
+   "target": "5_99",
+   "via": "Lando",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "109_4",
+   "target": "7_187",
+   "via": "Lobot",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_10",
+   "target": "108_6",
+   "via": "Vader",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_10",
+   "target": "1_168",
+   "via": "Vader",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_10",
+   "target": "7_175",
+   "via": "Vader",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_10",
+   "target": "8_135",
+   "via": "Always Thinking With Your Stomach",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_10",
+   "target": "9_113",
+   "via": "Vader",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_11",
+   "target": "1_249",
+   "via": "Imperial Barrier",
+   "card_category": "DEVICE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_13",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_13",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_15",
+   "target": "1_214",
+   "via": "Disarmed",
+   "card_category": "DEVICE",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "10_17",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "STARSHIP",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_17",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "STARSHIP",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_18",
+   "target": "1_194",
+   "via": "Stormtrooper",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "10_19",
+   "target": "2_129",
+   "via": "Undercover",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "10_2",
+   "target": "4_116",
+   "via": "Bad Feeling Have I",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "10_22",
+   "target": "2_135",
+   "via": "Monnok",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_25",
+   "target": "1_214",
+   "via": "Disarmed",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "10_25",
+   "target": "5_127",
+   "via": "Weather Vane",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "10_4",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_4",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_4",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_4",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_5",
+   "target": "2_129",
+   "via": "Undercover",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "10_7",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_7",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_7",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_7",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_8",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "10_8",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "110_2",
+   "target": "108_6",
+   "via": "Vader",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "110_2",
+   "target": "1_168",
+   "via": "Vader",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "110_2",
+   "target": "7_175",
+   "via": "Vader",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "110_2",
+   "target": "9_113",
+   "via": "Vader",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "111_1",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "111_1",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "111_1",
+   "target": "5_120",
+   "via": "Imperial Decree",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "112_1",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "112_1",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "112_1",
+   "target": "6_159",
+   "via": "Trap Door",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "112_4",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "112_4",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "112_4",
+   "target": "6_157",
+   "via": "None Shall Pass",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_10",
+   "target": "11_54",
+   "via": "Maul",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_10",
+   "target": "12_101",
+   "via": "Maul",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_10",
+   "target": "13_74",
+   "via": "Maul",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_10",
+   "target": "14_77",
+   "via": "Maul",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_17",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_17",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_17",
+   "target": "9_129",
+   "via": "Mobilization Points",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "11_18",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_18",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_20",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_20",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_21",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_21",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_22",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_22",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_23",
+   "target": "12_146",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_23",
+   "target": "4_139",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_25",
+   "target": "11_79",
+   "via": "Boonta Eve Podrace",
+   "card_category": "EPIC_EVENT",
+   "target_category": "EPIC_EVENT"
+  },
+  {
+   "card": "11_31",
+   "target": "11_90",
+   "via": "Watto's Chance Cube",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_39",
+   "target": "11_79",
+   "via": "Boonta Eve Podrace",
+   "card_category": "INTERRUPT",
+   "target_category": "EPIC_EVENT"
+  },
+  {
+   "card": "11_40",
+   "target": "11_85",
+   "via": "Podracer Collision",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "11_41",
+   "target": "108_6",
+   "via": "Vader",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_41",
+   "target": "1_168",
+   "via": "Vader",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_41",
+   "target": "7_175",
+   "via": "Vader",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_41",
+   "target": "9_113",
+   "via": "Vader",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_42",
+   "target": "11_54",
+   "via": "Maul",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_42",
+   "target": "12_101",
+   "via": "Maul",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_42",
+   "target": "13_74",
+   "via": "Maul",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "11_42",
+   "target": "14_77",
+   "via": "Maul",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "12_13",
+   "target": "11_54",
+   "via": "Maul",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "12_13",
+   "target": "12_101",
+   "via": "Maul",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "12_13",
+   "target": "13_74",
+   "via": "Maul",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "12_13",
+   "target": "14_77",
+   "via": "Maul",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "12_16",
+   "target": "5_163",
+   "via": "You Are Beaten",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_37",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_37",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_39",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_39",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_41",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_41",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_42",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_42",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_44",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_44",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_44",
+   "target": "1_243",
+   "via": "Elis Helrot",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_46",
+   "target": "3_138",
+   "via": "Trample",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_47",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_47",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_50",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_50",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_51",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_51",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_51",
+   "target": "1_266",
+   "via": "Scanning Crew",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_57",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_57",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_57",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_57",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_58",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_58",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_58",
+   "target": "7_223",
+   "via": "Cloud City Occupation",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "12_58",
+   "target": "7_237",
+   "via": "Rebel Base Occupation",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "12_59",
+   "target": "1_268",
+   "via": "Set For Stun",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_59",
+   "target": "6_157",
+   "via": "None Shall Pass",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_61",
+   "target": "12_100",
+   "via": "Coruscant Guard",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "12_61",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_61",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_64",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_64",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_66",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_66",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_67",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_67",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_70",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_70",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_88",
+   "target": "1_238",
+   "via": "Counter Assault",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "12_89",
+   "target": "11_54",
+   "via": "Maul",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "12_89",
+   "target": "12_101",
+   "via": "Maul",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "12_89",
+   "target": "13_74",
+   "via": "Maul",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "12_89",
+   "target": "14_77",
+   "via": "Maul",
+   "card_category": "OBJECTIVE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "12_89",
+   "target": "9_134",
+   "via": "Your Destiny",
+   "card_category": "OBJECTIVE",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "12_91",
+   "target": "1_222",
+   "via": "Lateral Damage",
+   "card_category": "STARSHIP",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "12_92",
+   "target": "1_222",
+   "via": "Lateral Damage",
+   "card_category": "STARSHIP",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "13_11",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_11",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_12",
+   "target": "11_54",
+   "via": "Maul",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "13_12",
+   "target": "12_101",
+   "via": "Maul",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "13_12",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_12",
+   "target": "13_74",
+   "via": "Maul",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "13_12",
+   "target": "14_77",
+   "via": "Maul",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "13_12",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_17",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_17",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_19",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_19",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_21",
+   "target": "1_222",
+   "via": "Lateral Damage",
+   "card_category": "STARSHIP",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "13_29",
+   "target": "112_14",
+   "via": "Jabba",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "13_29",
+   "target": "13_71",
+   "via": "Jabba",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "13_29",
+   "target": "6_109",
+   "via": "Jabba",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "13_29",
+   "target": "7_182",
+   "via": "Jabba",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "13_33",
+   "target": "11_54",
+   "via": "Maul",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "13_33",
+   "target": "12_101",
+   "via": "Maul",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "13_33",
+   "target": "13_74",
+   "via": "Maul",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "13_33",
+   "target": "14_77",
+   "via": "Maul",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "13_33",
+   "target": "2_139",
+   "via": "Sniper",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_36",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_36",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_41",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_41",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_43",
+   "target": "5_135",
+   "via": "Dark Strike",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_43",
+   "target": "5_163",
+   "via": "You Are Beaten",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_45",
+   "target": "12_146",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_45",
+   "target": "4_139",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_48",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_48",
+   "target": "12_146",
+   "via": "Control",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_48",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_48",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_48",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "13_48",
+   "target": "4_139",
+   "via": "Control",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_25",
+   "target": "2_139",
+   "via": "Sniper",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_25",
+   "target": "5_163",
+   "via": "You Are Beaten",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_27",
+   "target": "11_54",
+   "via": "Maul",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "14_27",
+   "target": "12_101",
+   "via": "Maul",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "14_27",
+   "target": "13_74",
+   "via": "Maul",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "14_27",
+   "target": "14_77",
+   "via": "Maul",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "14_31",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_31",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_36",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_36",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_37",
+   "target": "12_146",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_37",
+   "target": "4_139",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_38",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_38",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "14_44",
+   "target": "14_114",
+   "via": "Blockade Flagship",
+   "card_category": "INTERRUPT",
+   "target_category": "STARSHIP"
+  },
+  {
+   "card": "14_52",
+   "target": "9_134",
+   "via": "Your Destiny",
+   "card_category": "OBJECTIVE",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "14_58",
+   "target": "14_114",
+   "via": "Blockade Flagship",
+   "card_category": "STARSHIP",
+   "target_category": "STARSHIP"
+  },
+  {
+   "card": "14_58",
+   "target": "4_122",
+   "via": "Flagship",
+   "card_category": "STARSHIP",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "14_66",
+   "target": "14_114",
+   "via": "Blockade Flagship",
+   "card_category": "WEAPON",
+   "target_category": "STARSHIP"
+  },
+  {
+   "card": "1_10",
+   "target": "1_232",
+   "via": "Wrong Turn",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "1_104",
+   "target": "12_108",
+   "via": "Jawa",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_104",
+   "target": "12_124",
+   "via": "Tusken Raider",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_104",
+   "target": "1_169",
+   "via": "Dathcha",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_104",
+   "target": "1_182",
+   "via": "Jawa",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_104",
+   "target": "1_196",
+   "via": "Tusken Raider",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_109",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_109",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_110",
+   "target": "1_232",
+   "via": "Wrong Turn",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "1_116",
+   "target": "108_6",
+   "via": "Vader",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_116",
+   "target": "1_168",
+   "via": "Vader",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_116",
+   "target": "7_175",
+   "via": "Vader",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_116",
+   "target": "9_113",
+   "via": "Vader",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_118",
+   "target": "12_108",
+   "via": "Jawa",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_118",
+   "target": "1_182",
+   "via": "Jawa",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_143",
+   "target": "5_99",
+   "via": "Lando",
+   "card_category": "STARSHIP",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_150",
+   "target": "12_108",
+   "via": "Jawa",
+   "card_category": "VEHICLE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_150",
+   "target": "1_182",
+   "via": "Jawa",
+   "card_category": "VEHICLE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_20",
+   "target": "1_307",
+   "via": "Bantha",
+   "card_category": "CHARACTER",
+   "target_category": "VEHICLE"
+  },
+  {
+   "card": "1_20",
+   "target": "3_93",
+   "via": "Wampa",
+   "card_category": "CHARACTER",
+   "target_category": "CREATURE"
+  },
+  {
+   "card": "1_20",
+   "target": "6_138",
+   "via": "Bubo",
+   "card_category": "CHARACTER",
+   "target_category": "CREATURE"
+  },
+  {
+   "card": "1_20",
+   "target": "6_139",
+   "via": "Rancor",
+   "card_category": "CHARACTER",
+   "target_category": "CREATURE"
+  },
+  {
+   "card": "1_32",
+   "target": "1_222",
+   "via": "Lateral Damage",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "1_34",
+   "target": "12_108",
+   "via": "Jawa",
+   "card_category": "DEVICE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_34",
+   "target": "1_182",
+   "via": "Jawa",
+   "card_category": "DEVICE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_34",
+   "target": "1_205",
+   "via": "Restraining Bolt",
+   "card_category": "DEVICE",
+   "target_category": "DEVICE"
+  },
+  {
+   "card": "1_41",
+   "target": "1_247",
+   "via": "Gravel Storm",
+   "card_category": "DEVICE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_42",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_42",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_47",
+   "target": "108_6",
+   "via": "Vader",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_47",
+   "target": "1_168",
+   "via": "Vader",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_47",
+   "target": "7_175",
+   "via": "Vader",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_47",
+   "target": "9_113",
+   "via": "Vader",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_48",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_48",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_63",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_63",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_64",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_64",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_65",
+   "target": "5_99",
+   "via": "Lando",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "1_71",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_71",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "1_77",
+   "target": "1_279",
+   "via": "You Overestimate Their Chances",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_20",
+   "target": "1_205",
+   "via": "Restraining Bolt",
+   "card_category": "CHARACTER",
+   "target_category": "DEVICE"
+  },
+  {
+   "card": "2_26",
+   "target": "1_309",
+   "via": "Sandcrawler",
+   "card_category": "DEVICE",
+   "target_category": "VEHICLE"
+  },
+  {
+   "card": "2_32",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_32",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_33",
+   "target": "12_146",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_33",
+   "target": "4_139",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_40",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_40",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_41",
+   "target": "12_146",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_41",
+   "target": "4_139",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_42",
+   "target": "1_263",
+   "via": "Overload",
+   "card_category": "EPIC_EVENT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_46",
+   "target": "2_112",
+   "via": "Hypo",
+   "card_category": "INTERRUPT",
+   "target_category": "DEVICE"
+  },
+  {
+   "card": "2_47",
+   "target": "1_270",
+   "via": "Tallon Roll",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_48",
+   "target": "2_129",
+   "via": "Undercover",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "2_50",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_50",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_54",
+   "target": "1_211",
+   "via": "Blaster Rack",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "2_54",
+   "target": "2_111",
+   "via": "Death Star Tractor Beam",
+   "card_category": "INTERRUPT",
+   "target_category": "DEVICE"
+  },
+  {
+   "card": "2_54",
+   "target": "2_115",
+   "via": "Tractor Beam",
+   "card_category": "INTERRUPT",
+   "target_category": "DEVICE"
+  },
+  {
+   "card": "2_55",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_55",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_59",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_59",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_60",
+   "target": "2_132",
+   "via": "Ghhhk",
+   "card_category": "LOCATION",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_62",
+   "target": "1_323",
+   "via": "Turbolaser Battery",
+   "card_category": "LOCATION",
+   "target_category": "WEAPON"
+  },
+  {
+   "card": "2_72",
+   "target": "1_253",
+   "via": "I've Got A Problem Here",
+   "card_category": "STARSHIP",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "2_76",
+   "target": "12_124",
+   "via": "Tusken Raider",
+   "card_category": "VEHICLE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "2_76",
+   "target": "1_196",
+   "via": "Tusken Raider",
+   "card_category": "VEHICLE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "2_76",
+   "target": "1_307",
+   "via": "Bantha",
+   "card_category": "VEHICLE",
+   "target_category": "VEHICLE"
+  },
+  {
+   "card": "3_10",
+   "target": "3_100",
+   "via": "Death Squadron",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "3_14",
+   "target": "2_129",
+   "via": "Undercover",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "3_30",
+   "target": "3_101",
+   "via": "Frostbite",
+   "card_category": "DEVICE",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "3_30",
+   "target": "3_104",
+   "via": "Ice Storm",
+   "card_category": "DEVICE",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "3_30",
+   "target": "3_124",
+   "via": "Exposure",
+   "card_category": "DEVICE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "3_34",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "3_34",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "3_41",
+   "target": "1_257",
+   "via": "Lone Pilot",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "3_43",
+   "target": "1_247",
+   "via": "Gravel Storm",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "3_43",
+   "target": "3_101",
+   "via": "Frostbite",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "3_43",
+   "target": "3_104",
+   "via": "Ice Storm",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "3_43",
+   "target": "3_124",
+   "via": "Exposure",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "3_43",
+   "target": "7_261",
+   "via": "Sacrifice",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "3_70",
+   "target": "3_124",
+   "via": "Exposure",
+   "card_category": "VEHICLE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_12",
+   "target": "12_108",
+   "via": "Jawa",
+   "card_category": "DEVICE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_12",
+   "target": "1_182",
+   "via": "Jawa",
+   "card_category": "DEVICE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_15",
+   "target": "1_214",
+   "via": "Disarmed",
+   "card_category": "DEVICE",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "4_16",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_16",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_19",
+   "target": "12_146",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_19",
+   "target": "4_139",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_21",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_21",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_21",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_21",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_27",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_27",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_37",
+   "target": "108_6",
+   "via": "Vader",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_37",
+   "target": "1_168",
+   "via": "Vader",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_37",
+   "target": "7_175",
+   "via": "Vader",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_37",
+   "target": "9_113",
+   "via": "Vader",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "4_47",
+   "target": "4_138",
+   "via": "Close Call",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_48",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_48",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_48",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_48",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_5",
+   "target": "2_119",
+   "via": "Dark Waters",
+   "card_category": "CREATURE",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "4_52",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_52",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_54",
+   "target": "4_147",
+   "via": "Shut Him Up Or Shut Him Down",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_55",
+   "target": "1_244",
+   "via": "Emergency Deployment",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_55",
+   "target": "1_257",
+   "via": "Lone Pilot",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_55",
+   "target": "4_124",
+   "via": "I Want That Ship",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "4_55",
+   "target": "4_130",
+   "via": "Rogue Asteroid",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "4_55",
+   "target": "4_140",
+   "via": "Defensive Fire",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "4_71",
+   "target": "2_110",
+   "via": "Dianoga",
+   "card_category": "INTERRUPT",
+   "target_category": "CREATURE"
+  },
+  {
+   "card": "4_71",
+   "target": "3_93",
+   "via": "Wampa",
+   "card_category": "INTERRUPT",
+   "target_category": "CREATURE"
+  },
+  {
+   "card": "4_71",
+   "target": "6_139",
+   "via": "Rancor",
+   "card_category": "INTERRUPT",
+   "target_category": "CREATURE"
+  },
+  {
+   "card": "4_71",
+   "target": "7_214",
+   "via": "Sarlacc",
+   "card_category": "INTERRUPT",
+   "target_category": "CREATURE"
+  },
+  {
+   "card": "5_10",
+   "target": "5_99",
+   "via": "Lando",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_12",
+   "target": "1_214",
+   "via": "Disarmed",
+   "card_category": "DEVICE",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_16",
+   "target": "12_146",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_16",
+   "target": "4_139",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_19",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_19",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_20",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_20",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_21",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_21",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_24",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_24",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_29",
+   "target": "102_11",
+   "via": "Tarkin",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_29",
+   "target": "108_6",
+   "via": "Vader",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_29",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_29",
+   "target": "1_168",
+   "via": "Vader",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_29",
+   "target": "1_179",
+   "via": "Tarkin",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_29",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_29",
+   "target": "7_175",
+   "via": "Vader",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_29",
+   "target": "9_113",
+   "via": "Vader",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_30",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_30",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_37",
+   "target": "5_108",
+   "via": "Interrogation Array",
+   "card_category": "INTERRUPT",
+   "target_category": "DEVICE"
+  },
+  {
+   "card": "5_37",
+   "target": "5_123",
+   "via": "Special Delivery",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_37",
+   "target": "5_155",
+   "via": "Sonic Bombardment",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_39",
+   "target": "5_127",
+   "via": "Weather Vane",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_39",
+   "target": "5_99",
+   "via": "Lando",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_40",
+   "target": "7_187",
+   "via": "Lobot",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_44",
+   "target": "1_214",
+   "via": "Disarmed",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_44",
+   "target": "5_127",
+   "via": "Weather Vane",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_46",
+   "target": "5_127",
+   "via": "Weather Vane",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_47",
+   "target": "5_127",
+   "via": "Weather Vane",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_49",
+   "target": "108_6",
+   "via": "Vader",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_49",
+   "target": "1_168",
+   "via": "Vader",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_49",
+   "target": "7_175",
+   "via": "Vader",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_49",
+   "target": "9_113",
+   "via": "Vader",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_51",
+   "target": "108_5",
+   "via": "Boba Fett",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_51",
+   "target": "13_59",
+   "via": "Boba Fett",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_51",
+   "target": "5_91",
+   "via": "Boba Fett",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "5_55",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_55",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_55",
+   "target": "5_132",
+   "via": "Blasted Droid",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_57",
+   "target": "1_308",
+   "via": "Lift Tube",
+   "card_category": "INTERRUPT",
+   "target_category": "VEHICLE"
+  },
+  {
+   "card": "5_65",
+   "target": "4_146",
+   "via": "Res Luk Ra'auf",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_68",
+   "target": "2_135",
+   "via": "Monnok",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_71",
+   "target": "5_115",
+   "via": "Dark Deal",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_72",
+   "target": "5_121",
+   "via": "Mostly Armless",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_72",
+   "target": "5_141",
+   "via": "Focused Attack",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "5_78",
+   "target": "5_114",
+   "via": "Carbon-Freezing",
+   "card_category": "LOCATION",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "5_81",
+   "target": "5_105",
+   "via": "Ugnaught",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "6_1",
+   "target": "5_155",
+   "via": "Sonic Bombardment",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_1",
+   "target": "6_158",
+   "via": "Torture",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_12",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_12",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_23",
+   "target": "1_247",
+   "via": "Gravel Storm",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_23",
+   "target": "6_148",
+   "via": "Sandwhirl",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "6_30",
+   "target": "104_7",
+   "via": "Walker Garrison",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_32",
+   "target": "112_14",
+   "via": "Jabba",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "6_32",
+   "target": "13_71",
+   "via": "Jabba",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "6_32",
+   "target": "6_109",
+   "via": "Jabba",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "6_32",
+   "target": "7_182",
+   "via": "Jabba",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "6_35",
+   "target": "7_214",
+   "via": "Sarlacc",
+   "card_category": "CHARACTER",
+   "target_category": "CREATURE"
+  },
+  {
+   "card": "6_38",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_38",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_38",
+   "target": "1_247",
+   "via": "Gravel Storm",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_38",
+   "target": "6_148",
+   "via": "Sandwhirl",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "6_40",
+   "target": "1_243",
+   "via": "Elis Helrot",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_42",
+   "target": "2_129",
+   "via": "Undercover",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "6_42",
+   "target": "6_157",
+   "via": "None Shall Pass",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_5",
+   "target": "12_108",
+   "via": "Jawa",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "6_5",
+   "target": "12_146",
+   "via": "Control",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_5",
+   "target": "1_182",
+   "via": "Jawa",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "6_5",
+   "target": "1_276",
+   "via": "Utinni!",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_5",
+   "target": "4_139",
+   "via": "Control",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_52",
+   "target": "12_146",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_52",
+   "target": "2_129",
+   "via": "Undercover",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "6_52",
+   "target": "4_139",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_54",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_54",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_54",
+   "target": "6_159",
+   "via": "Trap Door",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_55",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_55",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_56",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_56",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_58",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_58",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_59",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_59",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_59",
+   "target": "2_135",
+   "via": "Monnok",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_63",
+   "target": "112_14",
+   "via": "Jabba",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "6_63",
+   "target": "13_71",
+   "via": "Jabba",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "6_63",
+   "target": "6_109",
+   "via": "Jabba",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "6_63",
+   "target": "7_182",
+   "via": "Jabba",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "6_64",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_64",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_65",
+   "target": "12_108",
+   "via": "Jawa",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "6_65",
+   "target": "1_182",
+   "via": "Jawa",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "6_65",
+   "target": "2_114",
+   "via": "Magnetic Suction Tube",
+   "card_category": "INTERRUPT",
+   "target_category": "DEVICE"
+  },
+  {
+   "card": "6_72",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_72",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "6_73",
+   "target": "2_129",
+   "via": "Undercover",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "6_81",
+   "target": "6_149",
+   "via": "Scum And Villainy",
+   "card_category": "LOCATION",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "6_84",
+   "target": "6_148",
+   "via": "Sandwhirl",
+   "card_category": "LOCATION",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "7_11",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_11",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_110",
+   "target": "2_129",
+   "via": "Undercover",
+   "card_category": "LOCATION",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "7_110",
+   "target": "6_155",
+   "via": "Hutt Smooch",
+   "card_category": "LOCATION",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_111",
+   "target": "5_134",
+   "via": "Cloud City Sabacc",
+   "card_category": "LOCATION",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_111",
+   "target": "5_99",
+   "via": "Lando",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_118",
+   "target": "2_112",
+   "via": "Hypo",
+   "card_category": "LOCATION",
+   "target_category": "DEVICE"
+  },
+  {
+   "card": "7_119",
+   "target": "6_148",
+   "via": "Sandwhirl",
+   "card_category": "LOCATION",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "7_138",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_138",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_138",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_138",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_139",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_139",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_139",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_139",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_155",
+   "target": "12_108",
+   "via": "Jawa",
+   "card_category": "VEHICLE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_155",
+   "target": "1_182",
+   "via": "Jawa",
+   "card_category": "VEHICLE",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "7_18",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_18",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_3",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_3",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_48",
+   "target": "2_129",
+   "via": "Undercover",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "7_5",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_5",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_55",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_55",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_56",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_56",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_59",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_59",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_60",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_60",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_62",
+   "target": "5_156",
+   "via": "Surprise",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_66",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_66",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_68",
+   "target": "12_146",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_68",
+   "target": "4_139",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_69",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_69",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_74",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_74",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_74",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_74",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_75",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_75",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_76",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_76",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_77",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_77",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_78",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_78",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_79",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_79",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_81",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_81",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_81",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_81",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_82",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_82",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_89",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_89",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "7_93",
+   "target": "5_99",
+   "via": "Lando",
+   "card_category": "INTERRUPT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "8_31",
+   "target": "4_116",
+   "via": "Bad Feeling Have I",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "8_34",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_34",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_35",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_35",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_4",
+   "target": "1_266",
+   "via": "Scanning Crew",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_40",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_40",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_40",
+   "target": "1_243",
+   "via": "Elis Helrot",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_41",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_41",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_46",
+   "target": "12_157",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_46",
+   "target": "1_267",
+   "via": "Sense",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_46",
+   "target": "7_223",
+   "via": "Cloud City Occupation",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "8_46",
+   "target": "7_237",
+   "via": "Rebel Base Occupation",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "8_62",
+   "target": "2_129",
+   "via": "Undercover",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "8_63",
+   "target": "1_240",
+   "via": "Dark Jedi Presence",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_63",
+   "target": "5_132",
+   "via": "Blasted Droid",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_63",
+   "target": "5_159",
+   "via": "Trooper Assault",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "8_66",
+   "target": "8_123",
+   "via": "Empire's New Order",
+   "card_category": "INTERRUPT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "8_70",
+   "target": "9_124",
+   "via": "Endor Shield",
+   "card_category": "LOCATION",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "8_74",
+   "target": "6_137",
+   "via": "Yuzzum",
+   "card_category": "LOCATION",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "8_90",
+   "target": "1_263",
+   "via": "Overload",
+   "card_category": "WEAPON",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_21",
+   "target": "7_299",
+   "via": "ISB Operations",
+   "card_category": "CHARACTER",
+   "target_category": "OBJECTIVE"
+  },
+  {
+   "card": "9_22",
+   "target": "5_99",
+   "via": "Lando",
+   "card_category": "CHARACTER",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_25",
+   "target": "1_222",
+   "via": "Lateral Damage",
+   "card_category": "CHARACTER",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "9_26",
+   "target": "1_238",
+   "via": "Counter Assault",
+   "card_category": "CHARACTER",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_33",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_33",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_34",
+   "target": "108_6",
+   "via": "Vader",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_34",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_34",
+   "target": "1_168",
+   "via": "Vader",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_34",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_34",
+   "target": "7_175",
+   "via": "Vader",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_34",
+   "target": "9_113",
+   "via": "Vader",
+   "card_category": "EFFECT",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_36",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_36",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_37",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_37",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_38",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_38",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_39",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_39",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_40",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_40",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_41",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_41",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_41",
+   "target": "8_167",
+   "via": "Endor Operations",
+   "card_category": "EFFECT",
+   "target_category": "OBJECTIVE"
+  },
+  {
+   "card": "9_43",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_43",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_44",
+   "target": "12_146",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_44",
+   "target": "4_139",
+   "via": "Control",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_45",
+   "target": "1_268",
+   "via": "Set For Stun",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_46",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_46",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_46",
+   "target": "1_240",
+   "via": "Dark Jedi Presence",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_46",
+   "target": "5_163",
+   "via": "You Are Beaten",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_47",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_47",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_47",
+   "target": "1_266",
+   "via": "Scanning Crew",
+   "card_category": "EFFECT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_47",
+   "target": "4_114",
+   "via": "3,720 To 1",
+   "card_category": "EFFECT",
+   "target_category": "EFFECT"
+  },
+  {
+   "card": "9_51",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_51",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "INTERRUPT",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_55",
+   "target": "108_6",
+   "via": "Vader",
+   "card_category": "JEDI_TEST",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_55",
+   "target": "1_168",
+   "via": "Vader",
+   "card_category": "JEDI_TEST",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_55",
+   "target": "7_175",
+   "via": "Vader",
+   "card_category": "JEDI_TEST",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_55",
+   "target": "9_113",
+   "via": "Vader",
+   "card_category": "JEDI_TEST",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_61",
+   "target": "12_145",
+   "via": "Alter",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_61",
+   "target": "1_234",
+   "via": "Alter",
+   "card_category": "OBJECTIVE",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_68",
+   "target": "1_270",
+   "via": "Tallon Roll",
+   "card_category": "STARSHIP",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_68",
+   "target": "5_99",
+   "via": "Lando",
+   "card_category": "STARSHIP",
+   "target_category": "CHARACTER"
+  },
+  {
+   "card": "9_81",
+   "target": "1_270",
+   "via": "Tallon Roll",
+   "card_category": "STARSHIP",
+   "target_category": "INTERRUPT"
+  },
+  {
+   "card": "9_9",
+   "target": "7_298",
+   "via": "Imperial Occupation",
+   "card_category": "CHARACTER",
+   "target_category": "OBJECTIVE"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_9" title="Figrin D'an" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="1_146" title="X-wing" />
+  <card blueprintId="1_146" title="X-wing" />
+  <card blueprintId="2_73" title="Tantive IV" />
+  <card blueprintId="3_71" title="Anakin's Lightsaber" />
+  <card blueprintId="3_32" title="Bacta Tank" />
+  <card blueprintId="3_9" title="FX-7 (Effex-Seven)" />
+  <card blueprintId="4_33" title="Reflection" />
+  <card blueprintId="4_1" title="Son Of Skywalker" />
+  <card blueprintId="4_1" title="Son Of Skywalker" />
+  <card blueprintId="5_34" title="As Good As Gone" />
+  <card blueprintId="5_76" title="Bespin" />
+  <card blueprintId="5_77" title="Bespin: Cloud City" />
+  <card blueprintId="5_1" title="Captain Han Solo" />
+  <card blueprintId="5_88" title="Cloud Car" />
+  <card blueprintId="5_88" title="Cloud Car" />
+  <card blueprintId="5_89" title="Cloud City Blaster" />
+  <card blueprintId="5_89" title="Cloud City Blaster" />
+  <card blueprintId="5_39" title="Cloud City Sabacc" />
+  <card blueprintId="5_39" title="Cloud City Sabacc" />
+  <card blueprintId="5_79" title="Cloud City: Chasm Walkway" />
+  <card blueprintId="5_80" title="Cloud City: Guest Quarters" />
+  <card blueprintId="5_83" title="Cloud City: Platform 327 (Docking Bay)" />
+  <card blueprintId="5_85" title="Clouds" />
+  <card blueprintId="5_46" title="Fall Of The Empire" />
+  <card blueprintId="5_47" title="Fall Of The Legend" />
+  <card blueprintId="5_5" title="Lando Calrissian" />
+  <card blueprintId="5_5" title="Lando Calrissian" />
+  <card blueprintId="5_6" title="Lobot" />
+  <card blueprintId="5_61" title="Out Of Somewhere" />
+  <card blueprintId="5_7" title="Princess Leia" />
+  <card blueprintId="5_7" title="Princess Leia" />
+  <card blueprintId="5_87" title="Redemption" />
+  <card blueprintId="5_30" title="Weather Vane" />
+  <card blueprintId="5_30" title="Weather Vane" />
+  <card blueprintId="6_10" title="Devaronian" />
+  <card blueprintId="6_10" title="Devaronian" />
+  <card blueprintId="7_111" title="Cloud City: Casino" />
+  <card blueprintId="7_93" title="It's Not My Fault!" />
+  <card blueprintId="7_93" title="It's Not My Fault!" />
+  <card blueprintId="8_68" title="Endor" />
+  <card blueprintId="8_80" title="YT-1300 Transport" />
+  <card blueprintId="8_80" title="YT-1300 Transport" />
+  <card blueprintId="9_62" title="A-wing" />
+  <card blueprintId="9_86" title="A-wing Cannon" />
+  <card blueprintId="9_68" title="Gold Squadron 1" />
+  <card blueprintId="9_72" title="Green Squadron 3" />
+  <card blueprintId="9_73" title="Green Squadron A-wing" />
+  <card blueprintId="9_90" title="Luke's Lightsaber" />
+  <card blueprintId="9_28" title="Nien Nunb" />
+  <card blueprintId="9_60" title="Sullust" />
+  <card blueprintId="9_30" title="Tycho Celchu" />
+  <card blueprintId="11_3" title="Grugnak" />
+  <card blueprintId="109_1" title="Chewie With Blaster Rifle" />
+  <card blueprintId="10_6" title="Dash Rendar" />
+  <card blueprintId="10_9" title="LE-BO2D9 (Leebo)" />
+  <card blueprintId="10_11" title="Mercenary Armor" />
+  <card blueprintId="10_17" title="Outrider" />
+</deck>

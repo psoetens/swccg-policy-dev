@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="1_21" title="Obi-Wan Kenobi" />
+  <card blueprintId="5_5" title="Lando Calrissian" />
+  <card blueprintId="2_3" title="Chewbacca" />
+  <card blueprintId="1_29" title="Red Leader" />
+  <card blueprintId="2_23" title="Wedge Antilles" />
+  <card blueprintId="1_13" title="Jek Porkins" />
+  <card blueprintId="5_1" title="Captain Han Solo" />
+  <card blueprintId="1_4" title="BoShek" />
+  <card blueprintId="6_12" title="Elom" />
+  <card blueprintId="6_12" title="Elom" />
+  <card blueprintId="6_12" title="Elom" />
+  <card blueprintId="7_12" title="Commander Wedge Antilles" />
+  <card blueprintId="2_14" title="R2-D2 (Artoo-Detoo)" />
+  <card blueprintId="3_15" title="R5-M2 (Arfive-Emmtoo)" />
+  <card blueprintId="3_15" title="R5-M2 (Arfive-Emmtoo)" />
+  <card blueprintId="1_143" title="Millennium Falcon" />
+  <card blueprintId="1_144" title="Red 1" />
+  <card blueprintId="2_70" title="Red 2" />
+  <card blueprintId="2_72" title="Red 6" />
+  <card blueprintId="1_146" title="X-wing" />
+  <card blueprintId="1_146" title="X-wing" />
+  <card blueprintId="1_146" title="X-wing" />
+  <card blueprintId="106_7" title="Red Squadron X-wing" />
+  <card blueprintId="7_140" title="B-wing Attack Fighter" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="106_4" title="Gold Squadron Y-wing" />
+  <card blueprintId="1_155" title="Jedi Lightsaber" />
+  <card blueprintId="1_157" title="Obi-Wan's Lightsaber" />
+  <card blueprintId="7_162" title="X-wing Laser Cannon" />
+  <card blueprintId="7_162" title="X-wing Laser Cannon" />
+  <card blueprintId="1_159" title="Quad Laser Cannon" />
+  <card blueprintId="1_159" title="Quad Laser Cannon" />
+  <card blueprintId="1_153" title="Blaster Rifle" />
+  <card blueprintId="1_153" title="Blaster Rifle" />
+  <card blueprintId="1_153" title="Blaster Rifle" />
+  <card blueprintId="2_77" title="Bowcaster" />
+  <card blueprintId="1_36" title="Fusion Generator Supply Tanks" />
+  <card blueprintId="1_36" title="Fusion Generator Supply Tanks" />
+  <card blueprintId="1_36" title="Fusion Generator Supply Tanks" />
+  <card blueprintId="5_77" title="Bespin: Cloud City" />
+  <card blueprintId="5_83" title="Cloud City: Platform 327 (Docking Bay)" />
+  <card blueprintId="5_82" title="Cloud City: Lower Corridor" />
+  <card blueprintId="1_127" title="Tatooine" />
+  <card blueprintId="6_70" title="Life Debt" />
+  <card blueprintId="7_97" title="Organized Attack" />
+  <card blueprintId="1_82" title="Gift Of The Mentor" />
+  <card blueprintId="1_107" title="Return Of A Jedi" />
+  <card blueprintId="1_116" title="The Force Is Strong With This One" />
+  <card blueprintId="1_102" title="Out Of Nowhere" />
+  <card blueprintId="1_84" title="Han's Dice" />
+  <card blueprintId="1_76" title="Don't Get Cocky" />
+  <card blueprintId="1_70" title="A Few Maneuvers" />
+  <card blueprintId="3_49" title="Rug Hug" />
+  <card blueprintId="5_38" title="Clash Of Sabers" />
+  <card blueprintId="2_57" title="Sorry About The Mess" />
+  <card blueprintId="1_95" title="Luke's Back" />
+  <card blueprintId="7_100" title="Rapid Fire" />
+  <card blueprintId="9_39" title="Squadron Assignments" />
+</deck>

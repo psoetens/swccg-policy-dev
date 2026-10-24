@@ -1,0 +1,1151 @@
+{
+ "version": 1,
+ "plan": ".claude/plans/objective-dojo.md",
+ "standard_gameplay": {
+  "win": 1.0,
+  "loss": -1.0,
+  "other": 0.0
+ },
+ "decay": {
+  "T": 10,
+  "f": 0.2,
+  "formula": "max(f, 1 - (own_turn - 1) / T), own_turn >= 1"
+ },
+ "refund": "losing a held state milestone refunds what it paid; a flip-back or the objective leaving play refunds the flip; event milestones and Epic Event / Jedi Test successes are permanent",
+ "items": {
+  "7_138": {
+   "title": "Mind What You Have Learned",
+   "kind": "objective",
+   "side": "LS",
+   "success": 0.75,
+   "milestones": [
+    {
+     "name": "apprentice_at_dagobah",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state",
+     "note": "Luke, or Leia after Daughter Of Skywalker (user 2026-10-05)"
+    },
+    {
+     "name": "mentor_with_apprentice",
+     "w": 0.25,
+     "necessary": false,
+     "kind": "state",
+     "note": "any own character of ability > 2 with the apprentice (user 2026-10-05)"
+    },
+    {
+     "name": "jedi_test_1_passed",
+     "w": 0.05,
+     "necessary": false,
+     "kind": "event"
+    },
+    {
+     "name": "jedi_test_2_passed",
+     "w": 0.05,
+     "necessary": false,
+     "kind": "event"
+    },
+    {
+     "name": "jedi_test_3_passed",
+     "w": 0.05,
+     "necessary": false,
+     "kind": "event"
+    },
+    {
+     "name": "jedi_test_4_passed",
+     "w": 0.05,
+     "necessary": false,
+     "kind": "event"
+    },
+    {
+     "name": "jedi_test_5_passed",
+     "w": 0.05,
+     "necessary": false,
+     "kind": "event"
+    }
+   ],
+   "note": "user 2026-10-13 (plan dojo-sweep): each of your completed Jedi Tests #1-#5 pays 0.05 on the way to the flip (at Test #5); success 1.0 -> 0.75 keeps the total at 1.5"
+  },
+  "7_296": {
+   "title": "Carbon Chamber Testing",
+   "kind": "objective",
+   "side": "DS",
+   "success": 0.875,
+   "milestones": [
+    {
+     "name": "escort_captive",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "escort_frozen_captive",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "frozen_escort_at_cloud_city_docking_bay_or_aboard_starship",
+     "w": 0.125,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "frozen_escort_at_tatooine_site",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "ugnaughts_at_carbonite_chamber_2",
+     "w": 0.125,
+     "necessary": false,
+     "kind": "state"
+    }
+   ],
+   "note": "user 2026-10-13: Ugnaughts at the Carbonite Chamber add 1 each to Carbon-Freezing destiny (Ugloste doubles); with the Console's +3, two make a freeze likely and a lost captive impossible"
+  },
+  "8_167": {
+   "title": "Endor Operations",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "ominous_rumors_on_table",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "endor_control_2",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "endor_control_3",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state",
+     "note": "absorbs the objective-learnability Amendment 6 milestone"
+    },
+    {
+     "name": "establish_secret_base_on_table",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "T": 8
+  },
+  "111_6": {
+   "title": "Set Your Course For Alderaan",
+   "kind": "objective",
+   "side": "DS",
+   "success": 0.9,
+   "milestones": [
+    {
+     "name": "superlaser_on_death_star",
+     "w": 0.1,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "death_star_orbits_alderaan",
+     "w": 0.1,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "gunners_on_death_star_2",
+     "w": 0.1,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "cpi_good_attempt_at_alderaan",
+     "w": 0.2,
+     "necessary": false,
+     "kind": "event"
+    },
+    {
+     "name": "death_star_sites_free_3",
+     "w": 0.1,
+     "necessary": false,
+     "kind": "state"
+    }
+   ],
+   "note": "plan dojo-focus rev. 3 (user 2026-10-06): CPI set-up ladder; orbit pays only with the Superlaser on. User 2026-10-13: Death Star sites without the opponent (CPI's Y, +1 each), only with the Superlaser on (no pull on decks without it); success 1.0 -> 0.9 to keep the total at 1.5. An Effective Demonstration (+5) is a Virtual card outside the model's tables: add it if Virtual cards join"
+  },
+  "110_6": {
+   "title": "Court Of The Vile Gangster",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "escort_captive",
+     "w": 0.25,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "captive_at_jabbas_palace_site",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    }
+   ]
+  },
+  "109_12": {
+   "title": "This Deal Is Getting Worse All The Time",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "occupy_bespin_system",
+     "w": 0.166667,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "occupy_cloud_city",
+     "w": 0.166667,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "dark_deal_on_table",
+     "w": 0.166667,
+     "necessary": true,
+     "kind": "state"
+    }
+   ]
+  },
+  "7_137": {
+   "title": "Local Uprising",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "three_related_battleground_sites",
+     "w": 0.166667,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "operatives_control_1",
+     "w": 0.166667,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "operatives_control_2",
+     "w": 0.166667,
+     "necessary": true,
+     "kind": "state"
+    }
+   ]
+  },
+  "7_298": {
+   "title": "Imperial Occupation",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "three_related_battleground_sites",
+     "w": 0.166667,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "operatives_control_1",
+     "w": 0.166667,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "operatives_control_2",
+     "w": 0.166667,
+     "necessary": true,
+     "kind": "state"
+    }
+   ]
+  },
+  "8_78": {
+   "title": "Rebel Strike Team",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "scouts_control_1",
+     "w": 0.25,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "scouts_control_2",
+     "w": 0.25,
+     "necessary": false,
+     "kind": "state"
+    }
+   ]
+  },
+  "109_4": {
+   "title": "Quiet Mining Colony",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "control_cloud_city",
+     "w": 0.125,
+     "necessary": false,
+     "kind": "state",
+     "note": "not necessary: Keeping The Empire Out Forever (11_20) also flips Quiet Mining Colony (control two Cloud City sites, occupy Bespin system); 4 of 256 check games"
+    },
+    {
+     "name": "control_cloud_city_site_1",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "control_cloud_city_site_2",
+     "w": 0.125,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "occupy_bespin_system",
+     "w": 0.125,
+     "necessary": false,
+     "kind": "state",
+     "note": "Keeping The Empire Out Forever path (user 2026-10-05)"
+    }
+   ]
+  },
+  "9_61": {
+   "title": "There Is Good In Him",
+   "kind": "objective",
+   "side": "LS",
+   "success": 0.7,
+   "milestones": [
+    {
+     "name": "crossover_attempt",
+     "w": 0.075,
+     "necessary": false,
+     "kind": "event",
+     "when": "flipped",
+     "repeat": 4,
+     "note": "I Can Save Him: the once-per-turn crossover destiny draw (Vader present with Luke)"
+    }
+   ],
+   "note": "plan dojo-focus (user 2026-10-06): adjacency milestone removed (opponent-driven, refunded at the capture); Plan dojo-three-objectives amendment 2 (user 2026-10-10): the flip only stages the payoff, so success is lowered and the reward goes on after the flip."
+  },
+  "9_151": {
+   "title": "Bring Him Before Me",
+   "kind": "objective",
+   "side": "DS",
+   "success": 0.6,
+   "milestones": [
+    {
+     "name": "emperor_at_throne_room",
+     "w": 0.25,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "vader_at_lukes_system",
+     "w": 0.25,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "luke_at_throne_room",
+     "w": 0.15,
+     "necessary": false,
+     "kind": "state",
+     "when": "flipped",
+     "note": "Take Your Father's Place: Vader, Emperor and Luke (captive included) present at the Throne Room, the duel's precondition"
+    },
+    {
+     "name": "duel_initiated",
+     "w": 0.1,
+     "necessary": false,
+     "kind": "event",
+     "when": "flipped",
+     "repeat": 3,
+     "note": "the objective's Luke/Vader duel (or its Leia/Kanan variants) initiated"
+    }
+   ],
+   "note": "plan dojo-focus (user 2026-10-06): Luke spotted including captives (no refund at the capture); Plan dojo-three-objectives amendment 2 (user 2026-10-10): the flip only stages the payoff, so success is lowered and the reward goes on after the flip."
+  },
+  "10_29": {
+   "title": "Agents Of Black Sun",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "xizor_at_battleground_site",
+     "w": 0.5,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "T": 20,
+   "f": 0.5,
+   "note": "plan dojo-focus (user 2026-10-06): gentler decay; Luke half not rewarded"
+  },
+  "7_297": {
+   "title": "Hunt Down And Destroy The Jedi",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "vader_at_battleground_site",
+     "w": 0.5,
+     "necessary": true,
+     "kind": "state"
+    }
+   ]
+  },
+  "12_88": {
+   "title": "Plead My Case To The Senate",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "senators_1",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "senators_2",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    }
+   ]
+  },
+  "12_179": {
+   "title": "My Lord, Is That Legal?",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "senators_1",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "senators_2",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    }
+   ]
+  },
+  "112_1": {
+   "title": "Agents In The Court",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "occupy_battleground_site_2",
+     "w": 0.5,
+     "necessary": true,
+     "kind": "state",
+     "note": "site_1 removed as near-free (user 2026-10-05)"
+    }
+   ]
+  },
+  "112_15": {
+   "title": "My Kind Of Scum",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "occupy_battleground_site_2",
+     "w": 0.5,
+     "necessary": true,
+     "kind": "state",
+     "note": "site_1 removed as near-free (user 2026-10-05)"
+    }
+   ]
+  },
+  "111_4": {
+   "title": "Massassi Base Operations",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "control_yavin_4_site_1",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "control_yavin_4_site_2",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    }
+   ]
+  },
+  "7_300": {
+   "title": "Ralltiir Operations",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "imperials_control_1",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "imperials_control_2",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    }
+   ]
+  },
+  "7_135": {
+   "title": "Dantooine Base Operations",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "rebels_control_2",
+     "w": 0.5,
+     "necessary": true,
+     "kind": "state",
+     "note": "rebels_control_1 removed as near-free (user 2026-10-05)"
+    }
+   ]
+  },
+  "7_136": {
+   "title": "Hidden Base",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "battleground_systems_3",
+     "w": 0.166667,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "battleground_systems_5",
+     "w": 0.166667,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "hidden_base_system_deployed",
+     "w": 0.166667,
+     "necessary": true,
+     "kind": "state"
+    }
+   ]
+  },
+  "7_299": {
+   "title": "ISB Operations",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "isb_agents_2",
+     "w": 0.166667,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "isb_agents_3",
+     "w": 0.166667,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "isb_control_rebel_base_1",
+     "w": 0.166667,
+     "necessary": false,
+     "kind": "state"
+    }
+   ]
+  },
+  "10_26": {
+   "title": "Watch Your Step",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "smugglers_occupy_battleground_1",
+     "w": 0.25,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "kessel_run_1",
+     "w": 0.25,
+     "necessary": false,
+     "kind": "state"
+    }
+   ]
+  },
+  "110_4": {
+   "title": "You Can Either Profit By This...",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "character_at_audience_chamber",
+     "w": 0.5,
+     "necessary": false,
+     "kind": "state"
+    }
+   ]
+  },
+  "14_113": {
+   "title": "Invasion",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "neimoidian_at_throne_room",
+     "w": 0.5,
+     "necessary": true,
+     "kind": "state",
+     "note": "control_naboo_system removed as near-free (user 2026-10-05)"
+    }
+   ]
+  },
+  "14_52": {
+   "title": "We Have A Plan",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "amidala_at_theed_palace_site",
+     "w": 0.125,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "amidala_at_interior_naboo_site",
+     "w": 0.125,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "amidala_at_throne_room",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "T": 20,
+   "f": 0.5,
+   "note": "plan dojo-focus (user 2026-10-06)"
+  },
+  "7_139": {
+   "title": "Rescue The Princess",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "spy_at_detention_block",
+     "w": 0.1,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "leia_not_captive",
+     "w": 0.15,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "leia_at_docking_bay_327",
+     "w": 0.1,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "leia_at_yavin_4_docking_bay",
+     "w": 0.15,
+     "necessary": false,
+     "kind": "state"
+    }
+   ],
+   "T": 20,
+   "f": 0.5,
+   "note": "plan dojo-focus (user 2026-10-06)"
+  },
+  "13_46": {
+   "title": "We'll Handle This",
+   "kind": "objective",
+   "side": "LS",
+   "success": 0.0,
+   "milestones": [
+    {
+     "name": "jedi_at_interior_theed_palace_site",
+     "w": 0.15,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "target_lost",
+     "w": 0.1,
+     "necessary": false,
+     "kind": "event",
+     "repeat": 3,
+     "note": "an opponent's character made lost by the front side's control-phase ability"
+    },
+    {
+     "name": "saber_combat_won",
+     "w": 0.15,
+     "necessary": false,
+     "kind": "event",
+     "when": "flipped",
+     "repeat": 3,
+     "note": "Duel Of The Fates: its lightsaber combat won"
+    },
+    {
+     "name": "dark_jedi_lost_to_saber_combat",
+     "w": 0.15,
+     "necessary": false,
+     "kind": "event",
+     "when": "flipped",
+     "repeat": 2,
+     "note": "that combat's difference was 5 or more: the opponent's Dark Jedi is lost"
+    }
+   ],
+   "note": "plan dojo-three-objectives amendment 2 (user 2026-10-10): exact mirror of Let Them Make The First Move (13_73). Plan dojo-sweep (user 2026-10-13): success 0.5 -> 0, the flip is the opponent's doing (its Jedi arriving), not an achievement; the flipped-side saber milestones stay"
+  },
+  "2_130": {
+   "title": "Commence Primary Ignition",
+   "kind": "epic_event",
+   "side": "DS",
+   "success": 0.5,
+   "milestones": [
+    {
+     "name": "superlaser_on_death_star",
+     "w": 0.0625,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "death_star_orbits_planet",
+     "w": 0.0625,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "gunners_on_death_star_2",
+     "w": 0.0625,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "cpi_good_attempt",
+     "w": 0.0625,
+     "necessary": false,
+     "kind": "event"
+    },
+    {
+     "name": "death_star_sites_free_3",
+     "w": 0.0625,
+     "necessary": false,
+     "kind": "state"
+    }
+   ],
+   "excluded_by": [
+    "111_6"
+   ],
+   "note": "plan dojo-focus rev. 3 (user 2026-10-06): CPI set-up ladder; orbit pays only with the Superlaser on. User 2026-10-13: Death Star sites without the opponent (CPI's Y, +1 each), only with the Superlaser on"
+  },
+  "3_115": {
+   "title": "Target The Main Generator",
+   "kind": "epic_event",
+   "side": "DS",
+   "success": 0.5,
+   "milestones": [
+    {
+     "name": "atat_cannon_in_range",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "ttmg_attempt",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "event"
+    }
+   ]
+  },
+  "2_42": {
+   "title": "Attack Run",
+   "kind": "epic_event",
+   "side": "LS",
+   "success": 0.5,
+   "milestones": [
+    {
+     "name": "attack_run_on_trench",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "entered_trench",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "event"
+    }
+   ]
+  },
+  "5_129": {
+   "title": "Epic Duel",
+   "kind": "epic_event",
+   "side": "DS",
+   "success": 0.5,
+   "milestones": [
+    {
+     "name": "vader_with_target",
+     "w": 0.25,
+     "necessary": false,
+     "kind": "state"
+    }
+   ]
+  },
+  "11_24": {
+   "title": "Boonta Eve Podrace",
+   "kind": "epic_event",
+   "side": "LS",
+   "success": 0.5,
+   "milestones": [],
+   "note": "podrace_initiated removed as near-free (user 2026-10-05)"
+  },
+  "11_79": {
+   "title": "Boonta Eve Podrace",
+   "kind": "epic_event",
+   "side": "DS",
+   "success": 0.5,
+   "milestones": [
+    {
+     "name": "podrace_initiated",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "event"
+    }
+   ]
+  },
+  "11_25": {
+   "title": "I Did It!",
+   "kind": "epic_event",
+   "side": "LS",
+   "success": 0.5,
+   "milestones": []
+  },
+  "8_43": {
+   "title": "Deactivate The Shield Generator",
+   "kind": "epic_event",
+   "side": "LS",
+   "success": 0.5,
+   "milestones": [
+    {
+     "name": "explosive_charge_on_bunker_1",
+     "w": 0.0625,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "explosive_charge_on_bunker_2",
+     "w": 0.0625,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "control_bunker_with_rebel",
+     "w": 0.0625,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "dtsg_attempt",
+     "w": 0.0625,
+     "necessary": true,
+     "kind": "event"
+    }
+   ],
+   "note": "plan dojo-focus (user 2026-10-06)"
+  },
+  "9_135": {
+   "title": "That Thing's Operational",
+   "kind": "epic_event",
+   "side": "DS",
+   "success": 0.5,
+   "milestones": [
+    {
+     "name": "on_reactor_core",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    }
+   ]
+  },
+  "9_135~counter": {
+   "title": "That Thing's Operational (opponent)",
+   "kind": "epic_event",
+   "side": "LS",
+   "success": 0.5,
+   "milestones": [
+    {
+     "name": "ds2_attempt",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "event"
+    }
+   ],
+   "counter": true
+  },
+  "13_24": {
+   "title": "Inner Strength",
+   "kind": "epic_event",
+   "side": "LS",
+   "success": 0.375,
+   "milestones": [
+    {
+     "name": "combat_card_under_your_jedi",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "note": "combat_card_placed removed as near-free (user 2026-10-05); plan night-pool-v3 (user 2026-10-13): combat_card_under_your_jedi (0.125) back, success 0.5 -> 0.375"
+  },
+  "4_77": {
+   "title": "Great Warrior",
+   "kind": "jedi_training",
+   "side": "LS",
+   "success": 0.2,
+   "milestones": [
+    {
+     "name": "test_on_table",
+     "w": 0.05,
+     "necessary": true,
+     "kind": "state"
+    }
+   ]
+  },
+  "4_75": {
+   "title": "A Jedi's Strength",
+   "kind": "jedi_training",
+   "side": "LS",
+   "success": 0.2,
+   "milestones": [
+    {
+     "name": "test_on_table",
+     "w": 0.05,
+     "necessary": true,
+     "kind": "state"
+    }
+   ]
+  },
+  "4_76": {
+   "title": "Domain Of Evil",
+   "kind": "jedi_training",
+   "side": "LS",
+   "success": 0.2,
+   "milestones": [
+    {
+     "name": "test_on_table",
+     "w": 0.05,
+     "necessary": true,
+     "kind": "state"
+    }
+   ]
+  },
+  "4_79": {
+   "title": "Size Matters Not",
+   "kind": "jedi_training",
+   "side": "LS",
+   "success": 0.2,
+   "milestones": [
+    {
+     "name": "test_on_table",
+     "w": 0.05,
+     "necessary": true,
+     "kind": "state"
+    }
+   ]
+  },
+  "4_78": {
+   "title": "It Is The Future You See",
+   "kind": "jedi_training",
+   "side": "LS",
+   "success": 0.2,
+   "milestones": [
+    {
+     "name": "test_on_table",
+     "w": 0.05,
+     "necessary": true,
+     "kind": "state"
+    }
+   ]
+  },
+  "9_55": {
+   "title": "You Must Confront Vader",
+   "kind": "jedi_training",
+   "side": "LS",
+   "success": 0.5,
+   "milestones": [
+    {
+     "name": "test_on_table",
+     "w": 0.05,
+     "necessary": true,
+     "kind": "state"
+    }
+   ]
+  },
+  "12_89": {
+   "title": "The Hyperdrive Generator's Gone",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "occupy_wattos_junkyard",
+     "w": 0.15,
+     "necessary": false,
+     "kind": "state",
+     "note": "not necessary: credits stay stacked after the Junkyard is lost"
+    },
+    {
+     "name": "credits_1",
+     "w": 0.05,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "credits_2",
+     "w": 0.1,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "credits_3",
+     "w": 0.2,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "note": "plan dojo-three-objectives (user 2026-10-10); Credits Will Do Fine deploys at the start, so it is no milestone"
+  },
+  "12_180": {
+   "title": "No Money, No Parts, No Deal!",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [],
+   "note": "plan dojo-three-objectives (user 2026-10-10); the flip is expected to come by itself, the flip-back refund rewards holding it"
+  },
+  "13_73": {
+   "title": "Let Them Make The First Move",
+   "kind": "objective",
+   "side": "DS",
+   "success": 0.0,
+   "milestones": [
+    {
+     "name": "dark_jedi_at_interior_theed_palace_site",
+     "w": 0.15,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "target_lost",
+     "w": 0.1,
+     "necessary": false,
+     "kind": "event",
+     "repeat": 3,
+     "note": "an opponent's character made lost by the front side's control-phase ability"
+    },
+    {
+     "name": "saber_combat_won",
+     "w": 0.15,
+     "necessary": false,
+     "kind": "event",
+     "when": "flipped",
+     "repeat": 3,
+     "note": "At Last We Will Have Revenge: its lightsaber combat won"
+    },
+    {
+     "name": "jedi_lost_to_saber_combat",
+     "w": 0.15,
+     "necessary": false,
+     "kind": "event",
+     "when": "flipped",
+     "repeat": 2,
+     "note": "that combat's difference was 5 or more: the opponent's Jedi is lost"
+    }
+   ],
+   "note": "plan dojo-three-objectives (user 2026-10-10); the flip depends on the opponent's Jedi, so success is 0.5 and the reward goes on after the flip. Plan dojo-sweep (user 2026-10-13): success 0.5 -> 0, the flip is the opponent's doing (its Jedi arriving), not an achievement; the flipped-side saber milestones stay"
+  },
+  "13_65": {
+   "title": "Deep Hatred",
+   "kind": "epic_event",
+   "side": "DS",
+   "success": 0.375,
+   "milestones": [
+    {
+     "name": "combat_card_under_your_jedi",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "note": "plan dojo-three-objectives (user 2026-10-10); Inner Strength's Dark Side mirror, the same reward; plan night-pool-v3 (user 2026-10-13): combat_card_under_your_jedi (0.125), success 0.5 -> 0.375"
+  },
+  "11_80": {
+   "title": "If The Trace Was Correct",
+   "kind": "epic_event",
+   "side": "DS",
+   "success": 0.375,
+   "milestones": [
+    {
+     "name": "maul_with_opponents_amidala",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "note": "plan dojo-three-objectives (user 2026-10-10); success once Maul escorts Amidala, the condition its effects turn on; plan night-pool-v3 (user 2026-10-13): maul_with_opponents_amidala (0.125), success 0.5 -> 0.375"
+  }
+ }
+}

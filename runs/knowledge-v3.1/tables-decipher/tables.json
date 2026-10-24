@@ -1,0 +1,9 @@
+{
+  "schema_version": 4,
+  "tensor_abi": 4,
+  "table_sha": "cd95c69ae092ec5989aa4dc463ef17111594d368aa93a1f307abc7846090a6e9",
+  "card_sha": "695188b214164e2d8967cc0eb76c5ec418ab3b12f0bab1aebc0c02dc18fd5fa1",
+  "vocabulary_sha": "010639ccaec06797dfaf7d4d5b7630ec6137d09fce7ef4800db7260d4acdfc54",
+  "parent_sha": null,
+  "ancestors": []
+}

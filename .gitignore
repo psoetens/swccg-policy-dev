@@ -1,0 +1,26 @@
+# tools, caches, environment (scripts/setup.sh recreates them)
+.cache/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.log
+.env
+# run output: everything under runs/ except the V3.1 inputs this repo ships
+runs/*
+!runs/knowledge-v3.1/
+runs/knowledge-v3.1/*
+!runs/knowledge-v3.1/decipher/
+!runs/knowledge-v3.1/tables-decipher/
+!runs/knowledge-v3.1/tables-decipher-probes/
+!runs/knowledge-v3.1/grid-decipher/
+!runs/knowledge-v3.1/gates.json
+# generated next to a checkpoint (scripts/export_torchscript.py)
+models/**/*.ts
+models/**/*.ts.bundle/
+# native build products (native/setup.sh, native/build.sh); build-v3.1/libswccgpolicy.so is tracked (LFS)
+native/build/
+native/cuda-home/
+native/pydeps/
+native/pydeps-ort/
+native/bundle/

@@ -1,0 +1,10 @@
+# files edited in this repo after an export (or not tracked in the lab); tools/export_from_lab.py never overwrites them
+scripts/brainiac_release.py
+scripts/brainiac_server.sh
+scripts/build_knowledge_engine.py
+scripts/export_card_database.py
+scripts/machine_env.sh
+native/build.sh
+pyproject.toml
+uv.lock
+scripts/brainiac_overlay.py

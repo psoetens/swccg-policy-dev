@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_3" title="Biggs Darklighter" />
+  <card blueprintId="1_4" title="BoShek" />
+  <card blueprintId="1_5" title="C-3PO (See-Threepio)" />
+  <card blueprintId="1_46" title="Death Star Plans" />
+  <card blueprintId="1_8" title="Dutch" />
+  <card blueprintId="1_10" title="General Dodonna" />
+  <card blueprintId="1_141" title="Gold 1" />
+  <card blueprintId="1_13" title="Jek Porkins" />
+  <card blueprintId="1_17" title="Leia Organa" />
+  <card blueprintId="1_19" title="Luke Skywalker" />
+  <card blueprintId="1_143" title="Millennium Falcon" />
+  <card blueprintId="1_21" title="Obi-Wan Kenobi" />
+  <card blueprintId="1_157" title="Obi-Wan's Lightsaber" />
+  <card blueprintId="1_158" title="Proton Torpedoes" />
+  <card blueprintId="1_158" title="Proton Torpedoes" />
+  <card blueprintId="1_60" title="Rebel Planners" />
+  <card blueprintId="1_144" title="Red 1" />
+  <card blueprintId="1_145" title="Red 3" />
+  <card blueprintId="1_29" title="Red Leader" />
+  <card blueprintId="1_116" title="The Force Is Strong With This One" />
+  <card blueprintId="1_116" title="The Force Is Strong With This One" />
+  <card blueprintId="1_135" title="Yavin 4" />
+  <card blueprintId="1_136" title="Yavin 4: Docking Bay" />
+  <card blueprintId="1_137" title="Yavin 4: Jungle" />
+  <card blueprintId="1_139" title="Yavin 4: Massassi War Room" />
+  <card blueprintId="2_43" title="Advance Preparation" />
+  <card blueprintId="2_42" title="Attack Run" />
+  <card blueprintId="2_3" title="Chewbacca" />
+  <card blueprintId="2_5" title="Commander Vanden Willard" />
+  <card blueprintId="2_47" title="Corellian Slip" />
+  <card blueprintId="2_47" title="Corellian Slip" />
+  <card blueprintId="2_62" title="Death Star: Trench" />
+  <card blueprintId="2_69" title="Gold 2" />
+  <card blueprintId="2_14" title="R2-D2 (Artoo-Detoo)" />
+  <card blueprintId="2_19" title="Rebel Tech" />
+  <card blueprintId="2_19" title="Rebel Tech" />
+  <card blueprintId="2_19" title="Rebel Tech" />
+  <card blueprintId="2_19" title="Rebel Tech" />
+  <card blueprintId="2_70" title="Red 2" />
+  <card blueprintId="2_71" title="Red 5" />
+  <card blueprintId="2_71" title="Red 5" />
+  <card blueprintId="2_72" title="Red 6" />
+  <card blueprintId="2_73" title="Tantive IV" />
+  <card blueprintId="2_21" title="Tiree" />
+  <card blueprintId="2_67" title="Yavin 4: Briefing Room" />
+  <card blueprintId="2_68" title="Yavin 4: Massassi Ruins" />
+  <card blueprintId="5_1" title="Captain Han Solo" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="7_83" title="Antilles Maneuver" />
+  <card blueprintId="7_11" title="Colonel Feyn Gospic" />
+  <card blueprintId="7_85" title="Darklighter Spin" />
+  <card blueprintId="7_17" title="Firin Morett" />
+  <card blueprintId="7_97" title="Organized Attack" />
+  <card blueprintId="7_97" title="Organized Attack" />
+  <card blueprintId="7_37" title="R3-T2 (Arthree-Teetoo)" />
+  <card blueprintId="7_149" title="Spiral" />
+  <card blueprintId="7_134" title="Yavin 4: Massassi Headquarters" />
+  <card blueprintId="9_39" title="Squadron Assignments" />
+  <card blueprintId="9_31" title="Wedge Antilles, Red Squadron Leader" />
+  <card blueprintId="111_4" title="Massassi Base Operations" />
+</deck>

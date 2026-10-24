@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_164" title="Admiral Motti" />
+  <card blueprintId="1_241" title="Dark Maneuvers" />
+  <card blueprintId="1_304" title="TIE Fighter" />
+  <card blueprintId="1_304" title="TIE Fighter" />
+  <card blueprintId="1_304" title="TIE Fighter" />
+  <card blueprintId="1_304" title="TIE Fighter" />
+  <card blueprintId="1_270" title="Tallon Roll" />
+  <card blueprintId="2_132" title="Ghhhk" />
+  <card blueprintId="2_155" title="Victory-Class Star Destroyer" />
+  <card blueprintId="2_155" title="Victory-Class Star Destroyer" />
+  <card blueprintId="2_155" title="Victory-Class Star Destroyer" />
+  <card blueprintId="3_158" title="AT-AT Cannon" />
+  <card blueprintId="3_158" title="AT-AT Cannon" />
+  <card blueprintId="3_82" title="Admiral Ozzel" />
+  <card blueprintId="3_154" title="Blizzard 1" />
+  <card blueprintId="3_155" title="Blizzard 2" />
+  <card blueprintId="3_156" title="Blizzard Scout 1" />
+  <card blueprintId="3_157" title="Blizzard Walker" />
+  <card blueprintId="3_157" title="Blizzard Walker" />
+  <card blueprintId="3_157" title="Blizzard Walker" />
+  <card blueprintId="3_85" title="Captain Piett" />
+  <card blueprintId="3_117" title="Cold Feet" />
+  <card blueprintId="3_120" title="Crash Landing" />
+  <card blueprintId="3_159" title="E-web Blaster" />
+  <card blueprintId="3_95" title="Electro-Rangefinder" />
+  <card blueprintId="3_87" title="General Veers" />
+  <card blueprintId="3_144" title="Hoth: Defensive Perimeter (3rd Marker)" />
+  <card blueprintId="3_148" title="Hoth: Ice Plains (5th Marker)" />
+  <card blueprintId="3_150" title="Hoth: Wampa Cave (7th Marker)" />
+  <card blueprintId="3_104" title="Ice Storm" />
+  <card blueprintId="3_90" title="Probe Droid" />
+  <card blueprintId="3_90" title="Probe Droid" />
+  <card blueprintId="3_90" title="Probe Droid" />
+  <card blueprintId="3_161" title="Probe Droid Laser" />
+  <card blueprintId="3_134" title="Self-Destruct Mechanism" />
+  <card blueprintId="3_91" title="Snowtrooper" />
+  <card blueprintId="3_91" title="Snowtrooper" />
+  <card blueprintId="3_91" title="Snowtrooper" />
+  <card blueprintId="3_92" title="Snowtrooper Officer" />
+  <card blueprintId="3_92" title="Snowtrooper Officer" />
+  <card blueprintId="3_92" title="Snowtrooper Officer" />
+  <card blueprintId="3_152" title="Stalker" />
+  <card blueprintId="3_136" title="Tactical Support" />
+  <card blueprintId="3_115" title="Target The Main Generator" />
+  <card blueprintId="3_138" title="Trample" />
+  <card blueprintId="3_141" title="Wall Of Fire" />
+  <card blueprintId="3_93" title="Wampa" />
+  <card blueprintId="4_95" title="Commander Brandei" />
+  <card blueprintId="6_160" title="Twi'lek Advisor" />
+  <card blueprintId="7_237" title="Rebel Base Occupation" />
+  <card blueprintId="7_202" title="Sergeant Major Bursk" />
+  <card blueprintId="7_205" title="Sergeant Narthax" />
+  <card blueprintId="8_101" title="Lieutenant Arnet" />
+  <card blueprintId="9_103" title="Captain Yorr" />
+  <card blueprintId="9_107" title="DS-181-3" />
+  <card blueprintId="9_112" title="Lieutenant Hebsly" />
+  <card blueprintId="11_77" title="You May Start Your Landing" />
+  <card blueprintId="104_7" title="Walker Garrison" />
+  <card blueprintId="108_6" title="Darth Vader With Lightsaber" />
+  <card blueprintId="13_82" title="Prepare For A Surface Attack" />
+</deck>

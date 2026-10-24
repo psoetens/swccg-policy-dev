@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="2_148" title="Ralltiir" />
+  <card blueprintId="7_289" title="Spaceport Docking Bay" />
+  <card blueprintId="7_292" title="Swamp" />
+  <card blueprintId="7_285" title="Jungle" />
+  <card blueprintId="7_284" title="Forest" />
+  <card blueprintId="9_145" title="Death Star II: Docking Bay" />
+  <card blueprintId="7_282" title="Executor: Docking Bay" />
+  <card blueprintId="2_146" title="Kashyyyk" />
+  <card blueprintId="9_109" title="Emperor Palpatine" />
+  <card blueprintId="7_175" title="Darth Vader, Dark Lord Of The Sith" />
+  <card blueprintId="7_175" title="Darth Vader, Dark Lord Of The Sith" />
+  <card blueprintId="1_179" title="Grand Moff Tarkin" />
+  <card blueprintId="110_10" title="Mara Jade, The Emperor's Hand" />
+  <card blueprintId="9_106" title="Commander Merrejk" />
+  <card blueprintId="8_91" title="AT-ST Pilot" />
+  <card blueprintId="8_91" title="AT-ST Pilot" />
+  <card blueprintId="8_91" title="AT-ST Pilot" />
+  <card blueprintId="8_91" title="AT-ST Pilot" />
+  <card blueprintId="8_101" title="Lieutenant Arnet" />
+  <card blueprintId="8_106" title="Major Marquand" />
+  <card blueprintId="8_94" title="Commander Igar" />
+  <card blueprintId="3_87" title="General Veers" />
+  <card blueprintId="1_178" title="General Tagge" />
+  <card blueprintId="3_82" title="Admiral Ozzel" />
+  <card blueprintId="3_89" title="Lieutenant Cabbel" />
+  <card blueprintId="2_98" title="Officer Evax" />
+  <card blueprintId="2_106" title="Trooper Davin Felth" />
+  <card blueprintId="1_173" title="DS-61-2" />
+  <card blueprintId="7_301" title="Bossk In Hound's Tooth" />
+  <card blueprintId="109_8" title="Boba Fett In Slave I" />
+  <card blueprintId="110_12" title="Zuckuss In Mist Hunter" />
+  <card blueprintId="110_8" title="IG-88 In IG-2000" />
+  <card blueprintId="9_156" title="Emperor's Personal Shuttle" />
+  <card blueprintId="3_156" title="Blizzard Scout 1" />
+  <card blueprintId="8_172" title="Tempest Scout 1" />
+  <card blueprintId="8_173" title="Tempest Scout 2" />
+  <card blueprintId="8_174" title="Tempest Scout 3" />
+  <card blueprintId="8_175" title="Tempest Scout 4" />
+  <card blueprintId="8_176" title="Tempest Scout 5" />
+  <card blueprintId="8_177" title="Tempest Scout 6" />
+  <card blueprintId="8_171" title="Tempest Scout" />
+  <card blueprintId="1_324" title="Vader's Lightsaber" />
+  <card blueprintId="110_11" title="Mara Jade's Lightsaber" />
+  <card blueprintId="9_129" title="Mobilization Points" />
+  <card blueprintId="8_126" title="Imperial Arrest Order" />
+  <card blueprintId="5_120" title="Imperial Decree" />
+  <card blueprintId="4_116" title="Bad Feeling Have I" />
+  <card blueprintId="9_130" title="Overseeing It Personally" />
+  <card blueprintId="6_160" title="Twi'lek Advisor" />
+  <card blueprintId="6_160" title="Twi'lek Advisor" />
+  <card blueprintId="1_234" title="Alter" />
+  <card blueprintId="1_234" title="Alter" />
+  <card blueprintId="1_267" title="Sense" />
+  <card blueprintId="1_267" title="Sense" />
+  <card blueprintId="1_249" title="Imperial Barrier" />
+  <card blueprintId="1_249" title="Imperial Barrier" />
+  <card blueprintId="9_139" title="Prepared Defenses" />
+  <card blueprintId="1_243" title="Elis Helrot" />
+  <card blueprintId="9_96" title="We're In Attack Position Now" />
+  <card blueprintId="7_300" title="Ralltiir Operations" />
+</deck>

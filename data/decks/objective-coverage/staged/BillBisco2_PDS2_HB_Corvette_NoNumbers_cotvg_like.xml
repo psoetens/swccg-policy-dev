@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="110_1" title="Boushh" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="7_48" title="TK-422" />
+  <card blueprintId="5_20" title="Civil Disorder" />
+  <card blueprintId="4_21" title="Do, Or Do Not" />
+  <card blueprintId="5_24" title="Haven" />
+  <card blueprintId="9_33" title="Honor Of The Jedi" />
+  <card blueprintId="4_30" title="Order To Engage" />
+  <card blueprintId="6_56" title="Projection Of A Skywalker" />
+  <card blueprintId="6_56" title="Projection Of A Skywalker" />
+  <card blueprintId="7_81" title="Wise Advice" />
+  <card blueprintId="1_88" title="Hyper Escape" />
+  <card blueprintId="1_90" title="It Could Be Worse" />
+  <card blueprintId="1_90" title="It Could Be Worse" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="4_80" title="Anoat" />
+  <card blueprintId="7_110" title="Bothawui" />
+  <card blueprintId="8_67" title="Chandrila" />
+  <card blueprintId="7_116" title="Coruscant" />
+  <card blueprintId="8_68" title="Endor" />
+  <card blueprintId="7_121" title="Forest" />
+  <card blueprintId="3_55" title="Hoth" />
+  <card blueprintId="1_126" title="Kessel" />
+  <card blueprintId="6_83" title="Kiffex" />
+  <card blueprintId="7_123" title="Rendezvous Point" />
+  <card blueprintId="7_136" title="Hidden Base" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="7_149" title="Spiral" />
+  <cardOutsideDeck blueprintId="4_80" title="Anoat" />
+  <cardOutsideDeck blueprintId="7_110" title="Bothawui" />
+  <cardOutsideDeck blueprintId="8_67" title="Chandrila" />
+  <cardOutsideDeck blueprintId="7_116" title="Coruscant" />
+  <cardOutsideDeck blueprintId="8_68" title="Endor" />
+  <cardOutsideDeck blueprintId="3_55" title="Hoth" />
+  <cardOutsideDeck blueprintId="2_64" title="Kashyyyk" />
+  <cardOutsideDeck blueprintId="1_126" title="Kessel" />
+  <cardOutsideDeck blueprintId="6_83" title="Kiffex" />
+  <cardOutsideDeck blueprintId="9_59" title="Mon Calamari" />
+  <cardOutsideDeck blueprintId="2_65" title="Ralltiir" />
+  <cardOutsideDeck blueprintId="9_60" title="Sullust" />
+</deck>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_88" title="Hyper Escape" />
+  <card blueprintId="1_90" title="It Could Be Worse" />
+  <card blueprintId="1_126" title="Kessel" />
+  <card blueprintId="1_126" title="Kessel" />
+  <card blueprintId="1_143" title="Millennium Falcon" />
+  <card blueprintId="1_20" title="Momaw Nadon" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="1_110" title="Skywalkers" />
+  <card blueprintId="1_127" title="Tatooine" />
+  <card blueprintId="1_146" title="X-wing" />
+  <card blueprintId="1_135" title="Yavin 4" />
+  <card blueprintId="2_49" title="Grimtaash" />
+  <card blueprintId="2_14" title="R2-D2 (Artoo-Detoo)" />
+  <card blueprintId="2_73" title="Tantive IV" />
+  <card blueprintId="2_40" title="Undercover" />
+  <card blueprintId="2_40" title="Undercover" />
+  <card blueprintId="2_23" title="Wedge Antilles" />
+  <card blueprintId="2_41" title="What're You Tryin' To Push On Us?" />
+  <card blueprintId="3_11" title="Jeroen Webb" />
+  <card blueprintId="3_23" title="Toryn Farr" />
+  <card blueprintId="4_27" title="Never Tell Me The Odds" />
+  <card blueprintId="4_27" title="Never Tell Me The Odds" />
+  <card blueprintId="4_90" title="Raithal" />
+  <card blueprintId="4_66" title="Transmission Terminated" />
+  <card blueprintId="4_66" title="Transmission Terminated" />
+  <card blueprintId="4_67" title="Tunnel Vision" />
+  <card blueprintId="5_76" title="Bespin" />
+  <card blueprintId="5_24" title="Haven" />
+  <card blueprintId="5_87" title="Redemption" />
+  <card blueprintId="5_68" title="Shocking Information" />
+  <card blueprintId="5_68" title="Shocking Information" />
+  <card blueprintId="6_1" title="8D8" />
+  <card blueprintId="6_3" title="Artoo" />
+  <card blueprintId="6_83" title="Kiffex" />
+  <card blueprintId="6_29" title="Oola" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="6_87" title="Tibrin" />
+  <card blueprintId="6_87" title="Tibrin" />
+  <card blueprintId="7_82" title="All Wings Report In" />
+  <card blueprintId="7_140" title="B-wing Attack Fighter" />
+  <card blueprintId="7_20" title="Harc Seff" />
+  <card blueprintId="7_136" title="Hidden Base" />
+  <card blueprintId="7_97" title="Organized Attack" />
+  <card blueprintId="7_37" title="R3-T2 (Arthree-Teetoo)" />
+  <card blueprintId="7_73" title="Rebel Fleet" />
+  <card blueprintId="7_123" title="Rendezvous Point" />
+  <card blueprintId="7_149" title="Spiral" />
+  <card blueprintId="8_35" title="Battle Plan" />
+  <card blueprintId="8_80" title="YT-1300 Transport" />
+  <card blueprintId="103_1" title="Gold Leader In Gold 1" />
+  <card blueprintId="103_2" title="Red Leader In Red 1" />
+  <card blueprintId="106_4" title="Gold Squadron Y-wing" />
+  <card blueprintId="106_5" title="It's A Hit!" />
+  <card blueprintId="106_5" title="It's A Hit!" />
+  <card blueprintId="106_7" title="Red Squadron X-wing" />
+  <card blueprintId="108_1" title="Han With Heavy Blaster Pistol" />
+  <card blueprintId="108_2" title="Leia With Blaster Rifle" />
+  <card blueprintId="108_3" title="Luke With Lightsaber" />
+  <cardOutsideDeck blueprintId="2_64" title="Kashyyyk" />
+</deck>

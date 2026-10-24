@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="10_6" title="Dash Rendar" />
+  <card blueprintId="108_1" title="Han With Heavy Blaster Pistol" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="7_32" title="Melas" />
+  <card blueprintId="10_12" title="Mirax Terrik" />
+  <card blueprintId="112_5" title="Palace Raider" />
+  <card blueprintId="112_5" title="Palace Raider" />
+  <card blueprintId="112_5" title="Palace Raider" />
+  <card blueprintId="112_5" title="Palace Raider" />
+  <card blueprintId="2_23" title="Wedge Antilles" />
+  <card blueprintId="6_53" title="Bargaining Table" />
+  <card blueprintId="1_44" title="Beggar" />
+  <card blueprintId="7_60" title="Draw Their Fire" />
+  <card blueprintId="7_62" title="Goo Nee Tay" />
+  <card blueprintId="9_33" title="Honor Of The Jedi" />
+  <card blueprintId="8_40" title="Insurrection" />
+  <card blueprintId="4_30" title="Order To Engage" />
+  <card blueprintId="112_4" title="Ounee Ta" />
+  <card blueprintId="9_39" title="Squadron Assignments" />
+  <card blueprintId="9_40" title="Staging Areas" />
+  <card blueprintId="9_47" title="Your Insight Serves You Well" />
+  <card blueprintId="10_4" title="Control &amp; Tunnel Vision" />
+  <card blueprintId="10_4" title="Control &amp; Tunnel Vision" />
+  <card blueprintId="10_4" title="Control &amp; Tunnel Vision" />
+  <card blueprintId="5_45" title="Dodge" />
+  <card blueprintId="5_47" title="Fall Of The Legend" />
+  <card blueprintId="6_66" title="Fallen Portal" />
+  <card blueprintId="9_51" title="Heading For The Medical Frigate" />
+  <card blueprintId="10_8" title="Houjix &amp; Out Of Nowhere" />
+  <card blueprintId="1_88" title="Hyper Escape" />
+  <card blueprintId="1_90" title="It Could Be Worse" />
+  <card blueprintId="8_57" title="Lost In The Wilderness" />
+  <card blueprintId="6_72" title="Nar Shaddaa Wind Chimes" />
+  <card blueprintId="1_101" title="On The Edge" />
+  <card blueprintId="1_101" title="On The Edge" />
+  <card blueprintId="10_16" title="Out Of Commission &amp; Transmission Terminated" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="10_25" title="The Bith Shuffle &amp; Desperate Reach" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="8_63" title="Throw Me Another Charge" />
+  <card blueprintId="6_79" title="Weapon Levitation" />
+  <card blueprintId="9_57" title="Home One: Docking Bay" />
+  <card blueprintId="3_59" title="Hoth: Echo Docking Bay" />
+  <card blueprintId="1_126" title="Kessel" />
+  <card blueprintId="7_126" title="Spaceport Docking Bay" />
+  <card blueprintId="7_126" title="Spaceport Docking Bay" />
+  <card blueprintId="1_127" title="Tatooine" />
+  <card blueprintId="1_128" title="Tatooine: Cantina" />
+  <card blueprintId="1_129" title="Tatooine: Docking Bay 94" />
+  <card blueprintId="10_26" title="Watch Your Step" />
+  <card blueprintId="1_143" title="Millennium Falcon" />
+  <card blueprintId="10_17" title="Outrider" />
+  <card blueprintId="10_20" title="Pulsar Skate" />
+  <card blueprintId="9_81" title="Red Squadron 1" />
+  <card blueprintId="7_153" title="Patrol Craft" />
+  <card blueprintId="7_153" title="Patrol Craft" />
+  <card blueprintId="7_153" title="Patrol Craft" />
+  <card blueprintId="9_90" title="Luke's Lightsaber" />
+</deck>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="10_5" title="Corran Horn" />
+  <card blueprintId="13_27" title="Lando Calrissian, Scoundrel" />
+  <card blueprintId="13_29" title="Leia, Rebel Princess" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="108_4" title="Obi-Wan With Lightsaber" />
+  <card blueprintId="13_39" title="Qui-Gon Jinn, Jedi Master" />
+  <card blueprintId="13_39" title="Qui-Gon Jinn, Jedi Master" />
+  <card blueprintId="13_39" title="Qui-Gon Jinn, Jedi Master" />
+  <card blueprintId="13_39" title="Qui-Gon Jinn, Jedi Master" />
+  <card blueprintId="11_13" title="Threepio With His Parts Showing" />
+  <card blueprintId="13_48" title="Yoda, Master Of The Force" />
+  <card blueprintId="12_38" title="A Vergence In The Force" />
+  <card blueprintId="13_5" title="An Unusual Amount Of Fear" />
+  <card blueprintId="1_48" title="Disarmed" />
+  <card blueprintId="7_62" title="Goo Nee Tay" />
+  <card blueprintId="6_56" title="Projection Of A Skywalker" />
+  <card blueprintId="13_41" title="Sando Aqua Monster" />
+  <card blueprintId="11_24" title="Boonta Eve Podrace" />
+  <card blueprintId="11_25" title="I Did It!" />
+  <card blueprintId="13_24" title="Inner Strength" />
+  <card blueprintId="11_29" title="A Jedi's Resilience" />
+  <card blueprintId="11_29" title="A Jedi's Resilience" />
+  <card blueprintId="11_29" title="A Jedi's Resilience" />
+  <card blueprintId="2_45" title="Blast The Door, Kid!" />
+  <card blueprintId="6_61" title="Blaster Deflection" />
+  <card blueprintId="6_61" title="Blaster Deflection" />
+  <card blueprintId="10_4" title="Control &amp; Tunnel Vision" />
+  <card blueprintId="5_45" title="Dodge" />
+  <card blueprintId="5_45" title="Dodge" />
+  <card blueprintId="1_101" title="On The Edge" />
+  <card blueprintId="11_39" title="Podrace Prep" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="1_109" title="Sense" />
+  <card blueprintId="12_69" title="Speak With The Jedi Council" />
+  <card blueprintId="12_69" title="Speak With The Jedi Council" />
+  <card blueprintId="13_43" title="Strike Blocked" />
+  <card blueprintId="8_64" title="Were You Looking For Me?" />
+  <card blueprintId="8_64" title="Were You Looking For Me?" />
+  <card blueprintId="14_46" title="Wesa Gotta Grand Army" />
+  <card blueprintId="14_46" title="Wesa Gotta Grand Army" />
+  <card blueprintId="14_46" title="Wesa Gotta Grand Army" />
+  <card blueprintId="12_76" title="Coruscant: Jedi Council Chamber" />
+  <card blueprintId="14_49" title="Naboo: Boss Nass' Chambers" />
+  <card blueprintId="13_31" title="Naboo: Theed Palace Generator" />
+  <card blueprintId="13_32" title="Naboo: Theed Palace Generator Core" />
+  <card blueprintId="11_44" title="Tatooine: Podrace Arena" />
+  <card blueprintId="13_46" title="We'll Handle This" />
+  <card blueprintId="11_47" title="Anakin's Podracer" />
+  <card blueprintId="111_2" title="Artoo-Detoo In Red 5" />
+  <card blueprintId="111_2" title="Artoo-Detoo In Red 5" />
+  <card blueprintId="111_2" title="Artoo-Detoo In Red 5" />
+  <card blueprintId="13_21" title="Han, Chewie, And The Falcon" />
+  <card blueprintId="13_21" title="Han, Chewie, And The Falcon" />
+  <card blueprintId="9_90" title="Luke's Lightsaber" />
+  <card blueprintId="13_40" title="Qui-Gon's Lightsaber" />
+  <card blueprintId="13_40" title="Qui-Gon's Lightsaber" />
+  <card blueprintId="13_40" title="Qui-Gon's Lightsaber" />
+  <cardOutsideDeck blueprintId="13_3" title="A Tragedy Has Occurred" />
+  <cardOutsideDeck blueprintId="13_4" title="Aim High" />
+  <cardOutsideDeck blueprintId="13_8" title="Battle Plan" />
+  <cardOutsideDeck blueprintId="13_16" title="Don't Do That Again" />
+  <cardOutsideDeck blueprintId="13_35" title="Only Jedi Carry That Weapon" />
+  <cardOutsideDeck blueprintId="13_37" title="Ounee Ta" />
+  <cardOutsideDeck blueprintId="13_38" title="Planetary Defenses" />
+  <cardOutsideDeck blueprintId="13_44" title="Ultimatum" />
+  <cardOutsideDeck blueprintId="13_47" title="Wise Advice" />
+  <cardOutsideDeck blueprintId="13_49" title="Your Insight Serves You Well" />
+</deck>

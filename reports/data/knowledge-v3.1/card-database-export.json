@@ -1,0 +1,1921 @@
+{
+  "passed": true,
+  "output": "/home/kaltan/src/swccg-policy/data/cards/card_blueprint_database-5f2f57d1336527ecf9505db0052f2c54ca54a7ed.json",
+  "output_sha256": "5cd5a0a682235b0a5829851d40130228aab145c0f20169f52c3ebdb5834be423",
+  "gemp_commit": "5f2f57d1336527ecf9505db0052f2c54ca54a7ed",
+  "engine_tree": "/home/kaltan/src/swccg-policy/.cache/gemp-knowledge-v3",
+  "original_entries": 3680,
+  "exported_entries": 3929,
+  "load_failures": false,
+  "added": [
+    "12_124",
+    "1_245",
+    "227_1",
+    "227_2",
+    "227_3",
+    "227_4",
+    "227_5",
+    "227_6",
+    "2_16",
+    "3_119",
+    "3_159",
+    "3_42",
+    "3_77",
+    "4_122",
+    "4_38",
+    "4_56",
+    "5_60",
+    "601_1",
+    "601_10",
+    "601_101",
+    "601_103",
+    "601_11",
+    "601_110",
+    "601_117",
+    "601_12",
+    "601_121",
+    "601_129",
+    "601_13",
+    "601_134",
+    "601_135",
+    "601_136",
+    "601_139",
+    "601_14",
+    "601_142",
+    "601_144",
+    "601_146",
+    "601_146_BACK",
+    "601_148",
+    "601_149",
+    "601_15",
+    "601_150",
+    "601_151",
+    "601_152",
+    "601_153",
+    "601_154",
+    "601_155",
+    "601_156",
+    "601_157",
+    "601_158",
+    "601_159",
+    "601_16",
+    "601_160",
+    "601_161",
+    "601_162",
+    "601_163",
+    "601_164",
+    "601_165",
+    "601_166",
+    "601_167",
+    "601_168",
+    "601_169",
+    "601_17",
+    "601_170",
+    "601_171",
+    "601_172",
+    "601_173",
+    "601_174",
+    "601_175",
+    "601_176",
+    "601_177",
+    "601_178",
+    "601_179",
+    "601_18",
+    "601_180",
+    "601_181",
+    "601_182",
+    "601_183",
+    "601_184",
+    "601_185",
+    "601_186",
+    "601_187",
+    "601_188",
+    "601_189",
+    "601_19",
+    "601_190",
+    "601_191",
+    "601_192",
+    "601_193",
+    "601_194",
+    "601_195",
+    "601_196",
+    "601_197",
+    "601_198",
+    "601_199",
+    "601_2",
+    "601_20",
+    "601_200",
+    "601_201",
+    "601_202",
+    "601_203",
+    "601_204",
+    "601_205",
+    "601_206",
+    "601_207",
+    "601_208",
+    "601_209",
+    "601_21",
+    "601_210",
+    "601_211",
+    "601_212",
+    "601_213",
+    "601_214",
+    "601_215",
+    "601_216",
+    "601_217",
+    "601_218",
+    "601_219",
+    "601_22",
+    "601_220",
+    "601_221",
+    "601_222",
+    "601_223",
+    "601_224",
+    "601_225",
+    "601_226",
+    "601_227",
+    "601_228",
+    "601_229",
+    "601_23",
+    "601_230",
+    "601_231",
+    "601_232",
+    "601_233",
+    "601_234",
+    "601_235",
+    "601_236",
+    "601_237",
+    "601_238",
+    "601_239",
+    "601_24",
+    "601_240",
+    "601_241",
+    "601_242",
+    "601_243",
+    "601_244",
+    "601_245",
+    "601_246",
+    "601_247",
+    "601_248",
+    "601_249",
+    "601_25",
+    "601_250",
+    "601_251",
+    "601_252",
+    "601_253",
+    "601_254",
+    "601_255",
+    "601_256",
+    "601_257",
+    "601_258",
+    "601_26",
+    "601_260",
+    "601_261",
+    "601_262",
+    "601_263",
+    "601_268",
+    "601_269",
+    "601_27",
+    "601_270",
+    "601_271",
+    "601_28",
+    "601_29",
+    "601_29_BACK",
+    "601_3",
+    "601_30",
+    "601_31",
+    "601_33",
+    "601_34",
+    "601_35",
+    "601_36",
+    "601_37",
+    "601_39",
+    "601_4",
+    "601_40",
+    "601_41",
+    "601_42",
+    "601_43",
+    "601_44",
+    "601_45",
+    "601_46",
+    "601_47",
+    "601_48",
+    "601_49",
+    "601_5",
+    "601_50",
+    "601_51",
+    "601_52",
+    "601_53",
+    "601_54",
+    "601_55",
+    "601_56",
+    "601_57",
+    "601_58",
+    "601_59",
+    "601_6",
+    "601_60",
+    "601_61",
+    "601_62",
+    "601_63",
+    "601_64",
+    "601_67",
+    "601_69",
+    "601_7",
+    "601_70",
+    "601_72",
+    "601_73",
+    "601_74",
+    "601_75",
+    "601_76",
+    "601_77",
+    "601_78",
+    "601_79",
+    "601_8",
+    "601_80",
+    "601_81",
+    "601_82",
+    "601_83",
+    "601_84",
+    "601_85",
+    "601_86",
+    "601_87",
+    "601_87_BACK",
+    "601_88",
+    "601_89",
+    "601_9",
+    "601_90",
+    "601_91",
+    "601_92",
+    "601_93",
+    "601_94",
+    "601_95",
+    "601_96",
+    "601_97",
+    "601_98",
+    "6_100",
+    "6_36",
+    "7_23",
+    "7_252",
+    "8_1",
+    "8_110"
+  ],
+  "removed": [
+    "225_4"
+  ],
+  "changed_fields": {
+    "105_5": {
+      "personas": {
+        "before": [
+          "BLACK_2",
+          "BLACK_3",
+          "VADERS_CUSTOM_TIE"
+        ],
+        "after": [
+          "BLACK_3",
+          "BLACK_2",
+          "VADERS_CUSTOM_TIE"
+        ]
+      }
+    },
+    "10_31": {
+      "cardTypes": {
+        "before": [
+          "IMPERIAL",
+          "ALIEN"
+        ],
+        "after": [
+          "ALIEN",
+          "IMPERIAL"
+        ]
+      }
+    },
+    "110_10": {
+      "cardTypes": {
+        "before": [
+          "IMPERIAL",
+          "ALIEN"
+        ],
+        "after": [
+          "ALIEN",
+          "IMPERIAL"
+        ]
+      }
+    },
+    "13_34": {
+      "personas": {
+        "before": null,
+        "after": [
+          "OBIWANS_LIGHTSABER"
+        ]
+      }
+    },
+    "13_51": {
+      "gameText": {
+        "before": "Plays on table. Cancels Don't Underestimate Our Chances. When opponent plays an Interrupt and has 3 smugglers on table, if that Interrupt is place in Lost Pile, place it out of play. Ketwol may exchange a docking bay only once per game.",
+        "after": "Plays on table. Cancels Don't Underestimate Our Chances. When opponent plays an Interrupt and has 3 smugglers on table, if that Interrupt is placed in Lost Pile, place it out of play. Ketwol may exchange a docking bay only once per game."
+      }
+    },
+    "1_154": {
+      "personas": {
+        "before": null,
+        "after": [
+          "HANS_HEAVY_BLASTER_PISTOL"
+        ]
+      }
+    },
+    "1_157": {
+      "personas": {
+        "before": null,
+        "after": [
+          "OBIWANS_LIGHTSABER"
+        ]
+      }
+    },
+    "1_167": {
+      "personas": {
+        "before": null,
+        "after": [
+          "PRAJI"
+        ]
+      }
+    },
+    "1_202": {
+      "keywords": {
+        "before": [
+          "DEPLOYS_ON_SITE"
+        ],
+        "after": [
+          "DEPLOYS_ON_LOCATION",
+          "DEPLOYS_ON_SITE"
+        ]
+      }
+    },
+    "1_204": {
+      "keywords": {
+        "before": [
+          "DEPLOYS_ON_SITE"
+        ],
+        "after": [
+          "DEPLOYS_ON_LOCATION",
+          "DEPLOYS_ON_SITE"
+        ]
+      }
+    },
+    "1_37": {
+      "keywords": {
+        "before": [
+          "DEPLOYS_ON_SITE"
+        ],
+        "after": [
+          "DEPLOYS_ON_LOCATION",
+          "DEPLOYS_ON_SITE"
+        ]
+      }
+    },
+    "1_4": {
+      "personas": {
+        "before": null,
+        "after": [
+          "BOSHEK"
+        ]
+      }
+    },
+    "1_41": {
+      "keywords": {
+        "before": [
+          "DEPLOYS_ON_SITE"
+        ],
+        "after": [
+          "DEPLOYS_ON_LOCATION",
+          "DEPLOYS_ON_SITE"
+        ]
+      }
+    },
+    "200_33": {
+      "keywords": {
+        "before": null,
+        "after": [
+          "DEPLOYS_ON_CHARACTERS"
+        ]
+      }
+    },
+    "200_4": {
+      "personas": {
+        "before": null,
+        "after": [
+          "YUTANI"
+        ]
+      }
+    },
+    "200_70": {
+      "personas": {
+        "before": null,
+        "after": [
+          "HANS_HEAVY_BLASTER_PISTOL"
+        ]
+      }
+    },
+    "200_74": {
+      "cardTypes": {
+        "before": [
+          "IMPERIAL",
+          "ALIEN"
+        ],
+        "after": [
+          "ALIEN",
+          "IMPERIAL"
+        ]
+      }
+    },
+    "200_86": {
+      "cardTypes": {
+        "before": [
+          "IMPERIAL",
+          "ALIEN"
+        ],
+        "after": [
+          "ALIEN",
+          "IMPERIAL"
+        ]
+      }
+    },
+    "201_20": {
+      "gameText": {
+        "before": "May add 1 pilot. Permanent pilot is \u2022Dash, who provides ability of 3. Unless 'hit', your other vehicles here may not be targeted by weapons, High-Speed Tactics, or Crash Landing. Immune to attrition < 4.",
+        "after": "May add 1 pilot. Permanent pilot is \u2022Dash, who provides ability of 3. Unless this card 'hit', other T-47s here may not be targeted by Crash Landing, High-speed Tactics, or weapons. Immune to attrition < 4."
+      }
+    },
+    "204_10": {
+      "cardTypes": {
+        "before": [
+          "REPUBLIC",
+          "REBEL"
+        ],
+        "after": [
+          "REBEL",
+          "REPUBLIC"
+        ]
+      }
+    },
+    "204_15": {
+      "gameText": {
+        "before": "Deploy on table. Once per game, may stack top card of Lost Pile beneath Credits Will Do Fine. May examine cards stacked beneath Credits Will Do Fine and place any two in owner's Lost Pile to [upload] (or retrieve into hand) a starship. [Immune to Alter]",
+        "after": "Deploy on table. If your Podracer is on table and opponent's is not, they generate no Force at Podrace Arena. Once during opponent's control phase, if you are winning (or have won) a Podrace, may stack the bottom card of your Lost Pile on Credits Will Do Fine. [Immune to Alter.]"
+      }
+    },
+    "204_2": {
+      "personas": {
+        "before": null,
+        "after": [
+          "BAIL"
+        ]
+      },
+      "cardTypes": {
+        "before": [
+          "REPUBLIC",
+          "REBEL"
+        ],
+        "after": [
+          "REBEL",
+          "REPUBLIC"
+        ]
+      }
+    },
+    "204_50": {
+      "slugWithSetName": {
+        "before": "hunting-party-set-4",
+        "after": "hunting-party-v-set-4"
+      },
+      "slug": {
+        "before": "hunting-party",
+        "after": "hunting-party-v"
+      }
+    },
+    "205_22": {
+      "personas": {
+        "before": null,
+        "after": [
+          "BOBA_FETTS_BLASTER_RIFLE"
+        ]
+      }
+    },
+    "205_4": {
+      "keywords": {
+        "before": null,
+        "after": [
+          "DEPLOYS_ON_CHARACTERS"
+        ]
+      }
+    },
+    "206_12": {
+      "keywords": {
+        "before": [
+          "BOUNTY"
+        ],
+        "after": [
+          "BOUNTY",
+          "DEPLOYS_ON_CHARACTERS"
+        ]
+      }
+    },
+    "208_10": {
+      "slugWithSetName": {
+        "before": "rkik-dnec-hero-of-the-dune-sea-set-8",
+        "after": "rkik-dnec-hero-of-the-dune-sea-v-set-8"
+      },
+      "slug": {
+        "before": "rkik-dnec-hero-of-the-dune-sea",
+        "after": "rkik-dnec-hero-of-the-dune-sea-v"
+      }
+    },
+    "209_16": {
+      "gameText": {
+        "before": "If Jakku on table, deploy on table (only at start of game). Twice per game, may [upload] a Resistance leader. Resistance characters with printed forfeit < 6 are forfeit +1. Where you have a Resistance Agent, your total power is +3. Strike Planning is canceled. [Immune to Alter].",
+        "after": "If your [Episode VII] objective on table, deploy on table (only at start of game). Twice per game, may [upload] a Resistance leader. Resistance characters with printed forfeit < 6 are forfeit +1. Where you have a Resistance Agent, your total power is +3. Strike Planning is canceled. [Immune to Alter.]"
+      }
+    },
+    "210_6": {
+      "personas": {
+        "before": null,
+        "after": [
+          "BOSHEK"
+        ]
+      }
+    },
+    "211_1": {
+      "cardTypes": {
+        "before": [
+          "IMPERIAL",
+          "ALIEN"
+        ],
+        "after": [
+          "ALIEN",
+          "IMPERIAL"
+        ]
+      }
+    },
+    "211_19": {
+      "locationDarkSideGameText": {
+        "before": "Once per turn, if you just moved a [First Order] starship to here, may activate 2 Force.",
+        "after": "Once per game, if you just moved a [First Order] starship to here, may activate 2 Force."
+      },
+      "locationLightSideGameText": {
+        "before": "Unless your Resistance leader here, Force drain -1 here.",
+        "after": "Once per game, may [download] Connix, Paige, or Tallie here."
+      }
+    },
+    "211_36": {
+      "gameText": {
+        "before": "Deploy Ahch-To system and any [Episode VII] battleground.\nFor remainder of game, Luke deploys only to Ahch-To. You may not Force drain on Ahch-To. You may not deploy Jedi while a Jedi on table. You may not deploy [Episode I] locations or non-[Episode VII] Luke. Once per game, may take any one card into hand from Force Pile; reshuffle.\nWhile this side up, once per turn, may use 1 Force to [download] an Ahch-To location or [Episode VII] battleground.\nMay flip this card if Luke on Ahch-To and a battle was just initiated involving a Resistance character.",
+        "after": "Deploy Ahch-To: Saddle and any [Episode VII] battleground. For remainder of game, Luke deploys only to Ahch-To. You may not Force drain on Ahch-To. You may not deploy [Episode I] locations or non-[Episode VII] characters of ability > 4. Once per game, may take any one card into hand from Force Pile; reshuffle. While this side up, once per turn, may [download] an Ahch-To location or [Episode VII] battleground. May flip this card if Luke on Ahch-To and a battle was just initiated involving a Resistance character."
+      }
+    },
+    "211_54": {
+      "keywords": {
+        "before": null,
+        "after": [
+          "DEPLOYS_ON_CHARACTERS"
+        ]
+      }
+    },
+    "211_8": {
+      "keywords": {
+        "before": [
+          "DEPLOYS_ON_SITE"
+        ],
+        "after": [
+          "DEPLOYS_ON_LOCATION",
+          "DEPLOYS_ON_SITE"
+        ]
+      }
+    },
+    "212_3": {
+      "gameText": {
+        "before": "Permanent weapon is Aurra Sing's Blaster Rifle. May target a character for free, draw destiny(2 if targeting a jedi), target hit and forfeit=0, if destiny +1 > defense value.",
+        "after": "Permanent weapon is \u2022Aurra Sing's Blaster Rifle (may target a character for free; if targeting a Jedi, draw two destiny, otherwise draw destiny; target hit, and its forfeit = 0, if total destiny +1 > defense value)."
+      }
+    },
+    "214_12": {
+      "gameText": {
+        "before": "Deploy on table. Your [Episode VII] troopers are forfeit +1. If [Episode VII] Emperor on table, once per turn may deploy Kijimi from Reserve Deck (reshuffle) or place any three cards out of play from your Lost Pile to deploy a non-unique [Episode VII] trooper from Lost Pile. [Immune to Alter.]",
+        "after": "If I Want That Map on table, deploy on table. Locations where there is a Resistance Agent or Rey gain [Episode VII]. Once per turn, may [download] a Jakku or Kijimi battleground. Your non-unique [Episode VII] troopers are forfeit +1. [Immune to Alter.]"
+      }
+    },
+    "215_14": {
+      "locationDarkSideGameText": {
+        "before": "Total ability of 6 or more required for you to draw battle destiny here.",
+        "after": "Unless you occupy, your non-Wookiee characters deploy and move to here for +1 Force."
+      },
+      "locationLightSideGameText": {
+        "before": "Once per turn, if you occupy with a Wookiee, may [download]\u25bc a Kashyyyk location.",
+        "after": "Once per turn, if you occupy with a Wookiee, may [download] a Kashyyyk location."
+      }
+    },
+    "215_25": {
+      "gameText": {
+        "before": "If you did not deploy an Objective, deploy on Executor.We're Not Going To Attack?: Your squadrons are destiny = 0. You may not deploy squadrons or non-Imperial starships. Unless you occupy a battleground site, Dreaded Imperial Starfleet is suspended.The Alliance Will Die...: Flagship Operations does not require any Executor sites on table to deploy....As Will Your Friends: At battleground systems where you have a piloted capital starship and a piloted TIE, your Force drains = 2. At sites related to systems you control, during battle may add one destiny to total power. If just lost, lose 3 Force.",
+        "after": "If you did not deploy an Objective, deploy on table. We're Not Going To Attack?: Once per turn, may [download] a battleground system. You may not deploy non-Imperial starships. Unless you occupy a battleground site, Dreaded Imperial Starfleet is suspended. The Alliance Will Die...: Flagship Operations does not require any Executor sites on table to deploy, and does not target squadrons. ...As Will Your Friends: At battleground systems where you have a piloted capital starship / TIE pair, Force drains = 2. During battle at a site related to a system you occupy, may add one destiny to total power and/or re-circulate."
+      },
+      "icons": {
+        "before": [
+          {
+            "icon": "DEATH_STAR_II",
+            "count": 1
+          },
+          {
+            "icon": "VIRTUAL_SET_15",
+            "count": 1
+          },
+          {
+            "icon": "EPIC_EVENT",
+            "count": 1
+          }
+        ],
+        "after": [
+          {
+            "icon": "VIRTUAL_SET_15",
+            "count": 1
+          },
+          {
+            "icon": "EPIC_EVENT",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "215_4": {
+      "cardTypes": {
+        "before": [
+          "REPUBLIC",
+          "REBEL"
+        ],
+        "after": [
+          "REBEL",
+          "REPUBLIC"
+        ]
+      }
+    },
+    "215_6": {
+      "locationDarkSideGameText": {
+        "before": "If you occupy, opponent must first use 1 Force to move a character from here.",
+        "after": "While Obi-Wan here, total ability of 6 or more required for you to draw battle destiny here."
+      },
+      "locationLightSideGameText": {
+        "before": "If A Power Loss 'shut down' this game, Force drain +1 here and Death Star Tractor Beam lost.",
+        "after": "While opponent occupies, you may not play Blast The Door, Kid! during battles on Death Star."
+      },
+      "icons": {
+        "before": [
+          {
+            "icon": "CLOUD_CITY",
+            "count": 1
+          },
+          {
+            "icon": "VIRTUAL_SET_15",
+            "count": 1
+          },
+          {
+            "icon": "DARK_FORCE",
+            "count": 1
+          },
+          {
+            "icon": "INTERIOR_SITE",
+            "count": 1
+          },
+          {
+            "icon": "LIGHT_FORCE",
+            "count": 2
+          },
+          {
+            "icon": "MOBILE",
+            "count": 1
+          },
+          {
+            "icon": "SCOMP_LINK",
+            "count": 1
+          }
+        ],
+        "after": [
+          {
+            "icon": "VIRTUAL_SET_15",
+            "count": 1
+          },
+          {
+            "icon": "DARK_FORCE",
+            "count": 1
+          },
+          {
+            "icon": "INTERIOR_SITE",
+            "count": 1
+          },
+          {
+            "icon": "LIGHT_FORCE",
+            "count": 2
+          },
+          {
+            "icon": "MOBILE",
+            "count": 1
+          },
+          {
+            "icon": "SCOMP_LINK",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "216_11": {
+      "gameText": {
+        "before": "Deploy [Set 16] Death Star and Scarif systems, Citadel Tower, Commence Primary Ignition, and Shield Gate. \nFor remainder of game, you may not deploy characters of ability > 4 (except Vader). Vader is power +2 and he (or a Star Destroyer he is piloting) may make a regular move to a battle just initiated. \nWhile this side up, once per turn, may [download] a site (or Imperial trooper) to Scarif. \nFlip this card if Krennic or Tarkin on Scarif and Death Star orbiting Scarif.",
+        "after": "Deploy [Set 16] Death Star and Scarif systems, Citadel Tower, and Shield Gate. For remainder of game, you may not deploy Endor Shield, non-Imperial characters, or non-Imperial starships. Once per turn, may [download] a Scarif battleground. Your non-unique Imperials, vehicles, and capital starships are deploy -1 (-2 if a Star Destroyer). Non-unique Imperials are forfeit +1. Flip this card if Krennic or Tarkin at a Scarif battleground site and Death Star orbiting Scarif."
+      }
+    },
+    "216_11_BACK": {
+      "gameText": {
+        "before": "While this side up, your Force generation is +2 for each 'blown away' Scarif site. Tarkin Doctrine is immune to Alter and, when it initiates Force loss, may take any one card into hand from Force Pile. Once per turn, if opponent's character just lost from your site, may place it out of play unless opponent loses 1 Force. Tarkin adds 3 to total of Commence Primary Ignition. \nFlip this card if you have no leaders on Scarif. \nPlace this card out of play if Shield Gate not on table or if Death Star has been 'blown away.'",
+        "after": "While this side up, A Bright Center To The Universe cancels opponent's Force drain modifiers everywhere. Vader may make a regular move to a battle just initiated. At Death Star, system it orbits, and sites related to either, your total battle destiny is +1 (+2 if your non-unique card with ability in battle). During your draw phase, may retrieve a non-unique card with ability. Flip this card if you do not have a leader at a Scarif battleground site. Place out of play if Death Star or Shield Gate not on table."
+      }
+    },
+    "216_15": {
+      "locationDarkSideGameText": {
+        "before": "If a player just Force drained here, they may raise a converted Scarif location to the top.",
+        "after": "If Krennic or a Death Trooper here, Force drain +1 here."
+      },
+      "locationLightSideGameText": {
+        "before": "Unless your spy here, total ability of 6 or more required for you to draw battle destiny here.",
+        "after": "If Cassian, Jyn, or K-2SO here, Force drain +1 here."
+      }
+    },
+    "216_16": {
+      "locationDarkSideGameText": {
+        "before": "If an Imperial leader here, add one destiny to your [Set 9] Epic Event total targeting a Scarif site.",
+        "after": "May [download] Krennic here."
+      },
+      "locationLightSideGameText": {
+        "before": "If Shield Gate on table, opponent's Force drains here are +1.",
+        "after": "If a player just Force drained here, they may raise a converted Scarif location to the top."
+      }
+    },
+    "216_18": {
+      "keywords": {
+        "before": null,
+        "after": [
+          "DEPLOYS_ON_LOCATION"
+        ]
+      }
+    },
+    "216_23": {
+      "cardTypes": {
+        "before": [
+          "REPUBLIC",
+          "ALIEN"
+        ],
+        "after": [
+          "ALIEN",
+          "REPUBLIC"
+        ]
+      }
+    },
+    "216_27": {
+      "personas": {
+        "before": [
+          "DOIKK_NATS",
+          "ICKABEL_GONT",
+          "TEDN_DAHAI",
+          "NALAN_CHEEL",
+          "FIGRIN_DAN"
+        ],
+        "after": [
+          "FIGRIN_DAN",
+          "NALAN_CHEEL",
+          "ICKABEL_GONT",
+          "DOIKK_NATS",
+          "TEDN_DAHAI"
+        ]
+      }
+    },
+    "216_31": {
+      "keywords": {
+        "before": null,
+        "after": [
+          "DEPLOYS_ON_CHARACTERS"
+        ]
+      }
+    },
+    "216_35": {
+      "cardTypes": {
+        "before": [
+          "RESISTANCE",
+          "REBEL"
+        ],
+        "after": [
+          "REBEL",
+          "RESISTANCE"
+        ]
+      }
+    },
+    "216_41": {
+      "personas": {
+        "before": null,
+        "after": [
+          "PAIGE"
+        ]
+      }
+    },
+    "216_42": {
+      "cardTypes": {
+        "before": [
+          "REPUBLIC",
+          "ALIEN"
+        ],
+        "after": [
+          "ALIEN",
+          "REPUBLIC"
+        ]
+      }
+    },
+    "217_13": {
+      "cardTypes": {
+        "before": [
+          "IMPERIAL",
+          "ALIEN"
+        ],
+        "after": [
+          "ALIEN",
+          "IMPERIAL"
+        ]
+      }
+    },
+    "217_15": {
+      "locationLightSideGameText": {
+        "before": "Opponent may not target Ezra with weapons here.",
+        "after": "Opponent's weapons here may not target Ezra."
+      }
+    },
+    "217_29": {
+      "gameText": {
+        "before": "Deploy on an Ahch-To location. Opponent generates no Force here. A Thousand Generations Live In You Now: Rey is power and forfeit +1 for each Jedi out of play. Bring Back The Balance, Rey, As I Did: While [Set 14] Rey in battle, your battle destiny draws and Rey's weapon destiny draws are +1. Feel The Force Flowing Through You: [Set 14] Rey and characters with her may not add battle destiny draws. Rey, The Force Will Be With You, Always: [Set 14] Rey ignores your [Episode VII] objective deployment restrictions.",
+        "after": "If an Ahch-To location on table, deploy on table. A Thousand Generations Live In You Now: Rey is power and forfeit +1 for each Jedi on table or out of play. Bring Back The Balance, Rey, As I Did: While Rey in battle, your battle destiny draws and Rey's weapon destiny draws are +1. Feel The Force Flowing Through You: Rey and characters with her may not add battle destiny draws. Rey, The Force Will Be With You, Always: Unless Rey is on Jakku, she adds 1 to your total Force generation."
+      }
+    },
+    "217_36": {
+      "cardTypes": {
+        "before": [
+          "REPUBLIC",
+          "ALIEN"
+        ],
+        "after": [
+          "ALIEN",
+          "REPUBLIC"
+        ]
+      }
+    },
+    "218_9": {
+      "gameText": {
+        "before": "If Visage Of The Emperor on table, deploy on table. At Mustafar, Devastator is deploy -3 and immune to attrition < 6. Once per turn, may [download] Devastator, Mustafar, or a private platform. [Immune to Alter.]",
+        "after": "If Shield Gate on table, deploy on table. Once per game, may [upload] Devastator. May [download] Comm Chief or Praji to Scarif system. Vader is power +2 and his game text may not be canceled. If opponent just lost a battle, they lose 1 Force. Death Star moves for free. [Immune to Alter.]"
+      }
+    },
+    "219_17": {
+      "keywords": {
+        "before": [
+          "DEPLOYS_ON_SITE"
+        ],
+        "after": [
+          "DEPLOYS_ON_LOCATION",
+          "DEPLOYS_ON_SITE"
+        ]
+      }
+    },
+    "219_19": {
+      "slugWithSetName": {
+        "before": "the-emperor-v-set-19",
+        "after": "the-emperor-relentless-set-19"
+      },
+      "gameText": {
+        "before": "Destiny +1 for each Black Sun agent or Jedi on table (limit +5) when drawn for destiny. Deploys only to Coruscant. Never deploys or moves (even if carried) to a site opponent occupies. May cancel Projection Of A Skywalker here. Immune to attrition.",
+        "after": "Never deploys or moves (even if carried) to a site opponent occupies. Players do not retrieve Force for initiating a battle. If Agents Of The Black Sun on table, your total battle destiny where you have a Black Sun agent is +1. Immune to attrition."
+      },
+      "hasVirtualSuffix": {
+        "before": true,
+        "after": null
+      },
+      "slug": {
+        "before": "the-emperor-v",
+        "after": "the-emperor-relentless"
+      },
+      "destiny": {
+        "before": 1,
+        "after": 6.0
+      },
+      "title": {
+        "before": "The Emperor",
+        "after": "The Emperor, Relentless"
+      },
+      "lore": {
+        "before": "Leader. Secretive manipulator of the galaxy. Played Darth Vader and Prince Xizor off against one another in his relentless pursuit of 'young Skywalker'.",
+        "after": "Leader. Secretive manipulator of the galaxy. Played Darth Vader and Prince Xizor off against one another in his relentless pursuit of 'young Skywalker.'"
+      }
+    },
+    "219_24": {
+      "gameText": {
+        "before": "USED: Target a character in battle. Target and opponent's cards that share any characteristic(s) with it are power and forfeit -1. LOST: Once per game, if your [Set 19] objective just 'studied' a character, add one battle destiny (two if a character of same species is in battle).",
+        "after": "If an Imperial leader just won a battle, opponent loses 1 Force (and stacks it on Thrawn's Art Collection if possible). OR Suspend Ancient Watering Hole for remainder of turn. OR If you have 4 artwork cards, you retrieve 1 Force and opponent loses 1 Force."
+      },
+      "lore": {
+        "before": null,
+        "after": "The Empire considers alien species to be inferior."
+      },
+      "cardSubtype": {
+        "before": "USED_OR_LOST",
+        "after": "USED"
+      }
+    },
+    "220_5": {
+      "gameText": {
+        "before": "Adds 2 to power of anything he pilots. Power and defense value +2 with 4-LOM. Once during battle, if opponent just drew weapon or battle destiny, may draw destiny; reset opponent's destiny number to your drawn destiny number. Immune to attrition < 3.",
+        "after": "[Pilot] 2. If present (or piloting an [Independent] starship) during battle, may make a just drawn destiny = the printed destiny of the top card of opponent's Lost Pile. Immune to attrition < 2 + the number of weapon destiny draws that were completed this battle."
+      }
+    },
+    "221_12": {
+      "personas": {
+        "before": null,
+        "after": [
+          "PRAJI"
+        ]
+      }
+    },
+    "221_13": {
+      "slugWithSetName": {
+        "before": "comscan-detection-set-21",
+        "after": "comscan-detection-v-set-21"
+      },
+      "slug": {
+        "before": "comscan-detection",
+        "after": "comscan-detection-v"
+      }
+    },
+    "221_43": {
+      "gameText": {
+        "before": "USED: Peek at the bottom card of your Force Pile; may move it to the top of that pile. LOST: Steal Luke's Lightsaber into hand (immune to Weapon Of A Sith). OR If His Destiny on table, cancel game text of a Dark Jedi with Luke for remainder of turn.",
+        "after": "If His Destiny on table, choose: Luke steals Luke's Lightsaber. (Immune to Weapon Of A Sith.) OR Cancel Dark Strike, Force Field, or You Are Beaten. OR Cancel the game text of a Dark Jedi with Luke for remainder of turn. OR Target a Jedi. Target is power +2 for remainder of turn."
+      },
+      "cardSubtype": {
+        "before": "USED_OR_LOST",
+        "after": "LOST"
+      }
+    },
+    "221_57": {
+      "gameText": {
+        "before": "If [Tatooine] or [Coruscant] Qui-Gon in battle, he is power +1 for each 'credit.' OR Once per game, if a battle just initiated at Watto's Junkyard involving Qui-Gon, target a character. Lightsabers may not be fired this battle. Unless target is Watto or a Dark Jedi, cancel target's game text.",
+        "after": "Each player may choose to play a Defensive Shield from under their Starting Effect or to exchange a card in hand with one of their race destinies. [Immune to Sense.] OR If a battle involving Qui-Gon was just initiated at a junkyard, weapons may not be fired this battle."
+      }
+    },
+    "221_59": {
+      "gameText": {
+        "before": "USED: If The Hyperdrive Generator's Gone on table, [upload] Skywalker Hut or Jar Jar. LOST: If opponent's card was just stacked on Credits Will Do Fine, for remainder of turn, your Force drains may not be reduced.",
+        "after": "If Podrace Arena on table, [upload] Jar Jar, Padme, or Skywalker Hut. OR During your control phase, if you have won a Podrace and [Tatooine] Anakin is present at a battleground site, opponent loses 1 Force for each [Dark Side] at that site."
+      },
+      "cardSubtype": {
+        "before": "USED_OR_LOST",
+        "after": "USED"
+      }
+    },
+    "222_18": {
+      "gameText": {
+        "before": "If opponent just lost a battle, they lose 2 Force. OR During battle, if Obi-Wan is participating (or 'communing'), add one battle destiny; characters may not be 'revived' this turn. OR Cancel Clash Of Sabers targeting your Dark Jedi.",
+        "after": "USED: During battle, cancel game text of an opponent's hut or Jedi survivor. LOST: Cancel Clash Of Sabers (targeting your character of ability > 3) or Old Ben. OR Target a Jedi. Target is power - 2 for remainder of turn."
+      },
+      "cardSubtype": {
+        "before": "LOST",
+        "after": "USED_OR_LOST"
+      }
+    },
+    "223_19": {
+      "gameText": {
+        "before": "Deploy on Bunker; may immediately take any one [Endor] or [Death Star II] card into hand from Force Pile; reshuffle. While an Imperial leader here, your total Force generation is +1. Perimeter Patrol is suspended. If opponent controls Bunker, place Effect in Used Pile. [Immune to Alter]",
+        "after": "Deploy on Bunker; may choose: Activate 1 Force for each opponent's non-battleground location on table, or take Endor Shield into hand from Force Pile; reshuffle. Fenson, Kensaric, and Perimeter Patrol's game text is canceled. Fallen Portal may not target Endor sites. [Immune to Alter.]"
+      }
+    },
+    "223_25": {
+      "gameText": {
+        "before": "USED: Deploy Empire's New Order or Overseeing It Personally from Reserve Deck; reshuffle. LOST: Once per game, choose: if two Imperial leaders (or Xizor) in battle, recirculate. OR Place opponent's just-played Interrupt out of play.",
+        "after": " If two Imperials (or two Black Sun agents) in battle, re-circulate and shuffle your Reserve Deck. OR Once per game, if Emperor or Tarkin on table, Allegations Of Corruption stacks opponent's just played Interrupt; this does not count towards that card's once per game limit."
+      },
+      "cardSubtype": {
+        "before": "USED_OR_LOST",
+        "after": "LOST"
+      }
+    },
+    "225_31": {
+      "keywords": {
+        "before": [
+          "BOUNTY"
+        ],
+        "after": [
+          "BOUNTY",
+          "DEPLOYS_ON_CHARACTERS"
+        ]
+      }
+    },
+    "225_32": {
+      "gameText": {
+        "before": "Deploy Crait and D'Qar systems, Supremacy: Bridge, and Tracked Fleet. For remainder of game, you may not deploy cards with ability except [Episode VII] cards. Your [Episode VII] characters and starships are power +1. Supremacy is deploy -9 to [Episode VII] systems. Once per turn, may [download] an [Episode VII] battleground. While this side up, neither player loses more than 1 Force to Force drains at systems (unless Tracked Fleet there). Flip this card if Tracked Fleet is 'annihilated.'",
+        "after": "Deploy Crait and D'Qar systems, Salt Plateau, and Tracked Fleet. For remainder of game, you may not deploy Bow To The First Order or cards with ability except [Episode VII] cards. Once per turn, may [download] a card with 'Supremacy' in title or an [Episode VII] battleground. While this side up, opponent loses no more than 1 Force to your Force drains at systems. Supremacy is deploy = 7 to [Episode VII] systems. Flip this card if Tracked Fleet is 'annihilated.'"
+      }
+    },
+    "225_32_BACK": {
+      "gameText": {
+        "before": "While this side up, once per turn, may deploy a non-unique trooper (or non-unique [First Order] vehicle) from Lost Pile. While you occupy a Crait location, your Force drains at battlegrounds where you have two First Order characters are +1. While Kylo occupies Salt Plateau, opponent may not Force drain where their character or permanent pilot is alone. While you control Salt Plateau, opponent's Force retrieval is canceled. Place out of play if Kylo just forfeited from a battle you lost at Salt Plateau where Han, Leia, or Luke present.",
+        "after": "While this side up, once per turn, may deploy a non-unique trooper (or non-unique [First Order] vehicle) from Lost Pile. While Kylo occupies a Crait location, your Force drains at battlegrounds where you have two First Order characters are +1. While Kylo controls Salt Plateau, opponent may not Force drain where their character or permanent pilot is alone and opponent's Force retrieval is canceled. Place out of play if Kylo was just forfeited from a battle you lost at Salt Plateau where Han, Leia, or Luke present."
+      }
+    },
+    "225_34": {
+      "gameText": {
+        "before": "Deploy on D'Qar system (only at start of game). Tied To The End Of A String: You may not deploy starships here. Supremacy moves to here for free. There Will Be No Surrender: Three times per game, at start of opponent's move phase, opponent may stack a card from hand face down on this card to relocate it to an [Episode VII] system within 3 parsecs. Fire At Will!: At the start of your turn, if you control this system, Tracked Fleet is 'annihilated' (placed out of play).",
+        "after": "Deploy on D'Qar system (only at start of game). Tied To The End Of A String: You may not deploy starships here. Supremacy moves to here for free. There Will Be No Surrender: Three times per game, at start of opponent's move phase, opponent may stack a card from hand (or from top of Lost Pile) face down on this card to relocate it to an [Episode VII] system within 3 parsecs. Fire At Will!: At the start of your turn, if you control this system, Tracked Fleet is 'annihilated' (placed out of play)."
+      }
+    },
+    "225_36": {
+      "gameText": {
+        "before": "Deploy on Galactic Senate. [V17] Passel Argente's game text and your Political Effects are canceled. Twice per turn, may target your agenda here: Blockade: Cancel a 'react.' Taxation: Place a card with no printed destiny number > 4 from hand in Used Pile to activate 1 Force. Trade: During your draw phase, place a card from hand in Lost Pile, shuffle that pile, and take top card into hand. Wealth: Subtract 1 from attrition against you.",
+        "after": "Deploy on Galactic Senate. [Set 17] Passel Argente's game text and your Political Effects are canceled. Twice per turn, may target your agenda here: Blockade: Cancel a 'react.' Taxation: Place a character with politics from hand in Used Pile to activate 1 Force. Trade: During your draw phase, place a card from hand in Lost Pile, shuffle that pile, and take top card into hand. Wealth: Subtract 1 from attrition against you."
+      }
+    },
+    "225_42": {
+      "gameText": {
+        "before": "If a [Skywalker] Effect on table, destiny +2 when drawn for destiny. Take a lightsaber into hand from Force Pile; reshuffle. OR Retrieve Anakin's Lightsaber. OR Once per game, during a battle or duel involving a Skywalker and a Dark Jedi, make a just drawn destiny = 2.",
+        "after": "If your Skywalker in battle alone with a character of greater ability, add one battle destiny. OR Deploy a lightsaber on a Skywalker from Lost Pile (or Force Pile; reshuffle). OR Once per game, during a battle or duel involving a Skywalker, make a just drawn destiny = 2."
+      }
+    },
+    "225_47": {
+      "gameText": {
+        "before": "Deploy on Galactic Senate. Your Political Effects are canceled. Twice per turn, may target your agenda here: Justice: During battle, subtract 1 from a just drawn weapon destiny. Order: During any move phase, peek at the top 2 cards of any Reserve Deck and replace in any order. Peace: Subtract 1 from attrition against you. Taxation: Place a card with no printed destiny number > 4 from hand in Used Pile to activate 1 Force.",
+        "after": "Deploy on Galactic Senate. Your Political Effects are canceled. Twice per turn, may target your agenda here: Justice: During battle, subtract 1 from a just drawn weapon destiny. Order: During any move phase, peek at the top 2 cards of any Reserve Deck and replace in any order. Peace: Subtract 1 from attrition against you. Taxation: Place a character with politics from hand in Used Pile to activate 1 Force."
+      }
+    },
+    "225_9": {
+      "gameText": {
+        "before": "During a battle involving Rebel Leia, the number of battle destiny draws may not be limited. OR Subtract 1 from a just drawn Force Lightning or 'choke' destiny (unless targeting an Undercover spy). OR If a [Skywalker] Effect on table, [upload] Chief Chirpa's Hut or Guest Quarters.",
+        "after": "USED: Subtract 1 from a just drawn Force Lightning or 'choke' destiny (unless targeting an Undercover spy). OR If a [Skywalker] Effect on table, [upload] Chief Chirpa's Hut or Guest Quarters. LOST: If Leia in battle, all immunity to attrition there is canceled."
+      },
+      "cardSubtype": {
+        "before": "USED",
+        "after": "USED_OR_LOST"
+      }
+    },
+    "226_12": {
+      "gameText": {
+        "before": "Deploy one Cloud City battleground site and [Cloud City] I'm Sorry. For remainder of game, you may not deploy Admiral's Orders. During your control phase, your Lando may make a regular move. While this side up, once per turn, may [upload] Cloud City Occupation, Dark Deal, Vader's Bounty, or [Special Edition] Bespin. Flip this card if you control 3 Bespin locations and opponent controls fewer than 3 Bespin locations.",
+        "after": "Deploy a Cloud City battleground site and [Cloud City] I'm Sorry. For remainder of game, you may not deploy Admiral's Orders, Endor Shield, [Death Star II] Executor, or [Episode I] (or [Episode VII]) cards with ability. During your deploy phase, your Lando may make a regular move. While this side up, opponent loses no Force to Cloud City Occupation or your Force drains at Bespin system. Once during your turn, may [upload] Dark Deal or [Special Edition] Bespin. Flip this card if you control three Bespin locations and opponent controls fewer than three Bespin locations."
+      }
+    },
+    "226_12_BACK": {
+      "gameText": {
+        "before": "While this side up, Sense and Alter may not be played. Force drain bonuses at same site as your Lando or your Lobot may not be canceled. While Vader at a Bespin location, game text of Admiral's Orders is canceled and opponent loses 3 Force if a character was just frozen. If your alien/Imperial pair in battle, your total battle destiny is +2. If your Lando in battle, may target a character present with him; target is forfeit = 0. Flip this card if opponent controls more Bespin locations than you.",
+        "after": "While this side up, Force drain bonuses at same site as your Lando or your Lobot may not be canceled. While Vader at a Bespin location, game text of Admiral's Orders is canceled and Alter may not be played. If your alien/Imperial pair in battle, your total battle destiny is +2. Once per battle involving your Lando (twice if any Lobot also there), may a subtract 1 from opponent's just drawn destiny. Flip this card if opponent controls more Bespin locations than you."
+      }
+    },
+    "226_14": {
+      "gameText": {
+        "before": "If The Hidden Path on table, deploy on table. When deployed, stack three Jedi survivors from Reserve Deck here. During your deploy phase, Jedi survivors here may deploy as if from hand. The Light Will Fade: While The Hidden Path on table, Jedi survivors are deploy = 2, power = 3, forfeit = 3, deploy only to Safehouse, move using landspeed for free, and their game text is canceled. But It Is Never Forgotten: If your Jedi survivor was just lost, may stack it here. (Immune to Cold Feet.)",
+        "after": "If The Hidden Path on table, deploy on table. When deployed, stack three Jedi survivors from Reserve Deck here. During your deploy phase, Jedi survivors here may deploy as if from hand. The Light Will Fade: While The Hidden Path on table, Jedi survivors are deploy = 3, power = 3, forfeit = 3, deploy only to Safehouse, move using landspeed for free, and their game text is canceled. But It Is Never Forgotten: If your Jedi survivor was just lost, may lose 1 Force to stack it here. (Immune to Cold Feet.)"
+      }
+    },
+    "226_18": {
+      "cardTypes": {
+        "before": [
+          "REPUBLIC",
+          "JEDI_MASTER"
+        ],
+        "after": [
+          "JEDI_MASTER",
+          "REPUBLIC"
+        ]
+      }
+    },
+    "226_28": {
+      "gameText": {
+        "before": "Deploy Mining Village, Safehouse, Underground Corridor, and Fallen Order. For remainder of game, you may not deploy <> locations or Jedi (except Jedi survivors). Once per turn, may [download] a Jabiim site or a battleground (except a Kamino, Tatooine, or [Reflections III] location). While this side up, you may not play Nabrun Leids. Your Force drains at Mapuzo sites are -1. Once per turn, may [download] a holocron. Flip this card if Jedi occupy two non-Mapuzo sites.",
+        "after": "Deploy Mining Village, Safehouse, Underground Corridor, and Fallen Order. For remainder of game, you may not deploy <> locations, Anakin, or Jedi (except Jedi survivors) or play A Jedi's Resilience. Weapon Levitation may not steal weapons. Once per turn, may [download] a Jabiim location. While this side up, you may not play Nabrun Leids. Your Force drains at Mapuzo sites are -1. Once per turn, may [download] a holocron. Flip this card if Jedi occupy two non-Mapuzo sites."
+      }
+    },
+    "226_28_BACK": {
+      "gameText": {
+        "before": "While this side up, if your holocron is about to leave table, place it in Used Pile. Your lightsaber Force drain bonuses may not be canceled. Opponent's total battle destiny where they have a character of ability > 4 is -1. During your move phase, may relocate a Jedi between a Jabiim site and a battleground site as a regular move for free. At the end of your turn, opponent loses 1 Force. Flip this card if you do not occupy two sites with Jedi.",
+        "after": "While this side up, Jedi survivors are deploy -1. If your holocron is about to leave table, place it in Used Pile. Opponent's total battle destiny where they have a character of ability > 4 is -1. During your move phase, may use 2 Force to relocate a Jedi between a Jabiim site and a battleground site as a regular move. At the end of opponent's turn, if Jedi occupy two battleground sites, opponent loses 1 Force. Flip this card if Jedi do not occupy two non-Mapuzo sites."
+      }
+    },
+    "226_4": {
+      "cardTypes": {
+        "before": [
+          "IMPERIAL",
+          "ALIEN"
+        ],
+        "after": [
+          "ALIEN",
+          "IMPERIAL"
+        ]
+      }
+    },
+    "226_6": {
+      "gameText": {
+        "before": "If your [Cloud City] objective on table, deploy on table. Elis Helrot, Stunning Leader, and Surreptitious Glance may not be played. Once per turn, may [download] an interior Cloud City site. Your unique (\u2022) characters with printed forfeit < 5 are forfeit +2 (limit +2). [Immune to Alter.]",
+        "after": "If your [Cloud City] objective on table, deploy on table. Elis Helrot, Stunning Leader, and Surreptitious Glance may not be played. Once per turn, may [download] an interior Cloud City site. Your unique (\u2022) characters with printed forfeit < 5 are forfeit +2 (to a maximum of +2). [Immune to Alter.]"
+      }
+    },
+    "226_8": {
+      "cardTypes": {
+        "before": [
+          "IMPERIAL",
+          "ALIEN"
+        ],
+        "after": [
+          "ALIEN",
+          "IMPERIAL"
+        ]
+      }
+    },
+    "2_111": {
+      "keywords": {
+        "before": [
+          "DEPLOYS_ON_SITE",
+          "TRACTOR_BEAM"
+        ],
+        "after": [
+          "DEPLOYS_ON_LOCATION",
+          "DEPLOYS_ON_SITE",
+          "TRACTOR_BEAM"
+        ]
+      }
+    },
+    "2_28": {
+      "keywords": {
+        "before": [
+          "DEPLOYS_ON_SITE"
+        ],
+        "after": null
+      }
+    },
+    "3_28": {
+      "gameText": {
+        "before": "Use 2 Force to deploy on any warrior. Your artillery weapons anywhere on same planet may fire without a warrior present. Also, once each turn during your control phase, one of your artillery weapons on same planet may be fired (at normal use of the Force).",
+        "after": "Use 2 Force to deploy on your warrior. Warrior may fire artillery weapons anywhere on same planet regardless of being present. Once during your control phase, warrior may fire an artillery weapon on same planet."
+      }
+    },
+    "4_14": {
+      "keywords": {
+        "before": null,
+        "after": [
+          "DEPLOYS_ON_CHARACTERS"
+        ]
+      }
+    },
+    "4_174": {
+      "keywords": {
+        "before": null,
+        "after": [
+          "RIFLE"
+        ]
+      },
+      "personas": {
+        "before": null,
+        "after": [
+          "_4LOMS_CONCUSSION_RIFLE"
+        ]
+      }
+    },
+    "4_175": {
+      "personas": {
+        "before": null,
+        "after": [
+          "BOSSKS_MORTAR_GUN"
+        ]
+      }
+    },
+    "4_176": {
+      "personas": {
+        "before": null,
+        "after": [
+          "DENGARS_BLASTER_CARBINE"
+        ]
+      }
+    },
+    "5_106": {
+      "keywords": {
+        "before": [
+          "DEPLOYS_ON_SITE"
+        ],
+        "after": [
+          "DEPLOYS_ON_CHARACTERS"
+        ]
+      }
+    },
+    "5_107": {
+      "keywords": {
+        "before": [
+          "DEPLOYS_ON_SITE"
+        ],
+        "after": [
+          "DEPLOYS_ON_LOCATION",
+          "DEPLOYS_ON_SITE"
+        ]
+      }
+    },
+    "5_108": {
+      "keywords": {
+        "before": [
+          "DEPLOYS_ON_SITE"
+        ],
+        "after": [
+          "DEPLOYS_ON_LOCATION",
+          "DEPLOYS_ON_SITE"
+        ]
+      }
+    },
+    "5_179": {
+      "personas": {
+        "before": null,
+        "after": [
+          "BOBA_FETTS_BLASTER_RIFLE"
+        ]
+      }
+    },
+    "7_160": {
+      "personas": {
+        "before": null,
+        "after": [
+          "LANDOS_BLASTER_RIFLE"
+        ]
+      }
+    },
+    "7_216": {
+      "keywords": {
+        "before": [
+          "REFINERY"
+        ],
+        "after": [
+          "DEPLOYS_ON_LOCATION",
+          "REFINERY"
+        ]
+      }
+    },
+    "7_303": {
+      "personas": {
+        "before": [
+          "BLACK_2",
+          "BLACK_3",
+          "VADERS_CUSTOM_TIE"
+        ],
+        "after": [
+          "BLACK_3",
+          "BLACK_2",
+          "VADERS_CUSTOM_TIE"
+        ]
+      }
+    },
+    "8_108": {
+      "personas": {
+        "before": null,
+        "after": [
+          "FENSON"
+        ]
+      }
+    },
+    "8_150": {
+      "gameText": {
+        "before": "During a battle, if you have weapons at both sites adjacent to that battle, add 3 to your total power and add one battle destiny. OR For remainder of turn, your biker scout at an exterior site is power +1 and adds 1 to each of that character's weapon destiny draws.",
+        "after": "During a battle, if you have weapons at at least 2 sites adjacent to that battle, add 3 to your total power and add one battle destiny. OR For remainder of turn, your biker scout at an exterior site is power +1 and adds 1 to each of that character's weapon destiny draws."
+      }
+    },
+    "8_7": {
+      "personas": {
+        "before": null,
+        "after": [
+          "KENSARIC"
+        ]
+      }
+    },
+    "8_86": {
+      "personas": {
+        "before": null,
+        "after": [
+          "CHEWBACCAS_BOWCASTER"
+        ]
+      }
+    }
+  },
+  "by_set": {
+    "12": {
+      "added": [
+        "12_124"
+      ],
+      "removed": [],
+      "changed": []
+    },
+    "1": {
+      "added": [
+        "1_245"
+      ],
+      "removed": [],
+      "changed": [
+        "1_154",
+        "1_157",
+        "1_167",
+        "1_202",
+        "1_204",
+        "1_37",
+        "1_4",
+        "1_41"
+      ]
+    },
+    "227": {
+      "added": [
+        "227_1",
+        "227_2",
+        "227_3",
+        "227_4",
+        "227_5",
+        "227_6"
+      ],
+      "removed": [],
+      "changed": []
+    },
+    "2": {
+      "added": [
+        "2_16"
+      ],
+      "removed": [],
+      "changed": [
+        "2_111",
+        "2_28"
+      ]
+    },
+    "3": {
+      "added": [
+        "3_119",
+        "3_159",
+        "3_42",
+        "3_77"
+      ],
+      "removed": [],
+      "changed": [
+        "3_28"
+      ]
+    },
+    "4": {
+      "added": [
+        "4_122",
+        "4_38",
+        "4_56"
+      ],
+      "removed": [],
+      "changed": [
+        "4_14",
+        "4_174",
+        "4_175",
+        "4_176"
+      ]
+    },
+    "5": {
+      "added": [
+        "5_60"
+      ],
+      "removed": [],
+      "changed": [
+        "5_106",
+        "5_107",
+        "5_108",
+        "5_179"
+      ]
+    },
+    "601": {
+      "added": [
+        "601_1",
+        "601_10",
+        "601_101",
+        "601_103",
+        "601_11",
+        "601_110",
+        "601_117",
+        "601_12",
+        "601_121",
+        "601_129",
+        "601_13",
+        "601_134",
+        "601_135",
+        "601_136",
+        "601_139",
+        "601_14",
+        "601_142",
+        "601_144",
+        "601_146",
+        "601_146_BACK",
+        "601_148",
+        "601_149",
+        "601_15",
+        "601_150",
+        "601_151",
+        "601_152",
+        "601_153",
+        "601_154",
+        "601_155",
+        "601_156",
+        "601_157",
+        "601_158",
+        "601_159",
+        "601_16",
+        "601_160",
+        "601_161",
+        "601_162",
+        "601_163",
+        "601_164",
+        "601_165",
+        "601_166",
+        "601_167",
+        "601_168",
+        "601_169",
+        "601_17",
+        "601_170",
+        "601_171",
+        "601_172",
+        "601_173",
+        "601_174",
+        "601_175",
+        "601_176",
+        "601_177",
+        "601_178",
+        "601_179",
+        "601_18",
+        "601_180",
+        "601_181",
+        "601_182",
+        "601_183",
+        "601_184",
+        "601_185",
+        "601_186",
+        "601_187",
+        "601_188",
+        "601_189",
+        "601_19",
+        "601_190",
+        "601_191",
+        "601_192",
+        "601_193",
+        "601_194",
+        "601_195",
+        "601_196",
+        "601_197",
+        "601_198",
+        "601_199",
+        "601_2",
+        "601_20",
+        "601_200",
+        "601_201",
+        "601_202",
+        "601_203",
+        "601_204",
+        "601_205",
+        "601_206",
+        "601_207",
+        "601_208",
+        "601_209",
+        "601_21",
+        "601_210",
+        "601_211",
+        "601_212",
+        "601_213",
+        "601_214",
+        "601_215",
+        "601_216",
+        "601_217",
+        "601_218",
+        "601_219",
+        "601_22",
+        "601_220",
+        "601_221",
+        "601_222",
+        "601_223",
+        "601_224",
+        "601_225",
+        "601_226",
+        "601_227",
+        "601_228",
+        "601_229",
+        "601_23",
+        "601_230",
+        "601_231",
+        "601_232",
+        "601_233",
+        "601_234",
+        "601_235",
+        "601_236",
+        "601_237",
+        "601_238",
+        "601_239",
+        "601_24",
+        "601_240",
+        "601_241",
+        "601_242",
+        "601_243",
+        "601_244",
+        "601_245",
+        "601_246",
+        "601_247",
+        "601_248",
+        "601_249",
+        "601_25",
+        "601_250",
+        "601_251",
+        "601_252",
+        "601_253",
+        "601_254",
+        "601_255",
+        "601_256",
+        "601_257",
+        "601_258",
+        "601_26",
+        "601_260",
+        "601_261",
+        "601_262",
+        "601_263",
+        "601_268",
+        "601_269",
+        "601_27",
+        "601_270",
+        "601_271",
+        "601_28",
+        "601_29",
+        "601_29_BACK",
+        "601_3",
+        "601_30",
+        "601_31",
+        "601_33",
+        "601_34",
+        "601_35",
+        "601_36",
+        "601_37",
+        "601_39",
+        "601_4",
+        "601_40",
+        "601_41",
+        "601_42",
+        "601_43",
+        "601_44",
+        "601_45",
+        "601_46",
+        "601_47",
+        "601_48",
+        "601_49",
+        "601_5",
+        "601_50",
+        "601_51",
+        "601_52",
+        "601_53",
+        "601_54",
+        "601_55",
+        "601_56",
+        "601_57",
+        "601_58",
+        "601_59",
+        "601_6",
+        "601_60",
+        "601_61",
+        "601_62",
+        "601_63",
+        "601_64",
+        "601_67",
+        "601_69",
+        "601_7",
+        "601_70",
+        "601_72",
+        "601_73",
+        "601_74",
+        "601_75",
+        "601_76",
+        "601_77",
+        "601_78",
+        "601_79",
+        "601_8",
+        "601_80",
+        "601_81",
+        "601_82",
+        "601_83",
+        "601_84",
+        "601_85",
+        "601_86",
+        "601_87",
+        "601_87_BACK",
+        "601_88",
+        "601_89",
+        "601_9",
+        "601_90",
+        "601_91",
+        "601_92",
+        "601_93",
+        "601_94",
+        "601_95",
+        "601_96",
+        "601_97",
+        "601_98"
+      ],
+      "removed": [],
+      "changed": []
+    },
+    "6": {
+      "added": [
+        "6_100",
+        "6_36"
+      ],
+      "removed": [],
+      "changed": []
+    },
+    "7": {
+      "added": [
+        "7_23",
+        "7_252"
+      ],
+      "removed": [],
+      "changed": [
+        "7_160",
+        "7_216",
+        "7_303"
+      ]
+    },
+    "8": {
+      "added": [
+        "8_1",
+        "8_110"
+      ],
+      "removed": [],
+      "changed": [
+        "8_108",
+        "8_150",
+        "8_7",
+        "8_86"
+      ]
+    },
+    "225": {
+      "added": [],
+      "removed": [
+        "225_4"
+      ],
+      "changed": [
+        "225_31",
+        "225_32",
+        "225_32_BACK",
+        "225_34",
+        "225_36",
+        "225_42",
+        "225_47",
+        "225_9"
+      ]
+    },
+    "105": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "105_5"
+      ]
+    },
+    "10": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "10_31"
+      ]
+    },
+    "110": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "110_10"
+      ]
+    },
+    "13": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "13_34",
+        "13_51"
+      ]
+    },
+    "200": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "200_33",
+        "200_4",
+        "200_70",
+        "200_74",
+        "200_86"
+      ]
+    },
+    "201": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "201_20"
+      ]
+    },
+    "204": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "204_10",
+        "204_15",
+        "204_2",
+        "204_50"
+      ]
+    },
+    "205": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "205_22",
+        "205_4"
+      ]
+    },
+    "206": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "206_12"
+      ]
+    },
+    "208": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "208_10"
+      ]
+    },
+    "209": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "209_16"
+      ]
+    },
+    "210": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "210_6"
+      ]
+    },
+    "211": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "211_1",
+        "211_19",
+        "211_36",
+        "211_54",
+        "211_8"
+      ]
+    },
+    "212": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "212_3"
+      ]
+    },
+    "214": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "214_12"
+      ]
+    },
+    "215": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "215_14",
+        "215_25",
+        "215_4",
+        "215_6"
+      ]
+    },
+    "216": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "216_11",
+        "216_11_BACK",
+        "216_15",
+        "216_16",
+        "216_18",
+        "216_23",
+        "216_27",
+        "216_31",
+        "216_35",
+        "216_41",
+        "216_42"
+      ]
+    },
+    "217": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "217_13",
+        "217_15",
+        "217_29",
+        "217_36"
+      ]
+    },
+    "218": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "218_9"
+      ]
+    },
+    "219": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "219_17",
+        "219_19",
+        "219_24"
+      ]
+    },
+    "220": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "220_5"
+      ]
+    },
+    "221": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "221_12",
+        "221_13",
+        "221_43",
+        "221_57",
+        "221_59"
+      ]
+    },
+    "222": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "222_18"
+      ]
+    },
+    "223": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "223_19",
+        "223_25"
+      ]
+    },
+    "226": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        "226_12",
+        "226_12_BACK",
+        "226_14",
+        "226_18",
+        "226_28",
+        "226_28_BACK",
+        "226_4",
+        "226_6",
+        "226_8"
+      ]
+    }
+  },
+  "required_seventeen_counts": {
+    "1_245": 1,
+    "2_16": 1,
+    "3_42": 1,
+    "3_77": 1,
+    "3_119": 1,
+    "3_159": 1,
+    "4_38": 1,
+    "4_56": 1,
+    "4_122": 1,
+    "5_60": 1,
+    "6_36": 1,
+    "6_100": 1,
+    "7_23": 1,
+    "7_252": 1,
+    "8_1": 1,
+    "8_110": 1,
+    "12_124": 1
+  },
+  "java_classes_without_entry": [],
+  "removal_225_4": {
+    "title": "No Bargain",
+    "explanation": "Stale database row; implementation deleted in upstream history.",
+    "deletion_history": "ee8cd1d6467d54ac1b7e7f3757ece2dd8c489590 Remove stale files left by public sync",
+    "source_path": "src/gemp-swccg-cards/src/main/java/com/gempukku/swccgo/cards/set225/dark/Card225_004.java"
+  },
+  "provenance_file": "/home/kaltan/src/swccg-policy/data/cards/card_blueprint_database-5f2f57d1336527ecf9505db0052f2c54ca54a7ed.provenance.json",
+  "source_sha256": "7efbf7c14a928ec2785457ce350a4320c94cf502b28c0fe4f9d94ffa4e7b00db"
+}

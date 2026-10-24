@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="108_3" title="Luke With Lightsaber" />
+  <card blueprintId="7_32" title="Melas" />
+  <card blueprintId="108_4" title="Obi-Wan With Lightsaber" />
+  <card blueprintId="2_23" title="Wedge Antilles" />
+  <card blueprintId="4_11" title="Landing Claw" />
+  <card blueprintId="8_35" title="Battle Plan" />
+  <card blueprintId="4_21" title="Do, Or Do Not" />
+  <card blueprintId="5_24" title="Haven" />
+  <card blueprintId="9_33" title="Honor Of The Jedi" />
+  <card blueprintId="4_30" title="Order To Engage" />
+  <card blueprintId="4_30" title="Order To Engage" />
+  <card blueprintId="6_56" title="Projection Of A Skywalker" />
+  <card blueprintId="6_56" title="Projection Of A Skywalker" />
+  <card blueprintId="7_73" title="Rebel Fleet" />
+  <card blueprintId="1_66" title="Traffic Control" />
+  <card blueprintId="2_41" title="What're You Tryin' To Push On Us?" />
+  <card blueprintId="2_41" title="What're You Tryin' To Push On Us?" />
+  <card blueprintId="7_81" title="Wise Advice" />
+  <card blueprintId="9_47" title="Your Insight Serves You Well" />
+  <card blueprintId="2_49" title="Grimtaash" />
+  <card blueprintId="2_49" title="Grimtaash" />
+  <card blueprintId="9_51" title="Heading For The Medical Frigate" />
+  <card blueprintId="7_92" title="Hit And Run" />
+  <card blueprintId="1_88" title="Hyper Escape" />
+  <card blueprintId="1_88" title="Hyper Escape" />
+  <card blueprintId="1_90" title="It Could Be Worse" />
+  <card blueprintId="106_5" title="It's A Hit!" />
+  <card blueprintId="8_57" title="Lost In The Wilderness" />
+  <card blueprintId="7_97" title="Organized Attack" />
+  <card blueprintId="7_97" title="Organized Attack" />
+  <card blueprintId="2_54" title="Out Of Commission" />
+  <card blueprintId="2_54" title="Out Of Commission" />
+  <card blueprintId="7_98" title="Power Pivot" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="4_67" title="Tunnel Vision" />
+  <card blueprintId="4_67" title="Tunnel Vision" />
+  <card blueprintId="4_72" title="Yoda Stew" />
+  <card blueprintId="4_72" title="Yoda Stew" />
+  <card blueprintId="106_2" title="Corulag" />
+  <card blueprintId="7_116" title="Coruscant" />
+  <card blueprintId="7_121" title="Forest" />
+  <card blueprintId="2_64" title="Kashyyyk" />
+  <card blueprintId="1_126" title="Kessel" />
+  <card blueprintId="6_83" title="Kiffex" />
+  <card blueprintId="1_135" title="Yavin 4" />
+  <card blueprintId="7_136" title="Hidden Base" />
+  <card blueprintId="106_4" title="Gold Squadron Y-wing" />
+  <card blueprintId="106_4" title="Gold Squadron Y-wing" />
+  <card blueprintId="106_4" title="Gold Squadron Y-wing" />
+  <card blueprintId="109_2" title="Lando In Millennium Falcon" />
+  <card blueprintId="103_2" title="Red Leader In Red 1" />
+  <card blueprintId="7_123" title="Rendezvous Point" />
+  <card blueprintId="106_7" title="Red Squadron X-wing" />
+  <card blueprintId="106_7" title="Red Squadron X-wing" />
+  <card blueprintId="7_149" title="Spiral" />
+  <card blueprintId="2_73" title="Tantive IV" />
+  <card blueprintId="7_159" title="Intruder Missile" />
+  <card blueprintId="7_162" title="X-wing Laser Cannon" />
+  <card blueprintId="7_162" title="X-wing Laser Cannon" />
+  <cardOutsideDeck blueprintId="106_2" title="Corulag" />
+  <cardOutsideDeck blueprintId="2_64" title="Kashyyyk" />
+  <cardOutsideDeck blueprintId="1_126" title="Kessel" />
+  <cardOutsideDeck blueprintId="6_83" title="Kiffex" />
+  <cardOutsideDeck blueprintId="1_135" title="Yavin 4" />
+</deck>

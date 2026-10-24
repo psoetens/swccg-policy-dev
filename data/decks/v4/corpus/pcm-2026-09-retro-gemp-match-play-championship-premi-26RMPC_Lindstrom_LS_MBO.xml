@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="9_4" title="I'll Take The Leader" />
+  <card blueprintId="9_8" title="Colonel Cracken" />
+  <card blueprintId="8_5" title="Corporal Delevar" />
+  <card blueprintId="8_7" title="Corporal Kensaric" />
+  <card blueprintId="7_16" title="Elyhek Rue" />
+  <card blueprintId="9_13" title="General Calrissian" />
+  <card blueprintId="8_14" title="General Crix Madine" />
+  <card blueprintId="8_15" title="General Solo" />
+  <card blueprintId="7_25" title="Ketwol" />
+  <card blueprintId="9_20" title="Kin Kian" />
+  <card blueprintId="9_21" title="Lieutenant Blount" />
+  <card blueprintId="1_19" title="Luke Skywalker" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="7_32" title="Melas" />
+  <card blueprintId="108_4" title="Obi-Wan With Lightsaber" />
+  <card blueprintId="2_19" title="Rebel Tech" />
+  <card blueprintId="2_19" title="Rebel Tech" />
+  <card blueprintId="8_27" title="Sergeant Brooks Carlson" />
+  <card blueprintId="9_31" title="Wedge Antilles, Red Squadron Leader" />
+  <card blueprintId="2_33" title="Grappling Hook" />
+  <card blueprintId="9_33" title="Honor Of The Jedi" />
+  <card blueprintId="7_70" title="Mechanical Failure" />
+  <card blueprintId="9_39" title="Squadron Assignments" />
+  <card blueprintId="9_41" title="Strike Planning" />
+  <card blueprintId="9_47" title="Your Insight Serves You Well" />
+  <card blueprintId="2_42" title="Attack Run" />
+  <card blueprintId="1_70" title="A Few Maneuvers" />
+  <card blueprintId="5_44" title="Desperate Reach" />
+  <card blueprintId="6_66" title="Fallen Portal" />
+  <card blueprintId="8_51" title="Fly Casual" />
+  <card blueprintId="8_51" title="Fly Casual" />
+  <card blueprintId="9_51" title="Heading For The Medical Frigate" />
+  <card blueprintId="1_88" title="Hyper Escape" />
+  <card blueprintId="9_52" title="Insertion Planning" />
+  <card blueprintId="9_52" title="Insertion Planning" />
+  <card blueprintId="7_97" title="Organized Attack" />
+  <card blueprintId="2_54" title="Out Of Commission" />
+  <card blueprintId="7_98" title="Power Pivot" />
+  <card blueprintId="9_54" title="Rebel Leadership" />
+  <card blueprintId="1_115" title="The Bith Shuffle" />
+  <card blueprintId="4_67" title="Tunnel Vision" />
+  <card blueprintId="7_117" title="Death Star" />
+  <card blueprintId="2_62" title="Death Star: Trench" />
+  <card blueprintId="1_126" title="Kessel" />
+  <card blueprintId="1_135" title="Yavin 4" />
+  <card blueprintId="2_67" title="Yavin 4: Briefing Room" />
+  <card blueprintId="1_136" title="Yavin 4: Docking Bay" />
+  <card blueprintId="1_137" title="Yavin 4: Jungle" />
+  <card blueprintId="1_138" title="Yavin 4: Massassi Throne Room" />
+  <card blueprintId="1_139" title="Yavin 4: Massassi War Room" />
+  <card blueprintId="111_4" title="Massassi Base Operations" />
+  <card blueprintId="111_2" title="Artoo-Detoo In Red 5" />
+  <card blueprintId="9_69" title="Gray Squadron 1" />
+  <card blueprintId="1_143" title="Millennium Falcon" />
+  <card blueprintId="7_146" title="Red 7" />
+  <card blueprintId="9_81" title="Red Squadron 1" />
+  <card blueprintId="1_158" title="Proton Torpedoes" />
+  <card blueprintId="1_158" title="Proton Torpedoes" />
+  <card blueprintId="1_158" title="Proton Torpedoes" />
+  <card blueprintId="7_162" title="X-wing Laser Cannon" />
+  <cardOutsideDeck blueprintId="2_1" title="Arcona" />
+  <cardOutsideDeck blueprintId="7_8" title="Bron Burs" />
+  <cardOutsideDeck blueprintId="8_2" title="Chewbacca Of Kashyyyk" />
+  <cardOutsideDeck blueprintId="109_1" title="Chewie With Blaster Rifle" />
+  <cardOutsideDeck blueprintId="1_10" title="General Dodonna" />
+  <cardOutsideDeck blueprintId="108_2" title="Leia With Blaster Rifle" />
+  <cardOutsideDeck blueprintId="9_27" title="Major Panno" />
+  <cardOutsideDeck blueprintId="8_23" title="Orrimaarko" />
+  <cardOutsideDeck blueprintId="7_44" title="Tawss Khaa" />
+  <cardOutsideDeck blueprintId="9_29" title="Ten Numb" />
+  <cardOutsideDeck blueprintId="6_53" title="Bargaining Table" />
+  <cardOutsideDeck blueprintId="7_61" title="Entrenchment" />
+  <cardOutsideDeck blueprintId="7_70" title="Mechanical Failure" />
+  <cardOutsideDeck blueprintId="9_39" title="Squadron Assignments" />
+  <cardOutsideDeck blueprintId="5_47" title="Fall Of The Legend" />
+  <cardOutsideDeck blueprintId="7_105" title="Steady Aim" />
+  <cardOutsideDeck blueprintId="9_63" title="Blue Squadron 5" />
+</deck>

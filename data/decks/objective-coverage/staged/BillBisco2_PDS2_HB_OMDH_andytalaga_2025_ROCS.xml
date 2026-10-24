@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="9_4" title="I'll Take The Leader" />
+  <card blueprintId="5_1" title="Captain Han Solo" />
+  <card blueprintId="7_16" title="Elyhek Rue" />
+  <card blueprintId="9_13" title="General Calrissian" />
+  <card blueprintId="108_1" title="Han With Heavy Blaster Pistol" />
+  <card blueprintId="108_2" title="Leia With Blaster Rifle" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="7_32" title="Melas" />
+  <card blueprintId="9_28" title="Nien Nunb" />
+  <card blueprintId="108_4" title="Obi-Wan With Lightsaber" />
+  <card blueprintId="108_4" title="Obi-Wan With Lightsaber" />
+  <card blueprintId="8_23" title="Orrimaarko" />
+  <card blueprintId="7_44" title="Tawss Khaa" />
+  <card blueprintId="9_30" title="Tycho Celchu" />
+  <card blueprintId="9_31" title="Wedge Antilles, Red Squadron Leader" />
+  <card blueprintId="8_35" title="Battle Plan" />
+  <card blueprintId="9_33" title="Honor Of The Jedi" />
+  <card blueprintId="4_30" title="Order To Engage" />
+  <card blueprintId="1_58" title="Our Most Desperate Hour" />
+  <card blueprintId="9_39" title="Squadron Assignments" />
+  <card blueprintId="9_41" title="Strike Planning" />
+  <card blueprintId="2_41" title="What're You Tryin' To Push On Us?" />
+  <card blueprintId="2_41" title="What're You Tryin' To Push On Us?" />
+  <card blueprintId="7_81" title="Wise Advice" />
+  <card blueprintId="9_47" title="Your Insight Serves You Well" />
+  <card blueprintId="1_70" title="A Few Maneuvers" />
+  <card blueprintId="1_71" title="Alter" />
+  <card blueprintId="9_51" title="Heading For The Medical Frigate" />
+  <card blueprintId="1_88" title="Hyper Escape" />
+  <card blueprintId="1_90" title="It Could Be Worse" />
+  <card blueprintId="106_5" title="It's A Hit!" />
+  <card blueprintId="1_101" title="On The Edge" />
+  <card blueprintId="7_98" title="Power Pivot" />
+  <card blueprintId="5_64" title="Punch It!" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="1_109" title="Sense" />
+  <card blueprintId="1_109" title="Sense" />
+  <card blueprintId="1_109" title="Sense" />
+  <card blueprintId="4_67" title="Tunnel Vision" />
+  <card blueprintId="6_79" title="Weapon Levitation" />
+  <card blueprintId="1_121" title="Alderaan" />
+  <card blueprintId="8_68" title="Endor" />
+  <card blueprintId="2_64" title="Kashyyyk" />
+  <card blueprintId="1_126" title="Kessel" />
+  <card blueprintId="6_83" title="Kiffex" />
+  <card blueprintId="7_123" title="Rendezvous Point" />
+  <card blueprintId="1_127" title="Tatooine" />
+  <card blueprintId="1_128" title="Tatooine: Cantina" />
+  <card blueprintId="6_87" title="Tibrin" />
+  <card blueprintId="7_136" title="Hidden Base" />
+  <card blueprintId="9_68" title="Gold Squadron 1" />
+  <card blueprintId="9_72" title="Green Squadron 3" />
+  <card blueprintId="7_146" title="Red 7" />
+  <card blueprintId="9_81" title="Red Squadron 1" />
+  <card blueprintId="7_149" title="Spiral" />
+  <card blueprintId="2_73" title="Tantive IV" />
+  <card blueprintId="9_90" title="Luke's Lightsaber" />
+  <card blueprintId="7_162" title="X-wing Laser Cannon" />
+  <cardOutsideDeck blueprintId="1_121" title="Alderaan" />
+  <cardOutsideDeck blueprintId="8_68" title="Endor" />
+  <cardOutsideDeck blueprintId="2_64" title="Kashyyyk" />
+  <cardOutsideDeck blueprintId="1_126" title="Kessel" />
+  <cardOutsideDeck blueprintId="6_83" title="Kiffex" />
+  <cardOutsideDeck blueprintId="1_127" title="Tatooine" />
+  <cardOutsideDeck blueprintId="6_87" title="Tibrin" />
+</deck>

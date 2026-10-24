@@ -1,0 +1,21 @@
+# Plan dev-distribution: git holds code and small configuration; everything large or binary is Git LFS.
+# scripts/check_lfs_policy.py enforces it (any non-LFS file > 512 KB fails, whatever its extension).
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.ts filter=lfs diff=lfs merge=lfs -text
+*.pt2 filter=lfs diff=lfs merge=lfs -text
+*.onnx filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text
+*.npy filter=lfs diff=lfs merge=lfs -text
+*.wasm filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*.gz filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+# large text inputs (card database, model maps, title displays, browser runtime)
+data/cards/*.json filter=lfs diff=lfs merge=lfs -text
+reports/data/card-identity-combos/combo-map.json filter=lfs diff=lfs merge=lfs -text
+runs/knowledge-v3.1/decipher/title-display*.json filter=lfs diff=lfs merge=lfs -text
+runs/knowledge-v3.1/tables-*/vocab.json filter=lfs diff=lfs merge=lfs -text
+runs/knowledge-v3.1/grid-decipher/fixtures/** filter=lfs diff=lfs merge=lfs -text
+models/brainiac/runtime/**/*.mjs filter=lfs diff=lfs merge=lfs -text
+models/brainiac/runtime/**/*.js filter=lfs diff=lfs merge=lfs -text

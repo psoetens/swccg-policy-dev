@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_3" title="Biggs Darklighter" />
+  <card blueprintId="1_15" title="Kal'Falnl C'ndros" />
+  <card blueprintId="1_148" title="Lift Tube" />
+  <card blueprintId="1_148" title="Lift Tube" />
+  <card blueprintId="1_148" title="Lift Tube" />
+  <card blueprintId="1_54" title="Lightsaber Proficiency" />
+  <card blueprintId="1_55" title="Mantellian Savrip" />
+  <card blueprintId="1_143" title="Millennium Falcon" />
+  <card blueprintId="1_21" title="Obi-Wan Kenobi" />
+  <card blueprintId="1_21" title="Obi-Wan Kenobi" />
+  <card blueprintId="1_157" title="Obi-Wan's Lightsaber" />
+  <card blueprintId="1_66" title="Traffic Control" />
+  <card blueprintId="2_3" title="Chewbacca" />
+  <card blueprintId="2_3" title="Chewbacca" />
+  <card blueprintId="2_50" title="Houjix" />
+  <card blueprintId="2_14" title="R2-D2 (Artoo-Detoo)" />
+  <card blueprintId="2_73" title="Tantive IV" />
+  <card blueprintId="2_23" title="Wedge Antilles" />
+  <card blueprintId="2_23" title="Wedge Antilles" />
+  <card blueprintId="3_71" title="Anakin's Lightsaber" />
+  <card blueprintId="3_5" title="Derek 'Hobbie' Klivian" />
+  <card blueprintId="4_48" title="Control" />
+  <card blueprintId="4_48" title="Control" />
+  <card blueprintId="4_21" title="Do, Or Do Not" />
+  <card blueprintId="4_11" title="Landing Claw" />
+  <card blueprintId="4_1" title="Son Of Skywalker" />
+  <card blueprintId="4_1" title="Son Of Skywalker" />
+  <card blueprintId="4_41" title="Wars Not Make One Great" />
+  <card blueprintId="5_76" title="Bespin" />
+  <card blueprintId="5_77" title="Bespin: Cloud City" />
+  <card blueprintId="5_1" title="Captain Han Solo" />
+  <card blueprintId="5_1" title="Captain Han Solo" />
+  <card blueprintId="5_88" title="Cloud Car" />
+  <card blueprintId="5_88" title="Cloud Car" />
+  <card blueprintId="5_88" title="Cloud Car" />
+  <card blueprintId="5_88" title="Cloud Car" />
+  <card blueprintId="5_88" title="Cloud Car" />
+  <card blueprintId="5_39" title="Cloud City Sabacc" />
+  <card blueprintId="5_79" title="Cloud City: Chasm Walkway" />
+  <card blueprintId="5_80" title="Cloud City: Guest Quarters" />
+  <card blueprintId="5_81" title="Cloud City: Incinerator" />
+  <card blueprintId="5_82" title="Cloud City: Lower Corridor" />
+  <card blueprintId="5_83" title="Cloud City: Platform 327 (Docking Bay)" />
+  <card blueprintId="5_84" title="Cloud City: Upper Plaza Corridor" />
+  <card blueprintId="5_85" title="Clouds" />
+  <card blueprintId="5_85" title="Clouds" />
+  <card blueprintId="5_85" title="Clouds" />
+  <card blueprintId="5_85" title="Clouds" />
+  <card blueprintId="5_45" title="Dodge" />
+  <card blueprintId="5_49" title="Glancing Blow" />
+  <card blueprintId="5_5" title="Lando Calrissian" />
+  <card blueprintId="5_57" title="Lift Tube Escape" />
+  <card blueprintId="5_6" title="Lobot" />
+  <card blueprintId="5_7" title="Princess Leia" />
+  <card blueprintId="5_8" title="Tibanna Gas Miner" />
+  <card blueprintId="5_8" title="Tibanna Gas Miner" />
+  <card blueprintId="5_8" title="Tibanna Gas Miner" />
+  <card blueprintId="5_29" title="Uncontrollable Fury" />
+  <card blueprintId="103_1" title="Gold Leader In Gold 1" />
+  <card blueprintId="103_2" title="Red Leader In Red 1" />
+</deck>

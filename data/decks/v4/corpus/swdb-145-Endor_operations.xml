@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_234" title="Alter" />
+  <card blueprintId="1_234" title="Alter" />
+  <card blueprintId="1_168" title="Darth Vader" />
+  <card blueprintId="1_179" title="Grand Moff Tarkin" />
+  <card blueprintId="1_317" title="Imperial Blaster" />
+  <card blueprintId="1_317" title="Imperial Blaster" />
+  <card blueprintId="1_317" title="Imperial Blaster" />
+  <card blueprintId="1_267" title="Sense" />
+  <card blueprintId="1_267" title="Sense" />
+  <card blueprintId="3_83" title="AT-AT Driver" />
+  <card blueprintId="3_83" title="AT-AT Driver" />
+  <card blueprintId="3_83" title="AT-AT Driver" />
+  <card blueprintId="3_83" title="AT-AT Driver" />
+  <card blueprintId="5_163" title="You Are Beaten" />
+  <card blueprintId="7_175" title="Darth Vader, Dark Lord Of The Sith" />
+  <card blueprintId="8_92" title="Biker Scout Trooper" />
+  <card blueprintId="8_92" title="Biker Scout Trooper" />
+  <card blueprintId="8_92" title="Biker Scout Trooper" />
+  <card blueprintId="8_92" title="Biker Scout Trooper" />
+  <card blueprintId="8_95" title="Corporal Avarik" />
+  <card blueprintId="8_100" title="Elite Squadron Stormtrooper" />
+  <card blueprintId="8_100" title="Elite Squadron Stormtrooper" />
+  <card blueprintId="8_100" title="Elite Squadron Stormtrooper" />
+  <card blueprintId="8_157" title="Endor" />
+  <card blueprintId="8_167" title="Endor Operations" />
+  <card blueprintId="8_158" title="Endor: Ancient Forest" />
+  <card blueprintId="8_159" title="Endor: Back Door" />
+  <card blueprintId="8_160" title="Endor: Bunker" />
+  <card blueprintId="8_161" title="Endor: Dark Forest" />
+  <card blueprintId="8_162" title="Endor: Dense Forest" />
+  <card blueprintId="8_163" title="Endor: Ewok Village" />
+  <card blueprintId="8_164" title="Endor: Forest Clearing" />
+  <card blueprintId="8_165" title="Endor: Great Forest" />
+  <card blueprintId="8_166" title="Endor: Landing Platform (Docking Bay)" />
+  <card blueprintId="8_124" title="Establish Secret Base" />
+  <card blueprintId="8_126" title="Imperial Arrest Order" />
+  <card blueprintId="8_101" title="Lieutenant Arnet" />
+  <card blueprintId="8_127" title="Ominous Rumors" />
+  <card blueprintId="8_179" title="Scout Blaster" />
+  <card blueprintId="8_179" title="Scout Blaster" />
+  <card blueprintId="8_179" title="Scout Blaster" />
+  <card blueprintId="8_179" title="Scout Blaster" />
+  <card blueprintId="8_179" title="Scout Blaster" />
+  <card blueprintId="8_169" title="Speeder Bike" />
+  <card blueprintId="8_169" title="Speeder Bike" />
+  <card blueprintId="8_169" title="Speeder Bike" />
+  <card blueprintId="8_169" title="Speeder Bike" />
+  <card blueprintId="8_169" title="Speeder Bike" />
+  <card blueprintId="8_171" title="Tempest Scout" />
+  <card blueprintId="8_172" title="Tempest Scout 1" />
+  <card blueprintId="8_173" title="Tempest Scout 2" />
+  <card blueprintId="8_174" title="Tempest Scout 3" />
+  <card blueprintId="8_175" title="Tempest Scout 4" />
+  <card blueprintId="8_176" title="Tempest Scout 5" />
+  <card blueprintId="8_177" title="Tempest Scout 6" />
+  <card blueprintId="11_91" title="You Swindled Me!" />
+  <card blueprintId="11_91" title="You Swindled Me!" />
+  <card blueprintId="11_91" title="You Swindled Me!" />
+  <card blueprintId="11_91" title="You Swindled Me!" />
+  <card blueprintId="108_6" title="Darth Vader With Lightsaber" />
+</deck>

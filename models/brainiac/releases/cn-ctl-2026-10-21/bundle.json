@@ -1,0 +1,10 @@
+{
+  "schema_version": 4,
+  "tensor_abi": 5,
+  "model": "knowledge_v3_1",
+  "checkpoint": "/home/kaltan/src/swccg-policy/runs/brainiac/pull/cn-ctl/final.pt",
+  "table_sha": "6df090e02c530d342449b8cef96a1bd824716226b2c10847dce763e36607af4a",
+  "card_map_sha": "a4a59a8dceeab07bed922214eb9ffb0e2ba0badb3d1c456c0a2ad7390d4a2adc",
+  "vocabulary_sha": "4fc74efa11feb90affba709be47147ad2fbd49150d6984b51a6532924d3b201b",
+  "n_cards_index": 2544
+}

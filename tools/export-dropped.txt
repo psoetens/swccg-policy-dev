@@ -1,0 +1,410 @@
+# tracked lab path or directory<TAB>files<TAB>rule that left it out
+.claude	83	not in distribution
+.env.example	1	not in distribution
+.gitattributes	1	not in distribution
+.gitignore	1	not in distribution
+.sync	2	not in distribution
+HANDOFF.md	1	not in distribution
+README.md	1	not in distribution
+TASKS.md	1	not in distribution
+data/decks/CORPUS_READY	1	not in distribution
+data/decks/community-bisco	738	not in distribution
+data/decks/corpus	1304	not in distribution
+data/decks/corpus.v1	270	not in distribution
+data/decks/corpus.v2	380	not in distribution
+data/decks/manifest.csv	1	not in distribution
+data/decks/objective-coverage	10911	not in distribution
+data/decks/online-decipher	107	not in distribution
+data/decks/rejected	14	not in distribution
+data/decks/resolver_report.json	1	not in distribution
+data/decks/screen_games.csv	1	not in distribution
+data/decks/screen_schedule.json	1	not in distribution
+data/decks/unplayable_cards.csv	1	not in distribution
+data/decks/v4	2776	not in distribution
+data/leaderboard/inventory-im-server-4090.json.gz	1	not in distribution
+data/leaderboard/inventory-kylo.json.gz	1	not in distribution
+data/leaderboard/notes.yaml	1	not in distribution
+data/legacy-regression/decisions.jsonl.gz	1	not in distribution
+data/legacy-regression/packed-metadata	33	not in distribution
+data/legacy-regression/precision	12	not in distribution
+data/schedules-pilot/eval_heldout.counts.json	1	not in distribution
+data/schedules-pilot/eval_heldout.tsv	1	not in distribution
+data/schedules-pilot/eval_seen.counts.json	1	not in distribution
+data/schedules-pilot/eval_seen.tsv	1	not in distribution
+data/schedules-pilot/play_bench.tsv	1	not in distribution
+data/schedules-pilot/play_random.counts.json	1	not in distribution
+data/schedules-pilot/play_random.tsv	1	not in distribution
+data/schedules-pilot/pool.json	1	not in distribution
+data/schedules-pilot/train.counts.json	1	not in distribution
+data/schedules-pilot/train.tsv	1	not in distribution
+data/schedules/dojo	50	not in distribution
+data/schedules/eval_heldout.counts.json	1	not in distribution
+data/schedules/eval_heldout.games.json	1	not in distribution
+data/schedules/eval_heldout.tsv	1	not in distribution
+data/schedules/eval_seen.counts.json	1	not in distribution
+data/schedules/eval_seen.games.json	1	not in distribution
+data/schedules/eval_seen.tsv	1	not in distribution
+data/schedules/eval_v2_available.tsv	1	not in distribution
+data/schedules/eval_v3_heldout.tsv	1	not in distribution
+data/schedules/eval_v3_heldout1200.tsv	1	not in distribution
+data/schedules/eval_v4_heldout.tsv	1	not in distribution
+data/schedules/eval_vs_bc.counts.json	1	not in distribution
+data/schedules/eval_vs_bc.games.json	1	not in distribution
+data/schedules/eval_vs_bc.tsv	1	not in distribution
+data/schedules/h2h_pool_v1.tsv	1	not in distribution
+data/schedules/objective	18	not in distribution
+data/schedules/play_bench.tsv	1	not in distribution
+data/schedules/play_random.counts.json	1	not in distribution
+data/schedules/play_random.games.json	1	not in distribution
+data/schedules/play_random.tsv	1	not in distribution
+data/schedules/pool.json	1	not in distribution
+data/schedules/rescreen.json	1	not in distribution
+data/schedules/rescreen_games.csv	1	not in distribution
+data/schedules/rl_pool.txt	1	not in distribution
+data/schedules/rl_pool_v3.txt	1	not in distribution
+data/schedules/rl_pool_v4.txt	1	not in distribution
+data/schedules/rl_pool_v4_weights.csv	1	not in distribution
+data/schedules/slow_pool.csv	1	not in distribution
+data/schedules/slow_pool.tsv	1	not in distribution
+data/schedules/train.counts.json	1	not in distribution
+data/schedules/train.games.json	1	not in distribution
+data/schedules/train.tsv	1	not in distribution
+data/schedules/v3_heldout.txt	1	not in distribution
+data/vocab/unknown-keys.state.json	1	not in distribution
+data/vocab/unknown-keys.tsv	1	not in distribution
+env.sh	1	not in distribution
+ops	2	not in distribution
+reports	90	not in distribution
+reports/data/ab-hist-off.json	1	not in distribution
+reports/data/ab-hist-on.json	1	not in distribution
+reports/data/actor-v6-inputs	19	not in distribution
+reports/data/actor-v7-recipe	34	not in distribution
+reports/data/audit-v2-eval_heldout.txt	1	not in distribution
+reports/data/audit-v2-eval_seen.txt	1	not in distribution
+reports/data/audit-v2-train-facedown-contexts.txt	1	not in distribution
+reports/data/audit-v2-train.txt	1	not in distribution
+reports/data/brainiac-v6	10	not in distribution
+reports/data/capacity-slot-rule	7	not in distribution
+reports/data/card-identity-combos	18	not in distribution
+reports/data/churn-and-drain-cancel	11	not in distribution
+reports/data/context-overhaul	14	not in distribution
+reports/data/context-usage-ablation	3	not in distribution
+reports/data/critic-ceiling	16	not in distribution
+reports/data/critic-ceiling-2	10	not in distribution
+reports/data/critic-counterfactuals	5	not in distribution
+reports/data/critic-diagnostics	12	not in distribution
+reports/data/critic-followups	18	not in distribution
+reports/data/critic-fp32	3	not in distribution
+reports/data/critic-long	14	not in distribution
+reports/data/critic-noise	41	not in distribution
+reports/data/critic-probes	19	not in distribution
+reports/data/critic-replay	12	not in distribution
+reports/data/critic-v2	9	not in distribution
+reports/data/decision-cap-fixes	16	not in distribution
+reports/data/decision-cap-loops	1	not in distribution
+reports/data/deck-balance	3	not in distribution
+reports/data/deck-corpus-v4	1	not in distribution
+reports/data/dilution-names-ab	33	not in distribution
+reports/data/disk-dedupe-2026-10-01.json	1	not in distribution
+reports/data/dojo-sweep	7	not in distribution
+reports/data/dojo-three-objectives	10	not in distribution
+reports/data/engine-explosions	121	not in distribution
+reports/data/engine-on-feat-brainiac	5	not in distribution
+reports/data/engine-slow	3	not in distribution
+reports/data/eval-bc-v1.json	1	not in distribution
+reports/data/eval-s1.json	1	not in distribution
+reports/data/eval-throughput	13	not in distribution
+reports/data/facedown-fixes	40	not in distribution
+reports/data/facedown-review	9	not in distribution
+reports/data/forfeit-reset-and-scan	11	not in distribution
+reports/data/free-move-churn	24	not in distribution
+reports/data/host-migration	4	not in distribution
+reports/data/knowledge-v3.1	256	not in distribution
+reports/data/lambda-actor	20	not in distribution
+reports/data/learner-minibatch	14	not in distribution
+reports/data/learner-speed	41	not in distribution
+reports/data/learner-throughput	27	not in distribution
+reports/data/links-round2	89	not in distribution
+reports/data/master-fixes-reorder	15	not in distribution
+reports/data/mpg-retry-rule	15	not in distribution
+reports/data/multiselect-count	78	not in distribution
+reports/data/neighbours-bc-v1.md	1	not in distribution
+reports/data/neighbours-pilot.md	1	not in distribution
+reports/data/night-integer-fp32	31	not in distribution
+reports/data/night-lr-decay	22	not in distribution
+reports/data/night-pool-v3	56	not in distribution
+reports/data/night-server-1	3	not in distribution
+reports/data/night-v3-fixes	29	not in distribution
+reports/data/nvf-b-local	61	not in distribution
+reports/data/objective-dojo	16	not in distribution
+reports/data/option-inputs-and-balance-probe	18	not in distribution
+reports/data/permanent-play-rules	12	not in distribution
+reports/data/play	9	not in distribution
+reports/data/policy-diagnostics	7	not in distribution
+reports/data/precision-capacity	6	not in distribution
+reports/data/probe-economics	7	not in distribution
+reports/data/prune-2026-10-09	1	not in distribution
+reports/data/q-critic	3	not in distribution
+reports/data/rando-sweep	23	not in distribution
+reports/data/remove-old-generations	33	not in distribution
+reports/data/rl	66	not in distribution
+reports/data/rl-v3b-final	9	not in distribution
+reports/data/rl-v3n-final	10	not in distribution
+reports/data/rollout-throughput	38	not in distribution
+reports/data/server-sandbox	3	not in distribution
+reports/data/shaping-consistent	2	not in distribution
+reports/data/shaping-separate	12	not in distribution
+reports/data/shc-r1	18	not in distribution
+reports/data/titles-and-learner-ablation	35	not in distribution
+reports/data/turn-credit	36	not in distribution
+reports/data/v-cards	15	not in distribution
+reports/data/v-cards-fixes	3	not in distribution
+scripts/actor_v6_server_chain.sh	1	one-off *_chain*.sh
+scripts/actor_v7_server_chain.sh	1	one-off *_chain*.sh
+scripts/actor_v7_wave2_chain.sh	1	one-off *_chain*.sh
+scripts/analyze_v31_amendment5.py	1	one-off analyze_v31_amendment*
+scripts/analyze_v31_amendment7.py	1	one-off analyze_v31_amendment*
+scripts/balance_probe.py	1	one-off balance_probe*
+scripts/balance_probe_p2.py	1	one-off balance_probe*
+scripts/bench_server.py	1	one-off bench_server.py
+scripts/bf16_study.py	1	one-off bf16_study.py
+scripts/brainiac_golden.py	1	one-off brainiac_golden.py
+scripts/browser_bot_e2e.py	1	one-off browser_*
+scripts/browser_equality.py	1	one-off browser_*
+scripts/cc2_local.sh	1	one-off *_local.sh
+scripts/cc2_steps.sh	1	one-off cc*
+scripts/cc_local.sh	1	one-off *_local.sh
+scripts/cc_rollouts.sh	1	one-off cc*
+scripts/cf_groundtruth.sh	1	one-off cf_*
+scripts/cf_server.sh	1	one-off *_server.sh
+scripts/check_community_bisco.py	1	one-off check_community_bisco.py
+scripts/check_knowledge_podrace.sh	1	one-off check_knowledge_podrace.sh
+scripts/check_location_icons.py	1	one-off check_location_icons.py
+scripts/check_v31_input_norms.py	1	one-off check_v31_input_norms.py
+scripts/check_v31_java.py	1	one-off check_v31_java.py
+scripts/check_v31_near_ties.py	1	one-off check_v31_near_ties.py
+scripts/check_v31_soft_tables.py	1	one-off check_v31_soft_tables.py
+scripts/check_v31_template_norms.py	1	one-off check_v31_template_norms.py
+scripts/churn_check.sh	1	one-off churn_check.sh
+scripts/cn_groundtruth.sh	1	one-off cn_*
+scripts/cn_local.sh	1	one-off *_local.sh
+scripts/cn_server_chain.sh	1	one-off *_chain*.sh
+scripts/cn_stage2b_chain.sh	1	one-off *_chain*.sh
+scripts/collect_padded_curves.py	1	one-off collect_padded_curves.py
+scripts/combo_behaviour.py	1	one-off combo_*
+scripts/combo_map.py	1	one-off combo_*
+scripts/compare_community_decks.py	1	one-off compare_*
+scripts/compare_v31_critics.py	1	one-off compare_*
+scripts/concurrency_bench.sh	1	one-off concurrency_bench.sh
+scripts/context_ablation.py	1	one-off context_ablation.py
+scripts/context_v5_server_chain.sh	1	one-off *_chain*.sh
+scripts/context_v5_smoke_chain.sh	1	one-off *_chain*.sh
+scripts/counter_map.py	1	one-off counter_map.py
+scripts/critic_counterfactuals.py	1	one-off critic_counterfactuals.py
+scripts/critic_diag_chain.sh	1	one-off *_chain*.sh
+scripts/critic_diag_report.py	1	one-off critic_diag_report.py
+scripts/critic_fit.py	1	one-off critic_fit*
+scripts/critic_fit_gap.py	1	one-off critic_fit*
+scripts/critic_long_chain.sh	1	one-off *_chain*.sh
+scripts/critic_long_report.py	1	one-off critic_long_report.py
+scripts/critic_probes_chain.sh	1	one-off *_chain*.sh
+scripts/critic_probes_chain2.sh	1	one-off *_chain*.sh
+scripts/critic_probes_report.py	1	one-off critic_probes_report.py
+scripts/critic_replay_chain.sh	1	one-off *_chain*.sh
+scripts/critic_replay_report.py	1	one-off critic_replay_report.py
+scripts/critic_v2_chain.sh	1	one-off *_chain*.sh
+scripts/critic_v2_chain2.sh	1	one-off *_chain*.sh
+scripts/critic_v2_fp32_chain.sh	1	one-off *_chain*.sh
+scripts/critic_v2_report.py	1	one-off critic_v2_report.py
+scripts/csr_check.sh	1	one-off csr_*
+scripts/csr_count.py	1	one-off csr_*
+scripts/decision_cap_fixes_runs.sh	1	one-off decision_cap_fixes_runs.sh
+scripts/distill_dna.py	1	one-off distill_dna.py
+scripts/dna_arm.sh	1	one-off dna_*
+scripts/dna_gate.sh	1	one-off dna_*
+scripts/dna_server.sh	1	one-off *_server.sh
+scripts/dojo_chain.sh	1	one-off *_chain*.sh
+scripts/dojo_flip_decay_check.py	1	one-off dojo_flip_decay_check.py
+scripts/dojo_focus_chain.sh	1	one-off *_chain*.sh
+scripts/dojo_focus_chain2.sh	1	one-off *_chain*.sh
+scripts/dojo_item_games.sh	1	one-off dojo_*_games.sh
+scripts/dojo_ladder_games.sh	1	one-off dojo_*_games.sh
+scripts/dual_pairs.py	1	one-off dual_pairs.py
+scripts/et_chain.sh	1	one-off *_chain*.sh
+scripts/et_threadcheck.sh	1	one-off et_*
+scripts/extend_dna.py	1	one-off extend_dna.py
+scripts/facedown_fixes/analyze_fixes.py	1	script dir facedown_fixes
+scripts/facedown_fixes/census_exports.py	1	script dir facedown_fixes
+scripts/facedown_fixes/census_join.py	1	script dir facedown_fixes
+scripts/facedown_fixes/collect_data.sh	1	script dir facedown_fixes
+scripts/facedown_fixes/java_checks.sh	1	script dir facedown_fixes
+scripts/facedown_fixes/run_check_on.sh	1	script dir facedown_fixes
+scripts/facedown_fixes/run_probes.sh	1	script dir facedown_fixes
+scripts/facedown_fixes/tables.py	1	script dir facedown_fixes
+scripts/facedown_review/FaceDownProbe.java	1	script dir facedown_review
+scripts/facedown_review/README.md	1	script dir facedown_review
+scripts/facedown_review/analyze.py	1	script dir facedown_review
+scripts/facedown_review/analyze2.py	1	script dir facedown_review
+scripts/facedown_review/catalogue.py	1	script dir facedown_review
+scripts/facedown_review/make_schedule.py	1	script dir facedown_review
+scripts/facedown_review/patch_overlay.py	1	script dir facedown_review
+scripts/facedown_review/run_games.sh	1	script dir facedown_review
+scripts/fetch_wiki_decks.py	1	one-off fetch_wiki_decks.py
+scripts/followup_chain.sh	1	one-off *_chain*.sh
+scripts/followup_report.py	1	one-off followup_*
+scripts/free_move_analysis.py	1	one-off free_move_*
+scripts/free_move_audit.py	1	one-off free_move_*
+scripts/free_move_churn_runs.sh	1	one-off free_move_*
+scripts/free_move_churn_sanity.sh	1	one-off free_move_*
+scripts/free_move_stress.sh	1	one-off free_move_*
+scripts/frs_chain.sh	1	one-off *_chain*.sh
+scripts/game_stats_runs.sh	1	one-off game_stats_runs.sh
+scripts/greedy_baselines.sh	1	one-off greedy_baselines.sh
+scripts/h2h_shc_lc.sh	1	one-off h2h_shc_lc.sh
+scripts/harness_replay.sh	1	one-off harness_replay.sh
+scripts/hostsync.py	1	one-off hostsync.py
+scripts/hourly_check.sh	1	one-off hourly_check.sh
+scripts/identity_probe.py	1	one-off identity_probe.py
+scripts/import_cct_jp_decks.py	1	one-off import_cct_jp_decks.py
+scripts/import_decktech_decks.py	1	one-off import_decktech_decks.py
+scripts/la_chain.sh	1	one-off *_chain*.sh
+scripts/la_local.sh	1	one-off *_local.sh
+scripts/ladder_decide.py	1	one-off ladder_decide.py
+scripts/lc_chain.sh	1	one-off *_chain*.sh
+scripts/leaderboard/README.md	1	script dir leaderboard
+scripts/leaderboard/build.py	1	script dir leaderboard
+scripts/leaderboard/check_site.py	1	script dir leaderboard
+scripts/leaderboard/deploy.sh	1	script dir leaderboard
+scripts/leaderboard/harvest.py	1	script dir leaderboard
+scripts/leaderboard/inventory_worker.py	1	script dir leaderboard
+scripts/leaderboard/lb.py	1	script dir leaderboard
+scripts/leaderboard/site_src/app.css	1	script dir leaderboard
+scripts/leaderboard/site_src/app.js	1	script dir leaderboard
+scripts/leaderboard/site_src/artifact.html	1	script dir leaderboard
+scripts/leaderboard/site_src/index.html	1	script dir leaderboard
+scripts/leaderboard/site_src/model.html	1	script dir leaderboard
+scripts/learner_minibatch_runs.sh	1	one-off learner_*_runs.sh
+scripts/learner_speed_runs.sh	1	one-off learner_*_runs.sh
+scripts/location_probe.py	1	one-off location_probe.py
+scripts/lr2_adopt.py	1	one-off lr2_*
+scripts/lr2_advanced_pass.sh	1	one-off lr2_*
+scripts/lr2_deck_balance.py	1	one-off lr2_*
+scripts/lr2_pair_weights.py	1	one-off lr2_*
+scripts/lr2_phase2.sh	1	one-off lr2_*
+scripts/lr2_phase3.sh	1	one-off lr2_*
+scripts/lr2_screen.sh	1	one-off lr2_*
+scripts/lr2_server.sh	1	one-off *_server.sh
+scripts/make_release.py	1	one-off make_release.py
+scripts/mem_guard.sh	1	one-off mem_guard.sh
+scripts/mpg_check.sh	1	one-off mpg_check*
+scripts/mpg_check2.sh	1	one-off mpg_check*
+scripts/multiselect_count/analyze.py	1	script dir multiselect_count
+scripts/multiselect_count/check_abi.py	1	script dir multiselect_count
+scripts/multiselect_count/check_extension.py	1	script dir multiselect_count
+scripts/multiselect_count/check_growth.py	1	script dir multiselect_count
+scripts/multiselect_count/learner_smoke.py	1	script dir multiselect_count
+scripts/multiselect_count/run_probes.sh	1	script dir multiselect_count
+scripts/n2_chain.sh	1	one-off *_chain*.sh
+scripts/n3_chain.sh	1	one-off *_chain*.sh
+scripts/night_check.sh	1	one-off night_*
+scripts/night_crash_eval_chain.sh	1	one-off *_chain*.sh
+scripts/night_guard.sh	1	one-off night_*
+scripts/night_integer_fp32_continuation.sh	1	one-off night_*
+scripts/night_integer_fp32_guard.sh	1	one-off night_*
+scripts/night_integer_fp32_l2_evals.sh	1	one-off night_*
+scripts/night_integer_fp32_local.sh	1	one-off *_local.sh
+scripts/night_integer_fp32_server.sh	1	one-off *_server.sh
+scripts/night_integer_fp32_summary.py	1	one-off night_*
+scripts/night_integer_fp32_watcher.sh	1	one-off night_*
+scripts/night_lr_decay_g1.sh	1	one-off night_*
+scripts/night_lr_decay_gates.py	1	one-off night_*
+scripts/night_lr_decay_launch.sh	1	one-off night_*
+scripts/night_lr_decay_server.sh	1	one-off *_server.sh
+scripts/night_pool_v3_cron_check.sh	1	one-off night_*
+scripts/night_pool_v3_dry.sh	1	one-off night_*
+scripts/night_pool_v3_launch.sh	1	one-off night_*
+scripts/night_pool_v3_schedules.py	1	one-off night_*
+scripts/night_pool_v3_server.sh	1	one-off *_server.sh
+scripts/night_server_chain.sh	1	one-off *_chain*.sh
+scripts/night_server_report.py	1	one-off night_*
+scripts/night_v3_fixes_cron_check.sh	1	one-off night_*
+scripts/night_v3_fixes_dry.sh	1	one-off night_*
+scripts/night_v3_fixes_launch.sh	1	one-off night_*
+scripts/night_v3_fixes_server.sh	1	one-off *_server.sh
+scripts/night_watcher.sh	1	one-off night_*
+scripts/npe_repro.sh	1	one-off npe_repro.sh
+scripts/nvf_b_local.sh	1	one-off *_local.sh
+scripts/nvf_b_recheck.sh	1	one-off nvf_b_*
+scripts/nvf_b_thread_probe.sh	1	one-off nvf_b_*
+scripts/nvf_b_warmup_check.sh	1	one-off nvf_b_*
+scripts/objective_cctjp.sh	1	one-off objective_*
+scripts/objective_cctjp_fliplog.sh	1	one-off objective_*
+scripts/objective_chain.sh	1	one-off *_chain*.sh
+scripts/objective_chain2.sh	1	one-off *_chain*.sh
+scripts/objective_cleanup.sh	1	one-off objective_*
+scripts/objective_cleanup2.sh	1	one-off objective_*
+scripts/objective_endor_clean.sh	1	one-off objective_*
+scripts/objective_redo_syc.sh	1	one-off objective_*
+scripts/objective_report.py	1	one-off objective_*
+scripts/objective_supersede.py	1	one-off objective_*
+scripts/option_inputs_ab_chain.sh	1	one-off *_chain*.sh
+scripts/option_inputs_ab_finish.sh	1	one-off option_inputs_ab_*
+scripts/pack_community_share.py	1	one-off pack_community_share.py
+scripts/pe_cost.sh	1	one-off pe_*
+scripts/pe_evals.sh	1	one-off pe_*
+scripts/pg_noise.py	1	one-off pg_noise.py
+scripts/policy_diagnostics_chain.sh	1	one-off *_chain*.sh
+scripts/prune_runs_list.py	1	one-off prune_runs_list.py
+scripts/qnet_train.py	1	one-off qnet_train.py
+scripts/r1_chain.sh	1	one-off *_chain*.sh
+scripts/rando_chain.sh	1	one-off *_chain*.sh
+scripts/rando_push.sh	1	one-off rando_*
+scripts/rando_readout.py	1	one-off rando_*
+scripts/relativize_deck_paths.py	1	one-off relativize_deck_paths.py
+scripts/rl_curve.sh	1	one-off rl_curve.sh
+scripts/rl_final.sh	1	one-off rl_final.sh
+scripts/rl_pilot_v3.sh	1	one-off rl_pilot_v*
+scripts/rl_pilot_v4.sh	1	one-off rl_pilot_v*
+scripts/rl_pilot_v4n.sh	1	one-off rl_pilot_v*
+scripts/rl_watchdog.sh	1	one-off rl_watchdog.sh
+scripts/rr_check.sh	1	one-off rr_check.sh
+scripts/sc_chain.sh	1	one-off *_chain*.sh
+scripts/sc_stage0.sh	1	one-off sc_*
+scripts/scan_decktech_archive.py	1	one-off scan_decktech_archive.py
+scripts/shaping_extract.py	1	one-off shaping_extract.py
+scripts/slow_bench.sh	1	one-off slow_*
+scripts/slow_compare.py	1	one-off slow_*
+scripts/slow_harvest.py	1	one-off slow_*
+scripts/slow_oracle.sh	1	one-off slow_*
+scripts/slow_pool.py	1	one-off slow_*
+scripts/slow_signature.py	1	one-off slow_*
+scripts/spike_backends.py	1	one-off spike_*
+scripts/spike_ort.py	1	one-off spike_*
+scripts/ss_local.sh	1	one-off *_local.sh
+scripts/ss_server.sh	1	one-off *_server.sh
+scripts/strength_watch.sh	1	one-off strength_watch.sh
+scripts/summarize_v31_bc.py	1	one-off summarize_v31_bc.py
+scripts/tc_chain.sh	1	one-off *_chain*.sh
+scripts/tc_exact_check.sh	1	one-off tc_*
+scripts/tc_local.sh	1	one-off *_local.sh
+scripts/tc_stage_a.sh	1	one-off tc_*
+scripts/titles_learner_wave3_chain.sh	1	one-off *_chain*.sh
+scripts/titles_learner_wave3_local.sh	1	one-off *_local.sh
+scripts/v31_after_stage.sh	1	one-off v31_after_stage.sh
+scripts/v31_pilot_then_train.sh	1	one-off v31_pilot_then_train.sh
+scripts/v31_precision_capacity.py	1	one-off v31_precision_capacity.py
+scripts/v6_pilot_check.py	1	one-off v6_pilot_check.py
+scripts/vc_engine_check.sh	1	one-off vc_*.sh
+scripts/vc_gather.sh	1	one-off vc_*.sh
+scripts/vc_smoke.sh	1	one-off vc_*.sh
+scripts/vc_title_check.sh	1	one-off vc_*.sh
+scripts/vcf_check.sh	1	one-off vcf_check.sh
+tests/test_critic_ceiling.py	1	test imports dropped critic_fit
+tests/test_dna.py	1	test imports dropped extend_dna
+tests/test_hostsync.py	1	lab-only test
+tests/test_leaderboard.py	1	lab-only test
+tests/test_links_round2.py	1	test imports dropped extend_dna
+tests/test_machine_env.py	1	test imports dropped prune_runs_list
+tests/test_pg_snr_noise.py	1	test imports dropped pg_noise
+tests/test_precision_capacity.py	1	test imports dropped v31_precision_capacity
+tools	7	not in distribution

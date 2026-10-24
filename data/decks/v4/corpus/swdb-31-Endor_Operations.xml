@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_234" title="Alter" />
+  <card blueprintId="1_173" title="DS-61-2" />
+  <card blueprintId="1_174" title="DS-61-3" />
+  <card blueprintId="1_168" title="Darth Vader" />
+  <card blueprintId="1_179" title="Grand Moff Tarkin" />
+  <card blueprintId="1_288" title="Kessel" />
+  <card blueprintId="1_222" title="Lateral Damage" />
+  <card blueprintId="1_227" title="Presence Of The Force" />
+  <card blueprintId="1_227" title="Presence Of The Force" />
+  <card blueprintId="1_267" title="Sense" />
+  <card blueprintId="1_267" title="Sense" />
+  <card blueprintId="1_324" title="Vader's Lightsaber" />
+  <card blueprintId="2_98" title="Officer Evax" />
+  <card blueprintId="3_155" title="Blizzard 2" />
+  <card blueprintId="3_156" title="Blizzard Scout 1" />
+  <card blueprintId="3_84" title="Captain Lennox" />
+  <card blueprintId="3_87" title="General Veers" />
+  <card blueprintId="3_89" title="Lieutenant Cabbel" />
+  <card blueprintId="4_167" title="Executor" />
+  <card blueprintId="5_120" title="Imperial Decree" />
+  <card blueprintId="7_175" title="Darth Vader, Dark Lord Of The Sith" />
+  <card blueprintId="7_302" title="Death Squadron Star Destroyer" />
+  <card blueprintId="7_283" title="Fondor" />
+  <card blueprintId="8_118" title="Battle Order" />
+  <card blueprintId="8_94" title="Commander Igar" />
+  <card blueprintId="8_97" title="Corporal Drelosyn" />
+  <card blueprintId="8_157" title="Endor" />
+  <card blueprintId="8_167" title="Endor Operations" />
+  <card blueprintId="8_160" title="Endor: Bunker" />
+  <card blueprintId="8_161" title="Endor: Dark Forest" />
+  <card blueprintId="8_164" title="Endor: Forest Clearing" />
+  <card blueprintId="8_166" title="Endor: Landing Platform (Docking Bay)" />
+  <card blueprintId="8_124" title="Establish Secret Base" />
+  <card blueprintId="8_126" title="Imperial Arrest Order" />
+  <card blueprintId="8_101" title="Lieutenant Arnet" />
+  <card blueprintId="8_108" title="Navy Trooper Fenson" />
+  <card blueprintId="8_127" title="Ominous Rumors" />
+  <card blueprintId="8_128" title="Perimeter Patrol" />
+  <card blueprintId="8_111" title="Sergeant Barich" />
+  <card blueprintId="8_112" title="Sergeant Elsek" />
+  <card blueprintId="8_170" title="Tempest 1" />
+  <card blueprintId="8_172" title="Tempest Scout 1" />
+  <card blueprintId="8_173" title="Tempest Scout 2" />
+  <card blueprintId="8_174" title="Tempest Scout 3" />
+  <card blueprintId="8_176" title="Tempest Scout 5" />
+  <card blueprintId="8_177" title="Tempest Scout 6" />
+  <card blueprintId="9_152" title="Accuser" />
+  <card blueprintId="9_97" title="Admiral Chiraneau" />
+  <card blueprintId="9_100" title="Captain Godherdt" />
+  <card blueprintId="9_154" title="Chimaera" />
+  <card blueprintId="9_104" title="Colonel Davod Jon" />
+  <card blueprintId="9_106" title="Commander Merrejk" />
+  <card blueprintId="9_112" title="Lieutenant Hebsly" />
+  <card blueprintId="9_139" title="Prepared Defenses" />
+  <card blueprintId="9_172" title="The Emperor's Shield" />
+  <card blueprintId="9_96" title="We're In Attack Position Now" />
+  <card blueprintId="9_133" title="You Cannot Hide Forever" />
+  <card blueprintId="106_13" title="Dreadnaught-Class Heavy Cruiser" />
+  <card blueprintId="10_33" title="Captain Gilad Pellaeon" />
+  <card blueprintId="10_40" title="Grand Admiral Thrawn" />
+</deck>

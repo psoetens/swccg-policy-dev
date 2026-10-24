@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_9" title="Figrin D'an" />
+  <card blueprintId="3_10" title="General Carlist Rieekan" />
+  <card blueprintId="3_11" title="Jeroen Webb" />
+  <card blueprintId="1_15" title="Kal'Falnl C'ndros" />
+  <card blueprintId="1_16" title="Leesub Sirln" />
+  <card blueprintId="1_19" title="Luke Skywalker" />
+  <card blueprintId="1_19" title="Luke Skywalker" />
+  <card blueprintId="1_20" title="Momaw Nadon" />
+  <card blueprintId="1_21" title="Obi-Wan Kenobi" />
+  <card blueprintId="1_21" title="Obi-Wan Kenobi" />
+  <card blueprintId="2_14" title="R2-D2 (Artoo-Detoo)" />
+  <card blueprintId="2_14" title="R2-D2 (Artoo-Detoo)" />
+  <card blueprintId="2_14" title="R2-D2 (Artoo-Detoo)" />
+  <card blueprintId="2_14" title="R2-D2 (Artoo-Detoo)" />
+  <card blueprintId="3_23" title="Toryn Farr" />
+  <card blueprintId="2_23" title="Wedge Antilles" />
+  <card blueprintId="1_33" title="Wioslea" />
+  <card blueprintId="3_34" title="Echo Base Operations" />
+  <card blueprintId="3_34" title="Echo Base Operations" />
+  <card blueprintId="3_34" title="Echo Base Operations" />
+  <card blueprintId="3_39" title="The First Transport Is Away!" />
+  <card blueprintId="2_40" title="Undercover" />
+  <card blueprintId="2_41" title="What're You Tryin' To Push On Us?" />
+  <card blueprintId="2_41" title="What're You Tryin' To Push On Us?" />
+  <card blueprintId="2_49" title="Grimtaash" />
+  <card blueprintId="2_50" title="Houjix" />
+  <card blueprintId="1_87" title="How Did We Get Into This Mess?" />
+  <card blueprintId="1_87" title="How Did We Get Into This Mess?" />
+  <card blueprintId="1_87" title="How Did We Get Into This Mess?" />
+  <card blueprintId="1_87" title="How Did We Get Into This Mess?" />
+  <card blueprintId="1_87" title="How Did We Get Into This Mess?" />
+  <card blueprintId="1_87" title="How Did We Get Into This Mess?" />
+  <card blueprintId="1_87" title="How Did We Get Into This Mess?" />
+  <card blueprintId="1_87" title="How Did We Get Into This Mess?" />
+  <card blueprintId="1_88" title="Hyper Escape" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="1_121" title="Alderaan" />
+  <card blueprintId="2_60" title="Clak'dor VII" />
+  <card blueprintId="1_122" title="Dantooine" />
+  <card blueprintId="3_55" title="Hoth" />
+  <card blueprintId="3_57" title="Hoth: Echo Command Center (War Room)" />
+  <card blueprintId="3_58" title="Hoth: Echo Corridor" />
+  <card blueprintId="3_58" title="Hoth: Echo Corridor" />
+  <card blueprintId="3_59" title="Hoth: Echo Docking Bay" />
+  <card blueprintId="3_59" title="Hoth: Echo Docking Bay" />
+  <card blueprintId="3_60" title="Hoth: Echo Med Lab" />
+  <card blueprintId="3_60" title="Hoth: Echo Med Lab" />
+  <card blueprintId="3_61" title="Hoth: Main Power Generators (1st Marker)" />
+  <card blueprintId="3_61" title="Hoth: Main Power Generators (1st Marker)" />
+  <card blueprintId="3_62" title="Hoth: North Ridge (4th Marker)" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="103_1" title="Gold Leader In Gold 1" />
+  <card blueprintId="103_1" title="Gold Leader In Gold 1" />
+  <card blueprintId="3_65" title="Medium Transport" />
+  <card blueprintId="3_65" title="Medium Transport" />
+  <card blueprintId="103_2" title="Red Leader In Red 1" />
+  <card blueprintId="1_146" title="X-wing" />
+  <card blueprintId="1_147" title="Y-wing" />
+  <card blueprintId="1_147" title="Y-wing" />
+  <cardOutsideDeck blueprintId="1_146" title="X-wing" />
+</deck>

@@ -1,0 +1,318 @@
+deck_id,side,family,era,rare_share,weight,copies
+swdb-12-Dagobah_A_Manipulator_2nd_at_Worlds_1997,DS,NONE,old,0.08571428571428572,0.05857142857142857,1
+swdb-130-Dark_side_Premiere_only,DS,NONE,old,0.29411764705882354,0.07941176470588236,2
+swdb-131-Dark_side_A_new_hope,DS,NONE,old,0.20754716981132076,0.07075471698113207,1
+swdb-2-1996_World_Champion_(Dark),DS,NONE,old,0.0,0.05,1
+swdb-214-The_Power_of_the_Walker_Garrison,DS,NONE,old,0.10810810810810811,0.060810810810810814,1
+swdb-25-Planet_Buster,DS,NONE,old,0.0,0.05,1
+swdb-26-Planet_Buster,DS,NONE,old,0.0,0.05,1
+swdb-27-Planet_Buster,DS,NONE,old,0.0,0.05,1
+swdb-28-Planet_Buster,DS,NONE,old,0.02040816326530612,0.05204081632653061,1
+swdb-3-Mains_Toys_1997_World_Champion,DS,NONE,old,0.023255813953488372,0.05232558139534884,1
+swdb-34-Battle_of_Hoth_(Dark),DS,NONE,old,0.19148936170212766,0.06914893617021275,1
+swdb-35-Missing_on_Hoth,DS,NONE,old,0.13333333333333333,0.06333333333333332,1
+swdb-36-Hoth-_Dark_Side_Final,DS,NONE,old,0.10416666666666667,0.06041666666666666,1
+swdb-37-Battleground_Hoth_DS,DS,NONE,old,0.07142857142857142,0.05714285714285714,1
+swdb-40-BIG_CANNON_DECK,DS,NONE,old,0.0,0.05,1
+swdb-43-Battleground_Hoth_DS,DS,NONE,old,0.047619047619047616,0.05476190476190477,1
+swdb-53-Low-Stakes_Planet_Killer,DS,NONE,old,0.21818181818181817,0.07181818181818181,2
+swdb-71-Cloud_City_Force_Drain,DS,NONE,old,0.18518518518518517,0.0685185185185185,1
+swdb-76-The_Empire_Strikes_Back_Intro_Two-player_Game,DS,NONE,old,0.4827586206896552,0.09827586206896552,2
+swdb-79-Troopy,DS,NONE,old,0.36363636363636365,0.08636363636363636,2
+pcz-2024_Retro_-_Classic_NoV-24Retro_Chu_DS_AOBS,DS,OBJ:Agents Of Black Sun,retro,0.0,0.25,5
+pcz-2024_Retro_-_Classic_NoV-24Retro_Szwabowski_DS_AOBS,DS,OBJ:Agents Of Black Sun,retro,0.022727272727272728,0.26136363636363635,5
+pcz-PREF2_2021_Top8_Event_Decklists-15_PREF2_AOBS_Matt_Manning_2021,DS,OBJ:Agents Of Black Sun,modern,0.025,0.2625,6
+swdb-200-Shadows_of_the_Empire_(Dark),DS,OBJ:Agents Of Black Sun,old,0.17391304347826086,0.33695652173913043,7
+pcm-2021-retro-event-top-8-pds2-bethell_DS2_BHBM_SAC,DS,OBJ:Bring Him Before Me,retro,0.0,0.05263157894736842,1
+pcm-2021-retro-event-top-8-pds2-tarin_RETRO_DARK,DS,OBJ:Bring Him Before Me,retro,0.0,0.05263157894736842,1
+pcm-2025-04-retro-gemp-match-play-championship-premi-25RetroMPC_T4_Feldman_DS_BHBM,DS,OBJ:Bring Him Before Me,retro,0.019230769230769232,0.05465587044534413,1
+pcm-2025-04-retro-gemp-match-play-championship-premi-25RetroMPC_T8_Bisco_DS_BHBM,DS,OBJ:Bring Him Before Me,retro,0.041666666666666664,0.05701754385964912,1
+pcm-2025-04-retro-gemp-match-play-championship-premi-25RetroMPC_T8_Chu_DS_BHBM,DS,OBJ:Bring Him Before Me,retro,0.02127659574468085,0.05487122060470325,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Adamson_DS_BHBM,DS,OBJ:Bring Him Before Me,retro,0.0,0.05263157894736842,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Blackstock_DS_BHBM,DS,OBJ:Bring Him Before Me,retro,0.02040816326530612,0.05477980665950591,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Butler_DS_BHBM,DS,OBJ:Bring Him Before Me,retro,0.04081632653061224,0.0569280343716434,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_CJohnson_DS_BHBM,DS,OBJ:Bring Him Before Me,retro,0.0,0.05263157894736842,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Coupland_DS_BHBM,DS,OBJ:Bring Him Before Me,retro,0.0,0.05263157894736842,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Gravel_DS_BHBM,DS,OBJ:Bring Him Before Me,retro,0.0,0.05263157894736842,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Jasper_DS_BHBM,DS,OBJ:Bring Him Before Me,retro,0.0,0.05263157894736842,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_RScott_DS_BHBM,DS,OBJ:Bring Him Before Me,retro,0.0,0.05263157894736842,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Sanders_DS_BHBM,DS,OBJ:Bring Him Before Me,retro,0.0,0.05263157894736842,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Wargo_DS_BHBM,DS,OBJ:Bring Him Before Me,retro,0.02040816326530612,0.05477980665950591,1
+pcz-2024_Retro_-_Classic_NoV-24Retro_Feldman_DS_BHBM,DS,OBJ:Bring Him Before Me,retro,0.018867924528301886,0.05461767626613704,1
+pcz-2024_Retro_-_Classic_NoV-24Retro_Pistone_DS_BHBM,DS,OBJ:Bring Him Before Me,retro,0.020833333333333332,0.054824561403508776,1
+swdb-128-BHBM_(2021_Throwback_Event),DS,OBJ:Bring Him Before Me,old,0.02,0.05473684210526316,1
+swdb-172-Darth_Luke,DS,OBJ:Bring Him Before Me,old,0.2222222222222222,0.07602339181286549,2
+pcm-2023-06-annual-online-retro-event-premiere-speci-ChuDarkCCT,DS,OBJ:Carbon Chamber Testing,retro,0.18181818181818182,0.19480519480519481,4
+pcz-PREF2_2021_Top8_Event_Decklists-14_PREF2_CCT_Hummel_2021,DS,OBJ:Carbon Chamber Testing,modern,0.09090909090909091,0.16883116883116883,4
+swdb-112-It_is_the_future_you_see_(Dark),DS,OBJ:Carbon Chamber Testing,old,0.06976744186046512,0.16279069767441862,3
+swdb-117-It_is_the_future_you_see_(Dark),DS,OBJ:Carbon Chamber Testing,old,0.06818181818181818,0.1623376623376623,3
+swdb-124-Scum_casual,DS,OBJ:Carbon Chamber Testing,old,0.29545454545454547,0.22727272727272727,5
+swdb-140-Scum_casual,DS,OBJ:Carbon Chamber Testing,old,0.3111111111111111,0.23174603174603176,5
+swdb-217-Jabba_s_prize,DS,OBJ:Carbon Chamber Testing,old,0.16666666666666666,0.19047619047619047,4
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Lindstrom_DS_Court,DS,OBJ:Court Of The Vile Gangster,retro,0.018867924528301886,0.20754716981132076,4
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Simpson_DS_Court,DS,OBJ:Court Of The Vile Gangster,retro,0.3508771929824561,0.34035087719298246,7
+swdb-193-DS_Jabba_s_Court_Bounty_Hunters,DS,OBJ:Court Of The Vile Gangster,old,0.16981132075471697,0.2679245283018868,6
+swdb-62-Court,DS,OBJ:Court Of The Vile Gangster,old,0.14285714285714285,0.2571428571428571,5
+swdb-67-Court,DS,OBJ:Court Of The Vile Gangster,old,0.1206896551724138,0.2482758620689655,5
+pcz-PREF2_2021_Top8_Event_Decklists-8_PREF2_Eops_Gogolen_2021,DS,OBJ:Endor Operations,modern,0.041666666666666664,0.21666666666666665,5
+swdb-145-Endor_operations,DS,OBJ:Endor Operations,old,0.21621621621621623,0.2864864864864865,6
+swdb-177-Endor_Endor_Operations_Themed,DS,OBJ:Endor Operations,old,0.35714285714285715,0.34285714285714286,7
+swdb-194-DS_Endor_Biker_Ops,DS,OBJ:Endor Operations,old,0.20408163265306123,0.2816326530612245,6
+swdb-31-Endor_Operations,DS,OBJ:Endor Operations,old,0.05172413793103448,0.2206896551724138,5
+pcm-2022-05-decipher-cards-only-retro-event-DCO_Baroni_DS_HD,DS,OBJ:Hunt Down And Destroy The Jedi,retro,0.2702702702702703,0.10270270270270271,2
+pcm-2023-06-annual-online-retro-event-premiere-speci-FeldmanDarkHD,DS,OBJ:Hunt Down And Destroy The Jedi,retro,0.023809523809523808,0.06984126984126984,1
+pcm-2023-06-annual-online-retro-event-premiere-speci-NguyenDarkHD,DS,OBJ:Hunt Down And Destroy The Jedi,retro,0.041666666666666664,0.07222222222222222,2
+pcm-2023-06-annual-online-retro-event-premiere-speci-TalagaDarkHD,DS,OBJ:Hunt Down And Destroy The Jedi,retro,0.04081632653061224,0.07210884353741497,2
+pcm-2025-04-retro-gemp-match-play-championship-premi-25RetroMPC_T8_Kippel_DS_HD,DS,OBJ:Hunt Down And Destroy The Jedi,retro,0.0,0.06666666666666667,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Garcia_DS_HD,DS,OBJ:Hunt Down And Destroy The Jedi,retro,0.041666666666666664,0.07222222222222222,2
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Lingrell_DS_HD,DS,OBJ:Hunt Down And Destroy The Jedi,retro,0.075,0.07666666666666666,2
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Perugini_DS_HD,DS,OBJ:Hunt Down And Destroy The Jedi,retro,0.0,0.06666666666666667,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Prodoehl_DS_HD,DS,OBJ:Hunt Down And Destroy The Jedi,retro,0.020833333333333332,0.06944444444444445,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Tarbox_DS_HD,DS,OBJ:Hunt Down And Destroy The Jedi,retro,0.0,0.06666666666666667,1
+pcz-2024_Retro_-_Classic_NoV-24Retro_Garcia_DS_HD,DS,OBJ:Hunt Down And Destroy The Jedi,retro,0.043478260869565216,0.07246376811594203,2
+pcz-2024_Retro_-_Classic_NoV-24Retro_Kippel_DS_HD,DS,OBJ:Hunt Down And Destroy The Jedi,retro,0.0,0.06666666666666667,1
+pcz-2024_Retro_-_Classic_NoV-24Retro_Lima_DS_HD,DS,OBJ:Hunt Down And Destroy The Jedi,retro,0.022727272727272728,0.06969696969696969,1
+pcz-PREF2_2021_Top8_Event_Decklists-11_PREF2_HD_MLewis_2021,DS,OBJ:Hunt Down And Destroy The Jedi,modern,0.0,0.06666666666666667,1
+pcz-PREF2_2021_Top8_Event_Decklists-7_PREF2_Plunkett_HD_2021,DS,OBJ:Hunt Down And Destroy The Jedi,modern,0.08888888888888889,0.07851851851851852,2
+pcm-2021-retro-event-top-8-pds2-olson_RetroDS,DS,OBJ:ISB Operations,retro,0.0,0.07692307692307693,2
+pcm-2023-06-annual-online-retro-event-premiere-speci-HorbeyDarkISB,DS,OBJ:ISB Operations,retro,0.09523809523809523,0.09157509157509157,2
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Clark_DS_ISB,DS,OBJ:ISB Operations,retro,0.0,0.07692307692307693,2
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Deibler_DS_ISB,DS,OBJ:ISB Operations,retro,0.020833333333333332,0.08012820512820513,2
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Mikulka_DS_ISB,DS,OBJ:ISB Operations,retro,0.0,0.07692307692307693,2
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Price_DS_ISB,DS,OBJ:ISB Operations,retro,0.0,0.07692307692307693,2
+pcz-PREF2_2021_Top8_Event_Decklists-1_PREF2_ISB_Skilton_2021,DS,OBJ:ISB Operations,modern,0.0,0.07692307692307693,2
+pcz-PREF2_2021_Top8_Event_Decklists-4_PREF2_ISB_Kevin_Elia_2021,DS,OBJ:ISB Operations,modern,0.044444444444444446,0.08376068376068375,2
+swdb-10-ISB_2000_World_Champion,DS,OBJ:ISB Operations,old,0.09523809523809523,0.09157509157509157,2
+swdb-191-DS_ISB_Subjugation_Bombers,DS,OBJ:ISB Operations,old,0.14634146341463414,0.09943714821763602,2
+swdb-7-ISB_1999_World_Champion,DS,OBJ:ISB Operations,old,0.046511627906976744,0.08407871198568873,2
+swdb-80-ISB_Spies,DS,OBJ:ISB Operations,old,0.16279069767441862,0.10196779964221826,2
+swdb-81-ISB_Spies,DS,OBJ:ISB Operations,old,0.16279069767441862,0.10196779964221826,2
+pcm-2023-06-annual-online-retro-event-premiere-speci-DuselDarkOps,DS,OBJ:Imperial Occupation,retro,0.10526315789473684,0.24210526315789474,5
+pcm-2023-06-annual-online-retro-event-premiere-speci-MonteithDarkOps,DS,OBJ:Imperial Occupation,retro,0.16666666666666666,0.26666666666666666,6
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Radic_DS_Clouds,DS,OBJ:Imperial Occupation,retro,0.1111111111111111,0.24444444444444446,5
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Vencill_DS_TIEs,DS,OBJ:Imperial Occupation,retro,0.05714285714285714,0.22285714285714286,5
+swdb-6-Operatives_1998_World_Champion,DS,OBJ:Imperial Occupation,old,0.24,0.296,6
+swdb-59-Roger_Roger,DS,OBJ:Invasion,old,0.9591836734693877,2.9183673469387754,20
+pcz-PREF2_2021_Top8_Event_Decklists-2_PREF2_MKOS_Abyssin_jnapolitano_2021,DS,OBJ:My Kind Of Scum,modern,0.1111111111111111,0.6111111111111112,13
+pcz-PREF2_2021_Top8_Event_Decklists-6_PREF2_MKOS_Abyssin_2021_JJohns_2021,DS,OBJ:My Kind Of Scum,modern,0.10638297872340426,0.6063829787234043,13
+pcm-2022-05-decipher-cards-only-retro-event-DCO_Anis_DS_Senate,DS,"OBJ:My Lord, Is That Legal?",retro,0.24,0.37,8
+pcm-2022-05-decipher-cards-only-retro-event-DCO_Desai_DS_Senate,DS,"OBJ:My Lord, Is That Legal?",retro,0.20454545454545456,0.3522727272727273,7
+pcm-2025-01-las-vegas-grand-prix-las-vegas-nevada-ja-Chris_Wirfs_DS_no_v-cards_Senate_Podracing,DS,"OBJ:My Lord, Is That Legal?",modern,0.2553191489361702,0.37765957446808507,8
+swdb-106-Battle_for_the_Senate_(Dark),DS,"OBJ:My Lord, Is That Legal?",old,0.5161290322580645,0.5080645161290323,11
+pcm-2021-retro-event-top-8-pds2-koen_Retro_Top_8_DS,DS,OBJ:Ralltiir Operations,retro,0.0,0.05555555555555555,1
+pcm-2025-04-retro-gemp-match-play-championship-premi-25RetroMPC_Final_Dusel_DS_ROps,DS,OBJ:Ralltiir Operations,retro,0.034482758620689655,0.05938697318007662,1
+pcm-2025-04-retro-gemp-match-play-championship-premi-25RetroMPC_Final_Johnson_DS_ROps,DS,OBJ:Ralltiir Operations,retro,0.0,0.05555555555555555,1
+pcm-2025-04-retro-gemp-match-play-championship-premi-25RetroMPC_T4_Kippel_DS_ROps,DS,OBJ:Ralltiir Operations,retro,0.0,0.05555555555555555,1
+pcm-2025-04-retro-gemp-match-play-championship-premi-25RetroMPC_T8_Horbey_DS_ROps,DS,OBJ:Ralltiir Operations,retro,0.0,0.05555555555555555,1
+pcm-2025-04-retro-gemp-match-play-championship-premi-25RetroMPC_T8_Johnson_DS_ROps,DS,OBJ:Ralltiir Operations,retro,0.0,0.05555555555555555,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Behm_DS_ROps,DS,OBJ:Ralltiir Operations,retro,0.0196078431372549,0.05773420479302833,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Bethell_DS_ROps,DS,OBJ:Ralltiir Operations,retro,0.0,0.05555555555555555,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Bing_DS_ROps,DS,OBJ:Ralltiir Operations,retro,0.03773584905660377,0.059748427672955975,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Dusel_DS_ROps,DS,OBJ:Ralltiir Operations,retro,0.017543859649122806,0.05750487329434698,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_JChu_DS_ROps,DS,OBJ:Ralltiir Operations,retro,0.0,0.05555555555555555,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Kippel_DS_ROps,DS,OBJ:Ralltiir Operations,retro,0.0,0.05555555555555555,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Larson_DS_ROps,DS,OBJ:Ralltiir Operations,retro,0.0,0.05555555555555555,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Madaio_DS_ROps,DS,OBJ:Ralltiir Operations,retro,0.02,0.05777777777777778,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Monteith_DS_ROps,DS,OBJ:Ralltiir Operations,retro,0.0,0.05555555555555555,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_PJohnson_DS_ROps,DS,OBJ:Ralltiir Operations,retro,0.0,0.05555555555555555,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Tennyson_DS_ROps,DS,OBJ:Ralltiir Operations,retro,0.0,0.05555555555555555,1
+swdb-162-Ralltiir_Nights_(vs_Dantooine_Days),DS,OBJ:Ralltiir Operations,old,0.1111111111111111,0.06790123456790124,1
+pcm-2021-retro-event-top-8-pds2-winkelhaus_Brangus_Premiere_-_Death_Star_II_1,DS,OBJ:Set Your Course For Alderaan,retro,0.02040816326530612,0.04956268221574344,1
+pcm-2025-04-retro-gemp-match-play-championship-premi-25RetroMPC_T8_Christoffel_DS_SYCFA,DS,OBJ:Set Your Course For Alderaan,retro,0.0,0.047619047619047616,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Amore_DS_SYCFA,DS,OBJ:Set Your Course For Alderaan,retro,0.13333333333333333,0.06031746031746031,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Anderson_DS_SYCFA,DS,OBJ:Set Your Course For Alderaan,retro,0.02564102564102564,0.050061050061050064,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Christoffel_DS_SYCFA,DS,OBJ:Set Your Course For Alderaan,retro,0.09302325581395349,0.05647840531561461,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Ford_DS_SYCFA,DS,OBJ:Set Your Course For Alderaan,retro,0.0392156862745098,0.051353874883286646,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Hickey_DS_SYCFA,DS,OBJ:Set Your Course For Alderaan,retro,0.0,0.047619047619047616,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Horbey_DS_SYCFA,DS,OBJ:Set Your Course For Alderaan,retro,0.02,0.049523809523809526,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Waldron_DS_SYCFA,DS,OBJ:Set Your Course For Alderaan,retro,0.020833333333333332,0.04960317460317461,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Winter_DS_SYCFA,DS,OBJ:Set Your Course For Alderaan,retro,0.0,0.047619047619047616,1
+pcz-PREF2_2021_Top8_Event_Decklists-3_PREF2_SYCFA_Carulli_2021,DS,OBJ:Set Your Course For Alderaan,modern,0.057692307692307696,0.05311355311355311,1
+swdb-141-Fear_Will_Keep_Them_In_Line,DS,OBJ:Set Your Course For Alderaan,old,0.0425531914893617,0.051671732522796346,1
+swdb-144-Death_star_1dark,DS,OBJ:Set Your Course For Alderaan,old,0.11627906976744186,0.058693244739756366,1
+swdb-178-Battle_of_Yavin_(DS),DS,OBJ:Set Your Course For Alderaan,old,0.0,0.047619047619047616,1
+swdb-189-DS_Ultimate_Power,DS,OBJ:Set Your Course For Alderaan,old,0.1320754716981132,0.06019766397124887,1
+swdb-199-Set_Your_Course_For_Alderaan,DS,OBJ:Set Your Course For Alderaan,old,0.10416666666666667,0.057539682539682536,1
+swdb-20-Battle_of_Yavin_(Dark),DS,OBJ:Set Your Course For Alderaan,old,0.13333333333333333,0.06031746031746031,1
+swdb-204-Battle_of_Yavin_(DS),DS,OBJ:Set Your Course For Alderaan,old,0.0,0.047619047619047616,1
+swdb-89-Battle_of_Yavin_(DS),DS,OBJ:Set Your Course For Alderaan,old,0.021739130434782608,0.049689440993788817,1
+swdb-93-Battle_of_Yavin_(Dark),DS,OBJ:Set Your Course For Alderaan,old,0.10416666666666667,0.057539682539682536,1
+swdb-94-Battle_of_Yavin_(Dark),DS,OBJ:Set Your Course For Alderaan,old,0.13725490196078433,0.06069094304388421,1
+pcz-2024_Retro_-_Classic_NoV-24Retro_Horbey_DS_TDIGWATT,DS,OBJ:This Deal Is Getting Worse All The Time,retro,0.02127659574468085,0.20851063829787236,4
+swdb-170-Dark_Deal_TIE_Retrieval,DS,OBJ:This Deal Is Getting Worse All The Time,old,0.16666666666666666,0.26666666666666666,6
+swdb-171-Dark_Deal_TIE_Retrieval,DS,OBJ:This Deal Is Getting Worse All The Time,old,0.17391304347826086,0.26956521739130435,6
+swdb-173-dark_deal_trooper,DS,OBJ:This Deal Is Getting Worse All The Time,old,0.1702127659574468,0.2680851063829787,6
+swdb-82-Ugnauts_and_Sabers,DS,OBJ:This Deal Is Getting Worse All The Time,old,0.16666666666666666,0.26666666666666666,6
+swdb-110-Farm_Wars_(Dark),DS,SI:Combat Readiness,old,0.575,0.5375,11
+swdb-19-Battle_at_Cloud_City_(Dark),DS,SI:Combat Readiness,old,0.34782608695652173,0.42391304347826086,9
+swdb-190-DS_Death_Squadron_Hoth,DS,SI:Combat Readiness,old,0.11320754716981132,0.30660377358490565,6
+swdb-23-Battle_at_Cloud_City_(Dark),DS,SI:Combat Readiness,old,0.2972972972972973,0.3986486486486487,8
+swdb-100-Death_Star_II_(Dark),DS,SI:Operational As Planned,old,0.391304347826087,0.5942028985507246,12
+swdb-153-Dark_Jedi,DS,SI:Operational As Planned,old,0.25,0.5,10
+swdb-174-Death_Star_II_Themed,DS,SI:Operational As Planned,old,0.3404255319148936,0.5602836879432624,12
+swdb-114-Battle_of_Hoth_(Dark),DS,SI:Prepared Defenses,old,0.09302325581395349,0.23720930232558138,5
+swdb-122-This_is_some_rescue_(Dark),DS,SI:Prepared Defenses,old,0.4,0.36,8
+swdb-150-Battleground_Cloud_City_-_Vader_Ties,DS,SI:Prepared Defenses,old,0.058823529411764705,0.2235294117647059,5
+swdb-47-Battleground_Space_DS_VSD,DS,SI:Prepared Defenses,old,0.0975609756097561,0.23902439024390243,5
+swdb-58-Rare_Dark_Uncommons,DS,SI:Prepared Defenses,old,0.18,0.27199999999999996,6
+swdb-105-Boonta_Eve_Podrace_(Dark),DS,SI:Start Your Engines!,old,0.9736842105263158,1.473684210526316,20
+swdb-85-SWCCGStore_Podracing,DS,SI:Start Your Engines!,old,0.9743589743589743,1.4743589743589745,20
+swdb-116-XW_vs_TIE_(Dark),DS,SI:Twi'lek Advisor,old,0.125,0.125,3
+swdb-133-Battleground_Cloud_City_-_AT-STs,DS,SI:Twi'lek Advisor,old,0.15217391304347827,0.13043478260869565,3
+swdb-155-Scum,DS,SI:Twi'lek Advisor,old,0.14,0.128,3
+swdb-180-Battle_of_Hoth_(DS),DS,SI:Twi'lek Advisor,old,0.13157894736842105,0.12631578947368421,3
+swdb-211-Battle_of_Hoth_(DS),DS,SI:Twi'lek Advisor,old,0.10810810810810811,0.12162162162162163,3
+swdb-24-Inserts_in_Space,DS,SI:Twi'lek Advisor,old,0.1111111111111111,0.12222222222222223,3
+swdb-50-Bombers,DS,SI:Twi'lek Advisor,old,0.03225806451612903,0.1064516129032258,2
+swdb-61-Death_Star_II,DS,SI:Twi'lek Advisor,old,0.32432432432432434,0.16486486486486487,3
+swdb-72-Cloud_City_Dark_Deal_Blitz_Deck,DS,SI:Twi'lek Advisor,old,0.14814814814814814,0.12962962962962962,3
+swdb-98-Battle_of_Hoth_(Dark),DS,SI:Twi'lek Advisor,old,0.13043478260869565,0.12608695652173912,3
+swdb-1-1996_World_Champion_(Light),LS,NONE,old,0.05128205128205128,0.0735042735042735,2
+swdb-129-Light_side_Premiere_only,LS,NONE,old,0.2826086956521739,0.10434782608695652,3
+swdb-132-Light_side_A_new_Hope,LS,NONE,old,0.20408163265306123,0.09387755102040816,3
+swdb-151-Rebel_Fleet,LS,NONE,old,0.04878048780487805,0.07317073170731708,2
+swdb-156-Scoundrels,LS,NONE,old,0.15555555555555556,0.0874074074074074,3
+swdb-158-Casino_Royale,LS,NONE,old,0.22916666666666666,0.09722222222222222,3
+swdb-169-Tatooine_Drain,LS,NONE,old,0.08333333333333333,0.07777777777777778,2
+swdb-17-Battle_of_Hoth_(Light),LS,NONE,old,0.03508771929824561,0.07134502923976609,2
+swdb-215-Mains_and_Training_(Premiere_to_Cloud_City_modified),LS,NONE,old,0.023255813953488372,0.06976744186046512,2
+swdb-29-Asteroids_and_Inserts,LS,NONE,old,0.20833333333333334,0.09444444444444446,3
+swdb-4-Dagobah_turtle_1997_World_Champion,LS,NONE,old,0.023809523809523808,0.06984126984126984,2
+swdb-41-Cloud_city_fight_deck,LS,NONE,old,0.0,0.06666666666666667,2
+swdb-42-cloud-city-fight-deck-1.0,LS,NONE,old,0.0,0.06666666666666667,2
+swdb-64-the_ultimate_set,LS,NONE,old,0.36666666666666664,0.11555555555555556,3
+swdb-77-The_Empire_Strikes_Back_Intro_Two-player_Game,LS,NONE,old,0.4375,0.125,4
+swdb-182-Tatooine_Nightfall,LS,OBJ:Agents In The Court,old,0.16666666666666666,0.6666666666666666,19
+swdb-195-Tatooine_Nightfall,LS,OBJ:Agents In The Court,old,0.17647058823529413,0.6764705882352942,20
+swdb-161-Dantooine_Days_(vs_Ralltiir_Nights),LS,OBJ:Dantooine Base Operations,old,0.15217391304347827,1.3043478260869565,20
+pcm-2023-06-annual-online-retro-event-premiere-speci-DuselLightHB,LS,OBJ:Hidden Base,retro,0.0,0.034482758620689655,1
+pcm-2023-06-annual-online-retro-event-premiere-speci-FeldmanLightHB,LS,OBJ:Hidden Base,retro,0.0,0.034482758620689655,1
+pcm-2023-06-annual-online-retro-event-premiere-speci-LuhksLightHB,LS,OBJ:Hidden Base,retro,0.0,0.034482758620689655,1
+pcm-2023-06-annual-online-retro-event-premiere-speci-NguyenLightHB,LS,OBJ:Hidden Base,retro,0.0,0.034482758620689655,1
+pcm-2023-06-annual-online-retro-event-premiere-speci-TalagaLightHB,LS,OBJ:Hidden Base,retro,0.0,0.034482758620689655,1
+pcm-2025-04-retro-gemp-match-play-championship-premi-25RetroMPC_Final_Dusel_LS_HB,LS,OBJ:Hidden Base,retro,0.0,0.034482758620689655,1
+pcm-2025-04-retro-gemp-match-play-championship-premi-25RetroMPC_T4_Feldman_LS_HB,LS,OBJ:Hidden Base,retro,0.0196078431372549,0.03583502366463827,1
+pcm-2025-04-retro-gemp-match-play-championship-premi-25RetroMPC_T8_Johnson_LS_HB,LS,OBJ:Hidden Base,retro,0.0,0.034482758620689655,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Amore_LS_HB,LS,OBJ:Hidden Base,retro,0.11627906976744186,0.042502004811547714,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Anderson_LS_HB,LS,OBJ:Hidden Base,retro,0.10256410256410256,0.04155614500442086,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Coupland_LS_HB,LS,OBJ:Hidden Base,retro,0.03571428571428571,0.03694581280788177,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Dusel_LS_HB,LS,OBJ:Hidden Base,retro,0.0,0.034482758620689655,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Ford_LS_HB,LS,OBJ:Hidden Base,retro,0.03773584905660377,0.03708523096942095,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Gravel_LS_HB,LS,OBJ:Hidden Base,retro,0.022727272727272728,0.03605015673981191,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Jasper_LS_HB,LS,OBJ:Hidden Base,retro,0.0,0.034482758620689655,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Nguyen_LS_HB,LS,OBJ:Hidden Base,retro,0.04878048780487805,0.03784693019343987,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_PJohnson_LS_HB,LS,OBJ:Hidden Base,retro,0.0,0.034482758620689655,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Petersson_LS_HB,LS,OBJ:Hidden Base,retro,0.0,0.034482758620689655,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Tarbox_LS_HB,LS,OBJ:Hidden Base,retro,0.0,0.034482758620689655,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Vencill_LS_HB,LS,OBJ:Hidden Base,retro,0.0,0.034482758620689655,1
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Waldron_LS_HB,LS,OBJ:Hidden Base,retro,0.0,0.034482758620689655,1
+pcz-2024_Retro_-_Classic_NoV-24Retro_Feldman_LS_HB,LS,OBJ:Hidden Base,retro,0.021739130434782608,0.035982008995502246,1
+swdb-115-XW_vs_TIE_(Light),LS,OBJ:Hidden Base,old,0.0,0.034482758620689655,1
+swdb-135-PRM-DSII_Hidden_Base_Our_Most_Desperate_Hour,LS,OBJ:Hidden Base,old,0.0,0.034482758620689655,1
+swdb-197-XW_vs_TIE_(Light),LS,OBJ:Hidden Base,old,0.0,0.034482758620689655,1
+swdb-60-Going_to_buy_me_a_Light_Side_Deck...,LS,OBJ:Hidden Base,old,0.05263157894736842,0.038112522686025406,1
+swdb-8-Hidden_Base_1999_World_Champion,LS,OBJ:Hidden Base,old,0.019230769230769232,0.03580901856763926,1
+swdb-83-Hidden_Space_Boats,LS,OBJ:Hidden Base,old,0.11764705882352941,0.04259634888438134,1
+swdb-9-Hidden_Base_2000_World_Champion,LS,OBJ:Hidden Base,old,0.058823529411764705,0.038539553752535496,1
+pcm-2023-06-annual-online-retro-event-premiere-speci-ChuLightOps,LS,OBJ:Local Uprising,retro,0.08823529411764706,0.19607843137254902,6
+pcm-2025-04-retro-gemp-match-play-championship-premi-25RetroMPC_T8_Bisco_LS_Tatooine,LS,OBJ:Local Uprising,retro,0.03333333333333333,0.17777777777777778,5
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Bisco_LS_Operatives,LS,OBJ:Local Uprising,retro,0.030303030303030304,0.17676767676767677,5
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Monteith_LS_Operatives,LS,OBJ:Local Uprising,retro,0.05714285714285714,0.18571428571428572,5
+swdb-30-Tatooine_Occupation_Celebration,LS,OBJ:Local Uprising,old,0.1956521739130435,0.2318840579710145,7
+swdb-5-Operatives_1998_World_Champion,LS,OBJ:Local Uprising,old,0.19230769230769232,0.23076923076923075,7
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Lindstrom_LS_MBO,LS,OBJ:Massassi Base Operations,retro,0.03636363636363636,0.1191919191919192,3
+swdb-179-Battle_of_Yavin_(LS),LS,OBJ:Massassi Base Operations,old,0.019230769230769232,0.11538461538461539,3
+swdb-183-LS_Attack_Run,LS,OBJ:Massassi Base Operations,old,0.0196078431372549,0.11546840958605666,3
+swdb-205-Battle_of_Yavin_(LS),LS,OBJ:Massassi Base Operations,old,0.018867924528301886,0.11530398322851153,3
+swdb-21-Battle_of_Yavin_(Light),LS,OBJ:Massassi Base Operations,old,0.038461538461538464,0.11965811965811965,3
+swdb-48-Trench_Run_B-winging_the_Heat,LS,OBJ:Massassi Base Operations,old,0.041666666666666664,0.12037037037037036,3
+swdb-90-Battle_of_Yavin_(LS),LS,OBJ:Massassi Base Operations,old,0.0196078431372549,0.11546840958605666,3
+swdb-92-Battle_of_Yavin_(Light),LS,OBJ:Massassi Base Operations,old,0.0,0.1111111111111111,3
+swdb-95-Battle_of_Yavin_(Light),LS,OBJ:Massassi Base Operations,old,0.0196078431372549,0.11546840958605666,3
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Parco_LS_MWYHL,LS,OBJ:Mind What You Have Learned,retro,0.0,0.2,6
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Prodoehl_LS_MWYHL,LS,OBJ:Mind What You Have Learned,retro,0.02040816326530612,0.20816326530612245,6
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Wargo_LS_MWYHL,LS,OBJ:Mind What You Have Learned,retro,0.0,0.2,6
+pcz-PREF2_2021_Top8_Event_Decklists-11_PREF2_MWYHL_5Test_MLewis_2021,LS,OBJ:Mind What You Have Learned,modern,0.0,0.2,6
+swdb-111-It_is_the_future_you_see_(Light),LS,OBJ:Mind What You Have Learned,old,0.25,0.3,9
+pcm-2022-05-decipher-cards-only-retro-event-DCO_Baroni_LS_Senate,LS,OBJ:Plead My Case To The Senate,retro,0.125,0.4166666666666667,12
+pcm-2022-05-decipher-cards-only-retro-event-DCO_Desai_LS_Senate,LS,OBJ:Plead My Case To The Senate,retro,0.175,0.45,13
+swdb-107-Battle_for_the_Senate_(Light),LS,OBJ:Plead My Case To The Senate,old,0.5625,0.7083333333333334,20
+pcz-2024_Retro_-_Classic_NoV-24Retro_Garcia_LS_QMC,LS,OBJ:Quiet Mining Colony,retro,0.04,0.36000000000000004,10
+swdb-123-Cloud_City_casual,LS,OBJ:Quiet Mining Colony,old,0.20930232558139536,0.4728682170542636,14
+swdb-143-Quiet_mining_colony,LS,OBJ:Quiet Mining Colony,old,0.21951219512195122,0.4796747967479675,14
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Price_LS_RST,LS,OBJ:Rebel Strike Team,retro,0.034482758620689655,0.17816091954022986,5
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Radic_LS_RST,LS,OBJ:Rebel Strike Team,retro,0.03636363636363636,0.1787878787878788,5
+pcz-2024_Retro_-_Classic_NoV-24Retro_Horbey_LS_RST,LS,OBJ:Rebel Strike Team,retro,0.0,0.16666666666666666,5
+swdb-126-Rebel_Strike_Team_(2021_Throwback_Event),LS,OBJ:Rebel Strike Team,old,0.017241379310344827,0.1724137931034483,5
+swdb-176-Endor_Rebel_Strike_Team_Themed,LS,OBJ:Rebel Strike Team,old,0.4634146341463415,0.3211382113821138,9
+swdb-188-LS_Endor_Armed_Scouts,LS,OBJ:Rebel Strike Team,old,0.20754716981132076,0.23584905660377356,7
+swdb-121-This_is_some_rescue_(Light),LS,OBJ:Rescue The Princess,old,0.2619047619047619,1.5238095238095237,20
+pcm-2021-retro-event-top-8-pds2-bethell_AntiRalops,LS,OBJ:There Is Good In Him,retro,0.04,0.1542857142857143,4
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Bethell_LS_TIGIH,LS,OBJ:There Is Good In Him,retro,0.0,0.14285714285714285,4
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Mikulka_LS_TIGIH,LS,OBJ:There Is Good In Him,retro,0.023255813953488372,0.14950166112956811,4
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Sanders_LS_TIGIH,LS,OBJ:There Is Good In Him,retro,0.0,0.14285714285714285,4
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Tennyson_LS_TIGIH,LS,OBJ:There Is Good In Him,retro,0.0,0.14285714285714285,4
+pcz-2024_Retro_-_Classic_NoV-24Retro_Chu_LS_TIGIH,LS,OBJ:There Is Good In Him,retro,0.0,0.14285714285714285,4
+swdb-102-Battle_of_Endor_(Light),LS,OBJ:There Is Good In Him,old,0.46153846153846156,0.27472527472527475,8
+pcm-2022-05-decipher-cards-only-retro-event-DCO_Chu_LS_WYS,LS,OBJ:Watch Your Step,retro,0.09090909090909091,0.14772727272727273,4
+pcz-2024_Retro_-_Classic_NoV-24Retro_Kippel_LS_WYS,LS,OBJ:Watch Your Step,retro,0.04081632653061224,0.13520408163265307,4
+pcz-PREF2_2021_Top8_Event_Decklists-1_PREF2_WYS_Skilton_2021,LS,OBJ:Watch Your Step,modern,0.0,0.125,4
+pcz-PREF2_2021_Top8_Event_Decklists-2_PREF2_WYS_jnapolitano_2021,LS,OBJ:Watch Your Step,modern,0.0,0.125,4
+pcz-PREF2_2021_Top8_Event_Decklists-3_PREF2_WYS_carulli_2021,LS,OBJ:Watch Your Step,modern,0.0392156862745098,0.13480392156862744,4
+pcz-PREF2_2021_Top8_Event_Decklists-4_PREF2_WYS_Kevin_Elia_2021,LS,OBJ:Watch Your Step,modern,0.02127659574468085,0.13031914893617022,4
+pcz-PREF2_2021_Top8_Event_Decklists-6_PREF2_WYS_JJohns_2021,LS,OBJ:Watch Your Step,modern,0.0,0.125,4
+pcz-PREF2_2021_Top8_Event_Decklists-7_PREF2_WYS_Plunkett_2021,LS,OBJ:Watch Your Step,modern,0.0,0.125,4
+swdb-73-NABOO_-_LS_(Theme),LS,OBJ:We Have A Plan,old,0.9137931034482759,2.8275862068965516,20
+pcm-2022-05-decipher-cards-only-retro-event-DCO_Anis_LS_Combat,LS,OBJ:We'll Handle This,retro,0.24390243902439024,1.4878048780487805,20
+pcm-2021-retro-event-top-8-pds2-winkelhaus_P-DS2_Profit,LS,OBJ:You Can Either Profit By This...,retro,0.0196078431372549,0.10392156862745099,3
+pcm-2025-04-retro-gemp-match-play-championship-premi-25RetroMPC_T8_Chu_LS_Profit,LS,OBJ:You Can Either Profit By This...,retro,0.0,0.1,3
+pcm-2025-04-retro-gemp-match-play-championship-premi-25RetroMPC_T8_Horbey_LS_Profit,LS,OBJ:You Can Either Profit By This...,retro,0.0,0.1,3
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Adamson_LS_Profit,LS,OBJ:You Can Either Profit By This...,retro,0.0,0.1,3
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Behm_LS_Profit,LS,OBJ:You Can Either Profit By This...,retro,0.0,0.1,3
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_CJohnson_LS_Profit,LS,OBJ:You Can Either Profit By This...,retro,0.02564102564102564,0.10512820512820513,3
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Deibler_LS_Profit,LS,OBJ:You Can Either Profit By This...,retro,0.0,0.1,3
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Hickey_LS_Profit,LS,OBJ:You Can Either Profit By This...,retro,0.0,0.1,3
+swdb-167-Be_destroy,LS,OBJ:You Can Either Profit By This...,old,0.13636363636363635,0.12727272727272726,4
+swdb-187-LS_Profit_Or_Be_Destroyed,LS,OBJ:You Can Either Profit By This...,old,0.17543859649122806,0.13508771929824562,4
+pcm-2021-retro-event-top-8-pds2-hunter_TRM_-_2000,LS,SI:Careful Planning,retro,0.0,0.09090909090909091,3
+pcm-2021-retro-event-top-8-pds2-olson_RetroLS,LS,SI:Careful Planning,retro,0.022222222222222223,0.09494949494949495,3
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Garcia_LS_TRM,LS,SI:Careful Planning,retro,0.0,0.09090909090909091,3
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Horbey_LS_TRM,LS,SI:Careful Planning,retro,0.0,0.09090909090909091,3
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Lingrell_LS_TRM,LS,SI:Careful Planning,retro,0.0,0.09090909090909091,3
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Perugini_LS_TRM,LS,SI:Careful Planning,retro,0.0,0.09090909090909091,3
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_RScott_LS_TRM,LS,SI:Careful Planning,retro,0.02127659574468085,0.09477756286266925,3
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Winter_LS_Beg_Canyon,LS,SI:Careful Planning,retro,0.16666666666666666,0.1212121212121212,4
+pcz-2024_Retro_-_Classic_NoV-24Retro_Szwabowski_LS_Shuffle,LS,SI:Careful Planning,retro,0.02631578947368421,0.09569377990430622,3
+swdb-70-Jabba_s_Palace,LS,SI:Careful Planning,old,0.38333333333333336,0.1606060606060606,5
+swdb-96-Farm_Wars_(Light),LS,SI:Careful Planning,old,0.06666666666666667,0.10303030303030303,3
+pcm-2021-retro-event-top-8-pds2-desai_2000_trm,LS,SI:Heading For The Medical Frigate,retro,0.020833333333333332,0.054824561403508776,2
+pcm-2021-retro-event-top-8-pds2-koen_Retro_Top_8_LS,LS,SI:Heading For The Medical Frigate,retro,0.0,0.05263157894736842,2
+pcm-2025-04-retro-gemp-match-play-championship-premi-25RetroMPC_T4_Kippel_LS_TRM,LS,SI:Heading For The Medical Frigate,retro,0.0,0.05263157894736842,2
+pcm-2025-04-retro-gemp-match-play-championship-premi-25RetroMPC_T8_Christoffel_LS_EBO,LS,SI:Heading For The Medical Frigate,retro,0.0,0.05263157894736842,2
+pcm-2025-04-retro-gemp-match-play-championship-premi-25RetroMPC_T8_Kippel_LS_TRM,LS,SI:Heading For The Medical Frigate,retro,0.0,0.05263157894736842,2
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Butler_LS_TRM,LS,SI:Heading For The Medical Frigate,retro,0.0,0.05263157894736842,2
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Christoffel_LS_EBO,LS,SI:Heading For The Medical Frigate,retro,0.02,0.05473684210526316,2
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Clark_LS_TRM,LS,SI:Heading For The Medical Frigate,retro,0.0,0.05263157894736842,2
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Halman_LS_TRM,LS,SI:Heading For The Medical Frigate,retro,0.0,0.05263157894736842,2
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_JChu_LS_TRM,LS,SI:Heading For The Medical Frigate,retro,0.0,0.05263157894736842,2
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Ja_McBride_LS_TRM,LS,SI:Heading For The Medical Frigate,retro,0.0,0.05263157894736842,2
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Kippel_LS_TRM,LS,SI:Heading For The Medical Frigate,retro,0.0,0.05263157894736842,2
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Larson_LS_TRM,LS,SI:Heading For The Medical Frigate,retro,0.0,0.05263157894736842,2
+pcz-2024_Retro_-_Classic_NoV-24Retro_Lima_LS_TRM,LS,SI:Heading For The Medical Frigate,retro,0.0,0.05263157894736842,2
+pcz-PREF2_2021_Top8_Event_Decklists-14_PREF2_ObiHut_Harvest_Hummel_2021,LS,SI:Heading For The Medical Frigate,modern,0.06666666666666667,0.05964912280701754,2
+swdb-149-Battleground_Cloud_City_-_Home_One_Mains,LS,SI:Heading For The Medical Frigate,old,0.1111111111111111,0.06432748538011697,2
+swdb-175-Death_Star_II_Themed,LS,SI:Heading For The Medical Frigate,old,0.1875,0.07236842105263158,2
+swdb-75-Starship_-_Force_Drain_LIGHT,LS,SI:Heading For The Medical Frigate,old,0.05555555555555555,0.058479532163742694,2
+swdb-78-Attack_Run,LS,SI:Heading For The Medical Frigate,old,0.07547169811320754,0.0605759682224429,2
+swdb-104-Boonta_Eve_Podrace_(Light),LS,SI:Podrace Prep,old,0.627906976744186,1.127906976744186,20
+swdb-86-SWCCGStore_Podracing,LS,SI:Podrace Prep,old,0.6363636363636364,1.1363636363636362,20
+pcm-2026-09-retro-gemp-match-play-championship-premi-26RMPC_Heft_LS_EBO,LS,SI:The Signal,retro,0.02040816326530612,0.10408163265306122,3
+pcz-PREF2_2021_Top8_Event_Decklists-8_PREF2_EBO_gogolen_2021,LS,SI:The Signal,modern,0.025,0.10500000000000001,3
+swdb-113-Battle_of_Hoth_(Light),LS,SI:The Signal,old,0.02127659574468085,0.10425531914893618,3
+swdb-146-Battle_of_hoth_light,LS,SI:The Signal,old,0.10204081632653061,0.12040816326530612,3
+swdb-154-Jedi,LS,SI:The Signal,old,0.06521739130434782,0.11304347826086955,3
+swdb-181-Battle_of_Hoth_(LS),LS,SI:The Signal,old,0.1111111111111111,0.12222222222222223,4
+swdb-184-LS_Battle_of_Hoth,LS,SI:The Signal,old,0.07407407407407407,0.11481481481481481,3
+swdb-210-Battle_of_Hoth_(LS),LS,SI:The Signal,old,0.10869565217391304,0.12173913043478261,4
+swdb-33-Battle_of_Hoth_(Light),LS,SI:The Signal,old,0.04,0.10800000000000001,3
+swdb-99-Battle_of_Hoth_(Light),LS,SI:The Signal,old,0.020833333333333332,0.10416666666666667,3

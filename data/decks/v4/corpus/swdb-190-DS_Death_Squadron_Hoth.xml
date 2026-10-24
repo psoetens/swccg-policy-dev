@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_234" title="Alter" />
+  <card blueprintId="1_301" title="Devastator" />
+  <card blueprintId="1_227" title="Presence Of The Force" />
+  <card blueprintId="3_158" title="AT-AT Cannon" />
+  <card blueprintId="3_158" title="AT-AT Cannon" />
+  <card blueprintId="3_82" title="Admiral Ozzel" />
+  <card blueprintId="3_154" title="Blizzard 1" />
+  <card blueprintId="3_155" title="Blizzard 2" />
+  <card blueprintId="3_156" title="Blizzard Scout 1" />
+  <card blueprintId="3_157" title="Blizzard Walker" />
+  <card blueprintId="3_117" title="Cold Feet" />
+  <card blueprintId="3_118" title="Collapsing Corridor" />
+  <card blueprintId="3_120" title="Crash Landing" />
+  <card blueprintId="3_120" title="Crash Landing" />
+  <card blueprintId="3_121" title="Debris Zone" />
+  <card blueprintId="3_95" title="Electro-Rangefinder" />
+  <card blueprintId="3_87" title="General Veers" />
+  <card blueprintId="3_87" title="General Veers" />
+  <card blueprintId="3_143" title="Hoth" />
+  <card blueprintId="3_144" title="Hoth: Defensive Perimeter (3rd Marker)" />
+  <card blueprintId="3_148" title="Hoth: Ice Plains (5th Marker)" />
+  <card blueprintId="3_149" title="Hoth: North Ridge (4th Marker)" />
+  <card blueprintId="3_89" title="Lieutenant Cabbel" />
+  <card blueprintId="3_109" title="Responsibility Of Command" />
+  <card blueprintId="3_115" title="Target The Main Generator" />
+  <card blueprintId="3_138" title="Trample" />
+  <card blueprintId="3_114" title="Weapon Malfunction" />
+  <card blueprintId="4_166" title="Avenger" />
+  <card blueprintId="4_93" title="Captain Needa" />
+  <card blueprintId="7_276" title="Coruscant: Docking Bay" />
+  <card blueprintId="7_175" title="Darth Vader, Dark Lord Of The Sith" />
+  <card blueprintId="7_302" title="Death Squadron Star Destroyer" />
+  <card blueprintId="7_302" title="Death Squadron Star Destroyer" />
+  <card blueprintId="7_282" title="Executor: Docking Bay" />
+  <card blueprintId="7_283" title="Fondor" />
+  <card blueprintId="7_251" title="Heavy Fire Zone" />
+  <card blueprintId="7_237" title="Rebel Base Occupation" />
+  <card blueprintId="7_237" title="Rebel Base Occupation" />
+  <card blueprintId="7_202" title="Sergeant Major Bursk" />
+  <card blueprintId="8_136" title="Combat Readiness" />
+  <card blueprintId="8_94" title="Commander Igar" />
+  <card blueprintId="8_126" title="Imperial Arrest Order" />
+  <card blueprintId="8_104" title="Lieutenant Watts" />
+  <card blueprintId="8_106" title="Major Marquand" />
+  <card blueprintId="8_170" title="Tempest 1" />
+  <card blueprintId="9_98" title="Admiral Piett" />
+  <card blueprintId="9_104" title="Colonel Davod Jon" />
+  <card blueprintId="9_106" title="Commander Merrejk" />
+  <card blueprintId="9_157" title="Flagship Executor" />
+  <card blueprintId="9_137" title="Imperial Command" />
+  <card blueprintId="9_137" title="Imperial Command" />
+  <card blueprintId="9_129" title="Mobilization Points" />
+  <card blueprintId="9_139" title="Prepared Defenses" />
+  <card blueprintId="9_96" title="We're In Attack Position Now" />
+  <card blueprintId="11_77" title="You May Start Your Landing" />
+  <card blueprintId="104_7" title="Walker Garrison" />
+  <card blueprintId="13_56" title="Blizzard 4" />
+  <card blueprintId="13_82" title="Prepare For A Surface Attack" />
+  <card blueprintId="13_87" title="Stormtrooper Garrison" />
+  <card blueprintId="13_87" title="Stormtrooper Garrison" />
+</deck>

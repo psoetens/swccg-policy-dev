@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_42" title="A Tremor In The Force" />
+  <card blueprintId="1_2" title="Beru Lars" />
+  <card blueprintId="1_152" title="Blaster" />
+  <card blueprintId="1_5" title="C-3PO (See-Threepio)" />
+  <card blueprintId="1_74" title="Collision!" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="1_45" title="Crash Site Memorial" />
+  <card blueprintId="1_124" title="Death Star: Docking Bay 327" />
+  <card blueprintId="1_35" title="Electrobinoculars" />
+  <card blueprintId="1_82" title="Gift Of The Mentor" />
+  <card blueprintId="1_11" title="Han Solo" />
+  <card blueprintId="1_84" title="Han's Dice" />
+  <card blueprintId="1_154" title="Han's Heavy Blaster Pistol" />
+  <card blueprintId="1_88" title="Hyper Escape" />
+  <card blueprintId="1_88" title="Hyper Escape" />
+  <card blueprintId="1_155" title="Jedi Lightsaber" />
+  <card blueprintId="1_126" title="Kessel" />
+  <card blueprintId="1_93" title="Krayt Dragon Howl" />
+  <card blueprintId="1_17" title="Leia Organa" />
+  <card blueprintId="1_94" title="Leia's Back" />
+  <card blueprintId="1_19" title="Luke Skywalker" />
+  <card blueprintId="1_95" title="Luke's Back" />
+  <card blueprintId="1_95" title="Luke's Back" />
+  <card blueprintId="1_143" title="Millennium Falcon" />
+  <card blueprintId="1_21" title="Obi-Wan Kenobi" />
+  <card blueprintId="1_22" title="Owen Lars" />
+  <card blueprintId="1_103" title="Panic" />
+  <card blueprintId="1_28" title="Rebel Trooper" />
+  <card blueprintId="1_28" title="Rebel Trooper" />
+  <card blueprintId="1_28" title="Rebel Trooper" />
+  <card blueprintId="1_107" title="Return Of A Jedi" />
+  <card blueprintId="1_107" title="Return Of A Jedi" />
+  <card blueprintId="1_65" title="Special Modifications" />
+  <card blueprintId="1_31" title="Talz" />
+  <card blueprintId="1_31" title="Talz" />
+  <card blueprintId="1_31" title="Talz" />
+  <card blueprintId="1_127" title="Tatooine" />
+  <card blueprintId="1_40" title="Tatooine Utility Belt" />
+  <card blueprintId="1_129" title="Tatooine: Docking Bay 94" />
+  <card blueprintId="1_132" title="Tatooine: Lars' Moisture Farm" />
+  <card blueprintId="1_133" title="Tatooine: Mos Eisley" />
+  <card blueprintId="1_66" title="Traffic Control" />
+  <card blueprintId="1_67" title="Tusken Breath Mask" />
+  <card blueprintId="1_146" title="X-wing" />
+  <card blueprintId="1_146" title="X-wing" />
+  <card blueprintId="1_146" title="X-wing" />
+  <card blueprintId="1_147" title="Y-wing" />
+  <card blueprintId="1_147" title="Y-wing" />
+  <card blueprintId="1_147" title="Y-wing" />
+  <card blueprintId="1_135" title="Yavin 4" />
+  <card blueprintId="1_136" title="Yavin 4: Docking Bay" />
+  <card blueprintId="1_138" title="Yavin 4: Massassi Throne Room" />
+  <card blueprintId="2_77" title="Bowcaster" />
+  <card blueprintId="2_3" title="Chewbacca" />
+  <card blueprintId="2_4" title="Commander Evram Lajaie" />
+  <card blueprintId="2_5" title="Commander Vanden Willard" />
+  <card blueprintId="2_14" title="R2-D2 (Artoo-Detoo)" />
+  <card blueprintId="2_57" title="Sorry About The Mess" />
+  <card blueprintId="2_73" title="Tantive IV" />
+  <card blueprintId="2_58" title="Wookiee Roar" />
+</deck>

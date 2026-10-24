@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_4" title="BoShek" />
+  <card blueprintId="5_1" title="Captain Han Solo" />
+  <card blueprintId="5_1" title="Captain Han Solo" />
+  <card blueprintId="108_2" title="Leia With Blaster Rifle" />
+  <card blueprintId="9_21" title="Lieutenant Blount" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="9_24" title="Luke Skywalker, Jedi Knight" />
+  <card blueprintId="7_32" title="Melas" />
+  <card blueprintId="108_4" title="Obi-Wan With Lightsaber" />
+  <card blueprintId="108_4" title="Obi-Wan With Lightsaber" />
+  <card blueprintId="7_44" title="Tawss Khaa" />
+  <card blueprintId="4_2" title="Yoda" />
+  <card blueprintId="4_10" title="Han's Toolkit" />
+  <card blueprintId="5_16" title="Advantage" />
+  <card blueprintId="4_16" title="Anger, Fear, Aggression" />
+  <card blueprintId="4_16" title="Anger, Fear, Aggression" />
+  <card blueprintId="4_16" title="Anger, Fear, Aggression" />
+  <card blueprintId="8_35" title="Battle Plan" />
+  <card blueprintId="7_60" title="Draw Their Fire" />
+  <card blueprintId="9_33" title="Honor Of The Jedi" />
+  <card blueprintId="7_68" title="Legendary Starfighter" />
+  <card blueprintId="4_30" title="Order To Engage" />
+  <card blueprintId="6_56" title="Projection Of A Skywalker" />
+  <card blueprintId="6_56" title="Projection Of A Skywalker" />
+  <card blueprintId="1_65" title="Special Modifications" />
+  <card blueprintId="2_41" title="What're You Tryin' To Push On Us?" />
+  <card blueprintId="7_81" title="Wise Advice" />
+  <card blueprintId="9_47" title="Your Insight Serves You Well" />
+  <card blueprintId="1_70" title="A Few Maneuvers" />
+  <card blueprintId="5_38" title="Clash Of Sabers" />
+  <card blueprintId="5_41" title="Courage Of A Skywalker" />
+  <card blueprintId="4_49" title="Effective Repairs" />
+  <card blueprintId="1_82" title="Gift Of The Mentor" />
+  <card blueprintId="9_51" title="Heading For The Medical Frigate" />
+  <card blueprintId="8_56" title="I Know" />
+  <card blueprintId="1_90" title="It Could Be Worse" />
+  <card blueprintId="1_90" title="It Could Be Worse" />
+  <card blueprintId="4_53" title="Jedi Levitation" />
+  <card blueprintId="4_53" title="Jedi Levitation" />
+  <card blueprintId="1_101" title="On The Edge" />
+  <card blueprintId="1_101" title="On The Edge" />
+  <card blueprintId="2_54" title="Out Of Commission" />
+  <card blueprintId="2_54" title="Out Of Commission" />
+  <card blueprintId="5_64" title="Punch It!" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="1_113" title="Surprise Assault" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="4_67" title="Tunnel Vision" />
+  <card blueprintId="4_77" title="Great Warrior" />
+  <card blueprintId="5_82" title="Cloud City: Lower Corridor" />
+  <card blueprintId="4_84" title="Dagobah" />
+  <card blueprintId="4_85" title="Dagobah: Bog Clearing" />
+  <card blueprintId="4_87" title="Dagobah: Swamp" />
+  <card blueprintId="4_88" title="Dagobah: Training Area" />
+  <card blueprintId="4_89" title="Dagobah: Yoda's Hut" />
+  <card blueprintId="1_126" title="Kessel" />
+  <card blueprintId="7_138" title="Mind What You Have Learned" />
+  <card blueprintId="1_143" title="Millennium Falcon" />
+  <card blueprintId="1_143" title="Millennium Falcon" />
+  <card blueprintId="9_90" title="Luke's Lightsaber" />
+</deck>

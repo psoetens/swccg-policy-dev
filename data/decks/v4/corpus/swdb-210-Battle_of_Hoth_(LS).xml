@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_11" title="Han Solo" />
+  <card blueprintId="1_154" title="Han's Heavy Blaster Pistol" />
+  <card blueprintId="2_3" title="Chewbacca" />
+  <card blueprintId="3_2" title="Cal Alder" />
+  <card blueprintId="3_3" title="Commander Luke Skywalker" />
+  <card blueprintId="3_4" title="Dack Ralter" />
+  <card blueprintId="3_5" title="Derek 'Hobbie' Klivian" />
+  <card blueprintId="3_6" title="Echo Base Trooper" />
+  <card blueprintId="3_6" title="Echo Base Trooper" />
+  <card blueprintId="3_6" title="Echo Base Trooper" />
+  <card blueprintId="3_6" title="Echo Base Trooper" />
+  <card blueprintId="3_6" title="Echo Base Trooper" />
+  <card blueprintId="3_6" title="Echo Base Trooper" />
+  <card blueprintId="3_7" title="Echo Base Trooper Officer" />
+  <card blueprintId="3_7" title="Echo Base Trooper Officer" />
+  <card blueprintId="3_7" title="Echo Base Trooper Officer" />
+  <card blueprintId="3_10" title="General Carlist Rieekan" />
+  <card blueprintId="3_56" title="Hoth: Defensive Perimeter (3rd Marker)" />
+  <card blueprintId="3_57" title="Hoth: Echo Command Center (War Room)" />
+  <card blueprintId="3_58" title="Hoth: Echo Corridor" />
+  <card blueprintId="3_61" title="Hoth: Main Power Generators (1st Marker)" />
+  <card blueprintId="3_62" title="Hoth: North Ridge (4th Marker)" />
+  <card blueprintId="3_63" title="Hoth: Snow Trench (2nd Marker)" />
+  <card blueprintId="3_77" title="Medium Repeating Blaster Cannon" />
+  <card blueprintId="3_47" title="One More Pass" />
+  <card blueprintId="3_79" title="Power Harpoon" />
+  <card blueprintId="3_79" title="Power Harpoon" />
+  <card blueprintId="3_66" title="Rogue 1" />
+  <card blueprintId="3_67" title="Rogue 2" />
+  <card blueprintId="3_68" title="Rogue 3" />
+  <card blueprintId="3_19" title="Shawn Valdez" />
+  <card blueprintId="3_69" title="Snowspeeder" />
+  <card blueprintId="3_69" title="Snowspeeder" />
+  <card blueprintId="3_51" title="Walker Sighting" />
+  <card blueprintId="3_25" title="Wes Janson" />
+  <card blueprintId="3_27" title="Zev Senesca" />
+  <card blueprintId="5_28" title="Leia Of Alderaan" />
+  <card blueprintId="5_7" title="Princess Leia" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="7_12" title="Commander Wedge Antilles" />
+  <card blueprintId="7_86" title="Desperate Tactics" />
+  <card blueprintId="7_86" title="Desperate Tactics" />
+  <card blueprintId="7_158" title="Echo Base Trooper Rifle" />
+  <card blueprintId="7_158" title="Echo Base Trooper Rifle" />
+  <card blueprintId="7_158" title="Echo Base Trooper Rifle" />
+  <card blueprintId="7_22" title="Incom Engineer" />
+  <card blueprintId="7_53" title="Portable Scanner" />
+  <card blueprintId="7_35" title="Princess Organa" />
+  <card blueprintId="7_100" title="Rapid Fire" />
+  <card blueprintId="7_101" title="Rebel Ambush" />
+  <card blueprintId="7_101" title="Rebel Ambush" />
+  <card blueprintId="7_101" title="Rebel Ambush" />
+  <card blueprintId="7_154" title="Rogue 4" />
+  <card blueprintId="7_42" title="Sergeant Hollis" />
+  <card blueprintId="7_106" title="Suppressive Fire" />
+  <card blueprintId="8_1" title="Captain Yutani" />
+  <card blueprintId="8_86" title="Chewbacca's Bowcaster" />
+  <card blueprintId="8_22" title="Mon Mothma" />
+  <card blueprintId="111_1" title="A New Secret Base" />
+  <card blueprintId="111_3" title="Echo Base Garrison" />
+</deck>

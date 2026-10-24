@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="1_234" title="Alter" />
+  <card blueprintId="1_211" title="Blaster Rack" />
+  <card blueprintId="1_178" title="General Tagge" />
+  <card blueprintId="1_251" title="Imperial Reinforcements" />
+  <card blueprintId="1_267" title="Sense" />
+  <card blueprintId="1_194" title="Stormtrooper" />
+  <card blueprintId="1_194" title="Stormtrooper" />
+  <card blueprintId="1_194" title="Stormtrooper" />
+  <card blueprintId="1_194" title="Stormtrooper" />
+  <card blueprintId="2_148" title="Ralltiir" />
+  <card blueprintId="3_82" title="Admiral Ozzel" />
+  <card blueprintId="3_136" title="Tactical Support" />
+  <card blueprintId="3_136" title="Tactical Support" />
+  <card blueprintId="4_116" title="Bad Feeling Have I" />
+  <card blueprintId="4_167" title="Executor" />
+  <card blueprintId="5_159" title="Trooper Assault" />
+  <card blueprintId="5_159" title="Trooper Assault" />
+  <card blueprintId="6_154" title="Hidden Weapons" />
+  <card blueprintId="6_160" title="Twi'lek Advisor" />
+  <card blueprintId="7_246" title="All Power To Weapons" />
+  <card blueprintId="7_246" title="All Power To Weapons" />
+  <card blueprintId="7_247" title="Blast Points" />
+  <card blueprintId="7_247" title="Blast Points" />
+  <card blueprintId="7_301" title="Bossk In Hound's Tooth" />
+  <card blueprintId="7_175" title="Darth Vader, Dark Lord Of The Sith" />
+  <card blueprintId="7_319" title="Disruptor Pistol" />
+  <card blueprintId="7_319" title="Disruptor Pistol" />
+  <card blueprintId="7_227" title="Dreaded Imperial Starfleet" />
+  <card blueprintId="7_284" title="Forest" />
+  <card blueprintId="7_255" title="Jabba's Through With You" />
+  <card blueprintId="7_285" title="Jungle" />
+  <card blueprintId="7_300" title="Ralltiir Operations" />
+  <card blueprintId="7_289" title="Spaceport Docking Bay" />
+  <card blueprintId="7_290" title="Spaceport Prefect's Office" />
+  <card blueprintId="7_291" title="Spaceport Street" />
+  <card blueprintId="7_242" title="Strategic Reserves" />
+  <card blueprintId="8_156" title="Carida" />
+  <card blueprintId="8_100" title="Elite Squadron Stormtrooper" />
+  <card blueprintId="8_100" title="Elite Squadron Stormtrooper" />
+  <card blueprintId="8_100" title="Elite Squadron Stormtrooper" />
+  <card blueprintId="9_97" title="Admiral Chiraneau" />
+  <card blueprintId="9_154" title="Chimaera" />
+  <card blueprintId="9_137" title="Imperial Command" />
+  <card blueprintId="9_175" title="TIE Interceptor" />
+  <card blueprintId="9_175" title="TIE Interceptor" />
+  <card blueprintId="9_175" title="TIE Interceptor" />
+  <card blueprintId="9_175" title="TIE Interceptor" />
+  <card blueprintId="12_148" title="Imperial Artillery" />
+  <card blueprintId="12_188" title="Naboo Blaster" />
+  <card blueprintId="12_188" title="Naboo Blaster" />
+  <card blueprintId="106_12" title="Corulag" />
+  <card blueprintId="108_5" title="Boba Fett With Blaster Rifle" />
+  <card blueprintId="108_5" title="Boba Fett With Blaster Rifle" />
+  <card blueprintId="108_6" title="Darth Vader With Lightsaber" />
+  <card blueprintId="109_11" title="IG-88 With Riot Gun" />
+  <card blueprintId="110_7" title="Dengar With Blaster Carbine" />
+  <card blueprintId="110_8" title="IG-88 In IG-2000" />
+  <card blueprintId="110_11" title="Mara Jade's Lightsaber" />
+  <card blueprintId="110_10" title="Mara Jade, The Emperor's Hand" />
+  <card blueprintId="110_12" title="Zuckuss In Mist Hunter" />
+</deck>
