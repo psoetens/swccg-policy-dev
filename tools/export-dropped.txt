@@ -13,14 +13,14 @@ data/decks/corpus	1304	not in distribution
 data/decks/corpus.v1	270	not in distribution
 data/decks/corpus.v2	380	not in distribution
 data/decks/manifest.csv	1	not in distribution
-data/decks/objective-coverage	10911	not in distribution
+data/decks/objective-coverage	10455	not in distribution
 data/decks/online-decipher	107	not in distribution
 data/decks/rejected	14	not in distribution
 data/decks/resolver_report.json	1	not in distribution
 data/decks/screen_games.csv	1	not in distribution
 data/decks/screen_schedule.json	1	not in distribution
 data/decks/unplayable_cards.csv	1	not in distribution
-data/decks/v4	2776	not in distribution
+data/decks/v4	2427	not in distribution
 data/leaderboard/inventory-im-server-4090.json.gz	1	not in distribution
 data/leaderboard/inventory-kylo.json.gz	1	not in distribution
 data/leaderboard/notes.yaml	1	not in distribution
@@ -168,9 +168,7 @@ scripts/balance_probe.py	1	one-off balance_probe*
 scripts/balance_probe_p2.py	1	one-off balance_probe*
 scripts/bench_server.py	1	one-off bench_server.py
 scripts/bf16_study.py	1	one-off bf16_study.py
-scripts/brainiac_golden.py	1	one-off brainiac_golden.py
 scripts/browser_bot_e2e.py	1	one-off browser_*
-scripts/browser_equality.py	1	one-off browser_*
 scripts/cc2_local.sh	1	one-off *_local.sh
 scripts/cc2_steps.sh	1	one-off cc*
 scripts/cc_local.sh	1	one-off *_local.sh
@@ -193,7 +191,6 @@ scripts/cn_stage2b_chain.sh	1	one-off *_chain*.sh
 scripts/collect_padded_curves.py	1	one-off collect_padded_curves.py
 scripts/combo_behaviour.py	1	one-off combo_*
 scripts/combo_map.py	1	one-off combo_*
-scripts/compare_community_decks.py	1	one-off compare_*
 scripts/compare_v31_critics.py	1	one-off compare_*
 scripts/concurrency_bench.sh	1	one-off concurrency_bench.sh
 scripts/context_ablation.py	1	one-off context_ablation.py
@@ -203,7 +200,6 @@ scripts/counter_map.py	1	one-off counter_map.py
 scripts/critic_counterfactuals.py	1	one-off critic_counterfactuals.py
 scripts/critic_diag_chain.sh	1	one-off *_chain*.sh
 scripts/critic_diag_report.py	1	one-off critic_diag_report.py
-scripts/critic_fit.py	1	one-off critic_fit*
 scripts/critic_fit_gap.py	1	one-off critic_fit*
 scripts/critic_long_chain.sh	1	one-off *_chain*.sh
 scripts/critic_long_report.py	1	one-off critic_long_report.py
@@ -265,8 +261,6 @@ scripts/harness_replay.sh	1	one-off harness_replay.sh
 scripts/hostsync.py	1	one-off hostsync.py
 scripts/hourly_check.sh	1	one-off hourly_check.sh
 scripts/identity_probe.py	1	one-off identity_probe.py
-scripts/import_cct_jp_decks.py	1	one-off import_cct_jp_decks.py
-scripts/import_decktech_decks.py	1	one-off import_decktech_decks.py
 scripts/la_chain.sh	1	one-off *_chain*.sh
 scripts/la_local.sh	1	one-off *_local.sh
 scripts/ladder_decide.py	1	one-off ladder_decide.py
@@ -352,7 +346,6 @@ scripts/option_inputs_ab_finish.sh	1	one-off option_inputs_ab_*
 scripts/pack_community_share.py	1	one-off pack_community_share.py
 scripts/pe_cost.sh	1	one-off pe_*
 scripts/pe_evals.sh	1	one-off pe_*
-scripts/pg_noise.py	1	one-off pg_noise.py
 scripts/policy_diagnostics_chain.sh	1	one-off *_chain*.sh
 scripts/prune_runs_list.py	1	one-off prune_runs_list.py
 scripts/qnet_train.py	1	one-off qnet_train.py
@@ -378,7 +371,6 @@ scripts/slow_harvest.py	1	one-off slow_*
 scripts/slow_oracle.sh	1	one-off slow_*
 scripts/slow_pool.py	1	one-off slow_*
 scripts/slow_signature.py	1	one-off slow_*
-scripts/spike_backends.py	1	one-off spike_*
 scripts/spike_ort.py	1	one-off spike_*
 scripts/ss_local.sh	1	one-off *_local.sh
 scripts/ss_server.sh	1	one-off *_server.sh
@@ -392,19 +384,15 @@ scripts/titles_learner_wave3_chain.sh	1	one-off *_chain*.sh
 scripts/titles_learner_wave3_local.sh	1	one-off *_local.sh
 scripts/v31_after_stage.sh	1	one-off v31_after_stage.sh
 scripts/v31_pilot_then_train.sh	1	one-off v31_pilot_then_train.sh
-scripts/v31_precision_capacity.py	1	one-off v31_precision_capacity.py
 scripts/v6_pilot_check.py	1	one-off v6_pilot_check.py
 scripts/vc_engine_check.sh	1	one-off vc_*.sh
 scripts/vc_gather.sh	1	one-off vc_*.sh
 scripts/vc_smoke.sh	1	one-off vc_*.sh
 scripts/vc_title_check.sh	1	one-off vc_*.sh
 scripts/vcf_check.sh	1	one-off vcf_check.sh
-tests/test_critic_ceiling.py	1	test imports dropped critic_fit
 tests/test_dna.py	1	test imports dropped extend_dna
 tests/test_hostsync.py	1	lab-only test
 tests/test_leaderboard.py	1	lab-only test
 tests/test_links_round2.py	1	test imports dropped extend_dna
 tests/test_machine_env.py	1	test imports dropped prune_runs_list
-tests/test_pg_snr_noise.py	1	test imports dropped pg_noise
-tests/test_precision_capacity.py	1	test imports dropped v31_precision_capacity
 tools	7	not in distribution

@@ -30,6 +30,6 @@ echo "   final: ${FINAL:-none}; $(tail -3 runs/dojo/dev-smoke.log 2>/dev/null | 
     --reference models/D/policy.pt --tag accept-dev-smoke --opponents rando --games 16 --threads 8
 step 7-brainiac-sync scripts/brainiac_server.sh sync
 step 8-brainiac-start env RELEASE=models/brainiac/releases/shc-r1-2026-10-24 scripts/brainiac_server.sh start
-step 9-brainiac-page bash -c 'curl -sf http://localhost:17111/gemp-swccg/ | head -c 300; grep -i brainiac runs/brainiac-e2e/server.log | head -5'
+step 9-brainiac-check bash /src/dev/tools/acceptance/brainiac_check.sh 17111 models/brainiac/releases/shc-r1-2026-10-24
 scripts/brainiac_server.sh stop >> /work/logs/8-brainiac-start.log 2>&1
 echo "done" | tee -a "$S"

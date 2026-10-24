@@ -8,3 +8,4 @@ native/build.sh
 pyproject.toml
 uv.lock
 scripts/brainiac_overlay.py
+tests/test_dojo.py

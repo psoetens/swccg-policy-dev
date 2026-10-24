@@ -455,6 +455,9 @@ data/decks/objective-coverage/staged/wiki_Yavinite_Watto_is_Legendary.xml
 data/decks/objective-coverage/staged/wiki_YodaKilla_Cloud_City_Revisited_QMC.xml
 data/decks/objective-coverage/staged/wiki_YodaKilla_MKOS_Yoda_Style.xml
 data/decks/objective-coverage/staged/wiki_Yodaindahouze_call_it_ULTIMATE_ANNIHILATION_with_help_from_vader.xml
+data/decks/v4/corpus/pc-2020_worlds_day1-AasenDS-HDv.xml
+data/decks/v4/corpus/pc-2020_worlds_day1-BTerwilligerDS-SC.xml
+data/decks/v4/corpus/pc-2020_worlds_day1-BaityDS-Map.xml
 data/decks/v4/corpus/pcm-2021-retro-event-top-8-pds2-bethell_AntiRalops.xml
 data/decks/v4/corpus/pcm-2021-retro-event-top-8-pds2-bethell_DS2_BHBM_SAC.xml
 data/decks/v4/corpus/pcm-2021-retro-event-top-8-pds2-desai_2000_trm.xml
@@ -900,9 +903,11 @@ scripts/advantage_readout.py
 scripts/arm_pause.sh
 scripts/audit_v4_titles.py
 scripts/brainiac-log4j.xml
+scripts/brainiac_golden.py
 scripts/brainiac_overlay.py
 scripts/brainiac_release.py
 scripts/brainiac_server.sh
+scripts/browser_equality.py
 scripts/build_knowledge_engine.py
 scripts/build_v31_tables.py
 scripts/build_v4_vocabulary.py
@@ -926,10 +931,12 @@ scripts/churn_scan.py
 scripts/churn_watch_summary.py
 scripts/cic_evals.sh
 scripts/cic_identity.sh
+scripts/compare_community_decks.py
 scripts/complete_decipher_card_table.py
 scripts/critic_auc_track.py
 scripts/critic_ceiling_readout.py
 scripts/critic_diagnostics.py
+scripts/critic_fit.py
 scripts/critic_probes.py
 scripts/critic_track.py
 scripts/decision_breakdown.py
@@ -955,6 +962,8 @@ scripts/game_stats.py
 scripts/game_stats_check.py
 scripts/grow_checkpoint_tables.py
 scripts/grow_tables.py
+scripts/import_cct_jp_decks.py
+scripts/import_decktech_decks.py
 scripts/kl_outliers.py
 scripts/learner_bench.py
 scripts/learner_bench.sh
@@ -978,6 +987,7 @@ scripts/night_wave.sh
 scripts/normalize_v31_seed.py
 scripts/objective_lib.sh
 scripts/parity_fixture.py
+scripts/pg_noise.py
 scripts/play_stats.py
 scripts/policy_diagnostics.py
 scripts/prepare_decipher_tables.py
@@ -1000,6 +1010,7 @@ scripts/round_robin_v31.py
 scripts/sampler_check.py
 scripts/scan_v31_seed.py
 scripts/shaping_readout.py
+scripts/spike_backends.py
 scripts/stage_objective_decks.py
 scripts/stage_throughput.py
 scripts/stage_utils.py
@@ -1012,6 +1023,7 @@ scripts/unknown_keys.py
 scripts/v31_collect.py
 scripts/v31_engine.sh
 scripts/v31_padded_control.py
+scripts/v31_precision_capacity.py
 scripts/v31_probe_tasks.py
 scripts/v31_probe_variants.py
 scripts/v31_stage.py
@@ -1098,6 +1110,7 @@ tests/test_advantage_readout.py
 tests/test_advantage_readout_power.py
 tests/test_cards_unlimited.py
 tests/test_churn_scan.py
+tests/test_critic_ceiling.py
 tests/test_critic_diagnostics.py
 tests/test_critic_fp32.py
 tests/test_critic_probes.py
@@ -1113,7 +1126,9 @@ tests/test_multiselect_count.py
 tests/test_night_integer_fp32.py
 tests/test_night_lr_decay.py
 tests/test_option_inputs.py
+tests/test_pg_snr_noise.py
 tests/test_ppo_step.py
+tests/test_precision_capacity.py
 tests/test_probe_readout.py
 tests/test_prune_order.py
 tests/test_q_advantage.py

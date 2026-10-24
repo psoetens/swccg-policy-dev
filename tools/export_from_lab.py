@@ -106,11 +106,24 @@ def main():
     files = tracked(lab)
     keep, dropped = [], []
     script_keep = {p for p in files if p.startswith("scripts/") and script_rule(p) == "keep"}
-    dropped_mods = {Path(p).stem for p in files if p.startswith("scripts/") and p.endswith(".py")
-                    and p not in script_keep}
+    # a one-off that kept code imports stays (transitively; tests do not pull one-offs back in)
+    pulled = {}
+    while True:
+        dropped_mods = {Path(p).stem for p in files if p.startswith("scripts/") and p.endswith(".py")
+                        and p.count("/") == 1 and p not in script_keep}
+        new = {}
+        for p in sorted(script_keep) + [f for f in files if f.startswith("src/") and f.endswith(".py")]:
+            if p.endswith(".py"):
+                mod = imports_dropped((lab / p).read_text(errors="replace"), dropped_mods)
+                if mod:
+                    new.setdefault(f"scripts/{mod}.py", p)
+        if not new:
+            break
+        script_keep |= set(new)
+        pulled.update(new)
     for p in files:
         if p.startswith("scripts/"):
-            rule = script_rule(p)
+            rule = "keep" if p in script_keep else script_rule(p)
         elif p.startswith("tests/") and not p.startswith("tests/java/"):
             mod = imports_dropped((lab / p).read_text(errors="replace"), dropped_mods) if p.endswith(".py") else None
             rule = f"test imports dropped {mod}" if mod else "keep"
@@ -126,6 +139,8 @@ def main():
     decks = set()
     for s in SCHEDULES:
         decks.update(DECK_RE.findall((lab / s).read_text()))
+    for fixture in sorted((out / "tests/fixtures").glob("*.txt")):
+        decks.update(DECK_RE.findall(fixture.read_text()))
     missing = sorted(d for d in decks if not (lab / d).is_file())
     if missing:
         raise SystemExit(f"{len(missing)} referenced decks missing, e.g. {missing[:3]}")
@@ -139,6 +154,8 @@ def main():
     lf = out / "tools/export-local.txt"
     if lf.exists():
         local = {l.strip() for l in lf.read_text().splitlines() if l.strip() and not l.startswith("#")}
+    for mod, by in sorted(pulled.items()):
+        print(f"  kept {mod}: imported by {by}")
     print(f"keep {len(keep_paths)} files ({len(decks)} decks), drop {len(dropped)}; "
           f"{len(dangling)} dropped scripts still named by kept code")
     if a.dry_run:

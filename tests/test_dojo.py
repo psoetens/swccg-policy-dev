@@ -83,7 +83,7 @@ def test_new_milestone_fields_are_well_formed():
 
 def test_coverage_gate_passes_our_pools_and_refuses_uncovered_decks(tmp_path):
     assert dojo_coverage.missing([ROOT / 'data/schedules/eval_decipher_heldout.tsv']) == {}
-    v_pool = [line for line in (ROOT / 'data/schedules/rl_pool_v4.txt').read_text().splitlines() if '\t' in line]
+    v_pool = [line for line in (ROOT / 'tests/fixtures/uncovered_v_pool.txt').read_text().splitlines() if '\t' in line]
     schedule = tmp_path / 'v.txt'
     schedule.write_text('\n'.join(v_pool) + '\n')
     gaps = dojo_coverage.missing([schedule])

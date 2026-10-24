@@ -14,7 +14,7 @@ never changed.
 - The card-name marks of plan titles-and-learner-ablation (build_knowledge_engine.NAME_MARK_EDITS): invisible to clients
   and AIs; Brainiac's v1 release encodes exactly as before.
 - The browser worker replaces the tree's copy in its web path (the tree is a build copy; sync restores it).
-Sources land in <tree>/overlay-src; the edits are also written to runs/brainiac/engine-overlay.patch for review.
+Sources land in <tree>/overlay-src (build_knowledge_engine.py no longer records a patch since lab commit 4393bae).
 
     .venv/bin/python scripts/brainiac_overlay.py .cache/brainiac-build
 """
@@ -78,9 +78,6 @@ def main():
                     *map(str, files)], check=True)
     web = tree / "gemp-swccg-async/src/main/web/js/brainiac"
     shutil.copy2(ROOT / "engine/production/web/brainiacWorker.js", web / "brainiacWorker.js")
-    patch = ROOT / "runs/brainiac/engine-overlay.patch"
-    patch.parent.mkdir(parents=True, exist_ok=True)
-    patch.write_text("".join(engine.PATCHES))
     print(f"{classes}: {len(files)} sources ({len(edits)} engine edits), worker in {web}")
 
 

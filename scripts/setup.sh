@@ -17,6 +17,7 @@ step() { echo; echo "== $*"; }
 need() { command -v "$1" >/dev/null || { echo "missing: $1 ($2)"; exit 1; }; }
 need git "your package manager"; need git-lfs "https://git-lfs.com"; need curl "package manager"; need tar "package manager"
 need rsync "package manager"; need uv "curl -LsSf https://astral.sh/uv/install.sh | sh"
+command -v gcc >/dev/null || echo "warning: no C compiler (gcc): torch.compile paths and native/build.sh need one"
 export UV_CACHE_DIR="${UV_CACHE_DIR:-$ROOT/.cache/uv}" HF_HOME="${HF_HOME:-$ROOT/.cache/hf}"
 
 step "Git LFS objects (models, tables, native library)"

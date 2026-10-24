@@ -1,7 +1,8 @@
 # Quickstart
 
 Linux x86-64 with an NVIDIA GPU (training and evaluation; tested on RTX 4090 / 5090), ~30 GB free disk, 32 GB RAM.
-Needs `git`, `git-lfs`, `curl`, `rsync`, [`uv`](https://docs.astral.sh/uv/); `docker` for the browser server.
+Needs `git`, `git-lfs`, `curl`, `rsync`, `gcc` (torch.compile, native rebuilds), [`uv`](https://docs.astral.sh/uv/); `docker` for the
+browser server.
 
 ## 1. Set up
 
