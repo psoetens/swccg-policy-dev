@@ -60,7 +60,8 @@ tail -f runs/dojo/my-arm.log                        # progress; runs/dojo/my-arm
 
 Defaults are the recipe of the shipped shc models: pool v3b, opponents 50% the learner, 20% its snapshots, 15% D,
 10% Rando Cal, 5% random; PPO lr 5e-5 / value lr 3e-4, entropy 0.01, GAE λ 0.95, damage shaping (potential form,
-weight 0.05). Throughput is roughly 8k games/hour at 16 threads on a 4090 + 5090 pair; a 20k-game run takes a few hours.
+weight 0.05). Throughput: about 6.4k games/hour at 12 threads, learner and rollouts on one GPU (AMD 9800X3D + RTX 5090;
+1,006 games in 9.4 minutes including start-up), about 8k games/hour at 16 threads with learner and rollouts on two GPUs.
 `models/shc-r1` carries its optimizer state (exact resume); the slim models restart Adam's moments.
 
 Decay a trunk to its best greedy strength and check it against D and Rando Cal:

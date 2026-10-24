@@ -1,0 +1,25 @@
+== 1-clone: git clone file:///src/dev swccg-policy
+   ok in 0 s
+== 2-setup: scripts/setup.sh
+   ok in 424 s
+   clone: .git 1.2G (pack 1.77 MiB, lfs 1.2G)
+== 3-pytest: .venv/bin/python -m pytest -q tests
+   ok in 29 s
+== 4-evaluate: .venv/bin/python scripts/evaluate_v31.py --checkpoint models/shc-r1/policy.pt --reference models/D/policy.pt --tag accept-shc-r1 --opponents rando,advanced --games 32 --threads 8
+   ok in 35 s
+== 5-train: env NAME=dev-smoke START=models/shc-r1/policy.pt GAMES=1000 THREADS=12 scripts/train_arm.sh
+   ok in 570 s
+   final: runs/dojo/dev-smoke/final.pt; 2026-10-24T21:19:53+00:00 dev-smoke: start from models/shc-r1/policy.pt, 1000 games (offset 0), cap 1440 min 2026-10-24T21:29:21+00:00 dev-smoke ended: games_complete; 9 min used 2026-10-24T21:29:21+00:00 dev-smoke arm complete (dev-smoke) 
+== 6-evaluate-trained: .venv/bin/python scripts/evaluate_v31.py --checkpoint runs/dojo/dev-smoke/final.pt --reference models/D/policy.pt --tag accept-dev-smoke --opponents rando --games 16 --threads 8
+   ok in 15 s
+== 7-brainiac-sync: scripts/brainiac_server.sh sync
+   ok in 21 s
+== 8-brainiac-start: env RELEASE=models/brainiac/releases/shc-r1-2026-10-24 scripts/brainiac_server.sh start
+   FAILED (125) in 0 s
+== 9-brainiac-check: bash /src/dev/tools/acceptance/brainiac_check.sh 17111 models/brainiac/releases/shc-r1-2026-10-24
+   FAILED (7) in 0 s
+done
+
+# Steps 7-9 rerun 2026-10-24 ~23:30 after two harness fixes (port 35011 still held by the previous round's DB
+# container; the container home with ~/.m2 and uv's Python is now persisted): sync ok, start ok, check ok
+# (7-brainiac-sync / 8-brainiac-start.log / 9-brainiac-check.log).

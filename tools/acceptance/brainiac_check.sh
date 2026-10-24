@@ -8,7 +8,7 @@ JAR=$(mktemp)
 curl -sf -o /dev/null -c "$JAR" -H "$REF" --data "login=asdf&password=asdf" "$URL/login"
 attr=$(curl -sf -b "$JAR" -H "$REF" "$URL/hall" | grep -o 'brainiac="[^"]*"' | head -1)
 echo "hall: $attr"
-name=$(python3 -c 'import json,sys;m=json.load(open(sys.argv[1]));print(m["name"],m["sha256"],m["runtime"])' "$RELEASE/manifest.json")
+name=$("${PY:-.venv/bin/python}" -c 'import json,sys;m=json.load(open(sys.argv[1]));print(m["name"],m["sha256"],m["runtime"])' "$RELEASE/manifest.json")
 set -- $name
 [[ "$attr" == "brainiac=\"$1|$2|"* ]] || { echo "hall does not offer release $1 ($2)"; exit 1; }
 got=$(curl -sf -b "$JAR" -H "$REF" "$URL/brainiac/model/$2.onnx" | sha256sum | cut -d' ' -f1)
