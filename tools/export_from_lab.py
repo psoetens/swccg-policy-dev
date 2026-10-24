@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 """Export the developer distribution from the lab repo (plan dev-distribution).
 
-Copies a curated subset of the lab repo's *working tree* into this repo: code, reusable scripts, tests that run
+Copies a curated subset of the lab repo's working tree, or with --ref of one lab commit, into this repo: code, reusable scripts, tests that run
 without lab data, V3.1 deck schedules plus exactly the deck files they reference, and the architecture docs.
 Benchmark / probe results, one-off experiment chains and lab-only tooling stay behind.
 
-    python3 tools/export_from_lab.py --lab ~/src/swccg-policy --out . [--dry-run]
+    python3 tools/export_from_lab.py --lab ~/src/swccg-policy --out . [--ref COMMIT] [--dry-run]
+
+--ref exports the files as committed at COMMIT (any lab rev: a hash, tag or branch), never the lab's uncommitted
+edits; use it whenever someone else works in the lab tree. Without it the working tree is exported (the original
+2026-10-24 export). The lab files exported under another path (MAPPED) come from COMMIT when it has them, else from
+the working tree with a warning. The source is recorded in tools/export-source.txt.
 
 Writes tools/export-manifest.txt (every exported path) and tools/export-dropped.txt (tracked lab paths left out:
 every dropped script / test by name, other areas as file counts per directory, with the rule that dropped them). Files this repo edited after an export are listed in tools/export-local.txt and
@@ -16,6 +21,7 @@ import fnmatch
 import re
 import shutil
 import subprocess
+import tempfile
 from pathlib import Path
 
 # One-off experiment scripts (plan dev-distribution §0.3); everything else in scripts/ is reusable tooling.
@@ -77,9 +83,20 @@ CODE_FILES = ["native/build.sh", "native/setup.sh", "native/build-v3.1/libswccgp
 DECK_RE = re.compile(r"data/decks/[^\t\n\"']+?\.(?:txt|xml|json)")
 
 
-def tracked(lab):
-    out = subprocess.run(["git", "-C", str(lab), "ls-files", "-z"], check=True, capture_output=True).stdout
+def tracked(lab, ref=None):
+    command = ["ls-tree", "-r", "-z", "--name-only", ref] if ref else ["ls-files", "-z"]
+    out = subprocess.run(["git", "-C", str(lab), *command], check=True, capture_output=True).stdout
     return [p for p in out.decode().split("\0") if p]
+
+
+def snapshot(lab, ref, into):
+    """The lab tree at ref, via git archive (files exactly as committed; LFS files stay pointers)."""
+    archive = subprocess.run(["git", "-C", str(lab), "archive", "--format=tar", ref], check=True,
+                             capture_output=True).stdout
+    subprocess.run(["tar", "-x", "-C", str(into)], input=archive, check=True)
+
+
+LFS_POINTER = b"version https://git-lfs.github.com/spec/v1"
 
 
 def script_rule(path):
@@ -104,10 +121,19 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--lab", type=Path, required=True)
     ap.add_argument("--out", type=Path, default=Path("."))
+    ap.add_argument("--ref", help="lab commit to export (default: the lab's working tree)")
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
     lab, out = a.lab.resolve(), a.out.resolve()
-    files = tracked(lab)
+    worktree = lab
+    commit = None
+    if a.ref:
+        commit = subprocess.run(["git", "-C", str(lab), "rev-parse", "--verify", a.ref + "^{commit}"], check=True,
+                                capture_output=True, text=True).stdout.strip()
+        scratch = tempfile.TemporaryDirectory(prefix="lab-export-")
+        snapshot(lab, commit, Path(scratch.name))
+        lab = Path(scratch.name)
+    files = tracked(worktree, commit)
     keep, dropped = [], []
     script_keep = {p for p in files if p.startswith("scripts/") and script_rule(p) == "keep"}
     # a one-off that kept code imports stays (transitively; tests do not pull one-offs back in)
@@ -143,8 +169,12 @@ def main():
     decks = set()
     for s in SCHEDULES:
         decks.update(DECK_RE.findall((lab / s).read_text()))
+    mapped_from = {}
     for source in MAPPED:
-        decks.update(DECK_RE.findall((lab / source).read_text()))
+        mapped_from[source] = lab if (lab / source).is_file() else worktree
+        if mapped_from[source] is not lab:
+            print(f"  warning: {source} is not in {commit}; taken from the lab working tree")
+        decks.update(DECK_RE.findall((mapped_from[source] / source).read_text()))
     for fixture in sorted((out / "tests/fixtures").glob("*.txt")):
         decks.update(DECK_RE.findall(fixture.read_text()))
     missing = sorted(d for d in decks if not (lab / d).is_file())
@@ -168,6 +198,9 @@ def main():
         for d in dangling:
             print("  named:", d)
         return
+    pointers = [p for p in keep_paths if (lab / p).is_file() and (lab / p).open("rb").read(len(LFS_POINTER)) == LFS_POINTER]
+    if pointers:
+        raise SystemExit(f"{len(pointers)} exported files are LFS pointers in the lab, e.g. {pointers[:3]}")
     for p in keep_paths:
         if p in local:
             continue
@@ -176,8 +209,11 @@ def main():
         shutil.copy2(lab / p, dst)
     for source, target in MAPPED.items():
         (out / target).parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(lab / source, out / target)
+        shutil.copy2(mapped_from[source] / source, out / target)
     keep_paths += list(MAPPED.values())
+    head = subprocess.run(["git", "-C", str(worktree), "rev-parse", "HEAD"], capture_output=True, text=True).stdout.strip()
+    (out / "tools/export-source.txt").write_text(
+        f"lab {worktree}\n" + (f"commit {commit} (--ref {a.ref})\n" if commit else f"working tree at HEAD {head}\n"))
     (out / "tools/export-manifest.txt").write_text("\n".join(sorted(keep_paths)) + "\n")
     groups = {}
     dropped = [(p, r) for p, r in dropped if p not in decks]

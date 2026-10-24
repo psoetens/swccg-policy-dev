@@ -1,0 +1,2 @@
+lab /home/kaltan/src/swccg-policy
+working tree at HEAD 356ed36 (2026-10-24; includes the lab's uncommitted s24 edits), plus Amendment 1 (V-card decks)
