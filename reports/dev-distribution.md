@@ -69,10 +69,14 @@ Lab-side fixes for 1 and 2 are not applied (lab tree is shared with the running 
   acceptance's own games were played on this build.
 - Docs cite lab reports that are not shipped (dangling links are documented in README).
 
-## Next (each needs Peter's word)
+## Done after the report (Peter, 2026-10-24: "yes force push", "create the github repo and push")
 
-1. Force-push local Gemp `feat/brainiac` (28a27be02) to `psoetens/gemp-swccg` (replaces 401777098; all 22 commits
-   only on the fork have rebased or squashed equivalents locally).
-2. Create a private GitHub repo for this tree and push (LFS ~1.2 GB: check the account's LFS quota first).
-3. Port fixes 1 and 2 into the lab repo.
-4. One manual browser game against `shc-r1-2026-10-24` (QUICKSTART §2).
+1. Gemp `feat/brainiac` force-pushed to `psoetens/gemp-swccg` (with lease on 401777098): now 28a27be02, the engine
+   this repo was tested with. `scripts/setup.sh`'s default clone URL points there.
+2. This repo pushed to the private GitHub repo `psoetens/swccg-policy-dev` (`main`, 27 LFS objects, 1.2 GB); one LFS
+   object fetched back from GitHub and hash-checked.
+3. The two lab bugs are written up for the lab agent in the lab's `reports/dev-distribution-lab-fixes.md`.
+4. The acceptance work directories and their containers / DB volumes were deleted.
+
+Still open: one manual browser game against `shc-r1-2026-10-24` (QUICKSTART §2); a setup run that clones Gemp from
+GitHub (the acceptance used a local mirror of the same commit).

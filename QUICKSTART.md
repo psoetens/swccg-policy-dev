@@ -7,7 +7,7 @@ browser server.
 ## 1. Set up
 
 ```bash
-git clone <this repo> swccg-policy && cd swccg-policy
+git clone git@github.com:psoetens/swccg-policy-dev.git swccg-policy && cd swccg-policy
 scripts/setup.sh          # LFS objects, uv sync, JDK 21 + Maven into .cache/tools, Gemp feat/brainiac into
                           # .cache/gemp-swccg, the instrumented engine (.cache/gemp-knowledge-v5), D's TorchScript
 uv run pytest -q tests    # all pass (tests that need lab-only data are skipped)
