@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="212_5" title="Admiral Trench" />
+  <card blueprintId="301_3" title="Asajj Ventress With Lightsabers" />
+  <card blueprintId="204_36" title="B2 Battle Droid" />
+  <card blueprintId="204_36" title="B2 Battle Droid" />
+  <card blueprintId="200_76" title="Count Dooku" />
+  <card blueprintId="213_3" title="Darth Tyranus" />
+  <card blueprintId="216_6" title="Darth Vader, Betrayer Of The Jedi" />
+  <card blueprintId="209_35" title="Dr. Chelli Lona Aphra" />
+  <card blueprintId="203_27" title="General Grievous" />
+  <card blueprintId="211_60" title="IG MagnaGuard" />
+  <card blueprintId="211_60" title="IG MagnaGuard" />
+  <card blueprintId="210_40" title="Nute Gunray" />
+  <card blueprintId="12_114" title="P-59" />
+  <card blueprintId="207_23" title="Savage Opress" />
+  <card blueprintId="5_111" title="Abyss" />
+  <card blueprintId="109_9" title="Crush The Rebellion" />
+  <card blueprintId="4_123" title="He Is Not Ready" />
+  <card blueprintId="200_110" title="Knowledge And Defense" />
+  <card blueprintId="4_126" title="Location, Location, Location" />
+  <card blueprintId="112_16" title="No Escape" />
+  <card blueprintId="13_80" title="Opee Sea Killer" />
+  <card blueprintId="200_112" title="Something Special Planned For Them" />
+  <card blueprintId="217_24" title="Unlimited Power!" />
+  <card blueprintId="200_114" title="You'll Be Dead!" />
+  <card blueprintId="211_11" title="Insidious Prisoner" />
+  <card blueprintId="10_38" title="Evader &amp; Monnok" />
+  <card blueprintId="4_141" title="Fear" />
+  <card blueprintId="4_141" title="Fear" />
+  <card blueprintId="200_120" title="Force Push" />
+  <card blueprintId="2_132" title="Ghhhk" />
+  <card blueprintId="219_8" title="Grievous' Gambit" />
+  <card blueprintId="1_248" title="I Have You Now" />
+  <card blueprintId="1_249" title="Imperial Barrier" />
+  <card blueprintId="9_137" title="Imperial Command" />
+  <card blueprintId="9_137" title="Imperial Command" />
+  <card blueprintId="9_137" title="Imperial Command" />
+  <card blueprintId="1_255" title="Limited Resources" />
+  <card blueprintId="7_257" title="Masterful Move" />
+  <card blueprintId="218_2" title="Seal Off The Bridge" />
+  <card blueprintId="218_2" title="Seal Off The Bridge" />
+  <card blueprintId="218_2" title="Seal Off The Bridge" />
+  <card blueprintId="200_123" title="Sith Fury" />
+  <card blueprintId="2_140" title="Stunning Leader" />
+  <card blueprintId="4_153" title="Voyeur" />
+  <card blueprintId="4_153" title="Voyeur" />
+  <card blueprintId="12_164" title="Blockade Flagship: Bridge" />
+  <card blueprintId="12_165" title="Coruscant" />
+  <card blueprintId="211_17" title="Coruscant: 500 Republica" />
+  <card blueprintId="211_18" title="Coruscant: Private Platform (Docking Bay)" />
+  <card blueprintId="211_20" title="Invisible Hand: Bridge" />
+  <card blueprintId="211_21" title="Invisible Hand: Docking Bay" />
+  <card blueprintId="211_22" title="Invisible Hand: Hallway 328" />
+  <card blueprintId="211_26" title="A Stunning Move" />
+  <card blueprintId="211_23" title="Invisible Hand" />
+  <card blueprintId="12_186" title="Battle Droid Blaster Rifle" />
+  <card blueprintId="12_186" title="Battle Droid Blaster Rifle" />
+  <card blueprintId="12_186" title="Battle Droid Blaster Rifle" />
+  <card blueprintId="12_186" title="Battle Droid Blaster Rifle" />
+  <card blueprintId="12_186" title="Battle Droid Blaster Rifle" />
+  <card blueprintId="12_188" title="Naboo Blaster" />
+  <cardOutsideDeck blueprintId="213_3" title="Darth Tyranus" />
+  <cardOutsideDeck blueprintId="223_7" title="A Useless Gesture &amp; Death Star Sentry" />
+  <cardOutsideDeck blueprintId="13_52" title="Allegations Of Corruption" />
+  <cardOutsideDeck blueprintId="13_54" title="Battle Order" />
+  <cardOutsideDeck blueprintId="13_61" title="Come Here You Big Coward" />
+  <cardOutsideDeck blueprintId="216_5" title="Crossfire" />
+  <cardOutsideDeck blueprintId="13_66" title="Do They Have A Code Clearance?" />
+  <cardOutsideDeck blueprintId="220_2" title="Drop!" />
+  <cardOutsideDeck blueprintId="213_13" title="Failure At The Cave" />
+  <cardOutsideDeck blueprintId="200_95" title="Fanfare" />
+  <cardOutsideDeck blueprintId="13_72" title="Leave Them To Me" />
+  <cardOutsideDeck blueprintId="13_78" title="No Escape" />
+  <cardOutsideDeck blueprintId="13_81" title="Oppressive Enforcement" />
+  <cardOutsideDeck blueprintId="13_84" title="Resistance" />
+  <cardOutsideDeck blueprintId="13_86" title="Secret Plans" />
+  <cardOutsideDeck blueprintId="13_90" title="There Is No Try" />
+  <cardOutsideDeck blueprintId="200_99" title="Vote Of No Confidence" />
+  <cardOutsideDeck blueprintId="13_96" title="We'll Let Fate-a Decide, Huh?" />
+  <cardOutsideDeck blueprintId="223_26" title="We'll Let Fate-a Decide, Huh?" />
+  <cardOutsideDeck blueprintId="13_98" title="Wipe Them Out, All Of Them" />
+  <cardOutsideDeck blueprintId="200_100" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="223_29" title="You've Never Won A Race?" />
+  <cardOutsideDeck blueprintId="5_111" title="Abyss" />
+  <cardOutsideDeck blueprintId="106_13" title="Dreadnaught-Class Heavy Cruiser" />
+</deck>

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="200_1" title="Aayla Secura" />
+  <card blueprintId="219_30" title="Cara Dune With Heavy Blaster Rifle" />
+  <card blueprintId="210_12" title="Dash Rendar" />
+  <card blueprintId="214_18" title="Din Djarin" />
+  <card blueprintId="203_4" title="Ellorrs Madak, Pilot Instructor" />
+  <card blueprintId="216_27" title="Figrin D'an &amp; The Modal Nodes" />
+  <card blueprintId="200_15" title="Harc Seff" />
+  <card blueprintId="11_4" title="Jar Jar Binks" />
+  <card blueprintId="1_15" title="Kal'Falnl C'ndros" />
+  <card blueprintId="216_34" title="Ketwol" />
+  <card blueprintId="109_3" title="Lando With Blaster Pistol" />
+  <card blueprintId="200_17" title="Leesub Sirln" />
+  <card blueprintId="13_29" title="Leia, Rebel Princess" />
+  <card blueprintId="200_20" title="Luke Skywalker" />
+  <card blueprintId="210_20" title="Luke Skywalker, The Last Jedi" />
+  <card blueprintId="211_57" title="Maz Kanata" />
+  <card blueprintId="211_57" title="Maz Kanata" />
+  <card blueprintId="201_3" title="Melas" />
+  <card blueprintId="204_9" title="Rey" />
+  <card blueprintId="213_41" title="Rio Durant" />
+  <card blueprintId="1_31" title="Talz" />
+  <card blueprintId="209_14" title="Yoxgit" />
+  <card blueprintId="210_7" title="Ancient Watering Hole" />
+  <card blueprintId="210_7" title="Ancient Watering Hole" />
+  <card blueprintId="200_35" title="Anger, Fear, Aggression" />
+  <card blueprintId="211_31" title="Beldon's Eye &amp; All My Urchins" />
+  <card blueprintId="7_55" title="Cloud City Celebration" />
+  <card blueprintId="7_55" title="Cloud City Celebration" />
+  <card blueprintId="200_39" title="I Don't Like Sand" />
+  <card blueprintId="200_39" title="I Don't Like Sand" />
+  <card blueprintId="11_20" title="Keeping The Empire Out Forever" />
+  <card blueprintId="214_13" title="Alter &amp; Friendly Fire" />
+  <card blueprintId="2_44" title="Alternatives To Fighting" />
+  <card blueprintId="2_44" title="Alternatives To Fighting" />
+  <card blueprintId="218_16" title="Computer Interface" />
+  <card blueprintId="10_8" title="Houjix &amp; Out Of Nowhere" />
+  <card blueprintId="225_8" title="I Don't Need Their Scum, Either" />
+  <card blueprintId="218_24" title="Local Defense &amp; Put That Down" />
+  <card blueprintId="218_24" title="Local Defense &amp; Put That Down" />
+  <card blueprintId="5_62" title="Path Of Least Resistance" />
+  <card blueprintId="5_62" title="Path Of Least Resistance" />
+  <card blueprintId="5_62" title="Path Of Least Resistance" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="209_22" title="Rescue In The Clouds" />
+  <card blueprintId="209_22" title="Rescue In The Clouds" />
+  <card blueprintId="5_76" title="Bespin" />
+  <card blueprintId="5_80" title="Cloud City: Guest Quarters" />
+  <card blueprintId="5_81" title="Cloud City: Incinerator" />
+  <card blueprintId="7_114" title="Cloud City: North Corridor" />
+  <card blueprintId="5_83" title="Cloud City: Platform 327 (Docking Bay)" />
+  <card blueprintId="5_84" title="Cloud City: Upper Plaza Corridor" />
+  <card blueprintId="7_115" title="Cloud City: West Gallery" />
+  <card blueprintId="109_4" title="Quiet Mining Colony" />
+  <card blueprintId="224_12" title="Bo-Katan's Gauntlet Starfighter" />
+  <card blueprintId="205_7" title="Han, Chewie, And The Falcon" />
+  <card blueprintId="200_64" title="Overseer" />
+  <card blueprintId="203_21" title="Wild Karrde" />
+  <card blueprintId="9_87" title="Concussion Missiles" />
+  <cardOutsideDeck blueprintId="200_16" title="The Mythrol" />
+  <cardOutsideDeck blueprintId="13_1" title="A Close Race" />
+  <cardOutsideDeck blueprintId="223_30" title="A Close Race" />
+  <cardOutsideDeck blueprintId="13_3" title="A Tragedy Has Occurred" />
+  <cardOutsideDeck blueprintId="13_4" title="Aim High" />
+  <cardOutsideDeck blueprintId="13_6" title="Another Pathetic Lifeform" />
+  <cardOutsideDeck blueprintId="13_8" title="Battle Plan" />
+  <cardOutsideDeck blueprintId="13_15" title="Do, Or Do Not" />
+  <cardOutsideDeck blueprintId="13_16" title="Don't Do That Again" />
+  <cardOutsideDeck blueprintId="200_26" title="Don't Do That Again" />
+  <cardOutsideDeck blueprintId="13_22" title="He Can Go About His Business" />
+  <cardOutsideDeck blueprintId="13_30" title="Let's Keep A Little Optimism Here" />
+  <cardOutsideDeck blueprintId="13_35" title="Only Jedi Carry That Weapon" />
+  <cardOutsideDeck blueprintId="221_68" title="Only Jedi Carry That Weapon" />
+  <cardOutsideDeck blueprintId="13_37" title="Ounee Ta" />
+  <cardOutsideDeck blueprintId="13_38" title="Planetary Defenses" />
+  <cardOutsideDeck blueprintId="203_13" title="Planetary Defenses" />
+  <cardOutsideDeck blueprintId="200_28" title="Simple Tricks And Nonsense" />
+  <cardOutsideDeck blueprintId="200_29" title="The Republic No Longer Functions" />
+  <cardOutsideDeck blueprintId="209_15" title="There Is Another" />
+  <cardOutsideDeck blueprintId="220_10" title="Thrown Back" />
+  <cardOutsideDeck blueprintId="13_44" title="Ultimatum" />
+  <cardOutsideDeck blueprintId="13_47" title="Wise Advice" />
+  <cardOutsideDeck blueprintId="223_49" title="Yavin Sentry &amp; Goldenrod" />
+  <cardOutsideDeck blueprintId="13_49" title="Your Insight Serves You Well" />
+  <cardOutsideDeck blueprintId="200_32" title="Your Insight Serves You Well" />
+  <cardOutsideDeck blueprintId="13_50" title="Your Ship?" />
+  <cardOutsideDeck blueprintId="301_5" title="Your Ship?" />
+</deck>

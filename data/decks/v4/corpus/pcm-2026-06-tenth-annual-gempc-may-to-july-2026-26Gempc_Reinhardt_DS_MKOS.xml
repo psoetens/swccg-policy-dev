@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="216_2" title="Alien Mob" />
+  <card blueprintId="216_2" title="Alien Mob" />
+  <card blueprintId="216_2" title="Alien Mob" />
+  <card blueprintId="212_3" title="Aurra Sing With Blaster Rifle" />
+  <card blueprintId="225_1" title="Bib Fortuna" />
+  <card blueprintId="13_59" title="Boba Fett, Bounty Hunter" />
+  <card blueprintId="13_59" title="Boba Fett, Bounty Hunter" />
+  <card blueprintId="203_24" title="Cad Bane" />
+  <card blueprintId="106_11" title="Chall Bekan" />
+  <card blueprintId="200_79" title="Dengar With Blaster Carbine" />
+  <card blueprintId="10_37" title="Dr. Evazan &amp; Ponda Baba" />
+  <card blueprintId="223_13" title="Gor Koresh" />
+  <card blueprintId="204_42" title="Greedo" />
+  <card blueprintId="205_13" title="Hondo Ohnaka" />
+  <card blueprintId="200_84" title="Jabba The Hutt" />
+  <card blueprintId="201_25" title="Jango Fett" />
+  <card blueprintId="211_3" title="Lady Proxima" />
+  <card blueprintId="200_86" title="Mara Jade With Lightsaber" />
+  <card blueprintId="10_45" title="Prince Xizor" />
+  <card blueprintId="217_19" title="Qi'ra, Top Lieutenant" />
+  <card blueprintId="226_11" title="Salacious Crumb" />
+  <card blueprintId="226_11" title="Salacious Crumb" />
+  <card blueprintId="226_11" title="Salacious Crumb" />
+  <card blueprintId="226_11" title="Salacious Crumb" />
+  <card blueprintId="226_11" title="Salacious Crumb" />
+  <card blueprintId="12_129" title="Battle Order &amp; First Strike" />
+  <card blueprintId="109_9" title="Crush The Rebellion" />
+  <card blueprintId="201_31" title="Jabba's Haven" />
+  <card blueprintId="200_110" title="Knowledge And Defense" />
+  <card blueprintId="221_27" title="Power Of The Hutt" />
+  <card blueprintId="6_149" title="Scum And Villainy" />
+  <card blueprintId="221_39" title="Tentacle" />
+  <card blueprintId="201_35" title="Cold Feet" />
+  <card blueprintId="208_43" title="Double Back" />
+  <card blueprintId="222_7" title="Force Push &amp; Podracer Collision" />
+  <card blueprintId="2_132" title="Ghhhk" />
+  <card blueprintId="213_19" title="I Never Ask For Anything Twice" />
+  <card blueprintId="200_122" title="Imbalance &amp; Kintan Strider" />
+  <card blueprintId="223_14" title="Imperial Assault" />
+  <card blueprintId="223_14" title="Imperial Assault" />
+  <card blueprintId="12_152" title="Masterful Move &amp; Endor Occupation" />
+  <card blueprintId="210_41" title="Oo-ta Goo-ta, Solo?" />
+  <card blueprintId="210_41" title="Oo-ta Goo-ta, Solo?" />
+  <card blueprintId="9_139" title="Prepared Defenses" />
+  <card blueprintId="221_31" title="Shattered Hope" />
+  <card blueprintId="221_31" title="Shattered Hope" />
+  <card blueprintId="211_15" title="Twi'lek Advisor" />
+  <card blueprintId="211_15" title="Twi'lek Advisor" />
+  <card blueprintId="211_15" title="Twi'lek Advisor" />
+  <card blueprintId="211_15" title="Twi'lek Advisor" />
+  <card blueprintId="6_162" title="Jabba's Palace: Audience Chamber" />
+  <card blueprintId="112_12" title="Jabba's Palace: Lower Passages" />
+  <card blueprintId="6_167" title="Jabba's Sail Barge: Passenger Deck" />
+  <card blueprintId="6_168" title="Nal Hutta" />
+  <card blueprintId="225_30" title="Tatooine: Desert Heart" />
+  <card blueprintId="6_171" title="Tatooine: Jabba's Palace" />
+  <card blueprintId="112_15" title="My Kind Of Scum" />
+  <card blueprintId="109_10" title="Dengar In Punishing One" />
+  <card blueprintId="221_19" title="First Light" />
+  <card blueprintId="221_42" title="Zuckuss And 4-LOM In Mist Hunter" />
+  <cardOutsideDeck blueprintId="13_51" title="A Useless Gesture" />
+  <cardOutsideDeck blueprintId="223_7" title="A Useless Gesture &amp; Death Star Sentry" />
+  <cardOutsideDeck blueprintId="13_52" title="Allegations Of Corruption" />
+  <cardOutsideDeck blueprintId="13_54" title="Battle Order" />
+  <cardOutsideDeck blueprintId="13_61" title="Come Here You Big Coward" />
+  <cardOutsideDeck blueprintId="225_3" title="Come Here You Big Coward" />
+  <cardOutsideDeck blueprintId="13_63" title="Crossfire" />
+  <cardOutsideDeck blueprintId="216_5" title="Crossfire" />
+  <cardOutsideDeck blueprintId="13_66" title="Do They Have A Code Clearance?" />
+  <cardOutsideDeck blueprintId="220_2" title="Drop!" />
+  <cardOutsideDeck blueprintId="213_13" title="Failure At The Cave" />
+  <cardOutsideDeck blueprintId="13_68" title="Fanfare" />
+  <cardOutsideDeck blueprintId="200_95" title="Fanfare" />
+  <cardOutsideDeck blueprintId="13_72" title="Leave Them To Me" />
+  <cardOutsideDeck blueprintId="13_78" title="No Escape" />
+  <cardOutsideDeck blueprintId="13_81" title="Oppressive Enforcement" />
+  <cardOutsideDeck blueprintId="13_84" title="Resistance" />
+  <cardOutsideDeck blueprintId="13_86" title="Secret Plans" />
+  <cardOutsideDeck blueprintId="13_90" title="There Is No Try" />
+  <cardOutsideDeck blueprintId="200_99" title="Vote Of No Confidence" />
+  <cardOutsideDeck blueprintId="13_96" title="We'll Let Fate-a Decide, Huh?" />
+  <cardOutsideDeck blueprintId="223_26" title="We'll Let Fate-a Decide, Huh?" />
+  <cardOutsideDeck blueprintId="13_95" title="Weapon Of A Sith" />
+  <cardOutsideDeck blueprintId="13_98" title="Wipe Them Out, All Of Them" />
+  <cardOutsideDeck blueprintId="13_99" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="200_100" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="13_100" title="You've Never Won A Race?" />
+  <cardOutsideDeck blueprintId="223_29" title="You've Never Won A Race?" />
+</deck>

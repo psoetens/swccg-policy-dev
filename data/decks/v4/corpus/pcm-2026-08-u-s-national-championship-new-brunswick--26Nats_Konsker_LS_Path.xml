@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="301_1" title="Ahsoka Tano With Lightsabers" />
+  <card blueprintId="10_3" title="Chewbacca, Protector" />
+  <card blueprintId="210_14" title="Ezra Bridger" />
+  <card blueprintId="200_12" title="General Airen Cracken" />
+  <card blueprintId="207_5" title="General Leia Organa" />
+  <card blueprintId="200_13" title="General Solo" />
+  <card blueprintId="226_18" title="Kelleran Beq" />
+  <card blueprintId="13_27" title="Lando Calrissian, Scoundrel" />
+  <card blueprintId="13_27" title="Lando Calrissian, Scoundrel" />
+  <card blueprintId="226_24" title="Obi-Wan Kenobi, Jedi In Exile" />
+  <card blueprintId="226_26" title="Quinlan Vos" />
+  <card blueprintId="204_9" title="Rey" />
+  <card blueprintId="224_20" title="Son Of Skywalker" />
+  <card blueprintId="224_20" title="Son Of Skywalker" />
+  <card blueprintId="216_31" title="Jedi Holocron" />
+  <card blueprintId="200_35" title="Anger, Fear, Aggression" />
+  <card blueprintId="218_26" title="Ounee Ta" />
+  <card blueprintId="200_45" title="Sai'torr Kal Fas" />
+  <card blueprintId="9_41" title="Strike Planning" />
+  <card blueprintId="200_47" title="Wokling" />
+  <card blueprintId="226_14" title="Fallen Order" />
+  <card blueprintId="6_61" title="Blaster Deflection" />
+  <card blueprintId="6_61" title="Blaster Deflection" />
+  <card blueprintId="6_61" title="Blaster Deflection" />
+  <card blueprintId="5_38" title="Clash Of Sabers" />
+  <card blueprintId="5_38" title="Clash Of Sabers" />
+  <card blueprintId="204_18" title="Escape Pod &amp; We're Doomed" />
+  <card blueprintId="216_28" title="Free Ride &amp; Endor Celebration" />
+  <card blueprintId="9_51" title="Heading For The Medical Frigate" />
+  <card blueprintId="201_13" title="Hear Me Baby, Hold Together" />
+  <card blueprintId="207_12" title="Help Me Obi-Wan Kenobi" />
+  <card blueprintId="2_50" title="Houjix" />
+  <card blueprintId="225_8" title="I Don't Need Their Scum, Either" />
+  <card blueprintId="8_56" title="I Know" />
+  <card blueprintId="200_53" title="Impressive, Most Impressive" />
+  <card blueprintId="200_54" title="Jedi Levitation" />
+  <card blueprintId="210_18" title="Jedi Mind Trick" />
+  <card blueprintId="209_21" title="Odin Nesloor &amp; First Aid" />
+  <card blueprintId="210_24" title="Quite A Mercenary" />
+  <card blueprintId="210_24" title="Quite A Mercenary" />
+  <card blueprintId="203_17" title="Rebel Leadership" />
+  <card blueprintId="203_17" title="Rebel Leadership" />
+  <card blueprintId="203_17" title="Rebel Leadership" />
+  <card blueprintId="203_17" title="Rebel Leadership" />
+  <card blueprintId="1_110" title="Skywalkers" />
+  <card blueprintId="1_110" title="Skywalkers" />
+  <card blueprintId="10_23" title="Sorry About The Mess &amp; Blaster Proficiency" />
+  <card blueprintId="225_59" title="You Will Go To The Dagobah System" />
+  <card blueprintId="225_59" title="You Will Go To The Dagobah System" />
+  <card blueprintId="226_15" title="Jabiim: Path Operations Center" />
+  <card blueprintId="226_16" title="Jabiim: Starship Hangar" />
+  <card blueprintId="226_21" title="Mapuzo: Mining Village" />
+  <card blueprintId="226_22" title="Mapuzo: Safehouse" />
+  <card blueprintId="226_23" title="Mapuzo: Underground Corridor" />
+  <card blueprintId="226_28" title="The Hidden Path" />
+  <card blueprintId="214_15" title="Ahsoka's Shoto Lightsaber" />
+  <card blueprintId="3_71" title="Anakin's Lightsaber" />
+  <card blueprintId="225_50" title="Leia's Lightsaber" />
+  <card blueprintId="9_90" title="Luke's Lightsaber" />
+  <card blueprintId="1_157" title="Obi-Wan's Lightsaber" />
+  <cardOutsideDeck blueprintId="200_16" title="The Mythrol" />
+  <cardOutsideDeck blueprintId="223_30" title="A Close Race" />
+  <cardOutsideDeck blueprintId="13_3" title="A Tragedy Has Occurred" />
+  <cardOutsideDeck blueprintId="13_4" title="Aim High" />
+  <cardOutsideDeck blueprintId="13_6" title="Another Pathetic Lifeform" />
+  <cardOutsideDeck blueprintId="13_8" title="Battle Plan" />
+  <cardOutsideDeck blueprintId="13_15" title="Do, Or Do Not" />
+  <cardOutsideDeck blueprintId="200_26" title="Don't Do That Again" />
+  <cardOutsideDeck blueprintId="13_22" title="He Can Go About His Business" />
+  <cardOutsideDeck blueprintId="225_51" title="Let's Keep A Little Optimism Here" />
+  <cardOutsideDeck blueprintId="221_68" title="Only Jedi Carry That Weapon" />
+  <cardOutsideDeck blueprintId="13_37" title="Ounee Ta" />
+  <cardOutsideDeck blueprintId="203_13" title="Planetary Defenses" />
+  <cardOutsideDeck blueprintId="200_28" title="Simple Tricks And Nonsense" />
+  <cardOutsideDeck blueprintId="200_29" title="The Republic No Longer Functions" />
+  <cardOutsideDeck blueprintId="209_15" title="There Is Another" />
+  <cardOutsideDeck blueprintId="220_10" title="Thrown Back" />
+  <cardOutsideDeck blueprintId="13_44" title="Ultimatum" />
+  <cardOutsideDeck blueprintId="13_47" title="Wise Advice" />
+  <cardOutsideDeck blueprintId="223_49" title="Yavin Sentry &amp; Goldenrod" />
+  <cardOutsideDeck blueprintId="200_32" title="Your Insight Serves You Well" />
+  <cardOutsideDeck blueprintId="301_5" title="Your Ship?" />
+</deck>

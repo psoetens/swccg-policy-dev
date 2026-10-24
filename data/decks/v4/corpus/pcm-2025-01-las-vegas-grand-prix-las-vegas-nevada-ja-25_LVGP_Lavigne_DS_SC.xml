@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="200_71" title="4-LOM With Concussion Rifle" />
+  <card blueprintId="301_3" title="Asajj Ventress With Lightsabers" />
+  <card blueprintId="212_3" title="Aurra Sing With Blaster Rifle" />
+  <card blueprintId="212_3" title="Aurra Sing With Blaster Rifle" />
+  <card blueprintId="203_24" title="Cad Bane" />
+  <card blueprintId="215_24" title="Dannik Jerriko" />
+  <card blueprintId="200_79" title="Dengar With Blaster Carbine" />
+  <card blueprintId="10_37" title="Dr. Evazan &amp; Ponda Baba" />
+  <card blueprintId="10_37" title="Dr. Evazan &amp; Ponda Baba" />
+  <card blueprintId="213_4" title="Dryden Vos" />
+  <card blueprintId="205_13" title="Hondo Ohnaka" />
+  <card blueprintId="205_13" title="Hondo Ohnaka" />
+  <card blueprintId="109_11" title="IG-88 With Riot Gun" />
+  <card blueprintId="211_3" title="Lady Proxima" />
+  <card blueprintId="213_10" title="Maul" />
+  <card blueprintId="10_45" title="Prince Xizor" />
+  <card blueprintId="10_45" title="Prince Xizor" />
+  <card blueprintId="217_19" title="Qi'ra, Top Lieutenant" />
+  <card blueprintId="7_229" title="First Strike" />
+  <card blueprintId="9_126" title="Inconsequential Losses" />
+  <card blueprintId="200_110" title="Knowledge And Defense" />
+  <card blueprintId="112_16" title="No Escape" />
+  <card blueprintId="209_44" title="They Will Be No Match For You" />
+  <card blueprintId="213_22" title="Working Much More Closely" />
+  <card blueprintId="213_22" title="Working Much More Closely" />
+  <card blueprintId="213_22" title="Working Much More Closely" />
+  <card blueprintId="213_22" title="Working Much More Closely" />
+  <card blueprintId="12_144" title="You Cannot Hide Forever &amp; Mobilization Points" />
+  <card blueprintId="200_114" title="You'll Be Dead!" />
+  <card blueprintId="208_43" title="Double Back" />
+  <card blueprintId="208_43" title="Double Back" />
+  <card blueprintId="1_243" title="Elis Helrot" />
+  <card blueprintId="200_119" title="Force Field" />
+  <card blueprintId="200_120" title="Force Push" />
+  <card blueprintId="2_132" title="Ghhhk" />
+  <card blueprintId="213_19" title="I Never Ask For Anything Twice" />
+  <card blueprintId="1_249" title="Imperial Barrier" />
+  <card blueprintId="7_256" title="Jabba's Twerps" />
+  <card blueprintId="7_257" title="Masterful Move" />
+  <card blueprintId="7_257" title="Masterful Move" />
+  <card blueprintId="7_257" title="Masterful Move" />
+  <card blueprintId="200_123" title="Sith Fury" />
+  <card blueprintId="212_4" title="Slip Sliding Away" />
+  <card blueprintId="10_47" title="Sniper &amp; Dark Strike" />
+  <card blueprintId="8_154" title="Wounded Warrior" />
+  <card blueprintId="7_273" title="Cloud City: Upper Walkway" />
+  <card blueprintId="213_23" title="Dathomir: Maul's Chambers" />
+  <card blueprintId="213_25" title="First Light: Bar" />
+  <card blueprintId="213_26" title="First Light: Dryden's Study" />
+  <card blueprintId="213_27" title="First Light: Reception Area" />
+  <card blueprintId="9_148" title="Gall" />
+  <card blueprintId="213_32" title="Shadow Collective" />
+  <card blueprintId="200_130" title="Boba Fett In Slave I" />
+  <card blueprintId="221_19" title="First Light" />
+  <card blueprintId="213_33" title="Black Sun Blaster" />
+  <card blueprintId="213_34" title="Crimson Dawn Blaster" />
+  <card blueprintId="213_34" title="Crimson Dawn Blaster" />
+  <card blueprintId="213_34" title="Crimson Dawn Blaster" />
+  <card blueprintId="213_34" title="Crimson Dawn Blaster" />
+  <card blueprintId="13_75" title="Maul's Double-Bladed Lightsaber" />
+  <cardOutsideDeck blueprintId="13_51" title="A Useless Gesture" />
+  <cardOutsideDeck blueprintId="13_52" title="Allegations Of Corruption" />
+  <cardOutsideDeck blueprintId="13_54" title="Battle Order" />
+  <cardOutsideDeck blueprintId="13_61" title="Come Here You Big Coward" />
+  <cardOutsideDeck blueprintId="13_63" title="Crossfire" />
+  <cardOutsideDeck blueprintId="13_66" title="Do They Have A Code Clearance?" />
+  <cardOutsideDeck blueprintId="220_2" title="Drop!" />
+  <cardOutsideDeck blueprintId="213_13" title="Failure At The Cave" />
+  <cardOutsideDeck blueprintId="13_68" title="Fanfare" />
+  <cardOutsideDeck blueprintId="200_95" title="Fanfare" />
+  <cardOutsideDeck blueprintId="13_72" title="Leave Them To Me" />
+  <cardOutsideDeck blueprintId="13_78" title="No Escape" />
+  <cardOutsideDeck blueprintId="13_81" title="Oppressive Enforcement" />
+  <cardOutsideDeck blueprintId="13_84" title="Resistance" />
+  <cardOutsideDeck blueprintId="13_86" title="Secret Plans" />
+  <cardOutsideDeck blueprintId="13_90" title="There Is No Try" />
+  <cardOutsideDeck blueprintId="200_99" title="Vote Of No Confidence" />
+  <cardOutsideDeck blueprintId="13_96" title="We'll Let Fate-a Decide, Huh?" />
+  <cardOutsideDeck blueprintId="13_95" title="Weapon Of A Sith" />
+  <cardOutsideDeck blueprintId="13_98" title="Wipe Them Out, All Of Them" />
+  <cardOutsideDeck blueprintId="13_99" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="200_100" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="13_100" title="You've Never Won A Race?" />
+</deck>

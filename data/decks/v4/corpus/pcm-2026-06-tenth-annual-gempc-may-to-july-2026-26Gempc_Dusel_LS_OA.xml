@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="209_1" title="Admiral Raddus" />
+  <card blueprintId="208_1" title="Admiral U.O. Statura" />
+  <card blueprintId="301_1" title="Ahsoka Tano With Lightsabers" />
+  <card blueprintId="200_2" title="Anakin Skywalker, Padawan Learner" />
+  <card blueprintId="204_1" title="BB-8 (Beebee-Ate)" />
+  <card blueprintId="204_1" title="BB-8 (Beebee-Ate)" />
+  <card blueprintId="204_4" title="Chewie With Bowcaster" />
+  <card blueprintId="204_6" title="Finn" />
+  <card blueprintId="204_6" title="Finn" />
+  <card blueprintId="218_20" title="Fleet Admiral Gial Ackbar" />
+  <card blueprintId="207_5" title="General Leia Organa" />
+  <card blueprintId="207_5" title="General Leia Organa" />
+  <card blueprintId="216_35" title="Lando, Hero of the Rebellion" />
+  <card blueprintId="215_15" title="Larma D'Acy" />
+  <card blueprintId="204_7" title="Lor San Tekka" />
+  <card blueprintId="204_7" title="Lor San Tekka" />
+  <card blueprintId="204_8" title="Poe Dameron" />
+  <card blueprintId="204_9" title="Rey" />
+  <card blueprintId="204_9" title="Rey" />
+  <card blueprintId="204_11" title="Solo" />
+  <card blueprintId="211_55" title="Vice Admiral Holdo" />
+  <card blueprintId="209_16" title="A Brave Resistance" />
+  <card blueprintId="200_35" title="Anger, Fear, Aggression" />
+  <card blueprintId="218_26" title="Ounee Ta" />
+  <card blueprintId="200_45" title="Sai'torr Kal Fas" />
+  <card blueprintId="200_47" title="Wokling" />
+  <card blueprintId="12_52" title="You've Got A Lot Of Guts Coming Here" />
+  <card blueprintId="12_53" title="All Wings Report In &amp; Darklighter Spin" />
+  <card blueprintId="201_11" title="Ascension Guns" />
+  <card blueprintId="201_11" title="Ascension Guns" />
+  <card blueprintId="5_38" title="Clash Of Sabers" />
+  <card blueprintId="9_51" title="Heading For The Medical Frigate" />
+  <card blueprintId="10_8" title="Houjix &amp; Out Of Nowhere" />
+  <card blueprintId="225_8" title="I Don't Need Their Scum, Either" />
+  <card blueprintId="207_13" title="I Think I Can Handle Myself" />
+  <card blueprintId="207_13" title="I Think I Can Handle Myself" />
+  <card blueprintId="106_5" title="It's A Hit!" />
+  <card blueprintId="201_14" title="Perimeter Scan" />
+  <card blueprintId="203_17" title="Rebel Leadership" />
+  <card blueprintId="203_17" title="Rebel Leadership" />
+  <card blueprintId="203_17" title="Rebel Leadership" />
+  <card blueprintId="203_17" title="Rebel Leadership" />
+  <card blueprintId="10_23" title="Sorry About The Mess &amp; Blaster Proficiency" />
+  <card blueprintId="10_23" title="Sorry About The Mess &amp; Blaster Proficiency" />
+  <card blueprintId="207_14" title="They're Tracking Us" />
+  <card blueprintId="211_50" title="Where's Han?" />
+  <card blueprintId="204_26" title="Jakku" />
+  <card blueprintId="204_27" title="Jakku: Niima Outpost Shipyard" />
+  <card blueprintId="204_29" title="Jakku: Rey's Encampment" />
+  <card blueprintId="204_30" title="Jakku: Starship Graveyard" />
+  <card blueprintId="204_31" title="Jakku: Tuanul Village" />
+  <card blueprintId="204_32" title="Old Allies" />
+  <card blueprintId="1_140" title="Corellian Corvette" />
+  <card blueprintId="200_62" title="Gold Leader In Gold 1" />
+  <card blueprintId="213_58" title="Leia's Resistance Transport" />
+  <card blueprintId="209_30" title="Lightmaker" />
+  <card blueprintId="204_35" title="The Falcon, Junkyard Garbage" />
+  <card blueprintId="201_20" title="Dash In Rogue 12" />
+  <card blueprintId="210_3" title="Anakin's Lightsaber" />
+  <card blueprintId="225_50" title="Leia's Lightsaber" />
+  <cardOutsideDeck blueprintId="200_16" title="The Mythrol" />
+  <cardOutsideDeck blueprintId="13_1" title="A Close Race" />
+  <cardOutsideDeck blueprintId="223_30" title="A Close Race" />
+  <cardOutsideDeck blueprintId="13_3" title="A Tragedy Has Occurred" />
+  <cardOutsideDeck blueprintId="13_4" title="Aim High" />
+  <cardOutsideDeck blueprintId="13_6" title="Another Pathetic Lifeform" />
+  <cardOutsideDeck blueprintId="13_8" title="Battle Plan" />
+  <cardOutsideDeck blueprintId="13_15" title="Do, Or Do Not" />
+  <cardOutsideDeck blueprintId="13_16" title="Don't Do That Again" />
+  <cardOutsideDeck blueprintId="200_26" title="Don't Do That Again" />
+  <cardOutsideDeck blueprintId="13_22" title="He Can Go About His Business" />
+  <cardOutsideDeck blueprintId="13_30" title="Let's Keep A Little Optimism Here" />
+  <cardOutsideDeck blueprintId="225_51" title="Let's Keep A Little Optimism Here" />
+  <cardOutsideDeck blueprintId="13_35" title="Only Jedi Carry That Weapon" />
+  <cardOutsideDeck blueprintId="221_68" title="Only Jedi Carry That Weapon" />
+  <cardOutsideDeck blueprintId="13_37" title="Ounee Ta" />
+  <cardOutsideDeck blueprintId="13_38" title="Planetary Defenses" />
+  <cardOutsideDeck blueprintId="203_13" title="Planetary Defenses" />
+  <cardOutsideDeck blueprintId="200_28" title="Simple Tricks And Nonsense" />
+  <cardOutsideDeck blueprintId="200_29" title="The Republic No Longer Functions" />
+  <cardOutsideDeck blueprintId="209_15" title="There Is Another" />
+  <cardOutsideDeck blueprintId="220_10" title="Thrown Back" />
+  <cardOutsideDeck blueprintId="13_44" title="Ultimatum" />
+  <cardOutsideDeck blueprintId="13_47" title="Wise Advice" />
+  <cardOutsideDeck blueprintId="223_49" title="Yavin Sentry &amp; Goldenrod" />
+  <cardOutsideDeck blueprintId="13_49" title="Your Insight Serves You Well" />
+  <cardOutsideDeck blueprintId="200_32" title="Your Insight Serves You Well" />
+  <cardOutsideDeck blueprintId="13_50" title="Your Ship?" />
+  <cardOutsideDeck blueprintId="301_5" title="Your Ship?" />
+</deck>

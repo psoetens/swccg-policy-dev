@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="9_4" title="I'll Take The Leader" />
+  <card blueprintId="9_4" title="I'll Take The Leader" />
+  <card blueprintId="9_4" title="I'll Take The Leader" />
+  <card blueprintId="9_4" title="I'll Take The Leader" />
+  <card blueprintId="5_1" title="Captain Han Solo" />
+  <card blueprintId="10_6" title="Dash Rendar" />
+  <card blueprintId="203_4" title="Ellorrs Madak, Pilot Instructor" />
+  <card blueprintId="203_7" title="Leslomy Tacema" />
+  <card blueprintId="200_20" title="Luke Skywalker" />
+  <card blueprintId="10_12" title="Mirax Terrik" />
+  <card blueprintId="201_4" title="Obi-Wan Kenobi" />
+  <card blueprintId="112_5" title="Palace Raider" />
+  <card blueprintId="112_5" title="Palace Raider" />
+  <card blueprintId="112_5" title="Palace Raider" />
+  <card blueprintId="112_5" title="Palace Raider" />
+  <card blueprintId="202_2" title="Palace Raider" />
+  <card blueprintId="10_24" title="Talon Karrde" />
+  <card blueprintId="200_35" title="Anger, Fear, Aggression" />
+  <card blueprintId="14_31" title="Get To Your Ships!" />
+  <card blueprintId="9_33" title="Honor Of The Jedi" />
+  <card blueprintId="12_44" title="Insurrection &amp; Aim High" />
+  <card blueprintId="9_38" title="Menace Fades" />
+  <card blueprintId="13_41" title="Sando Aqua Monster" />
+  <card blueprintId="7_77" title="Tatooine Celebration" />
+  <card blueprintId="7_77" title="Tatooine Celebration" />
+  <card blueprintId="200_47" title="Wokling" />
+  <card blueprintId="12_53" title="All Wings Report In &amp; Darklighter Spin" />
+  <card blueprintId="12_53" title="All Wings Report In &amp; Darklighter Spin" />
+  <card blueprintId="10_4" title="Control &amp; Tunnel Vision" />
+  <card blueprintId="10_4" title="Control &amp; Tunnel Vision" />
+  <card blueprintId="6_66" title="Fallen Portal" />
+  <card blueprintId="12_58" title="Free Ride &amp; Endor Celebration" />
+  <card blueprintId="9_51" title="Heading For The Medical Frigate" />
+  <card blueprintId="201_13" title="Hear Me Baby, Hold Together" />
+  <card blueprintId="1_90" title="It Could Be Worse" />
+  <card blueprintId="106_5" title="It's A Hit!" />
+  <card blueprintId="4_57" title="Moving To Attack Position" />
+  <card blueprintId="10_16" title="Out Of Commission &amp; Transmission Terminated" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="1_120" title="We're Doomed" />
+  <card blueprintId="14_46" title="Wesa Gotta Grand Army" />
+  <card blueprintId="14_46" title="Wesa Gotta Grand Army" />
+  <card blueprintId="14_49" title="Naboo: Boss Nass' Chambers" />
+  <card blueprintId="7_126" title="Spaceport Docking Bay" />
+  <card blueprintId="12_84" title="Tatooine" />
+  <card blueprintId="1_128" title="Tatooine: Cantina" />
+  <card blueprintId="1_129" title="Tatooine: Docking Bay 94" />
+  <card blueprintId="12_86" title="Tatooine: Mos Espa Docking Bay" />
+  <card blueprintId="10_26" title="Watch Your Step" />
+  <card blueprintId="111_2" title="Artoo-Detoo In Red 5" />
+  <card blueprintId="111_2" title="Artoo-Detoo In Red 5" />
+  <card blueprintId="1_143" title="Millennium Falcon" />
+  <card blueprintId="10_17" title="Outrider" />
+  <card blueprintId="10_20" title="Pulsar Skate" />
+  <card blueprintId="7_153" title="Patrol Craft" />
+  <card blueprintId="7_153" title="Patrol Craft" />
+  <card blueprintId="7_153" title="Patrol Craft" />
+  <card blueprintId="7_153" title="Patrol Craft" />
+  <card blueprintId="7_153" title="Patrol Craft" />
+  <card blueprintId="7_162" title="X-wing Laser Cannon" />
+  <cardOutsideDeck blueprintId="200_16" title="The Mythrol" />
+  <cardOutsideDeck blueprintId="13_1" title="A Close Race" />
+  <cardOutsideDeck blueprintId="223_30" title="A Close Race" />
+  <cardOutsideDeck blueprintId="13_3" title="A Tragedy Has Occurred" />
+  <cardOutsideDeck blueprintId="13_4" title="Aim High" />
+  <cardOutsideDeck blueprintId="13_6" title="Another Pathetic Lifeform" />
+  <cardOutsideDeck blueprintId="13_8" title="Battle Plan" />
+  <cardOutsideDeck blueprintId="13_15" title="Do, Or Do Not" />
+  <cardOutsideDeck blueprintId="13_16" title="Don't Do That Again" />
+  <cardOutsideDeck blueprintId="200_26" title="Don't Do That Again" />
+  <cardOutsideDeck blueprintId="13_22" title="He Can Go About His Business" />
+  <cardOutsideDeck blueprintId="13_30" title="Let's Keep A Little Optimism Here" />
+  <cardOutsideDeck blueprintId="13_35" title="Only Jedi Carry That Weapon" />
+  <cardOutsideDeck blueprintId="221_68" title="Only Jedi Carry That Weapon" />
+  <cardOutsideDeck blueprintId="13_37" title="Ounee Ta" />
+  <cardOutsideDeck blueprintId="13_38" title="Planetary Defenses" />
+  <cardOutsideDeck blueprintId="203_13" title="Planetary Defenses" />
+  <cardOutsideDeck blueprintId="200_28" title="Simple Tricks And Nonsense" />
+  <cardOutsideDeck blueprintId="200_29" title="The Republic No Longer Functions" />
+  <cardOutsideDeck blueprintId="209_15" title="There Is Another" />
+  <cardOutsideDeck blueprintId="220_10" title="Thrown Back" />
+  <cardOutsideDeck blueprintId="13_44" title="Ultimatum" />
+  <cardOutsideDeck blueprintId="13_47" title="Wise Advice" />
+  <cardOutsideDeck blueprintId="223_49" title="Yavin Sentry &amp; Goldenrod" />
+  <cardOutsideDeck blueprintId="13_49" title="Your Insight Serves You Well" />
+  <cardOutsideDeck blueprintId="200_32" title="Your Insight Serves You Well" />
+  <cardOutsideDeck blueprintId="13_50" title="Your Ship?" />
+  <cardOutsideDeck blueprintId="301_5" title="Your Ship?" />
+</deck>

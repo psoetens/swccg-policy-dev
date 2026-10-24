@@ -62,7 +62,11 @@ DOCS = [
     "reports/knowledge-v3.1-contract.md", "reports/brainiac-v6.md", "reports/engine-on-feat-brainiac.md",
     "reports/preflight.md",
 ]
-OTHER = ["pyproject.toml", "uv.lock", "data/dojo/rewards.json", "data/brainiac/export-records.jsonl",
+# Untracked lab files exported under another path (plan dev-distribution Amendment 1: the V-card decks of plan
+# v-cards, not trained on yet); the decks they name are exported like the schedules' decks.
+MAPPED = {f"runs/v-cards/schedules/{name}": f"data/schedules/v-cards/{name}"
+          for name in ("gather-ds.tsv", "gather-ls.tsv", "heldout.tsv", "heldout-800.tsv")}
+OTHER = ["reports/data/v-cards/decks.json", "pyproject.toml", "uv.lock", "data/dojo/rewards.json", "data/brainiac/export-records.jsonl",
          # inputs that kept code reads from reports/data: model configuration (efficient.py names_map, counter_map)
          # and the table / pool pipeline
          "reports/data/card-identity-combos/combo-map.json", "reports/data/links-round2/counter-map.json",
@@ -139,6 +143,8 @@ def main():
     decks = set()
     for s in SCHEDULES:
         decks.update(DECK_RE.findall((lab / s).read_text()))
+    for source in MAPPED:
+        decks.update(DECK_RE.findall((lab / source).read_text()))
     for fixture in sorted((out / "tests/fixtures").glob("*.txt")):
         decks.update(DECK_RE.findall(fixture.read_text()))
     missing = sorted(d for d in decks if not (lab / d).is_file())
@@ -168,6 +174,10 @@ def main():
         dst = out / p
         dst.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(lab / p, dst)
+    for source, target in MAPPED.items():
+        (out / target).parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(lab / source, out / target)
+    keep_paths += list(MAPPED.values())
     (out / "tools/export-manifest.txt").write_text("\n".join(sorted(keep_paths)) + "\n")
     groups = {}
     dropped = [(p, r) for p, r in dropped if p not in decks]

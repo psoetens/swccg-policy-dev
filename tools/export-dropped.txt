@@ -20,7 +20,7 @@ data/decks/resolver_report.json	1	not in distribution
 data/decks/screen_games.csv	1	not in distribution
 data/decks/screen_schedule.json	1	not in distribution
 data/decks/unplayable_cards.csv	1	not in distribution
-data/decks/v4	2427	not in distribution
+data/decks/v4	1500	not in distribution
 data/leaderboard/inventory-im-server-4090.json.gz	1	not in distribution
 data/leaderboard/inventory-kylo.json.gz	1	not in distribution
 data/leaderboard/notes.yaml	1	not in distribution
@@ -157,7 +157,7 @@ reports/data/shaping-separate	12	not in distribution
 reports/data/shc-r1	18	not in distribution
 reports/data/titles-and-learner-ablation	35	not in distribution
 reports/data/turn-credit	36	not in distribution
-reports/data/v-cards	15	not in distribution
+reports/data/v-cards	14	not in distribution
 reports/data/v-cards-fixes	3	not in distribution
 scripts/actor_v6_server_chain.sh	1	one-off *_chain*.sh
 scripts/actor_v7_server_chain.sh	1	one-off *_chain*.sh
@@ -394,5 +394,5 @@ tests/test_dna.py	1	test imports dropped extend_dna
 tests/test_hostsync.py	1	lab-only test
 tests/test_leaderboard.py	1	lab-only test
 tests/test_links_round2.py	1	test imports dropped extend_dna
-tests/test_machine_env.py	1	test imports dropped prune_runs_list
+tests/test_machine_env.py	1	test imports dropped relativize_deck_paths
 tools	7	not in distribution

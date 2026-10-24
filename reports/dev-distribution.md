@@ -80,3 +80,27 @@ Lab-side fixes for 1 and 2 are not applied (lab tree is shared with the running 
 
 Still open: one manual browser game against `shc-r1-2026-10-24` (QUICKSTART §2); a setup run that clones Gemp from
 GitHub (the acceptance used a local mirror of the same commit).
+
+## Amendment 1: V-card decks (2026-10-24, not trained on yet)
+
+Added on Peter's request, with the note that no policy has trained on them:
+- 927 V-card tournament decks of lab plan v-cards (`data/decks/v4/corpus/...`, 5 MB, git; none overlap the Decipher
+  set) and their schedules `data/schedules/v-cards/{gather-ds,gather-ls,heldout,heldout-800}.tsv` with a README; the
+  selection record `reports/data/v-cards/decks.json`. `tools/export_from_lab.py` exports them (`MAPPED`).
+- `models/shc095-vcards/` (218 MB, slim): shc-095 with V-card and prompt table growth, **untrained on V decks**; its
+  V title table and Brainiac release `v-cards-shc095-2026-10-23` (manifest names this checkpoint's sha256).
+- Notes in README, QUICKSTART §5, the model card, `data/schedules/v-cards/README.md`: training needs Dojo rewards for
+  the V objectives (40 of 52 lack one; `v31_stage.py` refuses such pools), evaluation runs with `--no-dojo-coverage`.
+
+**Check (amendment end-goal).** In the dev tree (with the lab's `.venv`, JDK and engine build borrowed for this run):
+`evaluate_v31.py` shc095-vcards vs Rando Cal on all 800 rows of `heldout-800.tsv`, greedy, 16 threads: **786 / 800 =
+0.983** [0.971, 0.990], 798 finished, 0 crashes, `complete: true`, 5.2 min. One game was stopped by the loop guard on
+Rando Cal's side ("Choose card to set sabacc value", loop of 3; counted unfinished). The plan said 32 games;
+`evaluate_v31.py` needs `--games` = schedule rows, so all 800 ran. Lab reference (2,400 held-out rows, 40 threads):
+0.980.
+
+**Found on the way:** `machine_env.sh`'s new JDK lookup aborted its caller under `set -euo pipefail` when
+`.cache/tools` is absent (a machine with its own JDK via `.env`); fixed with `|| true` on both lookups, regression test
+in `tests/test_portable_paths.py`. The lab's torch-lib lookup has the same latent pattern (lab fixes file, Fix 3).
+
+LFS grows by ~280 MB (checkpoint 218 MB, release 63 MB, partly shared with the other releases).

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="208_30" title="Darth Vader, Emperor's Enforcer" />
+  <card blueprintId="208_30" title="Darth Vader, Emperor's Enforcer" />
+  <card blueprintId="208_30" title="Darth Vader, Emperor's Enforcer" />
+  <card blueprintId="213_5" title="Eighth Brother" />
+  <card blueprintId="213_6" title="Fifth Brother" />
+  <card blueprintId="213_6" title="Fifth Brother" />
+  <card blueprintId="200_82" title="Grand Moff Tarkin" />
+  <card blueprintId="200_82" title="Grand Moff Tarkin" />
+  <card blueprintId="200_86" title="Mara Jade With Lightsaber" />
+  <card blueprintId="213_11" title="Ninth Sister" />
+  <card blueprintId="222_12" title="Palpatine, Galactic Emperor" />
+  <card blueprintId="222_12" title="Palpatine, Galactic Emperor" />
+  <card blueprintId="222_12" title="Palpatine, Galactic Emperor" />
+  <card blueprintId="224_6" title="Second Sister" />
+  <card blueprintId="213_12" title="Seventh Sister" />
+  <card blueprintId="213_12" title="Seventh Sister" />
+  <card blueprintId="210_46" title="The Grand Inquisitor" />
+  <card blueprintId="220_4" title="Third Sister" />
+  <card blueprintId="200_92" title="Ysanne Isard" />
+  <card blueprintId="200_101" title="A Day Long Remembered" />
+  <card blueprintId="14_94" title="After Her!" />
+  <card blueprintId="217_14" title="Blast Door Controls" />
+  <card blueprintId="1_211" title="Blaster Rack" />
+  <card blueprintId="7_229" title="First Strike" />
+  <card blueprintId="205_17" title="I Am Your Father" />
+  <card blueprintId="201_30" title="Imperial Enforcement" />
+  <card blueprintId="200_110" title="Knowledge And Defense" />
+  <card blueprintId="112_16" title="No Escape" />
+  <card blueprintId="213_15" title="There Are Many Hunting You Now" />
+  <card blueprintId="213_16" title="Visage Of The Emperor" />
+  <card blueprintId="201_33" title="A Dark Time For The Rebellion" />
+  <card blueprintId="225_2" title="Blast Points" />
+  <card blueprintId="221_13" title="ComScan Detection" />
+  <card blueprintId="1_243" title="Elis Helrot" />
+  <card blueprintId="213_18" title="Far More Frightening Than Death" />
+  <card blueprintId="213_18" title="Far More Frightening Than Death" />
+  <card blueprintId="200_119" title="Force Field" />
+  <card blueprintId="10_39" title="Ghhhk &amp; Those Rebels Won't Escape Us" />
+  <card blueprintId="209_48" title="Lana Dobreed &amp; Sacrifice" />
+  <card blueprintId="205_20" title="Point Man" />
+  <card blueprintId="9_139" title="Prepared Defenses" />
+  <card blueprintId="200_123" title="Sith Fury" />
+  <card blueprintId="10_47" title="Sniper &amp; Dark Strike" />
+  <card blueprintId="12_161" title="They're Still Coming Through!" />
+  <card blueprintId="211_16" title="Vader's Anger" />
+  <card blueprintId="2_142" title="We Have A Prisoner" />
+  <card blueprintId="12_163" title="We Must Accelerate Our Plans" />
+  <card blueprintId="12_163" title="We Must Accelerate Our Plans" />
+  <card blueprintId="12_163" title="We Must Accelerate Our Plans" />
+  <card blueprintId="12_164" title="Blockade Flagship: Bridge" />
+  <card blueprintId="5_166" title="Cloud City: Carbonite Chamber" />
+  <card blueprintId="213_29" title="Malachor: Sith Temple Entrance" />
+  <card blueprintId="217_15" title="Malachor: Sith Temple Gateway" />
+  <card blueprintId="213_28" title="Malachor: Sith Temple Upper Chamber" />
+  <card blueprintId="209_50" title="Mustafar: Vader's Castle" />
+  <card blueprintId="213_31" title="Hunt Down And Destroy The Jedi" />
+  <card blueprintId="9_156" title="Emperor's Personal Shuttle" />
+  <card blueprintId="9_156" title="Emperor's Personal Shuttle" />
+  <card blueprintId="211_25" title="Dark Jedi Lightsaber" />
+  <card blueprintId="1_324" title="Vader's Lightsaber" />
+  <cardOutsideDeck blueprintId="13_51" title="A Useless Gesture" />
+  <cardOutsideDeck blueprintId="223_7" title="A Useless Gesture &amp; Death Star Sentry" />
+  <cardOutsideDeck blueprintId="13_52" title="Allegations Of Corruption" />
+  <cardOutsideDeck blueprintId="13_54" title="Battle Order" />
+  <cardOutsideDeck blueprintId="13_61" title="Come Here You Big Coward" />
+  <cardOutsideDeck blueprintId="225_3" title="Come Here You Big Coward" />
+  <cardOutsideDeck blueprintId="13_63" title="Crossfire" />
+  <cardOutsideDeck blueprintId="216_5" title="Crossfire" />
+  <cardOutsideDeck blueprintId="13_66" title="Do They Have A Code Clearance?" />
+  <cardOutsideDeck blueprintId="220_2" title="Drop!" />
+  <cardOutsideDeck blueprintId="213_13" title="Failure At The Cave" />
+  <cardOutsideDeck blueprintId="13_68" title="Fanfare" />
+  <cardOutsideDeck blueprintId="200_95" title="Fanfare" />
+  <cardOutsideDeck blueprintId="13_72" title="Leave Them To Me" />
+  <cardOutsideDeck blueprintId="13_78" title="No Escape" />
+  <cardOutsideDeck blueprintId="13_81" title="Oppressive Enforcement" />
+  <cardOutsideDeck blueprintId="13_84" title="Resistance" />
+  <cardOutsideDeck blueprintId="13_86" title="Secret Plans" />
+  <cardOutsideDeck blueprintId="13_90" title="There Is No Try" />
+  <cardOutsideDeck blueprintId="200_99" title="Vote Of No Confidence" />
+  <cardOutsideDeck blueprintId="13_96" title="We'll Let Fate-a Decide, Huh?" />
+  <cardOutsideDeck blueprintId="223_26" title="We'll Let Fate-a Decide, Huh?" />
+  <cardOutsideDeck blueprintId="13_95" title="Weapon Of A Sith" />
+  <cardOutsideDeck blueprintId="13_98" title="Wipe Them Out, All Of Them" />
+  <cardOutsideDeck blueprintId="13_99" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="200_100" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="13_100" title="You've Never Won A Race?" />
+  <cardOutsideDeck blueprintId="223_29" title="You've Never Won A Race?" />
+</deck>

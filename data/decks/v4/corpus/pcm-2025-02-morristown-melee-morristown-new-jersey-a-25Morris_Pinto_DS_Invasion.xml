@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="14_72" title="3B3-888" />
+  <card blueprintId="212_5" title="Admiral Trench" />
+  <card blueprintId="204_36" title="B2 Battle Droid" />
+  <card blueprintId="14_76" title="Captain Daultay Dofine" />
+  <card blueprintId="203_26" title="Darth Maul, Lone Hunter" />
+  <card blueprintId="203_26" title="Darth Maul, Lone Hunter" />
+  <card blueprintId="203_26" title="Darth Maul, Lone Hunter" />
+  <card blueprintId="213_3" title="Darth Tyranus" />
+  <card blueprintId="203_27" title="General Grievous" />
+  <card blueprintId="208_35" title="Lord Sidious" />
+  <card blueprintId="208_35" title="Lord Sidious" />
+  <card blueprintId="12_111" title="Neimoidian Pilot" />
+  <card blueprintId="210_40" title="Nute Gunray" />
+  <card blueprintId="210_40" title="Nute Gunray" />
+  <card blueprintId="14_83" title="OOM-9" />
+  <card blueprintId="12_114" title="P-59" />
+  <card blueprintId="200_88" title="Probot" />
+  <card blueprintId="12_117" title="Rune Haako" />
+  <card blueprintId="14_89" title="SSA-1015" />
+  <card blueprintId="14_90" title="SSA-306" />
+  <card blueprintId="12_121" title="Tey How" />
+  <card blueprintId="200_101" title="A Day Long Remembered" />
+  <card blueprintId="217_3" title="Begin Landing Your Troops &amp; Fighters Straight Ahead" />
+  <card blueprintId="200_109" title="Coarse And Rough And Irritating" />
+  <card blueprintId="109_9" title="Crush The Rebellion" />
+  <card blueprintId="14_96" title="Droid Racks" />
+  <card blueprintId="212_1" title="Evil Is Everywhere" />
+  <card blueprintId="200_110" title="Knowledge And Defense" />
+  <card blueprintId="112_16" title="No Escape" />
+  <card blueprintId="221_39" title="Tentacle" />
+  <card blueprintId="12_139" title="The Phantom Menace" />
+  <card blueprintId="12_139" title="The Phantom Menace" />
+  <card blueprintId="209_44" title="They Will Be No Match For You" />
+  <card blueprintId="211_12" title="Always Two There Are" />
+  <card blueprintId="200_119" title="Force Field" />
+  <card blueprintId="200_119" title="Force Field" />
+  <card blueprintId="200_120" title="Force Push" />
+  <card blueprintId="2_132" title="Ghhhk" />
+  <card blueprintId="9_137" title="Imperial Command" />
+  <card blueprintId="9_137" title="Imperial Command" />
+  <card blueprintId="9_137" title="Imperial Command" />
+  <card blueprintId="12_152" title="Masterful Move &amp; Endor Occupation" />
+  <card blueprintId="205_20" title="Point Man" />
+  <card blueprintId="9_139" title="Prepared Defenses" />
+  <card blueprintId="200_123" title="Sith Fury" />
+  <card blueprintId="10_47" title="Sniper &amp; Dark Strike" />
+  <card blueprintId="211_14" title="Trade Federation Tactics" />
+  <card blueprintId="201_37" title="Turn It Off! Turn It Off!" />
+  <card blueprintId="7_276" title="Coruscant: Docking Bay" />
+  <card blueprintId="211_22" title="Invisible Hand: Hallway 328" />
+  <card blueprintId="216_10" title="Naboo" />
+  <card blueprintId="12_171" title="Naboo: Swamp" />
+  <card blueprintId="13_76" title="Naboo: Theed Palace Generator" />
+  <card blueprintId="12_174" title="Naboo: Theed Palace Throne Room" />
+  <card blueprintId="14_113" title="Invasion" />
+  <card blueprintId="14_114" title="Blockade Flagship" />
+  <card blueprintId="211_23" title="Invisible Hand" />
+  <card blueprintId="211_25" title="Dark Jedi Lightsaber" />
+  <card blueprintId="13_75" title="Maul's Double-Bladed Lightsaber" />
+  <card blueprintId="217_22" title="Sidious' Lightsaber" />
+  <cardOutsideDeck blueprintId="13_51" title="A Useless Gesture" />
+  <cardOutsideDeck blueprintId="223_7" title="A Useless Gesture &amp; Death Star Sentry" />
+  <cardOutsideDeck blueprintId="13_52" title="Allegations Of Corruption" />
+  <cardOutsideDeck blueprintId="13_54" title="Battle Order" />
+  <cardOutsideDeck blueprintId="13_61" title="Come Here You Big Coward" />
+  <cardOutsideDeck blueprintId="225_3" title="Come Here You Big Coward" />
+  <cardOutsideDeck blueprintId="13_63" title="Crossfire" />
+  <cardOutsideDeck blueprintId="216_5" title="Crossfire" />
+  <cardOutsideDeck blueprintId="13_66" title="Do They Have A Code Clearance?" />
+  <cardOutsideDeck blueprintId="220_2" title="Drop!" />
+  <cardOutsideDeck blueprintId="213_13" title="Failure At The Cave" />
+  <cardOutsideDeck blueprintId="13_68" title="Fanfare" />
+  <cardOutsideDeck blueprintId="200_95" title="Fanfare" />
+  <cardOutsideDeck blueprintId="13_72" title="Leave Them To Me" />
+  <cardOutsideDeck blueprintId="13_78" title="No Escape" />
+  <cardOutsideDeck blueprintId="13_81" title="Oppressive Enforcement" />
+  <cardOutsideDeck blueprintId="13_84" title="Resistance" />
+  <cardOutsideDeck blueprintId="13_86" title="Secret Plans" />
+  <cardOutsideDeck blueprintId="13_90" title="There Is No Try" />
+  <cardOutsideDeck blueprintId="200_99" title="Vote Of No Confidence" />
+  <cardOutsideDeck blueprintId="13_96" title="We'll Let Fate-a Decide, Huh?" />
+  <cardOutsideDeck blueprintId="223_26" title="We'll Let Fate-a Decide, Huh?" />
+  <cardOutsideDeck blueprintId="13_95" title="Weapon Of A Sith" />
+  <cardOutsideDeck blueprintId="13_98" title="Wipe Them Out, All Of Them" />
+  <cardOutsideDeck blueprintId="13_99" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="200_100" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="13_100" title="You've Never Won A Race?" />
+  <cardOutsideDeck blueprintId="223_29" title="You've Never Won A Race?" />
+</deck>

@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="3_82" title="Admiral Ozzel" />
+  <card blueprintId="9_98" title="Admiral Piett" />
+  <card blueprintId="221_10" title="Captain Mod Terrik" />
+  <card blueprintId="201_22" title="Colonel Wullf Yularen" />
+  <card blueprintId="5_96" title="Commander Desanne" />
+  <card blueprintId="8_97" title="Corporal Drelosyn" />
+  <card blueprintId="208_30" title="Darth Vader, Emperor's Enforcer" />
+  <card blueprintId="10_40" title="Grand Admiral Thrawn" />
+  <card blueprintId="200_82" title="Grand Moff Tarkin" />
+  <card blueprintId="223_15" title="JS-1975" />
+  <card blueprintId="212_2" title="Moff Gideon" />
+  <card blueprintId="8_111" title="Sergeant Barich" />
+  <card blueprintId="8_113" title="Sergeant Irol" />
+  <card blueprintId="211_7" title="Sergeant Narthax With E-web Blaster" />
+  <card blueprintId="221_30" title="Sergeant Tarl" />
+  <card blueprintId="8_115" title="Sergeant Wallen" />
+  <card blueprintId="204_44" title="Stormtrooper Patrol" />
+  <card blueprintId="223_23" title="TD-110" />
+  <card blueprintId="221_38" title="TD-4445" />
+  <card blueprintId="2_106" title="Trooper Davin Felth" />
+  <card blueprintId="7_220" title="Alert My Star Destroyer!" />
+  <card blueprintId="200_109" title="Coarse And Rough And Irritating" />
+  <card blueprintId="201_29" title="Endor Shield" />
+  <card blueprintId="8_126" title="Imperial Arrest Order" />
+  <card blueprintId="200_108" title="Imperial Decree" />
+  <card blueprintId="200_110" title="Knowledge And Defense" />
+  <card blueprintId="9_129" title="Mobilization Points" />
+  <card blueprintId="208_41" title="Tarkin's Bounty" />
+  <card blueprintId="7_244" title="Tatooine Occupation" />
+  <card blueprintId="7_244" title="Tatooine Occupation" />
+  <card blueprintId="7_244" title="Tatooine Occupation" />
+  <card blueprintId="221_39" title="Tentacle" />
+  <card blueprintId="201_33" title="A Dark Time For The Rebellion" />
+  <card blueprintId="201_35" title="Cold Feet" />
+  <card blueprintId="222_7" title="Force Push &amp; Podracer Collision" />
+  <card blueprintId="10_39" title="Ghhhk &amp; Those Rebels Won't Escape Us" />
+  <card blueprintId="10_39" title="Ghhhk &amp; Those Rebels Won't Escape Us" />
+  <card blueprintId="1_247" title="Gravel Storm" />
+  <card blueprintId="1_249" title="Imperial Barrier" />
+  <card blueprintId="1_249" title="Imperial Barrier" />
+  <card blueprintId="1_249" title="Imperial Barrier" />
+  <card blueprintId="9_139" title="Prepared Defenses" />
+  <card blueprintId="200_124" title="Sneak Attack" />
+  <card blueprintId="200_124" title="Sneak Attack" />
+  <card blueprintId="3_136" title="Tactical Support" />
+  <card blueprintId="3_136" title="Tactical Support" />
+  <card blueprintId="3_136" title="Tactical Support" />
+  <card blueprintId="5_159" title="Trooper Assault" />
+  <card blueprintId="5_159" title="Trooper Assault" />
+  <card blueprintId="5_159" title="Trooper Assault" />
+  <card blueprintId="7_282" title="Executor: Docking Bay" />
+  <card blueprintId="203_33" title="Tatooine" />
+  <card blueprintId="1_291" title="Tatooine: Docking Bay 94" />
+  <card blueprintId="221_35" title="Tatooine: Imperial Landing Site" />
+  <card blueprintId="221_36" title="Tatooine: Jawa Camp" />
+  <card blueprintId="1_293" title="Tatooine: Jundland Wastes" />
+  <card blueprintId="1_294" title="Tatooine: Lars' Moisture Farm" />
+  <card blueprintId="221_37" title="Tatooine: Mos Eisley" />
+  <card blueprintId="201_39" title="Imperial Entanglements" />
+  <card blueprintId="216_8" title="Devastator" />
+  <cardOutsideDeck blueprintId="13_51" title="A Useless Gesture" />
+  <cardOutsideDeck blueprintId="13_52" title="Allegations Of Corruption" />
+  <cardOutsideDeck blueprintId="13_54" title="Battle Order" />
+  <cardOutsideDeck blueprintId="13_61" title="Come Here You Big Coward" />
+  <cardOutsideDeck blueprintId="13_63" title="Crossfire" />
+  <cardOutsideDeck blueprintId="216_5" title="Crossfire" />
+  <cardOutsideDeck blueprintId="13_66" title="Do They Have A Code Clearance?" />
+  <cardOutsideDeck blueprintId="220_2" title="Drop!" />
+  <cardOutsideDeck blueprintId="213_13" title="Failure At The Cave" />
+  <cardOutsideDeck blueprintId="13_68" title="Fanfare" />
+  <cardOutsideDeck blueprintId="200_95" title="Fanfare" />
+  <cardOutsideDeck blueprintId="13_72" title="Leave Them To Me" />
+  <cardOutsideDeck blueprintId="13_78" title="No Escape" />
+  <cardOutsideDeck blueprintId="13_81" title="Oppressive Enforcement" />
+  <cardOutsideDeck blueprintId="13_84" title="Resistance" />
+  <cardOutsideDeck blueprintId="13_86" title="Secret Plans" />
+  <cardOutsideDeck blueprintId="13_90" title="There Is No Try" />
+  <cardOutsideDeck blueprintId="200_99" title="Vote Of No Confidence" />
+  <cardOutsideDeck blueprintId="13_96" title="We'll Let Fate-a Decide, Huh?" />
+  <cardOutsideDeck blueprintId="13_95" title="Weapon Of A Sith" />
+  <cardOutsideDeck blueprintId="13_98" title="Wipe Them Out, All Of Them" />
+  <cardOutsideDeck blueprintId="13_99" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="200_100" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="13_100" title="You've Never Won A Race?" />
+  <cardOutsideDeck blueprintId="7_312" title="Dewback" />
+</deck>

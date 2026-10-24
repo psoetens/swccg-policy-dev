@@ -4,7 +4,7 @@
 # Sets JAVA_HOME, PATH and SWCCG_ENGINE_DEPS (a file holding the engine's dependency classpath).
 _swccg_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 if [ -f "$_swccg_root/.env" ]; then set -a; . "$_swccg_root/.env"; set +a; fi
-_jdk="$(ls -d "$_swccg_root"/.cache/tools/jdk-21* 2>/dev/null | head -1)"
+_jdk="$(ls -d "$_swccg_root"/.cache/tools/jdk-21* 2>/dev/null | head -1 || true)"  # callers run with set -euo pipefail
 export JAVA_HOME="${SWCCG_JAVA_HOME:-${_jdk:-${JAVA_HOME:-}}}"
 unset _jdk
 export PATH="$JAVA_HOME/bin:$PATH"
@@ -20,6 +20,6 @@ if [ -z "${SWCCG_MAVEN_HOME:-}" ]; then
 fi
 if [ -n "${SWCCG_MAVEN_HOME:-}" ]; then export PATH="$SWCCG_MAVEN_HOME/bin:$PATH"; fi
 # The project's own torch libraries, for the native library (its RUNPATH names the .venv of the machine that built it).
-SWCCG_TORCH_LIB="$(ls -d "$_swccg_root"/.venv/lib/python3.*/site-packages/torch/lib 2>/dev/null | head -1)"
+SWCCG_TORCH_LIB="$(ls -d "$_swccg_root"/.venv/lib/python3.*/site-packages/torch/lib 2>/dev/null | head -1 || true)"
 export LD_LIBRARY_PATH="$SWCCG_TORCH_LIB${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
 unset _swccg_root

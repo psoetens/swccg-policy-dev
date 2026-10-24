@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="7_164" title="Ak-rev" />
+  <card blueprintId="7_164" title="Ak-rev" />
+  <card blueprintId="200_74" title="Arica" />
+  <card blueprintId="212_3" title="Aurra Sing With Blaster Rifle" />
+  <card blueprintId="7_166" title="Barquin D'an" />
+  <card blueprintId="13_59" title="Boba Fett, Bounty Hunter" />
+  <card blueprintId="11_55" title="Darth Maul" />
+  <card blueprintId="7_176" title="Dodo Bodonawieedo" />
+  <card blueprintId="6_104" title="Gailid" />
+  <card blueprintId="7_179" title="Greeata" />
+  <card blueprintId="7_179" title="Greeata" />
+  <card blueprintId="204_42" title="Greedo" />
+  <card blueprintId="200_84" title="Jabba The Hutt" />
+  <card blueprintId="201_25" title="Jango Fett" />
+  <card blueprintId="6_111" title="Kithaba" />
+  <card blueprintId="217_13" title="Lando Calrissian, Vader's Broker" />
+  <card blueprintId="2_94" title="Lirin Car'n" />
+  <card blueprintId="7_188" title="Lyn Me" />
+  <card blueprintId="6_116" title="Nizuc Bek" />
+  <card blueprintId="12_114" title="P-59" />
+  <card blueprintId="7_198" title="Rappertunie" />
+  <card blueprintId="7_200" title="Rystall" />
+  <card blueprintId="7_208" title="Sy Snootles" />
+  <card blueprintId="2_105" title="Tech Mo'r" />
+  <card blueprintId="7_209" title="Umpass-stay" />
+  <card blueprintId="7_209" title="Umpass-stay" />
+  <card blueprintId="12_129" title="Battle Order &amp; First Strike" />
+  <card blueprintId="109_9" title="Crush The Rebellion" />
+  <card blueprintId="112_11" title="Hutt Influence" />
+  <card blueprintId="201_31" title="Jabba's Haven" />
+  <card blueprintId="200_110" title="Knowledge And Defense" />
+  <card blueprintId="221_27" title="Power Of The Hutt" />
+  <card blueprintId="6_149" title="Scum And Villainy" />
+  <card blueprintId="6_149" title="Scum And Villainy" />
+  <card blueprintId="201_33" title="A Dark Time For The Rebellion" />
+  <card blueprintId="14_101" title="Cease Fire!" />
+  <card blueprintId="201_35" title="Cold Feet" />
+  <card blueprintId="221_13" title="ComScan Detection" />
+  <card blueprintId="1_243" title="Elis Helrot" />
+  <card blueprintId="200_120" title="Force Push" />
+  <card blueprintId="2_132" title="Ghhhk" />
+  <card blueprintId="200_122" title="Imbalance &amp; Kintan Strider" />
+  <card blueprintId="209_48" title="Lana Dobreed &amp; Sacrifice" />
+  <card blueprintId="12_152" title="Masterful Move &amp; Endor Occupation" />
+  <card blueprintId="12_152" title="Masterful Move &amp; Endor Occupation" />
+  <card blueprintId="10_44" title="Ommni Box &amp; It's Worse" />
+  <card blueprintId="210_41" title="Oo-ta Goo-ta, Solo?" />
+  <card blueprintId="9_139" title="Prepared Defenses" />
+  <card blueprintId="211_15" title="Twi'lek Advisor" />
+  <card blueprintId="211_15" title="Twi'lek Advisor" />
+  <card blueprintId="7_276" title="Coruscant: Docking Bay" />
+  <card blueprintId="9_145" title="Death Star II: Docking Bay" />
+  <card blueprintId="6_162" title="Jabba's Palace: Audience Chamber" />
+  <card blueprintId="6_164" title="Jabba's Palace: Dungeon" />
+  <card blueprintId="6_167" title="Jabba's Sail Barge: Passenger Deck" />
+  <card blueprintId="6_168" title="Nal Hutta" />
+  <card blueprintId="6_170" title="Tatooine: Great Pit Of Carkoon" />
+  <card blueprintId="110_6" title="Court Of The Vile Gangster" />
+  <card blueprintId="200_134" title="Elis In Hinthra" />
+  <card blueprintId="12_182" title="Maul's Sith Infiltrator" />
+  <cardOutsideDeck blueprintId="13_51" title="A Useless Gesture" />
+  <cardOutsideDeck blueprintId="13_52" title="Allegations Of Corruption" />
+  <cardOutsideDeck blueprintId="13_54" title="Battle Order" />
+  <cardOutsideDeck blueprintId="13_61" title="Come Here You Big Coward" />
+  <cardOutsideDeck blueprintId="216_5" title="Crossfire" />
+  <cardOutsideDeck blueprintId="13_66" title="Do They Have A Code Clearance?" />
+  <cardOutsideDeck blueprintId="213_13" title="Failure At The Cave" />
+  <cardOutsideDeck blueprintId="200_95" title="Fanfare" />
+  <cardOutsideDeck blueprintId="13_72" title="Leave Them To Me" />
+  <cardOutsideDeck blueprintId="13_78" title="No Escape" />
+  <cardOutsideDeck blueprintId="13_81" title="Oppressive Enforcement" />
+  <cardOutsideDeck blueprintId="13_84" title="Resistance" />
+  <cardOutsideDeck blueprintId="13_86" title="Secret Plans" />
+  <cardOutsideDeck blueprintId="13_90" title="There Is No Try" />
+  <cardOutsideDeck blueprintId="200_99" title="Vote Of No Confidence" />
+  <cardOutsideDeck blueprintId="13_96" title="We'll Let Fate-a Decide, Huh?" />
+  <cardOutsideDeck blueprintId="13_95" title="Weapon Of A Sith" />
+  <cardOutsideDeck blueprintId="13_98" title="Wipe Them Out, All Of Them" />
+  <cardOutsideDeck blueprintId="13_99" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="200_100" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="13_100" title="You've Never Won A Race?" />
+</deck>

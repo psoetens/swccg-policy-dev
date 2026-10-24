@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="200_74" title="Arica" />
+  <card blueprintId="212_3" title="Aurra Sing With Blaster Rifle" />
+  <card blueprintId="212_3" title="Aurra Sing With Blaster Rifle" />
+  <card blueprintId="203_23" title="Baniss Keeg, Pilot Instructor" />
+  <card blueprintId="222_5" title="Boba Fett With Blaster Rifle" />
+  <card blueprintId="13_59" title="Boba Fett, Bounty Hunter" />
+  <card blueprintId="200_75" title="Bossk" />
+  <card blueprintId="203_24" title="Cad Bane" />
+  <card blueprintId="200_79" title="Dengar With Blaster Carbine" />
+  <card blueprintId="209_35" title="Dr. Chelli Lona Aphra" />
+  <card blueprintId="9_109" title="Emperor Palpatine" />
+  <card blueprintId="9_109" title="Emperor Palpatine" />
+  <card blueprintId="9_109" title="Emperor Palpatine" />
+  <card blueprintId="9_109" title="Emperor Palpatine" />
+  <card blueprintId="204_42" title="Greedo" />
+  <card blueprintId="201_25" title="Jango Fett" />
+  <card blueprintId="211_1" title="Mitth'raw'nuruodo" />
+  <card blueprintId="12_114" title="P-59" />
+  <card blueprintId="10_45" title="Prince Xizor" />
+  <card blueprintId="200_88" title="Probot" />
+  <card blueprintId="7_200" title="Rystall" />
+  <card blueprintId="2_107" title="U-3PO (Yoo-Threepio)" />
+  <card blueprintId="200_91" title="Vigo" />
+  <card blueprintId="200_91" title="Vigo" />
+  <card blueprintId="204_46" title="Zam Wesell" />
+  <card blueprintId="200_110" title="Knowledge And Defense" />
+  <card blueprintId="219_16" title="No Escape" />
+  <card blueprintId="211_10" title="Quietly Observing" />
+  <card blueprintId="209_43" title="Shadows Of The Empire" />
+  <card blueprintId="208_41" title="Tarkin's Bounty" />
+  <card blueprintId="221_39" title="Tentacle" />
+  <card blueprintId="12_143" title="Wipe Them Out, All Of Them" />
+  <card blueprintId="206_12" title="Xizor's Bounty" />
+  <card blueprintId="201_33" title="A Dark Time For The Rebellion" />
+  <card blueprintId="201_35" title="Cold Feet" />
+  <card blueprintId="10_34" title="Control &amp; Set For Stun" />
+  <card blueprintId="10_34" title="Control &amp; Set For Stun" />
+  <card blueprintId="1_243" title="Elis Helrot" />
+  <card blueprintId="9_136" title="Force Lightning" />
+  <card blueprintId="200_120" title="Force Push" />
+  <card blueprintId="2_132" title="Ghhhk" />
+  <card blueprintId="6_154" title="Hidden Weapons" />
+  <card blueprintId="6_154" title="Hidden Weapons" />
+  <card blueprintId="200_122" title="Imbalance &amp; Kintan Strider" />
+  <card blueprintId="1_249" title="Imperial Barrier" />
+  <card blueprintId="209_48" title="Lana Dobreed &amp; Sacrifice" />
+  <card blueprintId="12_152" title="Masterful Move &amp; Endor Occupation" />
+  <card blueprintId="9_139" title="Prepared Defenses" />
+  <card blueprintId="106_17" title="Tarkin's Orders" />
+  <card blueprintId="8_154" title="Wounded Warrior" />
+  <card blueprintId="203_31" title="Coruscant" />
+  <card blueprintId="201_38" title="Coruscant: Imperial City" />
+  <card blueprintId="7_278" title="Coruscant: Imperial Square" />
+  <card blueprintId="203_32" title="Coruscant: Xizor's Palace" />
+  <card blueprintId="209_51" title="Xizor's Palace: Sewer" />
+  <card blueprintId="203_34" title="Xizor's Palace: Uplink Station" />
+  <card blueprintId="10_29" title="Agents Of Black Sun" />
+  <card blueprintId="203_35" title="Falleen's Fist" />
+  <card blueprintId="210_34" title="Jabba's Space Cruiser" />
+  <card blueprintId="221_42" title="Zuckuss And 4-LOM In Mist Hunter" />
+  <cardOutsideDeck blueprintId="13_51" title="A Useless Gesture" />
+  <cardOutsideDeck blueprintId="223_7" title="A Useless Gesture &amp; Death Star Sentry" />
+  <cardOutsideDeck blueprintId="13_52" title="Allegations Of Corruption" />
+  <cardOutsideDeck blueprintId="13_54" title="Battle Order" />
+  <cardOutsideDeck blueprintId="13_61" title="Come Here You Big Coward" />
+  <cardOutsideDeck blueprintId="216_5" title="Crossfire" />
+  <cardOutsideDeck blueprintId="13_66" title="Do They Have A Code Clearance?" />
+  <cardOutsideDeck blueprintId="220_2" title="Drop!" />
+  <cardOutsideDeck blueprintId="213_13" title="Failure At The Cave" />
+  <cardOutsideDeck blueprintId="200_95" title="Fanfare" />
+  <cardOutsideDeck blueprintId="13_72" title="Leave Them To Me" />
+  <cardOutsideDeck blueprintId="13_78" title="No Escape" />
+  <cardOutsideDeck blueprintId="13_81" title="Oppressive Enforcement" />
+  <cardOutsideDeck blueprintId="13_84" title="Resistance" />
+  <cardOutsideDeck blueprintId="13_86" title="Secret Plans" />
+  <cardOutsideDeck blueprintId="13_90" title="There Is No Try" />
+  <cardOutsideDeck blueprintId="200_99" title="Vote Of No Confidence" />
+  <cardOutsideDeck blueprintId="223_26" title="We'll Let Fate-a Decide, Huh?" />
+  <cardOutsideDeck blueprintId="13_95" title="Weapon Of A Sith" />
+  <cardOutsideDeck blueprintId="13_98" title="Wipe Them Out, All Of Them" />
+  <cardOutsideDeck blueprintId="200_100" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="223_29" title="You've Never Won A Race?" />
+</deck>

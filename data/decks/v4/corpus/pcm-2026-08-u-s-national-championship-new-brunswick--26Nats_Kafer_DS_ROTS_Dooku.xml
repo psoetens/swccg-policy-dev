@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="215_22" title="Admiral Piett" />
+  <card blueprintId="200_76" title="Count Dooku" />
+  <card blueprintId="200_76" title="Count Dooku" />
+  <card blueprintId="208_35" title="Lord Sidious" />
+  <card blueprintId="208_35" title="Lord Sidious" />
+  <card blueprintId="200_85" title="Maarek Stele, The Emperor's Reach" />
+  <card blueprintId="208_38" title="Alert My Star Destroyer!" />
+  <card blueprintId="200_109" title="Coarse And Rough And Irritating" />
+  <card blueprintId="107_4" title="Flagship Operations" />
+  <card blueprintId="12_135" title="Imperial Arrest Order &amp; Secret Plans" />
+  <card blueprintId="200_108" title="Imperial Decree" />
+  <card blueprintId="200_110" title="Knowledge And Defense" />
+  <card blueprintId="1_222" title="Lateral Damage" />
+  <card blueprintId="219_16" title="No Escape" />
+  <card blueprintId="7_241" title="Sienar Fleet Systems" />
+  <card blueprintId="208_41" title="Tarkin's Bounty" />
+  <card blueprintId="217_23" title="Tragedy Of Plagueis" />
+  <card blueprintId="12_144" title="You Cannot Hide Forever &amp; Mobilization Points" />
+  <card blueprintId="215_25" title="Emperor's Orders" />
+  <card blueprintId="217_20" title="Revenge Of The Sith" />
+  <card blueprintId="10_34" title="Control &amp; Set For Stun" />
+  <card blueprintId="10_34" title="Control &amp; Set For Stun" />
+  <card blueprintId="200_119" title="Force Field" />
+  <card blueprintId="9_136" title="Force Lightning" />
+  <card blueprintId="9_136" title="Force Lightning" />
+  <card blueprintId="9_136" title="Force Lightning" />
+  <card blueprintId="200_120" title="Force Push" />
+  <card blueprintId="200_120" title="Force Push" />
+  <card blueprintId="217_21" title="Rise Of The Sith" />
+  <card blueprintId="106_17" title="Tarkin's Orders" />
+  <card blueprintId="12_163" title="We Must Accelerate Our Plans" />
+  <card blueprintId="12_163" title="We Must Accelerate Our Plans" />
+  <card blueprintId="12_163" title="We Must Accelerate Our Plans" />
+  <card blueprintId="12_163" title="We Must Accelerate Our Plans" />
+  <card blueprintId="12_163" title="We Must Accelerate Our Plans" />
+  <card blueprintId="12_164" title="Blockade Flagship: Bridge" />
+  <card blueprintId="7_282" title="Executor: Docking Bay" />
+  <card blueprintId="7_283" title="Fondor" />
+  <card blueprintId="211_20" title="Invisible Hand: Bridge" />
+  <card blueprintId="204_51" title="Jakku" />
+  <card blueprintId="7_289" title="Spaceport Docking Bay" />
+  <card blueprintId="213_30" title="Wakeelmui" />
+  <card blueprintId="202_13" title="Binder" />
+  <card blueprintId="202_14" title="Black 6" />
+  <card blueprintId="202_14" title="Black 6" />
+  <card blueprintId="200_132" title="Colonel Jendon In Onyx 1" />
+  <card blueprintId="106_13" title="Dreadnaught-Class Heavy Cruiser" />
+  <card blueprintId="223_12" title="Eli Vanto In Dreadnaught" />
+  <card blueprintId="9_157" title="Flagship Executor" />
+  <card blueprintId="200_136" title="Onyx 2" />
+  <card blueprintId="9_175" title="TIE Interceptor" />
+  <card blueprintId="9_175" title="TIE Interceptor" />
+  <card blueprintId="1_305" title="TIE Scout" />
+  <card blueprintId="1_305" title="TIE Scout" />
+  <card blueprintId="1_305" title="TIE Scout" />
+  <card blueprintId="1_305" title="TIE Scout" />
+  <card blueprintId="1_305" title="TIE Scout" />
+  <card blueprintId="12_187" title="Laser Cannon Battery" />
+  <card blueprintId="7_324" title="SFS L-s9.3 Laser Cannons" />
+  <card blueprintId="7_324" title="SFS L-s9.3 Laser Cannons" />
+  <cardOutsideDeck blueprintId="13_51" title="A Useless Gesture" />
+  <cardOutsideDeck blueprintId="223_7" title="A Useless Gesture &amp; Death Star Sentry" />
+  <cardOutsideDeck blueprintId="13_52" title="Allegations Of Corruption" />
+  <cardOutsideDeck blueprintId="13_54" title="Battle Order" />
+  <cardOutsideDeck blueprintId="225_3" title="Come Here You Big Coward" />
+  <cardOutsideDeck blueprintId="216_5" title="Crossfire" />
+  <cardOutsideDeck blueprintId="13_66" title="Do They Have A Code Clearance?" />
+  <cardOutsideDeck blueprintId="220_2" title="Drop!" />
+  <cardOutsideDeck blueprintId="213_13" title="Failure At The Cave" />
+  <cardOutsideDeck blueprintId="200_95" title="Fanfare" />
+  <cardOutsideDeck blueprintId="13_72" title="Leave Them To Me" />
+  <cardOutsideDeck blueprintId="13_78" title="No Escape" />
+  <cardOutsideDeck blueprintId="13_81" title="Oppressive Enforcement" />
+  <cardOutsideDeck blueprintId="13_84" title="Resistance" />
+  <cardOutsideDeck blueprintId="13_86" title="Secret Plans" />
+  <cardOutsideDeck blueprintId="13_90" title="There Is No Try" />
+  <cardOutsideDeck blueprintId="200_99" title="Vote Of No Confidence" />
+  <cardOutsideDeck blueprintId="223_26" title="We'll Let Fate-a Decide, Huh?" />
+  <cardOutsideDeck blueprintId="13_95" title="Weapon Of A Sith" />
+  <cardOutsideDeck blueprintId="13_98" title="Wipe Them Out, All Of Them" />
+  <cardOutsideDeck blueprintId="200_100" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="223_29" title="You've Never Won A Race?" />
+</deck>

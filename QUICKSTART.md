@@ -29,7 +29,7 @@ scripts/brainiac_server.sh stop
 
 `start` also starts a MariaDB container (`swccg-brainiac-db`, built from Gemp's own `docker/gemp_db.Dockerfile`, with
 Gemp's seeded users). One server serves one release; for another policy, stop and start with another `RELEASE`, or run
-a second server with `PORT=17102 BUILD=...`. Releases: `D-`, `cn-ctl-`, `shc-095-`, `shc-r1-` in
+a second server with `PORT=17102 BUILD=...`. Releases: `D-`, `cn-ctl-`, `shc-095-`, `shc-r1-` and `v-cards-shc095-` (not trained on V decks) in
 `models/brainiac/releases/`. Build one from your own checkpoint:
 
 ```bash
@@ -73,7 +73,22 @@ bash scripts/branch_decay.sh my-arm 0 runs/dojo/my-arm/milestones/trunk.pt   # o
 A fresh model with the same network: `scripts/fresh_like.py models/D/policy.pt runs/fresh.pt --seed 1`, then train
 from it (`START=runs/fresh.pt`).
 
-## 5. Your own probes
+## 5. V-card decks (prepared, not trained on yet)
+
+`data/schedules/v-cards/` holds 927 tournament decks with Virtual cards. **No policy here has trained on them.**
+`models/shc095-vcards` (shc-095 with V-card tables, untrained on V) is the only model that can play them:
+
+```bash
+PYTHONPATH=src:scripts .venv/bin/python scripts/evaluate_v31.py --checkpoint models/shc095-vcards/policy.pt \
+    --reference models/shc095-vcards/policy.pt --tag vcards-rando --opponents rando --games 800 --threads 16 \
+    --schedule data/schedules/v-cards/heldout-800.tsv --title-table models/shc095-vcards/titles.tsv --no-dojo-coverage
+RELEASE=models/brainiac/releases/v-cards-shc095-2026-10-23 scripts/brainiac_server.sh start   # in the browser
+```
+
+Training on them needs Dojo rewards for the V objectives first (`v31_stage.py` refuses the pool otherwise); see
+`data/schedules/v-cards/README.md`.
+
+## 6. Your own probes
 
 `scripts/probe_tasks.py` / `v31_probe_tasks.py` define supervised probe tasks over recorded decisions;
 `scripts/night_probe.py` runs one task against a checkpoint; `probe_readout.py` and the `critic_*` readouts analyse

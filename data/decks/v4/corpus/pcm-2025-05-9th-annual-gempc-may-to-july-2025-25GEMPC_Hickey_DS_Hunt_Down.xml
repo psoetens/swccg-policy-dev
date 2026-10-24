@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="200_71" title="4-LOM With Concussion Rifle" />
+  <card blueprintId="200_71" title="4-LOM With Concussion Rifle" />
+  <card blueprintId="301_3" title="Asajj Ventress With Lightsabers" />
+  <card blueprintId="5_93" title="Chief Retwin" />
+  <card blueprintId="5_93" title="Chief Retwin" />
+  <card blueprintId="14_77" title="Darth Maul With Lightsaber" />
+  <card blueprintId="7_175" title="Darth Vader, Dark Lord Of The Sith" />
+  <card blueprintId="7_175" title="Darth Vader, Dark Lord Of The Sith" />
+  <card blueprintId="7_175" title="Darth Vader, Dark Lord Of The Sith" />
+  <card blueprintId="7_175" title="Darth Vader, Dark Lord Of The Sith" />
+  <card blueprintId="209_37" title="Kylo Ren With Lightsaber" />
+  <card blueprintId="208_34" title="Lord Maul With Lightsaber" />
+  <card blueprintId="200_86" title="Mara Jade With Lightsaber" />
+  <card blueprintId="1_205" title="Restraining Bolt" />
+  <card blueprintId="217_14" title="Blast Door Controls" />
+  <card blueprintId="7_229" title="First Strike" />
+  <card blueprintId="205_17" title="I Am Your Father" />
+  <card blueprintId="1_219" title="Jawa Pack" />
+  <card blueprintId="200_110" title="Knowledge And Defense" />
+  <card blueprintId="112_16" title="No Escape" />
+  <card blueprintId="12_140" title="The Phantom Menace" />
+  <card blueprintId="2_128" title="There'll Be Hell To Pay" />
+  <card blueprintId="2_128" title="There'll Be Hell To Pay" />
+  <card blueprintId="2_128" title="There'll Be Hell To Pay" />
+  <card blueprintId="4_135" title="Visage Of The Emperor" />
+  <card blueprintId="4_135" title="Visage Of The Emperor" />
+  <card blueprintId="221_13" title="ComScan Detection" />
+  <card blueprintId="10_34" title="Control &amp; Set For Stun" />
+  <card blueprintId="1_238" title="Counter Assault" />
+  <card blueprintId="5_135" title="Dark Strike" />
+  <card blueprintId="1_243" title="Elis Helrot" />
+  <card blueprintId="5_142" title="Force Field" />
+  <card blueprintId="200_120" title="Force Push" />
+  <card blueprintId="1_263" title="Overload" />
+  <card blueprintId="223_22" title="Rite Of Passage" />
+  <card blueprintId="200_123" title="Sith Fury" />
+  <card blueprintId="208_45" title="Sonic Bombardment" />
+  <card blueprintId="208_45" title="Sonic Bombardment" />
+  <card blueprintId="208_45" title="Sonic Bombardment" />
+  <card blueprintId="200_125" title="Surface Defense" />
+  <card blueprintId="12_161" title="They're Still Coming Through!" />
+  <card blueprintId="211_16" title="Vader's Anger" />
+  <card blueprintId="12_163" title="We Must Accelerate Our Plans" />
+  <card blueprintId="12_163" title="We Must Accelerate Our Plans" />
+  <card blueprintId="7_270" title="Cloud City: Downtown Plaza" />
+  <card blueprintId="200_126" title="Cloud City: Security Tower" />
+  <card blueprintId="1_283" title="Death Star: Central Core" />
+  <card blueprintId="1_283" title="Death Star: Central Core" />
+  <card blueprintId="1_283" title="Death Star: Central Core" />
+  <card blueprintId="1_284" title="Death Star: Detention Block Corridor" />
+  <card blueprintId="101_4" title="Death Star: Docking Control Room 327" />
+  <card blueprintId="101_4" title="Death Star: Docking Control Room 327" />
+  <card blueprintId="101_4" title="Death Star: Docking Control Room 327" />
+  <card blueprintId="4_161" title="Executor: Holotheatre" />
+  <card blueprintId="4_163" title="Executor: Meditation Chamber" />
+  <card blueprintId="1_288" title="Kessel" />
+  <card blueprintId="7_297" title="Hunt Down And Destroy The Jedi" />
+  <card blueprintId="224_7" title="StarSpeeder 1000" />
+  <card blueprintId="224_7" title="StarSpeeder 1000" />
+  <card blueprintId="208_59" title="Darth Vader's Lightsaber" />
+  <cardOutsideDeck blueprintId="10_42" title="Jabba's Prize" />
+  <cardOutsideDeck blueprintId="205_14" title="Luke Skywalker, The Emperor's Prize" />
+  <cardOutsideDeck blueprintId="221_38" title="TD-4445" />
+  <cardOutsideDeck blueprintId="13_51" title="A Useless Gesture" />
+  <cardOutsideDeck blueprintId="223_7" title="A Useless Gesture &amp; Death Star Sentry" />
+  <cardOutsideDeck blueprintId="13_52" title="Allegations Of Corruption" />
+  <cardOutsideDeck blueprintId="13_54" title="Battle Order" />
+  <cardOutsideDeck blueprintId="225_3" title="Come Here You Big Coward" />
+  <cardOutsideDeck blueprintId="13_63" title="Crossfire" />
+  <cardOutsideDeck blueprintId="216_5" title="Crossfire" />
+  <cardOutsideDeck blueprintId="13_66" title="Do They Have A Code Clearance?" />
+  <cardOutsideDeck blueprintId="220_2" title="Drop!" />
+  <cardOutsideDeck blueprintId="213_13" title="Failure At The Cave" />
+  <cardOutsideDeck blueprintId="13_68" title="Fanfare" />
+  <cardOutsideDeck blueprintId="200_95" title="Fanfare" />
+  <cardOutsideDeck blueprintId="13_72" title="Leave Them To Me" />
+  <cardOutsideDeck blueprintId="13_78" title="No Escape" />
+  <cardOutsideDeck blueprintId="13_81" title="Oppressive Enforcement" />
+  <cardOutsideDeck blueprintId="13_84" title="Resistance" />
+  <cardOutsideDeck blueprintId="13_86" title="Secret Plans" />
+  <cardOutsideDeck blueprintId="13_90" title="There Is No Try" />
+  <cardOutsideDeck blueprintId="200_99" title="Vote Of No Confidence" />
+  <cardOutsideDeck blueprintId="13_96" title="We'll Let Fate-a Decide, Huh?" />
+  <cardOutsideDeck blueprintId="223_26" title="We'll Let Fate-a Decide, Huh?" />
+  <cardOutsideDeck blueprintId="13_95" title="Weapon Of A Sith" />
+  <cardOutsideDeck blueprintId="13_98" title="Wipe Them Out, All Of Them" />
+  <cardOutsideDeck blueprintId="13_99" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="200_100" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="13_100" title="You've Never Won A Race?" />
+  <cardOutsideDeck blueprintId="223_29" title="You've Never Won A Race?" />
+  <cardOutsideDeck blueprintId="106_13" title="Dreadnaught-Class Heavy Cruiser" />
+  <cardOutsideDeck blueprintId="7_312" title="Dewback" />
+  <cardOutsideDeck blueprintId="1_308" title="Lift Tube" />
+</deck>

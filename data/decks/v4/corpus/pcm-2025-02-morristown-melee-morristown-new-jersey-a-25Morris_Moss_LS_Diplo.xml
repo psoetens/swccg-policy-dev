@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="211_59" title="Ahsoka Tano" />
+  <card blueprintId="204_2" title="Bail Organa" />
+  <card blueprintId="206_2" title="Cal Alder" />
+  <card blueprintId="204_3" title="Captain Hera Syndulla" />
+  <card blueprintId="203_3" title="Captain Raymus Antilles" />
+  <card blueprintId="200_5" title="Chewie" />
+  <card blueprintId="200_8" title="Commander Narra" />
+  <card blueprintId="10_5" title="Corran Horn" />
+  <card blueprintId="200_12" title="General Airen Cracken" />
+  <card blueprintId="224_16" title="Han Solo" />
+  <card blueprintId="201_1" title="Lando Calrissian" />
+  <card blueprintId="202_1" title="Leia Organa" />
+  <card blueprintId="208_8" title="Luke Skywalker, The Rebellion's Hope" />
+  <card blueprintId="208_8" title="Luke Skywalker, The Rebellion's Hope" />
+  <card blueprintId="201_4" title="Obi-Wan Kenobi" />
+  <card blueprintId="10_18" title="Owen Lars &amp; Beru Lars" />
+  <card blueprintId="203_11" title="R2-D2 &amp; C-3PO" />
+  <card blueprintId="207_9" title="Sabine Wren" />
+  <card blueprintId="204_10" title="Senator Mon Mothma" />
+  <card blueprintId="9_31" title="Wedge Antilles, Red Squadron Leader" />
+  <card blueprintId="200_35" title="Anger, Fear, Aggression" />
+  <card blueprintId="12_41" title="Battle Plan &amp; Draw Their Fire" />
+  <card blueprintId="200_39" title="I Don't Like Sand" />
+  <card blueprintId="200_41" title="I Must Be Allowed To Speak" />
+  <card blueprintId="9_38" title="Menace Fades" />
+  <card blueprintId="223_42" title="Passage To The Alderaan System" />
+  <card blueprintId="203_14" title="Stolen Data Tapes" />
+  <card blueprintId="219_47" title="Weather Vane" />
+  <card blueprintId="12_52" title="You've Got A Lot Of Guts Coming Here" />
+  <card blueprintId="200_49" title="Antilles Maneuver" />
+  <card blueprintId="200_49" title="Antilles Maneuver" />
+  <card blueprintId="204_18" title="Escape Pod &amp; We're Doomed" />
+  <card blueprintId="204_18" title="Escape Pod &amp; We're Doomed" />
+  <card blueprintId="9_51" title="Heading For The Medical Frigate" />
+  <card blueprintId="2_50" title="Houjix" />
+  <card blueprintId="225_8" title="I Don't Need Their Scum, Either" />
+  <card blueprintId="1_90" title="It Could Be Worse" />
+  <card blueprintId="204_20" title="Keep Your Eyes Open" />
+  <card blueprintId="218_24" title="Local Defense &amp; Put That Down" />
+  <card blueprintId="218_24" title="Local Defense &amp; Put That Down" />
+  <card blueprintId="208_20" title="Mandalorian Mishap" />
+  <card blueprintId="1_100" title="Old Ben" />
+  <card blueprintId="201_14" title="Perimeter Scan" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="10_25" title="The Bith Shuffle &amp; Desperate Reach" />
+  <card blueprintId="207_14" title="They're Tracking Us" />
+  <card blueprintId="6_79" title="Weapon Levitation" />
+  <card blueprintId="1_121" title="Alderaan" />
+  <card blueprintId="8_67" title="Chandrila" />
+  <card blueprintId="12_84" title="Tatooine" />
+  <card blueprintId="1_128" title="Tatooine: Cantina" />
+  <card blueprintId="224_22" title="Tatooine: Dune Sea" />
+  <card blueprintId="205_6" title="Tatooine: Lars' Moisture Farm" />
+  <card blueprintId="1_133" title="Tatooine: Mos Eisley" />
+  <card blueprintId="203_19" title="Diplomatic Mission To Alderaan" />
+  <card blueprintId="220_7" title="Millennium Falcon" />
+  <card blueprintId="201_19" title="Tantive IV" />
+  <card blueprintId="203_21" title="Wild Karrde" />
+  <card blueprintId="207_19" title="Luke's Hunting Rifle" />
+  <card blueprintId="207_19" title="Luke's Hunting Rifle" />
+  <cardOutsideDeck blueprintId="200_16" title="The Mythrol" />
+  <cardOutsideDeck blueprintId="13_1" title="A Close Race" />
+  <cardOutsideDeck blueprintId="223_30" title="A Close Race" />
+  <cardOutsideDeck blueprintId="13_3" title="A Tragedy Has Occurred" />
+  <cardOutsideDeck blueprintId="13_4" title="Aim High" />
+  <cardOutsideDeck blueprintId="13_6" title="Another Pathetic Lifeform" />
+  <cardOutsideDeck blueprintId="13_8" title="Battle Plan" />
+  <cardOutsideDeck blueprintId="13_15" title="Do, Or Do Not" />
+  <cardOutsideDeck blueprintId="13_16" title="Don't Do That Again" />
+  <cardOutsideDeck blueprintId="200_26" title="Don't Do That Again" />
+  <cardOutsideDeck blueprintId="13_22" title="He Can Go About His Business" />
+  <cardOutsideDeck blueprintId="13_30" title="Let's Keep A Little Optimism Here" />
+  <cardOutsideDeck blueprintId="13_35" title="Only Jedi Carry That Weapon" />
+  <cardOutsideDeck blueprintId="221_68" title="Only Jedi Carry That Weapon" />
+  <cardOutsideDeck blueprintId="13_37" title="Ounee Ta" />
+  <cardOutsideDeck blueprintId="13_38" title="Planetary Defenses" />
+  <cardOutsideDeck blueprintId="203_13" title="Planetary Defenses" />
+  <cardOutsideDeck blueprintId="200_28" title="Simple Tricks And Nonsense" />
+  <cardOutsideDeck blueprintId="200_29" title="The Republic No Longer Functions" />
+  <cardOutsideDeck blueprintId="209_15" title="There Is Another" />
+  <cardOutsideDeck blueprintId="220_10" title="Thrown Back" />
+  <cardOutsideDeck blueprintId="13_44" title="Ultimatum" />
+  <cardOutsideDeck blueprintId="13_47" title="Wise Advice" />
+  <cardOutsideDeck blueprintId="223_49" title="Yavin Sentry &amp; Goldenrod" />
+  <cardOutsideDeck blueprintId="200_32" title="Your Insight Serves You Well" />
+  <cardOutsideDeck blueprintId="13_50" title="Your Ship?" />
+  <cardOutsideDeck blueprintId="301_5" title="Your Ship?" />
+</deck>

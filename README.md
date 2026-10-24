@@ -2,7 +2,7 @@
 
 Neural policies for Star Wars CCG that play in the [Gemp](https://github.com/PlayersCommittee/gemp-swccg) engine,
 trained with PPO self-play. This repo is the developer distribution of the lab repo: code, reusable tooling, four
-trained policies and the deck pools, without the lab's benchmark and probe history.
+trained policies (plus one V-card-ready variant, not trained on V decks yet) and the deck pools, without the lab's benchmark and probe history.
 
 Start with **[QUICKSTART.md](QUICKSTART.md)**: set up, play against a policy in the browser, run bot-vs-bot
 evaluations, and train a checkpoint further.
@@ -12,13 +12,15 @@ evaluations, and train a checkpoint further.
 | Path | What |
 |---|---|
 | `models/{D,cn-ctl,shc-095,shc-r1}/` | V3.1 policies (`policy.pt`, `MODEL_CARD.md`); `models/models.tsv` has sha256s and lineage |
+| `models/shc095-vcards/` | shc-095 with tables grown for V cards — **not trained on V-card decks yet** (see its model card) |
 | `models/brainiac/` | Browser releases of those policies (ONNX + tables) and the onnxruntime-web runtime, for Brainiac |
 | `src/swccg_policy/` | Model (`efficient*.py`), PPO learner (`v4_rl.py`, `ppo_step.py`), tables, trajectories, checkpoints. The V1 imitation code (`rl.py`, `model.py`, `train.py`, ...) stays because V3.1 imports helpers from it |
 | `engine/` | Java added to Gemp at build time: knowledge tracker, training harness (TrainGen, PolicyAi), v6 Brainiac + web worker |
 | `scripts/` | Tooling (below); `scripts/setup.sh` sets up a fresh clone |
 | `native/` | JNI policy library (`build-v3.1/libswccgpolicy.so`, prebuilt; `native/build.sh` rebuilds it) |
 | `data/schedules/` | Deck pools and evaluation schedules: `rl_pool_decipher_v3b.txt` (training pool v3b), v3, v2, v1; `eval_decipher_heldout.tsv`, `h2h_pool_v3_only.tsv`; `reports/data/dojo-sweep/schedule-v3b.tsv` |
-| `data/decks/` | The 802 deck files those schedules use (Decipher-era corpus and objective-coverage decks) |
+| `data/schedules/v-cards/` | 927 V-card tournament decks (2025–2026) prepared for V-card training: gathering and held-out schedules. **Not trained on yet** ([README](data/schedules/v-cards/README.md)) |
+| `data/decks/` | The 1,732 deck files those schedules use (Decipher-era corpus, objective-coverage decks, V-card decks) |
 | `data/cards/` | Gemp card database export (the Dojo coverage gate reads it) |
 | `runs/knowledge-v3.1/` | Frozen inputs: title table, Decipher tables (`tables-decipher`, for new models), probe tables and fixtures, `gates.json` |
 | `reports/` | Architecture docs: [RL loop](reports/architecture-rl-loop.md), [context input](reports/architecture-context.md), [how the network works](reports/how-the-policy-network-works.md), [training configuration](reports/training-configuration.md), [V3.1 contract](reports/knowledge-v3.1-contract.md), [Brainiac v6](reports/brainiac-v6.md), [engine on feat/brainiac](reports/engine-on-feat-brainiac.md) |

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="210_6" title="BoShek, Gritty Smuggler" />
+  <card blueprintId="213_35" title="Captain Lando Calrissian" />
+  <card blueprintId="213_36" title="Chewbacca" />
+  <card blueprintId="213_36" title="Chewbacca" />
+  <card blueprintId="10_5" title="Corran Horn" />
+  <card blueprintId="10_6" title="Dash Rendar" />
+  <card blueprintId="203_4" title="Ellorrs Madak, Pilot Instructor" />
+  <card blueprintId="224_16" title="Han Solo" />
+  <card blueprintId="108_3" title="Luke With Lightsaber" />
+  <card blueprintId="108_3" title="Luke With Lightsaber" />
+  <card blueprintId="217_40" title="Mara Jade" />
+  <card blueprintId="201_3" title="Melas" />
+  <card blueprintId="10_12" title="Mirax Terrik" />
+  <card blueprintId="222_25" title="Nien Nunb, Sullustan Smuggler" />
+  <card blueprintId="213_39" title="Qi'ra" />
+  <card blueprintId="213_41" title="Rio Durant" />
+  <card blueprintId="10_24" title="Talon Karrde" />
+  <card blueprintId="10_24" title="Talon Karrde" />
+  <card blueprintId="213_43" title="Val" />
+  <card blueprintId="202_3" title="Wedge Antilles" />
+  <card blueprintId="200_35" title="Anger, Fear, Aggression" />
+  <card blueprintId="218_21" title="I Must Be Allowed To Speak &amp; Smuggler's Blues" />
+  <card blueprintId="213_46" title="Kessel Run" />
+  <card blueprintId="9_38" title="Menace Fades" />
+  <card blueprintId="218_26" title="Ounee Ta" />
+  <card blueprintId="9_39" title="Squadron Assignments" />
+  <card blueprintId="200_47" title="Wokling" />
+  <card blueprintId="1_70" title="A Few Maneuvers" />
+  <card blueprintId="11_29" title="A Jedi's Resilience" />
+  <card blueprintId="11_29" title="A Jedi's Resilience" />
+  <card blueprintId="12_53" title="All Wings Report In &amp; Darklighter Spin" />
+  <card blueprintId="12_53" title="All Wings Report In &amp; Darklighter Spin" />
+  <card blueprintId="12_53" title="All Wings Report In &amp; Darklighter Spin" />
+  <card blueprintId="12_53" title="All Wings Report In &amp; Darklighter Spin" />
+  <card blueprintId="2_45" title="Blast The Door, Kid!" />
+  <card blueprintId="6_62" title="Choke" />
+  <card blueprintId="10_4" title="Control &amp; Tunnel Vision" />
+  <card blueprintId="10_4" title="Control &amp; Tunnel Vision" />
+  <card blueprintId="204_18" title="Escape Pod &amp; We're Doomed" />
+  <card blueprintId="200_52" title="Found Someone You Have" />
+  <card blueprintId="9_51" title="Heading For The Medical Frigate" />
+  <card blueprintId="2_50" title="Houjix" />
+  <card blueprintId="12_59" title="Inconsequential Barriers" />
+  <card blueprintId="106_5" title="It's A Hit!" />
+  <card blueprintId="5_55" title="It's A Trap!" />
+  <card blueprintId="4_57" title="Moving To Attack Position" />
+  <card blueprintId="4_57" title="Moving To Attack Position" />
+  <card blueprintId="1_100" title="Old Ben" />
+  <card blueprintId="207_14" title="They're Tracking Us" />
+  <card blueprintId="223_6" title="Transmission Terminated" />
+  <card blueprintId="213_55" title="Corellia" />
+  <card blueprintId="213_57" title="Kessel" />
+  <card blueprintId="12_84" title="Tatooine" />
+  <card blueprintId="1_128" title="Tatooine: Cantina" />
+  <card blueprintId="1_129" title="Tatooine: Docking Bay 94" />
+  <card blueprintId="218_30" title="Tatooine: Mos Eisley" />
+  <card blueprintId="10_26" title="Watch Your Step" />
+  <card blueprintId="220_7" title="Millennium Falcon" />
+  <card blueprintId="218_27" title="Outrider" />
+  <card blueprintId="10_20" title="Pulsar Skate" />
+  <cardOutsideDeck blueprintId="200_16" title="The Mythrol" />
+  <cardOutsideDeck blueprintId="13_1" title="A Close Race" />
+  <cardOutsideDeck blueprintId="223_30" title="A Close Race" />
+  <cardOutsideDeck blueprintId="13_3" title="A Tragedy Has Occurred" />
+  <cardOutsideDeck blueprintId="13_4" title="Aim High" />
+  <cardOutsideDeck blueprintId="13_6" title="Another Pathetic Lifeform" />
+  <cardOutsideDeck blueprintId="13_8" title="Battle Plan" />
+  <cardOutsideDeck blueprintId="13_15" title="Do, Or Do Not" />
+  <cardOutsideDeck blueprintId="13_16" title="Don't Do That Again" />
+  <cardOutsideDeck blueprintId="200_26" title="Don't Do That Again" />
+  <cardOutsideDeck blueprintId="13_22" title="He Can Go About His Business" />
+  <cardOutsideDeck blueprintId="13_30" title="Let's Keep A Little Optimism Here" />
+  <cardOutsideDeck blueprintId="225_51" title="Let's Keep A Little Optimism Here" />
+  <cardOutsideDeck blueprintId="13_35" title="Only Jedi Carry That Weapon" />
+  <cardOutsideDeck blueprintId="221_68" title="Only Jedi Carry That Weapon" />
+  <cardOutsideDeck blueprintId="13_37" title="Ounee Ta" />
+  <cardOutsideDeck blueprintId="13_38" title="Planetary Defenses" />
+  <cardOutsideDeck blueprintId="203_13" title="Planetary Defenses" />
+  <cardOutsideDeck blueprintId="200_28" title="Simple Tricks And Nonsense" />
+  <cardOutsideDeck blueprintId="200_29" title="The Republic No Longer Functions" />
+  <cardOutsideDeck blueprintId="209_15" title="There Is Another" />
+  <cardOutsideDeck blueprintId="220_10" title="Thrown Back" />
+  <cardOutsideDeck blueprintId="13_44" title="Ultimatum" />
+  <cardOutsideDeck blueprintId="13_47" title="Wise Advice" />
+  <cardOutsideDeck blueprintId="223_49" title="Yavin Sentry &amp; Goldenrod" />
+  <cardOutsideDeck blueprintId="13_49" title="Your Insight Serves You Well" />
+  <cardOutsideDeck blueprintId="200_32" title="Your Insight Serves You Well" />
+  <cardOutsideDeck blueprintId="13_50" title="Your Ship?" />
+  <cardOutsideDeck blueprintId="301_5" title="Your Ship?" />
+</deck>

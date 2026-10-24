@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="9_92" title="Battle Deployment" />
+  <card blueprintId="9_96" title="We're In Attack Position Now" />
+  <card blueprintId="200_73" title="Admiral Motti" />
+  <card blueprintId="213_1" title="Admiral Ozzel" />
+  <card blueprintId="301_6" title="Captain Khurgee" />
+  <card blueprintId="7_175" title="Darth Vader, Dark Lord Of The Sith" />
+  <card blueprintId="9_109" title="Emperor Palpatine" />
+  <card blueprintId="9_109" title="Emperor Palpatine" />
+  <card blueprintId="200_81" title="General Veers" />
+  <card blueprintId="200_81" title="General Veers" />
+  <card blueprintId="219_7" title="Governor Pryce" />
+  <card blueprintId="10_40" title="Grand Admiral Thrawn" />
+  <card blueprintId="200_82" title="Grand Moff Tarkin" />
+  <card blueprintId="200_82" title="Grand Moff Tarkin" />
+  <card blueprintId="200_85" title="Maarek Stele, The Emperor's Reach" />
+  <card blueprintId="219_15" title="Magistrate Morgan Elsbeth" />
+  <card blueprintId="200_86" title="Mara Jade With Lightsaber" />
+  <card blueprintId="223_18" title="Moff Gideon, Suited For Battle" />
+  <card blueprintId="213_11" title="Ninth Sister" />
+  <card blueprintId="210_46" title="The Grand Inquisitor" />
+  <card blueprintId="208_38" title="Alert My Star Destroyer!" />
+  <card blueprintId="200_109" title="Coarse And Rough And Irritating" />
+  <card blueprintId="201_29" title="Endor Shield" />
+  <card blueprintId="12_135" title="Imperial Arrest Order &amp; Secret Plans" />
+  <card blueprintId="200_108" title="Imperial Decree" />
+  <card blueprintId="201_30" title="Imperial Enforcement" />
+  <card blueprintId="200_110" title="Knowledge And Defense" />
+  <card blueprintId="4_127" title="Lost In Space" />
+  <card blueprintId="219_16" title="No Escape" />
+  <card blueprintId="221_39" title="Tentacle" />
+  <card blueprintId="219_20" title="Thrawn's Art Collection" />
+  <card blueprintId="201_33" title="A Dark Time For The Rebellion" />
+  <card blueprintId="10_34" title="Control &amp; Set For Stun" />
+  <card blueprintId="200_120" title="Force Push" />
+  <card blueprintId="10_39" title="Ghhhk &amp; Those Rebels Won't Escape Us" />
+  <card blueprintId="219_9" title="History, Philosophy, And Art" />
+  <card blueprintId="12_148" title="Imperial Artillery" />
+  <card blueprintId="12_148" title="Imperial Artillery" />
+  <card blueprintId="9_137" title="Imperial Command" />
+  <card blueprintId="9_137" title="Imperial Command" />
+  <card blueprintId="9_137" title="Imperial Command" />
+  <card blueprintId="9_139" title="Prepared Defenses" />
+  <card blueprintId="200_124" title="Sneak Attack" />
+  <card blueprintId="106_17" title="Tarkin's Orders" />
+  <card blueprintId="3_138" title="Trample" />
+  <card blueprintId="3_138" title="Trample" />
+  <card blueprintId="7_276" title="Coruscant: Docking Bay" />
+  <card blueprintId="7_282" title="Executor: Docking Bay" />
+  <card blueprintId="2_146" title="Kashyyyk" />
+  <card blueprintId="219_10" title="Lothal" />
+  <card blueprintId="219_11" title="Lothal: Advanced Projects Laboratory" />
+  <card blueprintId="219_12" title="Lothal: Capital City" />
+  <card blueprintId="219_13" title="Lothal: Imperial Complex" />
+  <card blueprintId="219_1" title="A Great Tactician Creates Plans" />
+  <card blueprintId="219_2" title="Chimaera" />
+  <card blueprintId="219_22" title="Thunderflare" />
+  <card blueprintId="211_24" title="Vengeance" />
+  <card blueprintId="217_4" title="Blizzard 1" />
+  <card blueprintId="13_56" title="Blizzard 4" />
+  <card blueprintId="12_187" title="Laser Cannon Battery" />
+  <cardOutsideDeck blueprintId="13_51" title="A Useless Gesture" />
+  <cardOutsideDeck blueprintId="223_7" title="A Useless Gesture &amp; Death Star Sentry" />
+  <cardOutsideDeck blueprintId="13_52" title="Allegations Of Corruption" />
+  <cardOutsideDeck blueprintId="13_54" title="Battle Order" />
+  <cardOutsideDeck blueprintId="13_61" title="Come Here You Big Coward" />
+  <cardOutsideDeck blueprintId="13_63" title="Crossfire" />
+  <cardOutsideDeck blueprintId="216_5" title="Crossfire" />
+  <cardOutsideDeck blueprintId="13_66" title="Do They Have A Code Clearance?" />
+  <cardOutsideDeck blueprintId="220_2" title="Drop!" />
+  <cardOutsideDeck blueprintId="213_13" title="Failure At The Cave" />
+  <cardOutsideDeck blueprintId="13_68" title="Fanfare" />
+  <cardOutsideDeck blueprintId="200_95" title="Fanfare" />
+  <cardOutsideDeck blueprintId="13_72" title="Leave Them To Me" />
+  <cardOutsideDeck blueprintId="13_78" title="No Escape" />
+  <cardOutsideDeck blueprintId="13_81" title="Oppressive Enforcement" />
+  <cardOutsideDeck blueprintId="13_84" title="Resistance" />
+  <cardOutsideDeck blueprintId="13_86" title="Secret Plans" />
+  <cardOutsideDeck blueprintId="13_90" title="There Is No Try" />
+  <cardOutsideDeck blueprintId="200_99" title="Vote Of No Confidence" />
+  <cardOutsideDeck blueprintId="13_96" title="We'll Let Fate-a Decide, Huh?" />
+  <cardOutsideDeck blueprintId="223_26" title="We'll Let Fate-a Decide, Huh?" />
+  <cardOutsideDeck blueprintId="13_95" title="Weapon Of A Sith" />
+  <cardOutsideDeck blueprintId="13_98" title="Wipe Them Out, All Of Them" />
+  <cardOutsideDeck blueprintId="13_99" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="200_100" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="13_100" title="You've Never Won A Race?" />
+  <cardOutsideDeck blueprintId="223_29" title="You've Never Won A Race?" />
+</deck>

@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="2_1" title="Arcona" />
+  <card blueprintId="2_1" title="Arcona" />
+  <card blueprintId="13_29" title="Leia, Rebel Princess" />
+  <card blueprintId="200_20" title="Luke Skywalker" />
+  <card blueprintId="200_20" title="Luke Skywalker" />
+  <card blueprintId="204_9" title="Rey" />
+  <card blueprintId="200_35" title="Anger, Fear, Aggression" />
+  <card blueprintId="6_56" title="Projection Of A Skywalker" />
+  <card blueprintId="6_56" title="Projection Of A Skywalker" />
+  <card blueprintId="7_73" title="Rebel Fleet" />
+  <card blueprintId="7_82" title="All Wings Report In" />
+  <card blueprintId="7_82" title="All Wings Report In" />
+  <card blueprintId="7_82" title="All Wings Report In" />
+  <card blueprintId="10_4" title="Control &amp; Tunnel Vision" />
+  <card blueprintId="2_50" title="Houjix" />
+  <card blueprintId="2_50" title="Houjix" />
+  <card blueprintId="2_50" title="Houjix" />
+  <card blueprintId="2_50" title="Houjix" />
+  <card blueprintId="10_8" title="Houjix &amp; Out Of Nowhere" />
+  <card blueprintId="10_8" title="Houjix &amp; Out Of Nowhere" />
+  <card blueprintId="1_88" title="Hyper Escape" />
+  <card blueprintId="1_88" title="Hyper Escape" />
+  <card blueprintId="1_90" title="It Could Be Worse" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="1_105" title="Rebel Barrier" />
+  <card blueprintId="6_77" title="The Signal" />
+  <card blueprintId="201_16" title="Anoat" />
+  <card blueprintId="8_67" title="Chandrila" />
+  <card blueprintId="2_61" title="Corellia" />
+  <card blueprintId="106_2" title="Corulag" />
+  <card blueprintId="7_116" title="Coruscant" />
+  <card blueprintId="8_68" title="Endor" />
+  <card blueprintId="2_64" title="Kashyyyk" />
+  <card blueprintId="1_126" title="Kessel" />
+  <card blueprintId="6_83" title="Kiffex" />
+  <card blueprintId="6_84" title="Kirdo III" />
+  <card blueprintId="12_78" title="Naboo" />
+  <card blueprintId="200_58" title="Nar Shaddaa" />
+  <card blueprintId="7_123" title="Rendezvous Point" />
+  <card blueprintId="7_124" title="Roche" />
+  <card blueprintId="209_23" title="Scarif" />
+  <card blueprintId="12_84" title="Tatooine" />
+  <card blueprintId="1_135" title="Yavin 4" />
+  <card blueprintId="7_136" title="Hidden Base" />
+  <card blueprintId="205_7" title="Han, Chewie, And The Falcon" />
+  <card blueprintId="12_90" title="Naboo Defense Fighter" />
+  <card blueprintId="12_90" title="Naboo Defense Fighter" />
+  <card blueprintId="7_149" title="Spiral" />
+  <card blueprintId="201_19" title="Tantive IV" />
+  <card blueprintId="1_147" title="Y-wing" />
+  <card blueprintId="1_147" title="Y-wing" />
+  <card blueprintId="1_147" title="Y-wing" />
+  <card blueprintId="1_147" title="Y-wing" />
+  <card blueprintId="1_147" title="Y-wing" />
+  <card blueprintId="1_147" title="Y-wing" />
+  <card blueprintId="1_147" title="Y-wing" />
+  <card blueprintId="1_147" title="Y-wing" />
+  <card blueprintId="1_147" title="Y-wing" />
+  <card blueprintId="1_147" title="Y-wing" />
+  <cardOutsideDeck blueprintId="200_16" title="The Mythrol" />
+  <cardOutsideDeck blueprintId="13_1" title="A Close Race" />
+  <cardOutsideDeck blueprintId="223_30" title="A Close Race" />
+  <cardOutsideDeck blueprintId="13_3" title="A Tragedy Has Occurred" />
+  <cardOutsideDeck blueprintId="13_4" title="Aim High" />
+  <cardOutsideDeck blueprintId="13_6" title="Another Pathetic Lifeform" />
+  <cardOutsideDeck blueprintId="13_8" title="Battle Plan" />
+  <cardOutsideDeck blueprintId="13_15" title="Do, Or Do Not" />
+  <cardOutsideDeck blueprintId="13_16" title="Don't Do That Again" />
+  <cardOutsideDeck blueprintId="200_26" title="Don't Do That Again" />
+  <cardOutsideDeck blueprintId="13_22" title="He Can Go About His Business" />
+  <cardOutsideDeck blueprintId="13_30" title="Let's Keep A Little Optimism Here" />
+  <cardOutsideDeck blueprintId="225_51" title="Let's Keep A Little Optimism Here" />
+  <cardOutsideDeck blueprintId="13_35" title="Only Jedi Carry That Weapon" />
+  <cardOutsideDeck blueprintId="221_68" title="Only Jedi Carry That Weapon" />
+  <cardOutsideDeck blueprintId="13_37" title="Ounee Ta" />
+  <cardOutsideDeck blueprintId="13_38" title="Planetary Defenses" />
+  <cardOutsideDeck blueprintId="203_13" title="Planetary Defenses" />
+  <cardOutsideDeck blueprintId="200_28" title="Simple Tricks And Nonsense" />
+  <cardOutsideDeck blueprintId="200_29" title="The Republic No Longer Functions" />
+  <cardOutsideDeck blueprintId="209_15" title="There Is Another" />
+  <cardOutsideDeck blueprintId="220_10" title="Thrown Back" />
+  <cardOutsideDeck blueprintId="13_44" title="Ultimatum" />
+  <cardOutsideDeck blueprintId="13_47" title="Wise Advice" />
+  <cardOutsideDeck blueprintId="223_49" title="Yavin Sentry &amp; Goldenrod" />
+  <cardOutsideDeck blueprintId="13_49" title="Your Insight Serves You Well" />
+  <cardOutsideDeck blueprintId="200_32" title="Your Insight Serves You Well" />
+  <cardOutsideDeck blueprintId="13_50" title="Your Ship?" />
+  <cardOutsideDeck blueprintId="301_5" title="Your Ship?" />
+  <cardOutsideDeck blueprintId="201_16" title="Anoat" />
+  <cardOutsideDeck blueprintId="8_67" title="Chandrila" />
+  <cardOutsideDeck blueprintId="2_61" title="Corellia" />
+  <cardOutsideDeck blueprintId="106_2" title="Corulag" />
+  <cardOutsideDeck blueprintId="7_116" title="Coruscant" />
+  <cardOutsideDeck blueprintId="8_68" title="Endor" />
+  <cardOutsideDeck blueprintId="2_64" title="Kashyyyk" />
+  <cardOutsideDeck blueprintId="1_126" title="Kessel" />
+  <cardOutsideDeck blueprintId="6_83" title="Kiffex" />
+  <cardOutsideDeck blueprintId="6_84" title="Kirdo III" />
+  <cardOutsideDeck blueprintId="12_78" title="Naboo" />
+  <cardOutsideDeck blueprintId="200_58" title="Nar Shaddaa" />
+  <cardOutsideDeck blueprintId="7_123" title="Rendezvous Point" />
+  <cardOutsideDeck blueprintId="7_124" title="Roche" />
+  <cardOutsideDeck blueprintId="209_23" title="Scarif" />
+  <cardOutsideDeck blueprintId="12_84" title="Tatooine" />
+  <cardOutsideDeck blueprintId="1_135" title="Yavin 4" />
+</deck>

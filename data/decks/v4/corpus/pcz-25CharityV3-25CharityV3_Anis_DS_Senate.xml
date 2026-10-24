@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="9_94" title="Fighters Coming In" />
+  <card blueprintId="12_97" title="Aks Moe" />
+  <card blueprintId="9_99" title="Baron Soontir Fel" />
+  <card blueprintId="12_98" title="Baskol Yeesrim" />
+  <card blueprintId="1_173" title="DS-61-2" />
+  <card blueprintId="14_77" title="Darth Maul With Lightsaber" />
+  <card blueprintId="14_77" title="Darth Maul With Lightsaber" />
+  <card blueprintId="14_77" title="Darth Maul With Lightsaber" />
+  <card blueprintId="200_78" title="Darth Vader" />
+  <card blueprintId="12_105" title="Edcel Bar Gane" />
+  <card blueprintId="12_110" title="Lott Dod" />
+  <card blueprintId="12_110" title="Lott Dod" />
+  <card blueprintId="12_110" title="Lott Dod" />
+  <card blueprintId="12_110" title="Lott Dod" />
+  <card blueprintId="9_116" title="Major Turr Phennir" />
+  <card blueprintId="12_113" title="Orn Free Taa" />
+  <card blueprintId="12_113" title="Orn Free Taa" />
+  <card blueprintId="12_116" title="Passel Argente" />
+  <card blueprintId="12_122" title="Tikkes" />
+  <card blueprintId="12_123" title="Toonbuck Toora" />
+  <card blueprintId="12_123" title="Toonbuck Toora" />
+  <card blueprintId="12_126" title="Yeb Yeb Adem'thorn" />
+  <card blueprintId="1_205" title="Restraining Bolt" />
+  <card blueprintId="12_127" title="Accepting Trade Federation Control" />
+  <card blueprintId="200_105" title="Combat Response" />
+  <card blueprintId="12_133" title="Enter The Bureaucrat" />
+  <card blueprintId="200_107" title="Image Of The Dark Lord" />
+  <card blueprintId="200_108" title="Imperial Decree" />
+  <card blueprintId="200_110" title="Knowledge And Defense" />
+  <card blueprintId="200_111" title="Kuat Drive Yards" />
+  <card blueprintId="12_137" title="Motion Supported" />
+  <card blueprintId="12_138" title="Our Blockade Is Perfectly Legal" />
+  <card blueprintId="14_100" title="Senate Hovercam" />
+  <card blueprintId="200_112" title="Something Special Planned For Them" />
+  <card blueprintId="12_139" title="The Phantom Menace" />
+  <card blueprintId="12_142" title="This Is Outrageous!" />
+  <card blueprintId="7_246" title="All Power To Weapons" />
+  <card blueprintId="200_116" title="Close Call" />
+  <card blueprintId="201_35" title="Cold Feet" />
+  <card blueprintId="12_152" title="Masterful Move &amp; Endor Occupation" />
+  <card blueprintId="9_139" title="Prepared Defenses" />
+  <card blueprintId="12_158" title="Short Range Fighters &amp; Watch Your Back!" />
+  <card blueprintId="12_158" title="Short Range Fighters &amp; Watch Your Back!" />
+  <card blueprintId="12_159" title="Squabbling Delegates" />
+  <card blueprintId="12_159" title="Squabbling Delegates" />
+  <card blueprintId="12_159" title="Squabbling Delegates" />
+  <card blueprintId="106_17" title="Tarkin's Orders" />
+  <card blueprintId="12_164" title="Blockade Flagship: Bridge" />
+  <card blueprintId="12_167" title="Coruscant: Galactic Senate" />
+  <card blueprintId="4_158" title="Dagobah: Cave" />
+  <card blueprintId="8_157" title="Endor" />
+  <card blueprintId="12_169" title="Naboo" />
+  <card blueprintId="11_92" title="Tatooine: Desert Landing Site" />
+  <card blueprintId="12_179" title="My Lord, Is That Legal?" />
+  <card blueprintId="200_127" title="Black 2" />
+  <card blueprintId="9_162" title="Saber 1" />
+  <card blueprintId="9_163" title="Saber 2" />
+  <card blueprintId="200_138" title="Vader's Personal Shuttle" />
+  <card blueprintId="110_12" title="Zuckuss In Mist Hunter" />
+  <card blueprintId="7_324" title="SFS L-s9.3 Laser Cannons" />
+  <cardOutsideDeck blueprintId="13_51" title="A Useless Gesture" />
+  <cardOutsideDeck blueprintId="223_7" title="A Useless Gesture &amp; Death Star Sentry" />
+  <cardOutsideDeck blueprintId="13_52" title="Allegations Of Corruption" />
+  <cardOutsideDeck blueprintId="13_54" title="Battle Order" />
+  <cardOutsideDeck blueprintId="13_61" title="Come Here You Big Coward" />
+  <cardOutsideDeck blueprintId="225_3" title="Come Here You Big Coward" />
+  <cardOutsideDeck blueprintId="13_63" title="Crossfire" />
+  <cardOutsideDeck blueprintId="216_5" title="Crossfire" />
+  <cardOutsideDeck blueprintId="13_66" title="Do They Have A Code Clearance?" />
+  <cardOutsideDeck blueprintId="220_2" title="Drop!" />
+  <cardOutsideDeck blueprintId="213_13" title="Failure At The Cave" />
+  <cardOutsideDeck blueprintId="13_68" title="Fanfare" />
+  <cardOutsideDeck blueprintId="200_95" title="Fanfare" />
+  <cardOutsideDeck blueprintId="13_72" title="Leave Them To Me" />
+  <cardOutsideDeck blueprintId="13_78" title="No Escape" />
+  <cardOutsideDeck blueprintId="13_81" title="Oppressive Enforcement" />
+  <cardOutsideDeck blueprintId="13_84" title="Resistance" />
+  <cardOutsideDeck blueprintId="13_86" title="Secret Plans" />
+  <cardOutsideDeck blueprintId="13_90" title="There Is No Try" />
+  <cardOutsideDeck blueprintId="200_99" title="Vote Of No Confidence" />
+  <cardOutsideDeck blueprintId="200_99" title="Vote Of No Confidence" />
+  <cardOutsideDeck blueprintId="13_96" title="We'll Let Fate-a Decide, Huh?" />
+  <cardOutsideDeck blueprintId="223_26" title="We'll Let Fate-a Decide, Huh?" />
+  <cardOutsideDeck blueprintId="13_95" title="Weapon Of A Sith" />
+  <cardOutsideDeck blueprintId="13_98" title="Wipe Them Out, All Of Them" />
+  <cardOutsideDeck blueprintId="200_100" title="You Cannot Hide Forever" />
+  <cardOutsideDeck blueprintId="13_100" title="You've Never Won A Race?" />
+  <cardOutsideDeck blueprintId="223_29" title="You've Never Won A Race?" />
+</deck>

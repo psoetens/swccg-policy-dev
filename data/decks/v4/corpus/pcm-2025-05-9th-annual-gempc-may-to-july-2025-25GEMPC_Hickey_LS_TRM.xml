@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<deck>
+  <card blueprintId="203_1" title="Admiral Ackbar" />
+  <card blueprintId="216_21" title="Anakin Skywalker, Jedi Knight" />
+  <card blueprintId="200_2" title="Anakin Skywalker, Padawan Learner" />
+  <card blueprintId="208_2" title="C1-10P (Chopper)" />
+  <card blueprintId="5_1" title="Captain Han Solo" />
+  <card blueprintId="5_1" title="Captain Han Solo" />
+  <card blueprintId="200_21" title="Luke Skywalker, Rebel Scout" />
+  <card blueprintId="200_21" title="Luke Skywalker, Rebel Scout" />
+  <card blueprintId="201_2" title="Mace Windu" />
+  <card blueprintId="201_4" title="Obi-Wan Kenobi" />
+  <card blueprintId="201_4" title="Obi-Wan Kenobi" />
+  <card blueprintId="201_5" title="Princess Leia" />
+  <card blueprintId="201_5" title="Princess Leia" />
+  <card blueprintId="214_22" title="Rey, All Of The Jedi" />
+  <card blueprintId="11_14" title="Threepio With His Parts Showing" />
+  <card blueprintId="10_15" title="Obi-Wan's Journal" />
+  <card blueprintId="200_35" title="Anger, Fear, Aggression" />
+  <card blueprintId="7_60" title="Draw Their Fire" />
+  <card blueprintId="7_70" title="Mechanical Failure" />
+  <card blueprintId="200_45" title="Sai'torr Kal Fas" />
+  <card blueprintId="2_41" title="What're You Tryin' To Push On Us?" />
+  <card blueprintId="2_41" title="What're You Tryin' To Push On Us?" />
+  <card blueprintId="2_41" title="What're You Tryin' To Push On Us?" />
+  <card blueprintId="6_61" title="Blaster Deflection" />
+  <card blueprintId="5_38" title="Clash Of Sabers" />
+  <card blueprintId="5_45" title="Dodge" />
+  <card blueprintId="200_51" title="Don't Tread On Me" />
+  <card blueprintId="209_19" title="Effective Repairs &amp; Starship Levitation" />
+  <card blueprintId="204_18" title="Escape Pod &amp; We're Doomed" />
+  <card blueprintId="201_13" title="Hear Me Baby, Hold Together" />
+  <card blueprintId="200_54" title="Jedi Levitation" />
+  <card blueprintId="1_92" title="Jedi Presence" />
+  <card blueprintId="1_97" title="Nabrun Leids" />
+  <card blueprintId="209_21" title="Odin Nesloor &amp; First Aid" />
+  <card blueprintId="201_14" title="Perimeter Scan" />
+  <card blueprintId="210_24" title="Quite A Mercenary" />
+  <card blueprintId="217_46" title="Return Of A Jedi" />
+  <card blueprintId="217_46" title="Return Of A Jedi" />
+  <card blueprintId="10_23" title="Sorry About The Mess &amp; Blaster Proficiency" />
+  <card blueprintId="12_69" title="Speak With The Jedi Council" />
+  <card blueprintId="207_14" title="They're Tracking Us" />
+  <card blueprintId="4_62" title="This Is More Like It" />
+  <card blueprintId="14_46" title="Wesa Gotta Grand Army" />
+  <card blueprintId="14_46" title="Wesa Gotta Grand Army" />
+  <card blueprintId="204_23" title="You Do Have Your Moments" />
+  <card blueprintId="224_13" title="Cloud City: Lower Corridor" />
+  <card blueprintId="12_76" title="Coruscant: Jedi Council Chamber" />
+  <card blueprintId="213_57" title="Kessel" />
+  <card blueprintId="12_79" title="Naboo: Battle Plains" />
+  <card blueprintId="14_49" title="Naboo: Boss Nass' Chambers" />
+  <card blueprintId="1_134" title="Tatooine: Obi-Wan's Hut" />
+  <card blueprintId="217_47" title="Tatooine: Skywalker Hut" />
+  <card blueprintId="1_138" title="Yavin 4: Massassi Throne Room" />
+  <card blueprintId="9_74" title="Home One" />
+  <card blueprintId="220_7" title="Millennium Falcon" />
+  <card blueprintId="220_7" title="Millennium Falcon" />
+  <card blueprintId="210_3" title="Anakin's Lightsaber" />
+  <card blueprintId="9_90" title="Luke's Lightsaber" />
+  <card blueprintId="201_21" title="Mace Windu's Lightsaber" />
+  <card blueprintId="1_157" title="Obi-Wan's Lightsaber" />
+  <cardOutsideDeck blueprintId="200_16" title="The Mythrol" />
+  <cardOutsideDeck blueprintId="13_1" title="A Close Race" />
+  <cardOutsideDeck blueprintId="223_30" title="A Close Race" />
+  <cardOutsideDeck blueprintId="13_3" title="A Tragedy Has Occurred" />
+  <cardOutsideDeck blueprintId="13_4" title="Aim High" />
+  <cardOutsideDeck blueprintId="13_6" title="Another Pathetic Lifeform" />
+  <cardOutsideDeck blueprintId="13_8" title="Battle Plan" />
+  <cardOutsideDeck blueprintId="13_15" title="Do, Or Do Not" />
+  <cardOutsideDeck blueprintId="13_16" title="Don't Do That Again" />
+  <cardOutsideDeck blueprintId="200_26" title="Don't Do That Again" />
+  <cardOutsideDeck blueprintId="13_22" title="He Can Go About His Business" />
+  <cardOutsideDeck blueprintId="13_30" title="Let's Keep A Little Optimism Here" />
+  <cardOutsideDeck blueprintId="13_35" title="Only Jedi Carry That Weapon" />
+  <cardOutsideDeck blueprintId="221_68" title="Only Jedi Carry That Weapon" />
+  <cardOutsideDeck blueprintId="13_37" title="Ounee Ta" />
+  <cardOutsideDeck blueprintId="13_38" title="Planetary Defenses" />
+  <cardOutsideDeck blueprintId="203_13" title="Planetary Defenses" />
+  <cardOutsideDeck blueprintId="200_28" title="Simple Tricks And Nonsense" />
+  <cardOutsideDeck blueprintId="200_29" title="The Republic No Longer Functions" />
+  <cardOutsideDeck blueprintId="209_15" title="There Is Another" />
+  <cardOutsideDeck blueprintId="220_10" title="Thrown Back" />
+  <cardOutsideDeck blueprintId="13_44" title="Ultimatum" />
+  <cardOutsideDeck blueprintId="13_47" title="Wise Advice" />
+  <cardOutsideDeck blueprintId="223_49" title="Yavin Sentry &amp; Goldenrod" />
+  <cardOutsideDeck blueprintId="13_49" title="Your Insight Serves You Well" />
+  <cardOutsideDeck blueprintId="200_32" title="Your Insight Serves You Well" />
+  <cardOutsideDeck blueprintId="13_50" title="Your Ship?" />
+  <cardOutsideDeck blueprintId="301_5" title="Your Ship?" />
+  <cardOutsideDeck blueprintId="9_48" title="Anakin Skywalker" />
+  <cardOutsideDeck blueprintId="1_140" title="Corellian Corvette" />
+  <cardOutsideDeck blueprintId="204_35" title="The Falcon, Junkyard Garbage" />
+</deck>
