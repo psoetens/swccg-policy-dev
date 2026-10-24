@@ -11,5 +11,5 @@ exec docker run --rm --gpus all --network host --shm-size 8g \
     --group-add "$(stat -c %g /var/run/docker.sock)" -v /var/run/docker.sock:/var/run/docker.sock \
     -v "$DEV:/src/dev:ro" -v "$GEMP:/src/gemp:ro" -v "$WORK:/work" \
     -e SWCCG_GEMP_URL=file:///src/gemp -e PORT=17111 -e BRAINIAC_DB_PORT=35011 \
-    -e BRAINIAC_DB_CONTAINER=swccg-acceptance-db \
+    -e BRAINIAC_DB_CONTAINER="swccg-acceptance-db-$(basename "$WORK")" \
     swccg-dev-acceptance bash /src/dev/tools/acceptance/steps.sh
