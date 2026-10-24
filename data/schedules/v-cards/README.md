@@ -15,3 +15,5 @@ every card in the V-grown card table. 455 DS / 472 LS, median 47 V cards, 52 obj
 V cards); the other models cannot. Training needs Dojo rewards for the V objectives first: `v31_stage.py` refuses pools
 whose objectives have none (40 of 52 here). Evaluation works with `--no-dojo-coverage`; see
 `models/shc095-vcards/MODEL_CARD.md`.
+
+Which objectives, epic events and Jedi Tests the decks hold, and which still lack a Dojo reward: [CONTENTS.md](CONTENTS.md).
