@@ -273,9 +273,14 @@ def compile_build():
     knowledge package needs gson and the cards module, so it cannot live in the logic module's Maven build.)"""
     # The plain branch with its own test sources (Gemp's test framework, used by our Java checks); the harness needs
     # the instrumented engine and is compiled by the javac below.
-    subprocess.run(['mvn','-q','-DskipTests','test-compile','-pl','gemp-swccg-server','-am'],cwd=BASE,check=True)
-    subprocess.run(['mvn','-q','dependency:build-classpath','-pl','gemp-swccg-server',
+    # One reactor build (-am) for both goals: the sibling modules resolve from the reactor, not from ~/.m2, so a machine
+    # that never ran `mvn install` on Gemp builds too (plan dev-distribution). The server module is built last, so its
+    # classpath is the one left in cp.txt.
+    subprocess.run(['mvn','-q','-DskipTests','test-compile','dependency:build-classpath','-pl','gemp-swccg-server','-am',
                     f'-Dmdep.outputFile={BUILD/"cp.txt"}'],cwd=BASE,check=True)
+    # cp.txt is the third-party classpath every engine script reads: drop the reactor's own module folders
+    entries=(BUILD/'cp.txt').read_text().strip().split(':')
+    (BUILD/'cp.txt').write_text(':'.join(e for e in entries if not e.startswith(str(BASE)))+'\n')
     modules=('server','cards','logic','common')
     for module in modules:
         target=BASE/f'gemp-swccg-{module}/target'

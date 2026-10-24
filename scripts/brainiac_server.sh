@@ -41,8 +41,12 @@ case "${1:-}" in
     rsync -a --delete --exclude target --exclude server.pid --exclude cp-async.txt "$EXPORT/src/" "$B/"
     rm -rf "$EXPORT"
     cd "$B"
-    nice -n 19 "${MVN[@]}" -DskipTests compile -pl gemp-swccg-common,gemp-swccg-logic,gemp-swccg-cards,gemp-swccg-server,gemp-swccg-async -am
-    nice "${MVN[@]}" dependency:build-classpath -pl gemp-swccg-async -Dmdep.outputFile="$B/cp-async.txt"
+    # One reactor build (-am) for both goals: sibling modules resolve from the reactor, not from ~/.m2 (no `mvn install`
+    # needed). The async module is built last, so its classpath is the one left in cp-async.txt; the reactor's own
+    # module folders are dropped (the start command lists them itself).
+    nice -n 19 "${MVN[@]}" -DskipTests compile dependency:build-classpath -pl gemp-swccg-async -am \
+        -Dmdep.outputFile="$B/cp-async.txt"
+    tr ':' '\n' < "$B/cp-async.txt" | grep -v "^$B/" | paste -sd: > "$B/cp-async.tmp" && mv "$B/cp-async.tmp" "$B/cp-async.txt"
     # Plan brainiac-v6: knowledge hooks, knowledge package and v6 Brainiac compiled into $B/overlay-classes.
     (cd "$ROOT" && PYTHONPATH=scripts:src .venv/bin/python scripts/brainiac_overlay.py "$B")
     ;;

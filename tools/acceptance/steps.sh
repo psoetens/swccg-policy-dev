@@ -13,7 +13,8 @@ step() {  # name, command...
     [ "$r" = ok ]
 }
 cd /work
-[ -d swccg-policy ] || step 1-clone git clone file:///src/dev swccg-policy || exit 1
+if [ -d swccg-policy ]; then step 1-pull git -C swccg-policy pull --ff-only || exit 1
+else step 1-clone git clone file:///src/dev swccg-policy || exit 1; fi
 cd swccg-policy
 step 2-setup scripts/setup.sh || exit 1
 { echo "   clone: .git $(du -sh .git | cut -f1) (pack $(git count-objects -vH | sed -n 's/size-pack: //p'), lfs $(du -sh .git/lfs | cut -f1))"; } | tee -a "$S"
