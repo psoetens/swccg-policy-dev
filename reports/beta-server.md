@@ -1,10 +1,11 @@
 # Brainiac beta server
 
 Plan: `beta-server` (lab `.claude/plans/beta-server.md`, approved 2026-10-25, Amendments 1–3). Status: **live**; Peter
-played on it ("Game play works", 2026-10-25); this evening's release update pending.
+played on it ("Game play works", 2026-10-25). Release updated 2026-10-25 15:30 to the first V-card-trained model.
 
 **https://brainiac-beta.duckdns.org/** — Gemp `feat/brainiac` + the Brainiac overlay, serving
-`v-cards-shc095-2026-10-23`; image `dev-dc5fe386f-gemp-28a27be02` (pushed commits only).
+`v-cards-vct-2026-10-25` (`models/vcards-vct`; before: `v-cards-shc095-2026-10-23`); image
+`dev-3bba72e2d-gemp-28a27be02` (pushed commits only). Release update checks: `data/beta-server/live-check-vct.txt`.
 
 ## Setup
 
@@ -57,6 +58,7 @@ Registration switch, bans, message of the day: Gemp's admin pages (Admin → set
 - Not verified: a bot game left idle > 5 min (no timeout expected), a human game timing out; restore from a backup;
   load beyond a few players.
 - Testers without IPv6 cannot reach the site (an IPv4 address on the server + the DuckDNS ipv4 field fixes it).
-- The live check's two test accounts (`t92934247`, `y92934247`) were deleted on Peter's word; accounts now:
-  Librarian, betaops, peter. `check.sh` makes new ones on each run.
+- The live check's two test accounts (`t92934247`, `y92934247`) were deleted on Peter's word, as were those of
+  the release-update check (`t92937882`, `y92937882`); accounts now: Librarian, betaops, peter. `check.sh` makes two
+  test accounts on each run; delete them afterwards.
 - A crawler found the site within seconds of the certificate (Let's Encrypt logs are public): expect probes.

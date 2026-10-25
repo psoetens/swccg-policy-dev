@@ -1,0 +1,20 @@
+ok   index.html: banner, no analytics
+ok   hall.html: banner, no analytics
+ok   game.html: banner, no analytics
+ok   deckBuild.html: banner, no analytics
+ok   admin.html: banner, no analytics
+ok   merchant.html: banner, no analytics
+ok   soloDraft.html: banner, no analytics
+ok   index.html: beta notice
+ok   seeded logins refused (asdf, qwer, Librarian with their known/obvious passwords)
+ok   registered t92937882
+ok   login t92937882
+ok   library: 132 sample decks
+ok   bot tables on
+ok   hall offers v-cards-vct-2026-10-25
+ok   served model = manifest sha256
+ok   browser runtime onnxruntime-web-1.30.0 served (4 files, contents identical)
+ok   registration off: register refused (405)
+ok   registration back on
+test accounts made: t92937882 y92937882
+ALL CHECKS PASSED
