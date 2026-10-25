@@ -12,6 +12,7 @@
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
 HERE="$ROOT/deploy/beta"
+source "$ROOT/scripts/machine_env.sh"  # .env: SWCCG_GEMP_REPO etc.
 TARGET=${BETA_SSH:-root@2a01:4f9:c014:53f4::1}
 SSH=(ssh -i "${BETA_KEY:-$HOME/.ssh/claude-swccg}" -o IdentitiesOnly=yes "$TARGET")
 R=/opt/brainiac
