@@ -1,0 +1,34 @@
+ok   index.html: banner, no analytics
+ok   hall.html: banner, no analytics
+ok   game.html: banner, no analytics
+ok   deckBuild.html: banner, no analytics
+ok   admin.html: banner, no analytics
+ok   merchant.html: banner, no analytics
+ok   soloDraft.html: banner, no analytics
+ok   index.html: beta notice
+ok   seeded logins refused (asdf, qwer, Librarian with their known/obvious passwords)
+ok   registered t92934247
+ok   login t92934247
+ok   library: 132 sample decks
+ok   bot tables on
+ok   hall offers v-cards-shc095-2026-10-23
+ok   served model = manifest sha256
+ok   browser runtime onnxruntime-web-1.30.0 served (4 files, contents identical)
+ok   registration off: register refused (405)
+ok   registration back on
+test accounts made: t92934247 y92934247
+ALL CHECKS PASSED
+22 open
+80 open
+443 open
+3306 closed
+8000 closed
+8080 closed
+17101 closed
+35001 closed
+permitrootlogin without-password
+passwordauthentication yes
+kbdinteractiveauthentication no
+*:22 *:443 *:80 127.0.0.1:17101 127.0.0.1:2019 127.0.0.53%lo:53 127.0.0.54:53 Local 
+Mem:           3.7Gi       926Mi       1.8Gi       5.0Mi       1.3Gi       2.8Gi
+0 4 * * * root /opt/brainiac/backup.sh >> /opt/brainiac/backups/backup.log 2>&1

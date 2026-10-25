@@ -6,6 +6,7 @@
 #   deploy/beta/deploy.sh up [RELEASE_NAME]    # (re)start on the pushed tag with that release
 #   deploy/beta/deploy.sh promote NAME         # make a registered account admin (Peter's own)
 #   deploy/beta/deploy.sh backup-install       # nightly DB dump at 04:00, 14 kept (/opt/brainiac/backups)
+#   deploy/beta/deploy.sh harden               # SSH: keys only
 #   deploy/beta/deploy.sh status
 # Env: BETA_SSH (ssh target, default root@2a01:4f9:c014:53f4::1), BETA_KEY (~/.ssh/claude-swccg), SITE for init
 # (brainiac-beta.duckdns.org). The live server runs pushed commits only (plan Amendment 1): push refuses otherwise.
@@ -71,8 +72,13 @@ case "${1:-}" in
   backup-install)
     remote "chmod 700 $R/backup.sh && printf '0 4 * * * root $R/backup.sh >> $R/backups/backup.log 2>&1\n' > /etc/cron.d/brainiac-backup && echo installed"
     ;;
+  harden)  # SSH keys only (the Hetzner image allows passwords); key login is checked before and after
+    remote "printf '# Plan beta-server: SSH keys only\nPasswordAuthentication no\nKbdInteractiveAuthentication no\n' \
+        > /etc/ssh/sshd_config.d/00-beta-keys-only.conf && sshd -t && systemctl reload ssh && sshd -T | grep -E '^passwordauthentication'"
+    remote true && echo "key login still works"
+    ;;
   status)
-    remote "cd $R && grep -E '^(TAG|RELEASE_DIR|SITE)=' .env; docker compose ps --format 'table {{.Service}}\t{{.Status}}'; free -h | sed -n 2p; df -h / | tail -1"
+    remote "cd $R && grep -E '^(TAG|RELEASE_NAME|SITE)=' .env; docker compose ps --format 'table {{.Service}}\t{{.Status}}'; free -h | sed -n 2p; df -h / | tail -1"
     ;;
   *) sed -n 2,12p "$0"; exit 1 ;;
 esac
