@@ -1,0 +1,57 @@
+# Plan beta-server: the beta server. Settings in .env next to this file (deploy.sh init writes it on the server;
+# rehearse.sh writes its own). BRAINIAC_DIR holds releases/<RELEASE_NAME> and runtime/ (the browser runtime: Gemp
+# finds it two levels above the release, BrainiacRelease.runtimeFile). Gemp listens only on 127.0.0.1; Caddy (host network: the real client IPs reach Gemp
+# as X-Forwarded-For, which Gemp logs and bans by) serves HTTPS on 80/443 and proxies to it. The DB has no port.
+name: ${PROJECT:-brainiac-beta}
+services:
+  db:
+    image: brainiac-beta-db:${TAG}
+    restart: unless-stopped
+    environment:
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+      MARIADB_DATABASE: gemp-swccg
+      MARIADB_USER: gemp
+      MARIADB_PASSWORD: ${DB_PASSWORD}
+      OPS_USER: ${OPS_USER}
+      OPS_PASSWORD: ${OPS_PASSWORD}
+    volumes:
+      - db-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      retries: 30
+  gemp:
+    image: brainiac-beta-gemp:${TAG}
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_PASSWORD: ${DB_PASSWORD}
+      OPS_USER: ${OPS_USER}
+      OPS_PASSWORD: ${OPS_PASSWORD}
+      GEMP_HEAP: ${GEMP_HEAP:-2560m}
+      RELEASE_NAME: ${RELEASE_NAME}
+    ports:
+      - "127.0.0.1:${GEMP_PORT:-17101}:8080"
+    volumes:
+      - ${BRAINIAC_DIR}:/brainiac:ro
+      - unknown-keys:/data/unknown-keys
+    logging:
+      options: {max-size: "20m", max-file: "5"}
+  caddy:
+    image: caddy:2.8.4
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      SITE: ${SITE}
+      GEMP_PORT: ${GEMP_PORT:-17101}
+    volumes:
+      - ${CADDYFILE:-./Caddyfile}:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+volumes:
+  db-data:
+  unknown-keys:
+  caddy-data:
+  caddy-config:

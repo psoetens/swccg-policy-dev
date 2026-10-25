@@ -1,0 +1,10 @@
+# Plan beta-server rehearsal (rehearse.sh): plain HTTP on localhost only.
+{
+	auto_https off
+}
+{$SITE} {
+	bind 127.0.0.1
+	encode gzip
+	redir / /gemp-swccg/
+	reverse_proxy 127.0.0.1:{$GEMP_PORT}
+}

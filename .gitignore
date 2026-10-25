@@ -1,6 +1,6 @@
 # tools, caches, environment (scripts/setup.sh recreates them)
 .cache/
-.venv/
+.venv
 __pycache__/
 *.pyc
 .pytest_cache/

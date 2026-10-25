@@ -1,0 +1,6 @@
+# Plan beta-server: HTTPS for the public name (Let's Encrypt, renewed by Caddy), proxied to Gemp on localhost.
+{$SITE} {
+	encode gzip
+	redir / /gemp-swccg/
+	reverse_proxy 127.0.0.1:{$GEMP_PORT}
+}

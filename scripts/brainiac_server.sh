@@ -12,7 +12,7 @@
 #
 # Env (or .env): BUILD (.cache/brainiac-build), PORT (17101), RELEASE (release dir, required for start),
 #   SWCCG_GEMP_REPO (.cache/gemp-swccg), SWCCG_GEMP_BRANCH (feat/brainiac), LOG (runs/brainiac-e2e/server.log),
-#   HALL_DECISION_TIMEOUT_SECONDS (300: stock timers), MVN_OFFLINE (unset; 1 = mvn -o),
+#   HALL_DECISION_TIMEOUT_SECONDS (passed on, but Gemp feat/brainiac does not read it: stock 300 s timers), MVN_OFFLINE (unset; 1 = mvn -o),
 #   BRAINIAC_DB_CONTAINER (swccg-brainiac-db), BRAINIAC_DB_PORT (35001), BRAINIAC_DB_PASSWORD (gemp-dev-local),
 #   ADMIN_USER / ADMIN_PASSWORD (asdf / asdf: Gemp's seeded admin; sets the fresh hall operational).
 # Log in as asdf / asdf (or any seeded user, see the Gemp clone's src/db-scripts/initial_user_setup.sql), open
