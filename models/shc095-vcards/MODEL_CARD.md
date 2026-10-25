@@ -20,14 +20,14 @@ end; vs AdvancedAI 0.983, vs Rando Cal 0.980, vs itself 0.487 (2.9% unfinished).
 nothing about how *well* it plays V cards. A Falcon-and-Han search question (Passage To The Alderaan System 223_42,
 Beldon's Eye 211_31) repeats in some games; not traced.
 
-**Evaluate** (Dojo coverage off: most V objectives have no Dojo reward yet):
+**Evaluate:**
 
 ```bash
 PYTHONPATH=src:scripts .venv/bin/python scripts/evaluate_v31.py --checkpoint models/shc095-vcards/policy.pt \
     --reference models/shc095-vcards/policy.pt --tag vcards-rando --opponents rando --games 800 --threads 16 \
-    --schedule data/schedules/v-cards/heldout-800.tsv --title-table models/shc095-vcards/titles.tsv --no-dojo-coverage
+    --schedule data/schedules/v-cards/heldout-800.tsv --title-table models/shc095-vcards/titles.tsv
 ```
 
-**Training on V decks is not set up.** `v31_stage.py` refuses a pool whose objectives have no Dojo reward
-(`scripts/dojo_coverage.py`; 40 of the 52 V objectives lack one), and the training rollouts use the Decipher title
-table. Both are the open work item (lab BL-58: Dojo rewards for V objectives and a V training pool).
+**Trained since:** the first V-card run started here (lab plan dojo-v-cards, 2026-10-25): `models/vcards-vct`, 56.8%
+(95% CI 54.8–58.8%) against this model on the held-out V decks. Every V objective has a Dojo reward now, and
+`v31_stage.py --title-table` makes the training rollouts use the V title table.

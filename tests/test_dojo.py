@@ -93,7 +93,7 @@ def test_coverage_gate_passes_our_pools_and_refuses_uncovered_decks(tmp_path):
 
 
 def test_reward_table_shape():
-    items = REWARDS['items']
+    items = {key: item for key, item in REWARDS['items'].items() if 'dojo-v-cards' not in item.get('note', '')}
     assert len({key.split('~')[0] for key in items}) == 50
     for key, item in items.items():
         total = sum(milestone['w'] for milestone in item['milestones'])
@@ -120,6 +120,27 @@ def test_reward_table_shape():
         else:
             assert item['success'] in (0.2, 0.5) and total == pytest.approx(0.05, abs=1e-5), key
 
+
+def test_v_card_reward_table_shape():
+    """Plan dojo-v-cards: D1 (objective milestones 0.25 each, <= 0.5; Epic Event milestones <= 0.25, success 0.5), D2
+    (passive items: success 0, no milestones), D3 (O22 / O23: success 0, only 'flipped' milestones)."""
+    items = {key: item for key, item in REWARDS['items'].items() if 'dojo-v-cards' in item.get('note', '')}
+    assert len(items) == 40
+    for key, item in items.items():
+        total = sum(milestone['w'] for milestone in item['milestones'])
+        if key == '209_29':
+            # Amendment 2 (Peter): its flip comes by itself, so it pays nothing (a passive objective).
+            assert item['success'] == 0.0 and not item['milestones'], key
+        elif item['kind'] == 'objective' and item['success'] == 0.0:
+            assert key in ('222_27', '221_67'), key
+            assert any(milestone.get('when') == 'flipped' for milestone in item['milestones']) and total <= 0.5 + 1e-5, key
+        elif item['kind'] == 'objective':
+            assert item['success'] == 1.0 and total <= 0.5 + 1e-5, key
+            assert all(milestone['w'] <= 0.25 + 1e-5 and 'when' not in milestone for milestone in item['milestones']), key
+        elif item['kind'] == 'epic_event':
+            assert (item['success'] == 0.5 and 0 < total <= 0.25 + 1e-5) or (item['success'] == 0.0 and not item['milestones']), key
+        else:
+            assert item['kind'] == 'jedi_training' and item['success'] == 0.2 and total == pytest.approx(0.05, abs=1e-5), key
 
 def test_location_icons_unpack_base_16():
     packed = torch.tensor([2 + 16 * 1 + 256 * 3 + 4096 * 2, 0.0, 5.0])

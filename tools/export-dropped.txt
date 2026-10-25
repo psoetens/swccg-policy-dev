@@ -1,5 +1,5 @@
 # tracked lab path or directory<TAB>files<TAB>rule that left it out
-.claude	83	not in distribution
+.claude	86	not in distribution
 .env.example	1	not in distribution
 .gitattributes	1	not in distribution
 .gitignore	1	not in distribution
@@ -20,7 +20,7 @@ data/decks/resolver_report.json	1	not in distribution
 data/decks/screen_games.csv	1	not in distribution
 data/decks/screen_schedule.json	1	not in distribution
 data/decks/unplayable_cards.csv	1	not in distribution
-data/decks/v4	1500	not in distribution
+data/decks/v4	1501	not in distribution
 data/leaderboard/inventory-im-server-4090.json.gz	1	not in distribution
 data/leaderboard/inventory-kylo.json.gz	1	not in distribution
 data/leaderboard/notes.yaml	1	not in distribution
@@ -74,7 +74,7 @@ data/vocab/unknown-keys.state.json	1	not in distribution
 data/vocab/unknown-keys.tsv	1	not in distribution
 env.sh	1	not in distribution
 ops	2	not in distribution
-reports	90	not in distribution
+reports	91	not in distribution
 reports/data/ab-hist-off.json	1	not in distribution
 reports/data/ab-hist-on.json	1	not in distribution
 reports/data/actor-v6-inputs	19	not in distribution
@@ -108,6 +108,7 @@ reports/data/dilution-names-ab	33	not in distribution
 reports/data/disk-dedupe-2026-10-01.json	1	not in distribution
 reports/data/dojo-sweep	7	not in distribution
 reports/data/dojo-three-objectives	10	not in distribution
+reports/data/dojo-v-cards	17	not in distribution
 reports/data/engine-explosions	121	not in distribution
 reports/data/engine-on-feat-brainiac	5	not in distribution
 reports/data/engine-slow	3	not in distribution
@@ -146,11 +147,12 @@ reports/data/probe-economics	7	not in distribution
 reports/data/prune-2026-10-09	1	not in distribution
 reports/data/q-critic	3	not in distribution
 reports/data/rando-sweep	23	not in distribution
-reports/data/remove-old-generations	33	not in distribution
+reports/data/remove-old-generations	37	not in distribution
 reports/data/rl	66	not in distribution
 reports/data/rl-v3b-final	9	not in distribution
 reports/data/rl-v3n-final	10	not in distribution
 reports/data/rollout-throughput	38	not in distribution
+reports/data/scratch-24h-ab	8	not in distribution
 reports/data/server-sandbox	3	not in distribution
 reports/data/shaping-consistent	2	not in distribution
 reports/data/shaping-separate	12	not in distribution
@@ -225,6 +227,7 @@ scripts/dojo_focus_chain.sh	1	one-off *_chain*.sh
 scripts/dojo_focus_chain2.sh	1	one-off *_chain*.sh
 scripts/dojo_item_games.sh	1	one-off dojo_*_games.sh
 scripts/dojo_ladder_games.sh	1	one-off dojo_*_games.sh
+scripts/dojo_v_item_games.sh	1	one-off dojo_*_games.sh
 scripts/dual_pairs.py	1	one-off dual_pairs.py
 scripts/et_chain.sh	1	one-off *_chain*.sh
 scripts/et_threadcheck.sh	1	one-off et_*
@@ -344,6 +347,7 @@ scripts/objective_supersede.py	1	one-off objective_*
 scripts/option_inputs_ab_chain.sh	1	one-off *_chain*.sh
 scripts/option_inputs_ab_finish.sh	1	one-off option_inputs_ab_*
 scripts/pack_community_share.py	1	one-off pack_community_share.py
+scripts/pair_watch.sh	1	one-off pair_watch.sh
 scripts/pe_cost.sh	1	one-off pe_*
 scripts/pe_evals.sh	1	one-off pe_*
 scripts/policy_diagnostics_chain.sh	1	one-off *_chain*.sh
@@ -361,9 +365,13 @@ scripts/rl_pilot_v4.sh	1	one-off rl_pilot_v*
 scripts/rl_pilot_v4n.sh	1	one-off rl_pilot_v*
 scripts/rl_watchdog.sh	1	one-off rl_watchdog.sh
 scripts/rr_check.sh	1	one-off rr_check.sh
+scripts/s24_kpi.py	1	one-off s24_*
+scripts/s24_report.py	1	one-off s24_*
+scripts/s24_server.sh	1	one-off *_server.sh
 scripts/sc_chain.sh	1	one-off *_chain*.sh
 scripts/sc_stage0.sh	1	one-off sc_*
 scripts/scan_decktech_archive.py	1	one-off scan_decktech_archive.py
+scripts/scan_untracked_refs.py	1	one-off scan_untracked_refs.py
 scripts/shaping_extract.py	1	one-off shaping_extract.py
 scripts/slow_bench.sh	1	one-off slow_*
 scripts/slow_compare.py	1	one-off slow_*
@@ -390,6 +398,8 @@ scripts/vc_gather.sh	1	one-off vc_*.sh
 scripts/vc_smoke.sh	1	one-off vc_*.sh
 scripts/vc_title_check.sh	1	one-off vc_*.sh
 scripts/vcf_check.sh	1	one-off vcf_check.sh
+scripts/vct_chain.sh	1	one-off *_chain*.sh
+scripts/vct_decay.sh	1	one-off vct_*
 tests/test_dna.py	1	test imports dropped extend_dna
 tests/test_hostsync.py	1	lab-only test
 tests/test_leaderboard.py	1	lab-only test

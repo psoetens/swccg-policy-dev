@@ -1,7 +1,7 @@
 """Plan scratch-24h-ab: a freshly initialised model with exactly a reference checkpoint's network (tables, actor and
 critic configuration), for training from scratch on today's architecture.
 
-    PYTHONPATH=src:scripts .venv/bin/python scripts/fresh_like.py models/D/policy.pt OUT.pt --seed 990001
+    PYTHONPATH=src:scripts .venv/bin/python scripts/fresh_like.py runs/critic-noise/D.pt OUT.pt --seed 990001
 
 Like `v4_checkpoint.new_models` (seed, then actor, then critic), but the configurations are the reference's own
 `cfg` / `critic_cfg` (new_models derives the critic from the actor's, which D's critic does not match: it has no

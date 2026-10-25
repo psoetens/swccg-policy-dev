@@ -1,0 +1,10 @@
+{
+  "schema_version": 4,
+  "tensor_abi": 5,
+  "model": "knowledge_v3_1",
+  "checkpoint": "models/vcards-vct/policy.pt",
+  "table_sha": "30d81bd43b36debecfa4f45cd8c81f00f5f80a17fbe0b5677027ee5ce8a1ec82",
+  "card_map_sha": "51fd76d2f10629a590b6a860067c9eada7cbdf17bda5697771a892b10decb6b7",
+  "vocabulary_sha": "698c751b0f7800ad39bd1337217012456162e078b948c3b30dc16f7c1724f272",
+  "n_cards_index": 3733
+}

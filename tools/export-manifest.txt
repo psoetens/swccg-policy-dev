@@ -455,9 +455,6 @@ data/decks/objective-coverage/staged/wiki_Yavinite_Watto_is_Legendary.xml
 data/decks/objective-coverage/staged/wiki_YodaKilla_Cloud_City_Revisited_QMC.xml
 data/decks/objective-coverage/staged/wiki_YodaKilla_MKOS_Yoda_Style.xml
 data/decks/objective-coverage/staged/wiki_Yodaindahouze_call_it_ULTIMATE_ANNIHILATION_with_help_from_vader.xml
-data/decks/v4/corpus/pc-2020_worlds_day1-AasenDS-HDv.xml
-data/decks/v4/corpus/pc-2020_worlds_day1-BTerwilligerDS-SC.xml
-data/decks/v4/corpus/pc-2020_worlds_day1-BaityDS-Map.xml
 data/decks/v4/corpus/pcm-2021-retro-event-top-8-pds2-bethell_AntiRalops.xml
 data/decks/v4/corpus/pcm-2021-retro-event-top-8-pds2-bethell_DS2_BHBM_SAC.xml
 data/decks/v4/corpus/pcm-2021-retro-event-top-8-pds2-desai_2000_trm.xml
@@ -478,6 +475,7 @@ data/decks/v4/corpus/pcm-2022-05-decipher-cards-only-retro-event-DCO_Chu_DS_Sena
 data/decks/v4/corpus/pcm-2022-05-decipher-cards-only-retro-event-DCO_Chu_LS_WYS.xml
 data/decks/v4/corpus/pcm-2022-05-decipher-cards-only-retro-event-DCO_Desai_DS_Senate.xml
 data/decks/v4/corpus/pcm-2022-05-decipher-cards-only-retro-event-DCO_Desai_LS_Senate.xml
+data/decks/v4/corpus/pcm-2022-endor-grand-prix-2022_Endor_Grand_Prix_Brian_Fred_DS_Verge.xml
 data/decks/v4/corpus/pcm-2023-06-annual-online-retro-event-premiere-speci-ChuDarkCCT.xml
 data/decks/v4/corpus/pcm-2023-06-annual-online-retro-event-premiere-speci-ChuLightOps.xml
 data/decks/v4/corpus/pcm-2023-06-annual-online-retro-event-premiere-speci-DuselDarkOps.xml
@@ -1554,6 +1552,7 @@ data/decks/v4/corpus/pcz-25CharityV3-25CharityV3_Monteith_DS_TTO.xml
 data/decks/v4/corpus/pcz-25CharityV3-25CharityV3_Monteith_LS_Combat.xml
 data/decks/v4/corpus/pcz-25CharityV3-25CharityV3_Pietig_DS_TTO.xml
 data/decks/v4/corpus/pcz-25CharityV3-25CharityV3_Pietig_LS_HB.xml
+data/decks/v4/corpus/pcz-PC20_Decklists-PC20_A_Miyashiro_DS_Verge.xml
 data/decks/v4/corpus/pcz-PREF2_2021_Top8_Event_Decklists-11_PREF2_HD_MLewis_2021.xml
 data/decks/v4/corpus/pcz-PREF2_2021_Top8_Event_Decklists-11_PREF2_MWYHL_5Test_MLewis_2021.xml
 data/decks/v4/corpus/pcz-PREF2_2021_Top8_Event_Decklists-14_PREF2_CCT_Hummel_2021.xml
@@ -1745,6 +1744,13 @@ data/schedules/v-cards/gather-ds.tsv
 data/schedules/v-cards/gather-ls.tsv
 data/schedules/v-cards/heldout-800.tsv
 data/schedules/v-cards/heldout.tsv
+data/schedules/v-cards/items-ds.tsv
+data/schedules/v-cards/items-ls.tsv
+data/schedules/v-cards/items-small-ds.tsv
+data/schedules/v-cards/items-small-ls.tsv
+data/schedules/v-cards/items-small.json
+data/schedules/v-cards/items.json
+data/schedules/v-cards/rl_pool_vcards_gathering.txt
 engine/harness/com/gempukku/swccgo/bench/CardDump.java
 engine/harness/com/gempukku/swccgo/bench/DeckLoader.java
 engine/harness/com/gempukku/swccgo/bench/NativeCheck.java
@@ -1825,6 +1831,7 @@ reports/data/knowledge-v3.1/card-database-export.json
 reports/data/knowledge-v3.1/decipher-pool.json
 reports/data/links-round2/counter-map.json
 reports/data/v-cards/decks.json
+reports/dojo-v-cards.md
 reports/engine-on-feat-brainiac.md
 reports/how-the-policy-network-works.md
 reports/knowledge-v3.1-contract.md
@@ -1839,6 +1846,7 @@ scripts/brainiac_golden.py
 scripts/brainiac_overlay.py
 scripts/brainiac_release.py
 scripts/brainiac_server.sh
+scripts/branch_decay.sh
 scripts/browser_equality.py
 scripts/build_knowledge_engine.py
 scripts/build_v31_tables.py
@@ -1879,6 +1887,7 @@ scripts/deck_sources.py
 scripts/dojo_check.py
 scripts/dojo_coverage.py
 scripts/dojo_item_rates.py
+scripts/dojo_item_readout.py
 scripts/dojo_lib.py
 scripts/dojo_report.py
 scripts/dojo_smoke.py
@@ -1889,6 +1898,7 @@ scripts/export_card_database.py
 scripts/extend_location_icons.py
 scripts/extend_option_inputs.py
 scripts/extend_selection.py
+scripts/fresh_like.py
 scripts/game_length_metrics.py
 scripts/game_stats.py
 scripts/game_stats_check.py
@@ -1908,6 +1918,7 @@ scripts/make_decipher_pool_v2.py
 scripts/make_dojo_pool.py
 scripts/make_dojo_staged_schedules.py
 scripts/make_focus_pool.py
+scripts/make_item_schedules.py
 scripts/make_objective_pools.py
 scripts/make_v3_pool.py
 scripts/matchup_oracle.py
@@ -1946,6 +1957,7 @@ scripts/spike_backends.py
 scripts/stage_objective_decks.py
 scripts/stage_throughput.py
 scripts/stage_utils.py
+scripts/stop_at.sh
 scripts/summarize_v31_rl.py
 scripts/token_census.py
 scripts/traingen.sh

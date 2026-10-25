@@ -68,6 +68,11 @@ case "${1:-}" in
     [[ "$NAME" =~ ^[A-Za-z0-9_-]{1,10}$ ]] || { echo "unexpected account name"; exit 1; }
     remote "cd $R && set -a && . ./.env && docker compose exec -T db mariadb -uroot -p\"\$DB_ROOT_PASSWORD\" gemp-swccg \
         -e \"UPDATE player SET type = CONCAT(type, 'a') WHERE name = '$NAME' AND type NOT LIKE '%a%'; SELECT name, type FROM player WHERE name = '$NAME';\""
+    # Gemp caches logged-in players (CachedPlayerDAO): clear it, as the ops admin, so the change shows at the next reload
+    remote "cd $R && set -a && . ./.env && set +a && docker compose exec -T -e OPS_USER -e OPS_PASSWORD gemp bash -c '
+        J=\$(mktemp); U=http://localhost:8080/gemp-swccg-server; R=\"Referer: http://localhost:8080/gemp-swccg/\"
+        curl -sf -o /dev/null -c \$J -H \"\$R\" --data-urlencode \"login=\$OPS_USER\" --data-urlencode \"password=\$OPS_PASSWORD\" \$U/login \
+            && curl -s -b \$J -H \"\$R\" -X POST \$U/admin/clearcache; echo; rm -f \$J'"
     ;;
   backup-install)
     remote "chmod 700 $R/backup.sh && printf '0 4 * * * root $R/backup.sh >> $R/backups/backup.log 2>&1\n' > /etc/cron.d/brainiac-backup && echo installed"

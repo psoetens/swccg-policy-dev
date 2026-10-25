@@ -1,4 +1,4 @@
-# plan dev-distribution: three V-objective decks (from the lab pool rl_pool_v4.txt) the Dojo coverage gate must refuse
-DS	data/decks/v4/corpus/pc-2020_worlds_day1-AasenDS-HDv.xml
-DS	data/decks/v4/corpus/pc-2020_worlds_day1-BTerwilligerDS-SC.xml
-DS	data/decks/v4/corpus/pc-2020_worlds_day1-BaityDS-Map.xml
+# plan dev-distribution: V-objective decks (from the lab pool rl_pool_v4.txt) the Dojo coverage gate must refuse.
+# Since plan dojo-v-cards covers the 927 V-card decks, the remaining gap is Commence Primary Ignition (V) 209_45.
+DS	data/decks/v4/corpus/pcm-2022-endor-grand-prix-2022_Endor_Grand_Prix_Brian_Fred_DS_Verge.xml
+DS	data/decks/v4/corpus/pcz-PC20_Decklists-PC20_A_Miyashiro_DS_Verge.xml

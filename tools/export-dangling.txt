@@ -9,5 +9,6 @@ fetch_wiki_decks.py
 identity_probe.py
 objective_chain.sh
 objective_chain2.sh
+pair_watch.sh
 strength_watch.sh
 tc_stage_a.sh

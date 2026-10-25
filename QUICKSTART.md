@@ -29,7 +29,7 @@ scripts/brainiac_server.sh stop
 
 `start` also starts a MariaDB container (`swccg-brainiac-db`, built from Gemp's own `docker/gemp_db.Dockerfile`, with
 Gemp's seeded users). One server serves one release; for another policy, stop and start with another `RELEASE`, or run
-a second server with `PORT=17102 BUILD=...`. Releases: `D-`, `cn-ctl-`, `shc-095-`, `shc-r1-` and `v-cards-shc095-` (not trained on V decks) in
+a second server with `PORT=17102 BUILD=...`. Releases: `D-`, `cn-ctl-`, `shc-095-`, `shc-r1-`, `v-cards-shc095-` (not trained on V decks) and `v-cards-vct-` (after the first V-card run) in
 `models/brainiac/releases/`. Build one from your own checkpoint:
 
 ```bash
@@ -73,20 +73,28 @@ bash scripts/branch_decay.sh my-arm 0 runs/dojo/my-arm/milestones/trunk.pt   # o
 A fresh model with the same network: `scripts/fresh_like.py models/D/policy.pt runs/fresh.pt --seed 1`, then train
 from it (`START=runs/fresh.pt`).
 
-## 5. V-card decks (prepared, not trained on yet)
+## 5. V-card decks
 
-`data/schedules/v-cards/` holds 927 tournament decks with Virtual cards. **No policy here has trained on them.**
-`models/shc095-vcards` (shc-095 with V-card tables, untrained on V) is the only model that can play them:
+`data/schedules/v-cards/` holds 927 tournament decks with Virtual cards. Only the V-card models can encode them:
+`models/shc095-vcards` (shc-095 with V-card tables, untrained on V) and `models/vcards-vct` (after the first V-card run,
+lab plan dojo-v-cards: 56.8% vs shc095-vcards on the held-out V decks). Both need the V title table:
 
 ```bash
 PYTHONPATH=src:scripts .venv/bin/python scripts/evaluate_v31.py --checkpoint models/shc095-vcards/policy.pt \
     --reference models/shc095-vcards/policy.pt --tag vcards-rando --opponents rando --games 800 --threads 16 \
-    --schedule data/schedules/v-cards/heldout-800.tsv --title-table models/shc095-vcards/titles.tsv --no-dojo-coverage
-RELEASE=models/brainiac/releases/v-cards-shc095-2026-10-23 scripts/brainiac_server.sh start   # in the browser
+    --schedule data/schedules/v-cards/heldout-800.tsv --title-table models/shc095-vcards/titles.tsv
+RELEASE=models/brainiac/releases/v-cards-vct-2026-10-25 scripts/brainiac_server.sh start   # in the browser
 ```
 
-Training on them needs Dojo rewards for the V objectives first (`v31_stage.py` refuses the pool otherwise); see
-`data/schedules/v-cards/README.md`.
+Every objective, Epic Event and Jedi Test of these decks has a Dojo reward now, so they train like the other pools.
+The first run (`reports/dojo-v-cards.md`):
+
+```bash
+NAME=my-vcards START=$PWD/models/vcards-vct/policy.pt GAMES=20000 GPU=0 THREADS=12 \
+    POOL=data/schedules/v-cards/rl_pool_vcards_gathering.txt \
+    EXTRA="--lam 0.95 --value-lambda 0.95 --shaping damage --shaping-weight 0.05 --shaping-form potential --shaping-target both --title-table $PWD/models/vcards-vct/titles.tsv" \
+    scripts/train_arm.sh
+```
 
 ## 6. Your own probes
 

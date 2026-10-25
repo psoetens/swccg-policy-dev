@@ -120,15 +120,16 @@
     {
      "name": "endor_control_2",
      "w": 0.125,
-     "necessary": true,
-     "kind": "state"
+     "necessary": false,
+     "kind": "state",
+     "note": "not necessary: Establish Secret Base (V) 207_25 deploys on Bunker if you control it (plan dojo-v-cards Amendment 2)"
     },
     {
      "name": "endor_control_3",
      "w": 0.125,
-     "necessary": true,
+     "necessary": false,
      "kind": "state",
-     "note": "absorbs the objective-learnability Amendment 6 milestone"
+     "note": "absorbs the objective-learnability Amendment 6 milestone; not necessary with Establish Secret Base (V) 207_25 (plan dojo-v-cards Amendment 2)"
     },
     {
      "name": "establish_secret_base_on_table",
@@ -1146,6 +1147,619 @@
     }
    ],
    "note": "plan dojo-three-objectives (user 2026-10-10); success once Maul escorts Amidala, the condition its effects turn on; plan night-pool-v3 (user 2026-10-13): maul_with_opponents_amidala (0.125), success 0.5 -> 0.375"
+  },
+  "225_32": {
+   "title": "The First Order Reigns",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "control_tracked_fleet_system",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25)"
+  },
+  "213_31": {
+   "title": "Hunt Down And Destroy The Jedi (V)",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [],
+   "note": "plan dojo-v-cards (user 2026-10-25); D4: flip only"
+  },
+  "201_39": {
+   "title": "Imperial Entanglements",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "control_tatooine_site_2",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25)"
+  },
+  "226_12": {
+   "title": "This Deal Is Getting Worse All The Time (V)",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "control_bespin_location_2",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25)"
+  },
+  "213_32": {
+   "title": "Shadow Collective",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [],
+   "note": "plan dojo-v-cards (user 2026-10-25); flip only"
+  },
+  "222_30": {
+   "title": "The Shield Will Be Down In Moments",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "ttmg_at_third_marker_or_lower",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "cannon_in_range_at_ttmg",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "ttmg_fired",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "event"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25); carries Target The Main Generator (V)'s ladder"
+  },
+  "222_14": {
+   "title": "The Shield Will Be Down In Moments",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "ttmg_at_third_marker_or_lower",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "cannon_in_range_at_ttmg",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "ttmg_fired",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "event"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25); carries Target The Main Generator (V)'s ladder"
+  },
+  "219_1": {
+   "title": "A Great Tactician Creates Plans",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "artwork_2",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "thrawn_at_battleground",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25)"
+  },
+  "208_57": {
+   "title": "I Want That Map",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "first_order_control_battleground_1",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25)"
+  },
+  "216_11": {
+   "title": "On The Verge Of Greatness",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "death_star_orbits_scarif",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "krennic_or_tarkin_at_scarif_battleground_site",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25)"
+  },
+  "211_26": {
+   "title": "A Stunning Move",
+   "kind": "objective",
+   "side": "DS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "invisible_hand_site_on_table",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "control_prisoner_site",
+     "w": 0.125,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "prisoner_left_500_republica",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "event"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25); carries Insidious Prisoner"
+  },
+  "208_25": {
+   "title": "He Is The Chosen One",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [],
+   "note": "plan dojo-v-cards (user 2026-10-25); D4: flip only"
+  },
+  "209_29": {
+   "title": "They Have No Idea We're Coming",
+   "kind": "objective",
+   "side": "LS",
+   "success": 0.0,
+   "milestones": [],
+   "note": "plan dojo-v-cards (user 2026-10-25); flip only; Amendment 2 (Peter): success 0, the flip comes by itself (Stardust controls the Data Vault, turn-1 play adds a second Scarif location)"
+  },
+  "215_17": {
+   "title": "Rescue The Princess (V)",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "leia_not_captive",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "occupy_central_core_and_another_death_star_site",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "power_shut_down",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25); carries A Power Loss"
+  },
+  "203_19": {
+   "title": "Diplomatic Mission To Alderaan",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "tapes_delivered",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "rebels_control_battleground_site",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "rebels_control_battleground_system",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25)"
+  },
+  "225_53": {
+   "title": "Mind What You Have Learned (V)",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [],
+   "note": "plan dojo-v-cards (user 2026-10-25); flip only (optional flip); Jedi Tests paid by their Jedi Training items"
+  },
+  "226_28": {
+   "title": "The Hidden Path",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "jedi_occupy_non_mapuzo_site_1",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25)"
+  },
+  "204_32": {
+   "title": "Old Allies",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "occupy_jakku_system",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "occupy_jakku_battleground_site_1",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25)"
+  },
+  "211_36": {
+   "title": "The Galaxy May Need A Legend",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "luke_on_ahch_to",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25)"
+  },
+  "219_48": {
+   "title": "Zero Hour",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "lothal_locations_2",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25)"
+  },
+  "208_26": {
+   "title": "Yavin 4 Base Operations",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [],
+   "note": "plan dojo-v-cards (user 2026-10-25); flip only"
+  },
+  "222_27": {
+   "title": "The Empire Knows We're Here",
+   "kind": "objective",
+   "side": "LS",
+   "success": 0.0,
+   "milestones": [
+    {
+     "name": "occupy_battleground_marker_site_2",
+     "w": 0.25,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "won_battle_at_hoth_location",
+     "w": 0.125,
+     "necessary": false,
+     "kind": "event",
+     "when": "flipped",
+     "repeat": 2
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25); D3: the opponent makes the flip (success 0); after the flip: battles won on Hoth"
+  },
+  "221_67": {
+   "title": "Hunt For The Droid General",
+   "kind": "objective",
+   "side": "LS",
+   "success": 0.0,
+   "milestones": [
+    {
+     "name": "clone_army_occupy_battleground_2",
+     "w": 0.125,
+     "necessary": false,
+     "kind": "state",
+     "when": "flipped"
+    },
+    {
+     "name": "clone_army_occupy_battleground_3",
+     "w": 0.125,
+     "necessary": false,
+     "kind": "state",
+     "when": "flipped"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25); D3: the flip comes by itself (success 0); after the flip: He's A Coward's X > 1 / X > 2"
+  },
+  "210_25": {
+   "title": "The Hyperdrive Generator's Gone (V)",
+   "kind": "objective",
+   "side": "LS",
+   "success": 1.0,
+   "milestones": [
+    {
+     "name": "credits_2",
+     "w": 0.125,
+     "necessary": false,
+     "kind": "state"
+    },
+    {
+     "name": "credits_3",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "occupy_wattos_junkyard",
+     "w": 0.25,
+     "necessary": false,
+     "kind": "state"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25); as the original 12_89"
+  },
+  "225_34": {
+   "title": "Tracked Fleet",
+   "kind": "epic_event",
+   "side": "DS",
+   "success": 0.5,
+   "milestones": [
+    {
+     "name": "control_tracked_fleet_system",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25)",
+   "excluded_by": [
+    "225_32"
+   ]
+  },
+  "222_13": {
+   "title": "Target The Main Generator (V)",
+   "kind": "epic_event",
+   "side": "DS",
+   "success": 0.5,
+   "milestones": [
+    {
+     "name": "ttmg_at_third_marker_or_lower",
+     "w": 0.0625,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "cannon_in_range_at_ttmg",
+     "w": 0.0625,
+     "necessary": true,
+     "kind": "state"
+    },
+    {
+     "name": "ttmg_fired",
+     "w": 0.125,
+     "necessary": true,
+     "kind": "event"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25)",
+   "excluded_by": [
+    "222_30",
+    "222_14"
+   ]
+  },
+  "215_2": {
+   "title": "A Power Loss",
+   "kind": "epic_event",
+   "side": "LS",
+   "success": 0.5,
+   "milestones": [
+    {
+     "name": "occupy_central_core_and_another_death_star_site",
+     "w": 0.25,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25)",
+   "excluded_by": [
+    "215_17"
+   ]
+  },
+  "208_17": {
+   "title": "Restore Freedom To The Galaxy",
+   "kind": "epic_event",
+   "side": "LS",
+   "success": 0.5,
+   "milestones": [
+    {
+     "name": "drain_at_battleground_system_with_snub_fighter",
+     "w": 0.25,
+     "necessary": false,
+     "kind": "event",
+     "note": "not necessary: the destiny alone can exceed 5 (Card208_017; plan dojo-v-cards Amendment 2)"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25)"
+  },
+  "211_11": {
+   "title": "Insidious Prisoner",
+   "kind": "epic_event",
+   "side": "DS",
+   "success": 0.0,
+   "milestones": [],
+   "note": "plan dojo-v-cards (user 2026-10-25); coverage only: deployable only with A Stunning Move, which carries it",
+   "excluded_by": [
+    "211_26"
+   ]
+  },
+  "217_20": {
+   "title": "Revenge Of The Sith",
+   "kind": "epic_event",
+   "side": "DS",
+   "success": 0.0,
+   "milestones": [],
+   "note": "plan dojo-v-cards (user 2026-10-25); D2: no success state of its own (coverage only, never paid)"
+  },
+  "225_36": {
+   "title": "With Thunderous Applause",
+   "kind": "epic_event",
+   "side": "DS",
+   "success": 0.0,
+   "milestones": [],
+   "note": "plan dojo-v-cards (user 2026-10-25); D2: no success state of its own (coverage only, never paid)"
+  },
+  "215_25": {
+   "title": "Emperor's Orders",
+   "kind": "epic_event",
+   "side": "DS",
+   "success": 0.0,
+   "milestones": [],
+   "note": "plan dojo-v-cards (user 2026-10-25); D2: no success state of its own (coverage only, never paid)"
+  },
+  "217_50": {
+   "title": "The Force Is Strong In My Family",
+   "kind": "epic_event",
+   "side": "LS",
+   "success": 0.0,
+   "milestones": [],
+   "note": "plan dojo-v-cards (user 2026-10-25); D2: no success state of its own (coverage only, never paid)"
+  },
+  "221_66": {
+   "title": "His Destiny",
+   "kind": "epic_event",
+   "side": "LS",
+   "success": 0.0,
+   "milestones": [],
+   "note": "plan dojo-v-cards (user 2026-10-25); D2: no success state of its own (coverage only, never paid)"
+  },
+  "217_29": {
+   "title": "Be With Me",
+   "kind": "epic_event",
+   "side": "LS",
+   "success": 0.0,
+   "milestones": [],
+   "note": "plan dojo-v-cards (user 2026-10-25); D2: no success state of its own (coverage only, never paid)"
+  },
+  "226_14": {
+   "title": "Fallen Order",
+   "kind": "epic_event",
+   "side": "LS",
+   "success": 0.0,
+   "milestones": [],
+   "note": "plan dojo-v-cards (user 2026-10-25); D2: no success state of its own (coverage only, never paid)"
+  },
+  "225_57": {
+   "title": "Patience!",
+   "kind": "epic_event",
+   "side": "LS",
+   "success": 0.0,
+   "milestones": [],
+   "note": "plan dojo-v-cards (user 2026-10-25); D2: no success state of its own (coverage only, never paid)"
+  },
+  "225_47": {
+   "title": "How Liberty Dies",
+   "kind": "epic_event",
+   "side": "LS",
+   "success": 0.0,
+   "milestones": [],
+   "note": "plan dojo-v-cards (user 2026-10-25); D2: no success state of its own (coverage only, never paid)"
+  },
+  "216_24": {
+   "title": "Communing",
+   "kind": "epic_event",
+   "side": "LS",
+   "success": 0.0,
+   "milestones": [],
+   "note": "plan dojo-v-cards (user 2026-10-25); D2: no success state of its own (coverage only, never paid)"
+  },
+  "225_48": {
+   "title": "It Is The Future You See (V)",
+   "kind": "jedi_training",
+   "side": "LS",
+   "success": 0.2,
+   "milestones": [
+    {
+     "name": "test_on_table",
+     "w": 0.05,
+     "necessary": true,
+     "kind": "state"
+    }
+   ],
+   "note": "plan dojo-v-cards (user 2026-10-25); as the original 4_78"
   }
  }
 }

@@ -245,7 +245,8 @@ def check_fixed_opponents(opponents, bundle):
 def rollout_command(args, schema, work, evidence, chunk):
     native = {'knowledge': 'true', 'schema': schema, 'context': context_version(work / 'bundle'), 'captureCritic': 'true', 'binaryTrajectory': 'true',
               'trajectoryCompression': 1, 'corpusThreadSeeds': 'true',
-              'titleTable': ROOT / 'runs/knowledge-v3.1/decipher/titles.tsv',
+              # Plan dojo-v-cards: a V-card checkpoint encodes with its own (grown) title table.
+              'titleTable': getattr(args, 'title_table', None) or ROOT / 'runs/knowledge-v3.1/decipher/titles.tsv',
               'unknownKeysDir': ROOT / 'runs/unknown-keys',  # plan actor-v6-inputs: unknown texts
               'native.run': work, 'native.bundle': work / 'bundle', 'native.bc': work / 'initial.ts',
               'native.lib': ROOT / 'native/build-v3.1/libswccgpolicy.so',
@@ -390,6 +391,9 @@ def main():
     parser.add_argument('--knowledge-mask', choices=['none', 'opp_hidden'], default='none',
                         help='D16 B-run: remove opponent hidden-pile tracking from the actor input')
     parser.add_argument('--opponents', default='policy:learner=0.6,policy:snap=0.2,random=0.1,advanced=0.1')
+    parser.add_argument('--title-table', type=Path, default=None,
+                        help='title table the rollouts encode with (default: the frozen Decipher table; plan dojo-v-cards: '
+                             'runs/v-cards/titles-virtual-display.tsv for V-card checkpoints)')
     # Plan objective-learnability: target-deck pools and a fixed learner seat. Plan objective-dojo: the Dojo rewards and
     # the per-game stats column are always on; there is no switch for them.
     parser.add_argument('--pool', default='data/schedules/rl_pool_decipher.txt')

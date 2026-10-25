@@ -2,6 +2,7 @@ package com.gempukku.swccgo.bench;
 
 import com.gempukku.swccgo.cards.GameConditions;
 import com.gempukku.swccgo.common.CardCategory;
+import com.gempukku.swccgo.common.Icon;
 import com.gempukku.swccgo.common.InactiveReason;
 import com.gempukku.swccgo.logic.modifiers.ModifyGameTextType;
 import com.gempukku.swccgo.common.Phase;
@@ -21,6 +22,7 @@ import com.gempukku.swccgo.logic.timing.results.DestinyDrawnResult;
 import com.gempukku.swccgo.logic.timing.results.DoubleSidedCardFlippedResult;
 import com.gempukku.swccgo.logic.timing.results.DuelInitiatedResult;
 import com.gempukku.swccgo.logic.timing.results.DuelResultDeterminedResult;
+import com.gempukku.swccgo.logic.timing.results.ForceDrainInitiatedResult;
 import com.gempukku.swccgo.logic.timing.results.JediTestCompletedResult;
 import com.gempukku.swccgo.logic.timing.results.LostForceResult;
 import com.gempukku.swccgo.logic.timing.results.LostFromTableResult;
@@ -583,14 +585,155 @@ public final class ObjectiveDojo {
                 && c.spot(c.yours(Filters.and(Filters.Maul, Filters.at(Filters.sameSiteAs(self, SPOT_CAPTIVES, Filters.and(Filters.your(c.opponent), Filters.Amidala))))));
         });
 
-        // --- Jedi Training: each test is deployed (with its targets), then completed.
-        for (String test : new String[]{"4_77", "4_75", "4_76", "4_79", "4_78", "9_55"}) {
+        // --- Plan dojo-v-cards (user 2026-10-25): the V-card objectives and Epic Events of the 927 V decks. Flip-only
+        // objectives (Shadow Collective 213_32, They Have No Idea We're Coming 209_29 (success 0, Amendment 2), Mind What You Have Learned (V)
+        // 225_53, Yavin 4 Base Operations 208_26, and by D4 Hunt Down And Destroy The Jedi (V) 213_31 and He Is The
+        // Chosen One 208_25) need no predicate: the earned flip is detected generically.
+        // The First Order Reigns [Card225_032] flips when Tracked Fleet is 'annihilated' (blown away): Tracked Fleet
+        // [Card225_034] does that at the start of your turn if you control its system (the opponent may relocate it).
+        for (String trackedFleet : new String[]{"225_32", "225_34"})
+            state(trackedFleet, "control_tracked_fleet_system", c -> {
+                PhysicalCard fleet = first(c, SPOT, c.yours(Filters.Tracked_Fleet));
+                PhysicalCard at = fleet == null ? null : locationOf(c, fleet);
+                return at != null && GameConditions.controls(c.game, c.player, SPOT, Filters.sameCardId(at));
+            });
+        event("225_34", "success", (c, r) -> blownAway(r, c, Filters.Tracked_Fleet));
+        // Imperial Entanglements [Card201_039] / This Deal Is Getting Worse All The Time (V) [Card226_012]: control 3
+        // Tatooine sites / Bespin locations while the opponent controls fewer than 3.
+        state("201_39", "control_tatooine_site_2", c -> GameConditions.controls(c.game, c.player, 2, SPOT, Filters.Tatooine_site));
+        state("226_12", "control_bespin_location_2", c -> GameConditions.controls(c.game, c.player, 2, SPOT, Filters.Bespin_location));
+        // The Shield Will Be Down In Moments [Card222_030, Card222_014] flips when Main Power Generators are 'blown away'
+        // by Target The Main Generator (V) [Card222_013]: at the start of your deploy phase, if it is at 3rd Marker or
+        // lower, your piloted AT-AT's Cannon at its site may fire (if within range of Main Power Generators).
+        for (String shield : new String[]{"222_30", "222_14", "222_13"}) {
+            state(shield, "ttmg_at_third_marker_or_lower", c -> {
+                PhysicalCard at = ttmgSite(c);
+                return at != null && Filters.or(Filters.First_Marker, Filters.Second_Marker, Filters.Third_Marker)
+                    .accepts(c.gs(), c.game.getModifiersQuerying(), at);
+            });
+            state(shield, "cannon_in_range_at_ttmg", c -> {
+                PhysicalCard ttmg = c.tableCard("222_13");
+                PhysicalCard generators = Filters.findFirstFromTopLocationsOnTable(c.game, Filters.Main_Power_Generators);
+                return ttmg != null && generators != null && c.spot(c.yours(Filters.and(Filters.here(ttmg), Filters.AT_AT_Cannon,
+                    Filters.attachedTo(Filters.and(Filters.AT_AT, Filters.piloted)), Filters.canBeFiredAtLocationInRange(generators))));
+            });
+            event(shield, "ttmg_fired", (c, r) -> attempted(c, r, "222_13"));
+        }
+        event("222_13", "success", (c, r) -> blownAway(r, c, Filters.Main_Power_Generators));
+        // A Great Tactician Creates Plans [Card219_001]: in a deploy phase, Thrawn at a battleground and two artwork cards
+        // stacked on Thrawn's Art Collection.
+        state("219_1", "artwork_2", c -> {
+            PhysicalCard collection = first(c, SPOT, c.yours(Filters.Thrawns_Art_Collection));
+            return collection != null && c.gs().getStackedCards(collection).size() >= 2;
+        });
+        state("219_1", "thrawn_at_battleground", c -> c.spot(c.yours(Filters.and(Filters.Thrawn, Filters.at(Filters.battleground)))));
+        // I Want That Map [Card208_057]: First Order characters control 2 battlegrounds (and no Resistance Agent present
+        // at a battleground site: the opponent's part).
+        state("208_57", "first_order_control_battleground_1", c -> GameConditions.controlsWith(c.game, c.self(), c.player, 1,
+            Filters.battleground, SPOT, Filters.First_Order_character));
+        // On The Verge Of Greatness [Card216_011]: Krennic or Tarkin at a Scarif battleground site, Death Star orbiting Scarif.
+        state("216_11", "death_star_orbits_scarif", c -> c.spot(Filters.and(Filters.Death_Star_system, Filters.isOrbiting(Title.Scarif))));
+        state("216_11", "krennic_or_tarkin_at_scarif_battleground_site", c -> c.spot(c.yours(Filters.and(
+            Filters.at(Filters.Scarif_battleground_site), Filters.or(Filters.Krennic, Filters.Tarkin)))));
+        // A Stunning Move [Card211_026] flips when Insidious Prisoner [Card211_011] is on an Invisible Hand site; it starts
+        // on 500 Republica and follows the first character of the player who controls its site moving to a battleground site.
+        state("211_26", "invisible_hand_site_on_table", c -> GameConditions.canSpotLocation(c.game, Filters.Invisible_Hand_site));
+        state("211_26", "control_prisoner_site", c -> {
+            PhysicalCard at = prisonerSite(c);
+            return at != null && GameConditions.controls(c.game, c.player, SPOT, Filters.sameCardId(at));
+        });
+        event("211_26", "prisoner_left_500_republica", (c, r) -> {
+            PhysicalCard at = prisonerSite(c);
+            return at != null && !Filters._500_Republica.accepts(c.gs(), c.game.getModifiersQuerying(), at);
+        });
+        // Rescue The Princess (V) [Card215_017]: Leia occupies a Death Star site and the Death Star's power is 'shut down'
+        // (A Power Loss [Card215_002]: occupy Central Core and another Death Star site while no cards stacked on it).
+        // The shut-down lasts for the rest of the game, so it is a state.
+        state("215_17", "leia_not_captive", c -> c.spot(1, SPOT_CAPTIVES, c.yours(Filters.and(Filters.Leia, Filters.not(Filters.captive)))));
+        for (String powerLoss : new String[]{"215_17", "215_2"})
+            state(powerLoss, "occupy_central_core_and_another_death_star_site", c -> GameConditions.occupies(c.game, c.player, SPOT,
+                Filters.Death_Star_Central_Core) && GameConditions.occupies(c.game, c.player, 2, SPOT, Filters.Death_Star_site));
+        state("215_17", "power_shut_down", c -> GameConditions.isDeathStarPowerShutDown(c.game));
+        event("215_2", "success", (c, r) -> GameConditions.isDeathStarPowerShutDown(c.game));
+        // Diplomatic Mission To Alderaan [Card203_019]: Stolen Data Tapes 'delivered', Rebels control a battleground site
+        // and a battleground system.
+        state("203_19", "tapes_delivered", c -> c.spot(Filters.delivered_Stolen_Data_Tapes));
+        state("203_19", "rebels_control_battleground_site", c -> GameConditions.controlsWith(c.game, c.self(), c.player, 1,
+            Filters.battleground_site, SPOT, Filters.Rebel));
+        state("203_19", "rebels_control_battleground_system", c -> GameConditions.controlsWith(c.game, c.self(), c.player, 1,
+            Filters.battleground_system, SPOT, Filters.Rebel));
+        // The Hidden Path [Card226_028]: Jedi occupy two non-Mapuzo sites (Jedi survivors deploy only to Safehouse).
+        state("226_28", "jedi_occupy_non_mapuzo_site_1", c -> GameConditions.occupiesWith(c.game, c.self(), c.player, 1,
+            Filters.and(Filters.not(Filters.Mapuzo_location), Filters.site), SPOT, Filters.Jedi));
+        // Old Allies [Card204_032]: control Jakku system and occupy 2 Jakku battleground sites (or the reverse).
+        state("204_32", "occupy_jakku_system", c -> GameConditions.occupies(c.game, c.player, SPOT, Filters.Jakku_system));
+        state("204_32", "occupy_jakku_battleground_site_1", c -> GameConditions.occupies(c.game, c.player, 1, SPOT, Filters.Jakku_battleground_site));
+        // The Galaxy May Need A Legend [Card211_036]: may flip when Luke is on Ahch-To and a battle with a Resistance
+        // character was just initiated.
+        state("211_36", "luke_on_ahch_to", c -> c.spot(c.yours(Filters.and(Filters.Luke, Filters.on(Title.Ahch_To)))));
+        // Zero Hour [Card219_048]: Rebels control 3 Lothal locations (or Phoenix Squadron characters occupy 3), the
+        // opponent controls none.
+        state("219_48", "lothal_locations_2", c -> GameConditions.controlsWith(c.game, c.self(), c.player, 2, Filters.Lothal_location,
+            SPOT, Filters.Rebel) || GameConditions.occupiesWith(c.game, c.self(), c.player, 2, Filters.Lothal_location, SPOT,
+            Filters.Phoenix_Squadron_character));
+        // The Hyperdrive Generator's Gone (V) [Card210_025]: as the original 12_89 (4 cards beneath Credits Will Do Fine).
+        state("210_25", "occupy_wattos_junkyard", c -> GameConditions.occupies(c.game, c.player, SPOT, Filters.Wattos_Junkyard));
+        for (int n = 2; n <= 3; n++) {
+            int count = n;
+            state("210_25", "credits_" + n, c -> credits(c) >= count);
+        }
+        // D3 (user 2026-10-25): no reward for a flip the opponent makes. The Empire Knows We're Here [Card222_027] flips when
+        // the opponent occupies your Hoth location. Front: two battleground marker sites (its own retrieval condition).
+        // Flipped (Prepare For Ground Assault, back until the opponent leaves): battles won on Hoth.
+        state("222_27", "occupy_battleground_marker_site_2", c -> GameConditions.occupies(c.game, c.player, 2, SPOT,
+            Filters.and(Filters.battleground, Filters.marker_site)));
+        event("222_27", "won_battle_at_hoth_location", (c, r) -> TriggerConditions.wonBattleAt(c.game, r, c.player, Filters.Hoth_location));
+        // Hunt For The Droid General [Card221_067] flips by itself after the start (Grievous Will Run And Hide on it unless
+        // Grievous is alone at a battleground). Flipped (He's A Coward [Card221_067_BACK]): its X = battlegrounds your
+        // [Clone Army] cards occupy; X > 1 and X > 2 unlock its battle actions.
+        for (int n = 2; n <= 3; n++) {
+            int count = n;
+            state("221_67", "clone_army_occupy_battleground_" + n, c -> {
+                PhysicalCard self = c.self();
+                return self != null && Filters.filterTopLocationsOnTable(c.game, Filters.and(Filters.battleground,
+                    Filters.occupiesWith(c.player, self, Filters.icon(Icon.CLONE_ARMY)))).size() >= count;
+            });
+        }
+        // Restore Freedom To The Galaxy [Card208_017]: a Force drain at a battleground system (not 'liberated') lets it draw
+        // destiny, +1 per piloted unique snub fighter present; > 5 'liberates' the system.
+        event("208_17", "drain_at_battleground_system_with_snub_fighter", (c, r) -> {
+            if (!TriggerConditions.forceDrainInitiatedBy(c.game, r, c.player, Filters.and(Filters.battleground_system,
+                    Filters.except(Filters.liberated_system)))) return false;
+            PhysicalCard system = ((ForceDrainInitiatedResult) r).getLocation();
+            return c.spot(c.yours(Filters.and(Filters.snub_fighter, Filters.unique, Filters.piloted, Filters.presentAt(Filters.sameCardId(system)))));
+        });
+        event("208_17", "success", (c, r) -> c.onTable("208_17") && GameConditions.canSpotLocation(c.game, Filters.liberated_system));
+        // D2: Epic Events with no success state of their own (rule modifiers, agendas, card supplies for their objective):
+        // coverage only, success 0, never paid.
+        for (String passive : new String[]{"217_20", "225_36", "215_25", "211_11", "217_50", "221_66", "217_29", "226_14",
+                "225_57", "225_47", "216_24"})
+            event(passive, "success", (c, r) -> false);
+
+        // --- Jedi Training: each test is deployed (with its targets), then completed. 225_48: It Is The Future You See (V).
+        for (String test : new String[]{"4_77", "4_75", "4_76", "4_79", "4_78", "9_55", "225_48"}) {
             state(test, "test_on_table", c -> c.onTable(test));
             event(test, "success", (c, r) -> r.getType() == EffectResult.Type.JEDI_TEST_COMPLETED
                 && test.equals(((JediTestCompletedResult) r).getJediTest().getBlueprintId(true))
                 && c.player.equals(((JediTestCompletedResult) r).getJediTest().getOwner()));
         }
         validateRegistry();
+    }
+
+    /** Plan dojo-v-cards: the site your Target The Main Generator (V) is on, or null. */
+    private static PhysicalCard ttmgSite(Ctx c) {
+        PhysicalCard ttmg = c.tableCard("222_13");
+        return ttmg == null ? null : locationOf(c, ttmg);
+    }
+
+    /** Plan dojo-v-cards: the site Insidious Prisoner is on (either side's), or null. */
+    private static PhysicalCard prisonerSite(Ctx c) {
+        PhysicalCard prisoner = first(c, SPOT_CAPTIVES, Filters.Insidious_Prisoner);
+        return prisoner == null ? null : locationOf(c, prisoner);
     }
 
     /** Cards beneath your Credits Will Do Fine (The Hyperdrive Generator's Gone). */

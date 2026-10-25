@@ -1,7 +1,7 @@
 # Brainiac beta server
 
-Plan: `beta-server` (lab `.claude/plans/beta-server.md`, approved 2026-10-25, Amendments 1–3). Status: **live**, waiting
-for Peter's game and sign-off (§1.3) and this evening's release update.
+Plan: `beta-server` (lab `.claude/plans/beta-server.md`, approved 2026-10-25, Amendments 1–3). Status: **live**; Peter
+played on it ("Game play works", 2026-10-25); this evening's release update pending.
 
 **https://brainiac-beta.duckdns.org/** — Gemp `feat/brainiac` + the Brainiac overlay, serving
 `v-cards-shc095-2026-10-23`; image `dev-dc5fe386f-gemp-28a27be02` (pushed commits only).
@@ -45,17 +45,18 @@ Registration switch, bans, message of the day: Gemp's admin pages (Admin → set
 >    443 answer; the same checks as 1 pass against the live URL; SSH accepts keys only.
 > 3. Peter signs off after one game on the live server.
 
-1. Rehearsal: `data/beta-server/rehearsal-check.txt` — all checks pass. Peter's full browser game: **not yet done**
-   (his first try found the missing runtime, fixed: Amendment 2).
+1. Rehearsal: `data/beta-server/rehearsal-check.txt` — all checks pass. Peter's first browser try found the missing
+   runtime (fixed, Amendment 2); his full game was then played on the live server (3).
 2. Live: `data/beta-server/live-check.txt` — all checks pass over HTTPS (valid Let's Encrypt certificate); ports 22,
    80, 443 open, 3306 / 8000 / 8080 / 17101 / 35001 closed; listeners other than 22/80/443 on localhost only;
    `passwordauthentication no`, password login refused. Screenshot `data/beta-server/live-login.png`.
-3. **Open:** Peter's game and sign-off.
+3. Peter: "Game play works" (live). Admin account `peter` promoted (`deploy.sh promote peter`: type `ua`).
 
 ## Skipped / unverified
 
 - Not verified: a bot game left idle > 5 min (no timeout expected), a human game timing out; restore from a backup;
   load beyond a few players.
 - Testers without IPv6 cannot reach the site (an IPv4 address on the server + the DuckDNS ipv4 field fixes it).
-- The live check made two test accounts (`t92934247`, `y92934247`); delete them on Peter's word.
+- The live check's two test accounts (`t92934247`, `y92934247`) were deleted on Peter's word; accounts now:
+  Librarian, betaops, peter. `check.sh` makes new ones on each run.
 - A crawler found the site within seconds of the certificate (Let's Encrypt logs are public): expect probes.

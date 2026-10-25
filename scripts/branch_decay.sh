@@ -1,31 +1,32 @@
 #!/usr/bin/env bash
 # Plan scratch-24h-ab: the decayed branch of a trunk checkpoint and its checks. From a trunk milestone (with its
 # optimizer state) a short run at the trunk's settings whose learning rates fall by a cosine to the floor over
-# BRANCH_GAMES games; then its final plays the reference (D) and Rando Cal (greedy, the held-out Decipher pairings, paired
-# seats). A running trunk runs/dojo/ARM (scripts/train_arm.sh) is paused throughout (scripts/arm_pause.sh) unless it
-# has ended.
-#   bash scripts/branch_decay.sh ARM MARK SOURCE.pt      e.g. ... shc-r1 0 models/shc-r1/policy.pt
-# SOURCE needs its optimizer state (a full checkpoint: models/shc-r1, a trunk milestone of train_arm.sh).
-# Settings (environment, defaults = the lab's 2026-10-24 settings for the shc models):
-#   BRANCH_GPU (0; nvidia-smi index: learner and rollouts), BRANCH_THREADS (12), BRANCH_GAMES (2000), BRANCH_SEED
-#   (990501), POOL (pool v3b), OPPONENTS, RECIPE (the trunk's recipe options), CHECK_GAMES (256), CHECK_THREADS (16),
-#   REFERENCE (models/D/policy.pt).
+# BRANCH_GAMES games; then its final plays D and Rando Cal (greedy, the held-out Decipher pairings, paired seats). The trunk is paused throughout
+# (scripts/arm_pause.sh) unless it has ended. The caller holds the evaluation lock (scripts/pair_watch.sh).
+#   bash scripts/branch_decay.sh ARM MARK SOURCE.pt
+# Settings come from the environment (pair_watch.sh exports them from runs/dojo/<chain>.conf):
+#   BRANCH_GPU (nvidia-smi index: learner and rollouts), BRANCH_THREADS, BRANCH_GAMES, BRANCH_SEED, POOL, OPPONENTS,
+#   RECIPE (the trunk's recipe options), CHECK_GAMES, CHECK_THREADS.
+# Plan scratch-24h-ab amendment 2: an optional runs/dojo/ARM.branch.env overrides them per arm (e.g. BRANCH_LEARNER_GPU,
+# the learner on another GPU than the rollouts, and BRANCH_THREADS) for marks >= BRANCH_ENV_FROM_MARK and the final.
 # Output: runs/dojo/ARM-bMARK/final.pt, evaluations bc-ARM-MARK-{d,rando}; one JSON line on stdout:
 #   {"arm", "mark", "branch", "status", "branch_games", "stale_share", "d": {...}, "rando": {...}, "paused_seconds"}
 set -u
 cd "$(dirname "$0")/.."
 ARM=${1:?arm} MARK=${2:?mark} SOURCE=${3:?source checkpoint}
 R=runs/dojo EVALS=runs/knowledge-v3.1/evaluations
-D=$PWD/${REFERENCE:-models/D/policy.pt}
-BRANCH_GPU=${BRANCH_GPU:-0} BRANCH_THREADS=${BRANCH_THREADS:-12} BRANCH_GAMES=${BRANCH_GAMES:-2000}
-BRANCH_SEED=${BRANCH_SEED:-990501} CHECK_GAMES=${CHECK_GAMES:-256} CHECK_THREADS=${CHECK_THREADS:-16}
-POOL=${POOL:-data/schedules/rl_pool_decipher_v3b.txt}
-OPPONENTS=${OPPONENTS:-policy:learner=0.5,policy:snap=0.2,policy:ck:$D=0.15,rando=0.1,random=0.05}
-RECIPE=${RECIPE:---lam 0.95 --value-lambda 0.95 --shaping damage --shaping-weight 0.05 --shaping-form potential --shaping-target both}
+D=$PWD/runs/critic-noise/D.pt
 BRANCH=$ARM-b$MARK
+if [ -f "$R/$ARM.branch.env" ]; then
+    # shellcheck disable=SC1090
+    { [ "$MARK" = final ] || [ "$MARK" -ge "$(source "$R/$ARM.branch.env"; echo "${BRANCH_ENV_FROM_MARK:-0}")" ]; } \
+        && source "$R/$ARM.branch.env"
+fi
+BRANCH_LEARNER_GPU=${BRANCH_LEARNER_GPU:-$BRANCH_GPU}
 log=$R/$ARM.branch.log
 note() { echo "$(date -Is) $*" >> "$log"; }
 export PYTHONPATH=scripts:src
+source env.sh > /dev/null 2>&1
 source scripts/machine_env.sh > /dev/null 2>&1
 mkdir -p "$R/evals"
 paused=0
@@ -39,14 +40,14 @@ if [ ! -f "$R/$ARM.DONE" ] && [ ! -f "$R/$ARM.STOPPED" ]; then
 fi
 if [ ! -f "$R/$BRANCH/final.pt" ]; then
     rm -rf "${R:?}/${BRANCH:?}" "/tmp/swccg-v31-$BRANCH"
-    note "$BRANCH: from $SOURCE, $BRANCH_GAMES games, GPU $BRANCH_GPU, $BRANCH_THREADS threads, seed $BRANCH_SEED"
+    note "$BRANCH: from $SOURCE, $BRANCH_GAMES games, learner GPU $BRANCH_LEARNER_GPU, rollouts GPU $BRANCH_GPU, $BRANCH_THREADS threads, seed $BRANCH_SEED"
     # shellcheck disable=SC2086
     .venv/bin/python scripts/v31_stage.py --configuration V31-c6 --purpose training --runs "$R" --variant a10c \
         --logit-cap 30 --opponents "$OPPONENTS" --load-workers 4 --rollout-games 256 --single-tables --critic-stream \
         --prefetch --keep-consumed 4 --minibatch 64 --lr 5e-5 --value-lr 3e-4 --entropy-coef 0.01 \
         --pool "$POOL" --opponent-pool "$POOL" --threads "$BRANCH_THREADS" --actor-fp32 \
         --lr-schedule wsd --lr-schedule-games "$BRANCH_GAMES" --lr-warmup-games 0 --lr-decay-fraction 1.0 --lr-floor 0.05 \
-        --max-games "$BRANCH_GAMES" --minutes 60 --learner-device "$BRANCH_GPU" --rollout-gpus "$BRANCH_GPU" \
+        --max-games "$BRANCH_GAMES" --minutes 60 --learner-device "$BRANCH_LEARNER_GPU" --rollout-gpus "$BRANCH_GPU" \
         --seed "$BRANCH_SEED" --start "$SOURCE" --tag "$BRANCH" $RECIPE --critic-warmup 0 \
         > "$R/$BRANCH.supervisor.log" 2>&1
     note "$BRANCH: stage exit $? ($(cat "$R/$BRANCH/result.json" 2>/dev/null | head -c 200))"

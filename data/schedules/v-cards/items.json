@@ -1,0 +1,230 @@
+{
+ "225_32": {
+  "title": "The First Order Reigns",
+  "side": "DARK",
+  "decks": 41,
+  "rows": 128,
+  "file": "items-ds.tsv",
+  "first_row": 0
+ },
+ "213_31": {
+  "title": "Hunt Down And Destroy The Jedi",
+  "side": "DARK",
+  "decks": 35,
+  "rows": 128,
+  "file": "items-ds.tsv",
+  "first_row": 128
+ },
+ "201_39": {
+  "title": "Imperial Entanglements",
+  "side": "DARK",
+  "decks": 25,
+  "rows": 128,
+  "file": "items-ds.tsv",
+  "first_row": 256
+ },
+ "226_12": {
+  "title": "This Deal Is Getting Worse All The Time",
+  "side": "DARK",
+  "decks": 25,
+  "rows": 128,
+  "file": "items-ds.tsv",
+  "first_row": 384
+ },
+ "213_32": {
+  "title": "Shadow Collective",
+  "side": "DARK",
+  "decks": 24,
+  "rows": 128,
+  "file": "items-ds.tsv",
+  "first_row": 512
+ },
+ "222_30": {
+  "title": "The Shield Will Be Down in Moments",
+  "side": "DARK",
+  "decks": 15,
+  "rows": 128,
+  "file": "items-ds.tsv",
+  "first_row": 640
+ },
+ "222_14": {
+  "title": "The Shield Will Be Down in Moments",
+  "side": "DARK",
+  "decks": 11,
+  "rows": 128,
+  "file": "items-ds.tsv",
+  "first_row": 768
+ },
+ "219_1": {
+  "title": "A Great Tactician Creates Plans",
+  "side": "DARK",
+  "decks": 12,
+  "rows": 128,
+  "file": "items-ds.tsv",
+  "first_row": 896
+ },
+ "208_57": {
+  "title": "I Want That Map",
+  "side": "DARK",
+  "decks": 9,
+  "rows": 128,
+  "file": "items-ds.tsv",
+  "first_row": 1024
+ },
+ "216_11": {
+  "title": "On The Verge Of Greatness",
+  "side": "DARK",
+  "decks": 9,
+  "rows": 128,
+  "file": "items-ds.tsv",
+  "first_row": 1152
+ },
+ "211_26": {
+  "title": "A Stunning Move",
+  "side": "DARK",
+  "decks": 4,
+  "rows": 128,
+  "file": "items-ds.tsv",
+  "first_row": 1280
+ },
+ "208_25": {
+  "title": "He Is The Chosen One",
+  "side": "LIGHT",
+  "decks": 35,
+  "rows": 128,
+  "file": "items-ls.tsv",
+  "first_row": 0
+ },
+ "209_29": {
+  "title": "They Have No Idea We're Coming",
+  "side": "LIGHT",
+  "decks": 29,
+  "rows": 128,
+  "file": "items-ls.tsv",
+  "first_row": 128
+ },
+ "215_17": {
+  "title": "Rescue The Princess",
+  "side": "LIGHT",
+  "decks": 24,
+  "rows": 128,
+  "file": "items-ls.tsv",
+  "first_row": 256
+ },
+ "203_19": {
+  "title": "Diplomatic Mission To Alderaan",
+  "side": "LIGHT",
+  "decks": 18,
+  "rows": 128,
+  "file": "items-ls.tsv",
+  "first_row": 384
+ },
+ "225_53": {
+  "title": "Mind What You Have Learned",
+  "side": "LIGHT",
+  "decks": 18,
+  "rows": 128,
+  "file": "items-ls.tsv",
+  "first_row": 512
+ },
+ "226_28": {
+  "title": "The Hidden Path",
+  "side": "LIGHT",
+  "decks": 18,
+  "rows": 128,
+  "file": "items-ls.tsv",
+  "first_row": 640
+ },
+ "204_32": {
+  "title": "Old Allies",
+  "side": "LIGHT",
+  "decks": 12,
+  "rows": 128,
+  "file": "items-ls.tsv",
+  "first_row": 768
+ },
+ "211_36": {
+  "title": "The Galaxy May Need A Legend",
+  "side": "LIGHT",
+  "decks": 11,
+  "rows": 128,
+  "file": "items-ls.tsv",
+  "first_row": 896
+ },
+ "219_48": {
+  "title": "Zero Hour",
+  "side": "LIGHT",
+  "decks": 10,
+  "rows": 128,
+  "file": "items-ls.tsv",
+  "first_row": 1024
+ },
+ "208_26": {
+  "title": "Yavin 4 Base Operations",
+  "side": "LIGHT",
+  "decks": 7,
+  "rows": 128,
+  "file": "items-ls.tsv",
+  "first_row": 1152
+ },
+ "222_27": {
+  "title": "The Empire Knows We're Here",
+  "side": "LIGHT",
+  "decks": 6,
+  "rows": 128,
+  "file": "items-ls.tsv",
+  "first_row": 1280
+ },
+ "221_67": {
+  "title": "Hunt For The Droid General",
+  "decks": 3,
+  "rows": 0,
+  "skipped": "< 4 decks"
+ },
+ "210_25": {
+  "title": "The Hyperdrive Generator's Gone",
+  "decks": 2,
+  "rows": 0,
+  "skipped": "< 4 decks"
+ },
+ "225_34": {
+  "title": "Tracked Fleet",
+  "side": "DARK",
+  "decks": 41,
+  "rows": 128,
+  "file": "items-ds.tsv",
+  "first_row": 1408
+ },
+ "222_13": {
+  "title": "Target The Main Generator",
+  "side": "DARK",
+  "decks": 26,
+  "rows": 128,
+  "file": "items-ds.tsv",
+  "first_row": 1536
+ },
+ "215_2": {
+  "title": "A Power Loss",
+  "side": "LIGHT",
+  "decks": 24,
+  "rows": 128,
+  "file": "items-ls.tsv",
+  "first_row": 1408
+ },
+ "208_17": {
+  "title": "Restore Freedom To The Galaxy",
+  "side": "LIGHT",
+  "decks": 7,
+  "rows": 128,
+  "file": "items-ls.tsv",
+  "first_row": 1536
+ },
+ "225_48": {
+  "title": "It Is The Future You See",
+  "side": "LIGHT",
+  "decks": 18,
+  "rows": 128,
+  "file": "items-ls.tsv",
+  "first_row": 1664
+ }
+}

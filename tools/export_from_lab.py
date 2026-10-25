@@ -45,7 +45,7 @@ ONE_OFF = [
     "prune_runs_list.py", "hostsync.py", "rl_pilot_v*", "rl_watchdog.sh", "rl_curve.sh", "rl_final.sh",
     "bench_server.py", "traingen*.sh", "relativize_deck_paths.py", "night_guard.sh", "mem_guard.sh",
     "strength_watch.sh", "dojo_flip_decay_check.py", "dojo_*_games.sh", "fetch_wiki_decks.py",
-    "import_cct_jp_decks.py", "import_decktech_decks.py", "scan_decktech_archive.py", "slow_*.py",
+    "import_cct_jp_decks.py", "import_decktech_decks.py", "scan_decktech_archive.py", "slow_*.py", "vct_*",
 ]
 # Kept although a pattern above matches: the generic training, probe and release tools.
 KEEP_SCRIPTS = {"lr2_arm.sh", "objective_lib.sh", "night_probe.py", "night_wave.sh", "brainiac_server.sh",
@@ -61,17 +61,21 @@ SCHEDULES = [
     "data/schedules/rl_pool_decipher_v3.txt", "data/schedules/rl_pool_decipher_v3_weights.csv",
     "data/schedules/rl_pool_decipher_v3b.txt", "data/schedules/eval_decipher_heldout.tsv",
     "data/schedules/h2h_pool_v3_only.tsv", "reports/data/dojo-sweep/schedule-v3b.tsv",
+    # V-card schedules, committed in the lab by plan dojo-v-cards (before: MAPPED from runs/v-cards/schedules)
+    *(f"data/schedules/v-cards/{name}" for name in (
+        "gather-ds.tsv", "gather-ls.tsv", "heldout.tsv", "heldout-800.tsv", "rl_pool_vcards_gathering.txt",
+        "items-ds.tsv", "items-ls.tsv", "items-small-ds.tsv", "items-small-ls.tsv", "items.json", "items-small.json")),
 ]
 DOCS = [
     "reports/architecture-context.md", "reports/architecture-knowledge-tracker.md", "reports/architecture-rl-loop.md",
     "reports/how-the-policy-network-works.md", "reports/training-configuration.md",
     "reports/knowledge-v3.1-contract.md", "reports/brainiac-v6.md", "reports/engine-on-feat-brainiac.md",
-    "reports/preflight.md",
+    "reports/preflight.md", "reports/dojo-v-cards.md",
 ]
 # Untracked lab files exported under another path (plan dev-distribution Amendment 1: the V-card decks of plan
 # v-cards, not trained on yet); the decks they name are exported like the schedules' decks.
-MAPPED = {f"runs/v-cards/schedules/{name}": f"data/schedules/v-cards/{name}"
-          for name in ("gather-ds.tsv", "gather-ls.tsv", "heldout.tsv", "heldout-800.tsv")}
+# Empty since plan dojo-v-cards committed the V-card schedules in the lab (SCHEDULES); kept for untracked lab files.
+MAPPED = {}
 OTHER = ["reports/data/v-cards/decks.json", "pyproject.toml", "uv.lock", "data/dojo/rewards.json", "data/brainiac/export-records.jsonl",
          # inputs that kept code reads from reports/data: model configuration (efficient.py names_map, counter_map)
          # and the table / pool pipeline

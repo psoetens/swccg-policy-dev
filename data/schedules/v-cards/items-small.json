@@ -1,0 +1,18 @@
+{
+ "221_67": {
+  "title": "Hunt For The Droid General",
+  "side": "LIGHT",
+  "decks": 3,
+  "rows": 64,
+  "file": "items-small-ls.tsv",
+  "first_row": 0
+ },
+ "210_25": {
+  "title": "The Hyperdrive Generator's Gone",
+  "side": "LIGHT",
+  "decks": 2,
+  "rows": 64,
+  "file": "items-small-ls.tsv",
+  "first_row": 64
+ }
+}
