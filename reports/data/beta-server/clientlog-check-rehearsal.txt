@@ -1,0 +1,8 @@
+ok   classic: marker (1) and uncaught exception (1) logged, level error, page /gemp-swccg/index.html
+ok   gemparena: marker (1) and uncaught exception (1) logged, level error, page /GempArena/
+ok   gemparena: Unity's own console lines arrive too (78 lines in that session)
+ok   ?debug=0: nothing sent (0 lines)
+ok   a request over 64 KB is refused (413)
+ok   a session is cut at 20,000 lines (20000 of 25,000 kept)
+ok   over 600 requests a minute from one address: 429 (41 of 610)
+ALL CHECKS PASSED

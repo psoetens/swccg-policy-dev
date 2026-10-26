@@ -12,6 +12,17 @@
 		root * /srv/gemparena/current
 		file_server
 	}
+	# Plan brainiac-gemparena Amendment 1: card images for GempArena, which may not read res.starwarsccg.org from
+	# this site (CORS allows gemp.starwarsccg.org only)
+	handle_path /res/* {
+		reverse_proxy https://res.starwarsccg.org {
+			header_up Host {upstream_hostport}
+		}
+	}
+	# Plan client-logs: browser console lines and the script that sends them
+	handle /clientlog* {
+		reverse_proxy 127.0.0.1:{$CLIENTLOG_PORT}
+	}
 	handle {
 		reverse_proxy 127.0.0.1:{$GEMP_PORT}
 	}

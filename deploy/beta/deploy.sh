@@ -7,7 +7,10 @@
 #   deploy/beta/deploy.sh promote NAME         # make a registered account admin (Peter's own)
 #   deploy/beta/deploy.sh backup-install       # nightly DB dump at 04:00, 14 kept (/opt/brainiac/backups)
 #   deploy/beta/deploy.sh harden               # SSH: keys only
-#   deploy/beta/deploy.sh arena BUILD_DIR      # GempArena WebGL build (build_arena.sh) -> /GempArena/ (Amendment 4)
+#   deploy/beta/deploy.sh arena [--allow-dirty] BUILD_DIR   # GempArena WebGL build (build_arena.sh) -> /GempArena/
+#                                              # (Amendment 4; --allow-dirty: an uncommitted build, on Peter's word)
+#   deploy/beta/deploy.sh caddy                # copy the Caddyfile and reload Caddy (no Gemp restart)
+#   deploy/beta/deploy.sh clientlogs [N] [GREP]   # last N browser console lines (plan client-logs), optionally filtered
 #   deploy/beta/deploy.sh status
 # Env: BETA_SSH (ssh target, default root@2a01:4f9:c014:53f4::1), BETA_KEY (~/.ssh/claude-swccg), SITE for init
 # (brainiac-beta.duckdns.org). The live server runs pushed commits only (plan Amendment 1): push refuses otherwise.
@@ -42,7 +45,8 @@ case "${1:-}" in
     remote "mkdir -p $R/brainiac/releases $R/brainiac/runtime $R/backups"
     echo "copying images ($TAG)"
     docker save "brainiac-beta-gemp:$TAG" "brainiac-beta-db:$TAG" caddy:2.8.4 | gzip -1 | remote "gunzip | docker load"
-    tar -C "$HERE" -cf - compose.yml Caddyfile backup.sh | remote "tar -C $R -xf - && mkdir -p $R/gemparena"
+    tar -C "$HERE" -cf - compose.yml backup.sh clientlog_collector.py clientlog.js | remote "tar -C $R -xf - && mkdir -p $R/gemparena $R/clientlogs"
+    remote "cat > $R/Caddyfile" < "$HERE/Caddyfile"  # in place: Caddy bind-mounts this one file
     echo "copying release $(basename "$RELEASE")"
     RUNTIME=$("$ROOT/.venv/bin/python" -c 'import json,sys;print(json.load(open(sys.argv[1]))["runtime"])' "$RELEASE/manifest.json")
     tar -C "$(dirname "$(dirname "$RELEASE")")" -cf - "releases/$(basename "$RELEASE")" "runtime/$RUNTIME" \
@@ -84,13 +88,24 @@ case "${1:-}" in
     remote true && echo "key login still works"
     ;;
   arena)  # Amendment 4: GempArena is exempt from the pushed-commits rule, but only a clean-tree build_arena.sh output ships
+    DIRTY='$'; [ "${2:-}" = --allow-dirty ] && { DIRTY='(-dirty)?$'; shift; }
     BUILD=$(cd "${2:?GempArena WebGL build folder (build_arena.sh output)}" && pwd)
     NAME=$(basename "$BUILD")
-    [[ "$NAME" =~ ^webgl-[0-9a-f]{7,40}$ ]] && [ -f "$BUILD/BUILD_INFO" ] && [ -f "$BUILD/index.html" ] \
-        || { echo "$BUILD is not a build_arena.sh output (webgl-<sha> with BUILD_INFO and index.html)"; exit 1; }
+    [[ "$NAME" =~ ^webgl-[0-9a-f]{7,40}$DIRTY ]] && [ -f "$BUILD/BUILD_INFO" ] && [ -f "$BUILD/index.html" ] \
+        || { echo "$BUILD is not a clean build_arena.sh output (webgl-<sha> with BUILD_INFO; -dirty needs --allow-dirty)"; exit 1; }
     echo "copying $NAME ($(du -sh "$BUILD" | cut -f1))"
     tar -C "$(dirname "$BUILD")" -cf - "$NAME" | gzip -1 | remote "set -e; mkdir -p $R/gemparena; gunzip | tar -C $R/gemparena -xf -
         ln -sfn $NAME $R/gemparena/current.new && mv -T $R/gemparena/current.new $R/gemparena/current; ls -l $R/gemparena"
+    ;;
+  caddy)
+    # written in place: the container bind-mounts this one file, and a replaced file (new inode) would not be seen
+    remote "cat > $R/Caddyfile" < "$HERE/Caddyfile"
+    remote "cd $R && docker compose exec -T caddy caddy reload --config /etc/caddy/Caddyfile --adapter caddyfile && echo 'caddy reloaded'"
+    ;;
+  clientlogs)
+    N=${2:-50}; [[ "$N" =~ ^[0-9]+$ ]] || { echo "N must be a number"; exit 1; }
+    PATTERN=${3:-}
+    remote "cd $R/clientlogs 2>/dev/null && f=\$(ls -1 *.jsonl 2>/dev/null | tail -1) && [ -n \"\$f\" ] && grep -a -- $(printf '%q' "${PATTERN:-.}") \"\$f\" | tail -n $N || echo 'no client logs yet'"
     ;;
   status)
     remote "cd $R && grep -E '^(TAG|RELEASE_NAME|SITE)=' .env; docker compose ps --format 'table {{.Service}}\t{{.Status}}'; free -h | sed -n 2p; df -h / | tail -1"

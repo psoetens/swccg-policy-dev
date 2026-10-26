@@ -46,11 +46,24 @@ services:
     environment:
       SITE: ${SITE}
       GEMP_PORT: ${GEMP_PORT:-17101}
+      CLIENTLOG_PORT: ${CLIENTLOG_PORT:-17102}
     volumes:
       - ${CADDYFILE:-./Caddyfile}:/etc/caddy/Caddyfile:ro
       - ${GEMPARENA_DIR:-./gemparena}:/srv/gemparena:ro  # Amendment 4: GempArena builds, current -> webgl-<sha>
       - caddy-data:/data
       - caddy-config:/config
+  clientlog:  # plan client-logs: browser console lines -> ${CLIENTLOG_DIR}/<date>.jsonl (deploy/beta/clientlog_collector.py)
+    image: python:3.12-alpine
+    restart: unless-stopped
+    command: ["python", "/app/clientlog_collector.py"]
+    environment:
+      CLIENTLOG_PORT: "8080"
+    ports:
+      - "127.0.0.1:${CLIENTLOG_PORT:-17102}:8080"
+    volumes:
+      - ./clientlog_collector.py:/app/clientlog_collector.py:ro
+      - ./clientlog.js:/app/clientlog.js:ro
+      - ${CLIENTLOG_DIR:-./clientlogs}:/data
 volumes:
   db-data:
   unknown-keys:

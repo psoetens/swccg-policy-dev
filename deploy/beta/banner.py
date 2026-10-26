@@ -14,6 +14,7 @@ from pathlib import Path
 MARK = 'brainiac-beta-banner'
 NOTICE = ('UNOFFICIAL BETA TEST SERVER for the Brainiac bot. This is not gemp.starwarsccg.org: accounts, decks and '
           'games may be wiped at any time. Passwords are stored without salt, so use one you use nowhere else. '
+          'Browser console logs are sent to this server for testing (add ?debug=0 to a page address to stop). '
           'Also on this server: the <a href="/GempArena/" style="color: #fff">GempArena</a> client (beta).')
 STYLE = f"""<style id="{MARK}-style">
 #{MARK}-corner {{position: fixed; top: 0; right: 0; width: 90px; height: 90px; overflow: hidden;
@@ -30,6 +31,9 @@ CONTACTS = [(re.compile(r"contact the Communications Advocate at <a href='mailto
             (re.compile(r"<a href='mailto:communications@starwarsccg\.org\?subject=Gemp%20Password%20Reset'>Forgot your "
                         r"password\? Contact the <span style='color:orange'>Communications Advocate</span></a>\."),
              'Forgot your password? Ask the beta server admin.')]
+CLIENTLOG = '<script src="/clientlog.js" data-client="classic"></script>'
+# Peter 2026-10-26: the hall's "Public Beta: New UI" link opens this server's GempArena (/GempArena/)
+NEW_UI = ('href="https://gemp.starwarsccg.org/gemp-swccg/epic-duel/newgui.html"', 'href="/GempArena/"')
 GTM = re.compile(r'\s*<script async src="https://www\.googletagmanager\.com/gtag/js[^"]*"></script>\s*'
                  r'<script>\s*window\.dataLayer.*?</script>', re.S)
 
@@ -43,9 +47,19 @@ def mark(page: Path, version: str) -> None:
         html = pattern.sub(text, html)
     if 'communications@starwarsccg.org' in html:
         raise SystemExit(f'{page}: an official contact address is left')
+    if page.name == 'hall.html':
+        if NEW_UI[0] not in html:
+            raise SystemExit(f'{page}: the "Public Beta: New UI" link was not found')
+        html = html.replace(*NEW_UI)
     ribbon = f'<div id="{MARK}-corner"><div id="{MARK}-ribbon" title="{version}">BETA</div></div>'
     notice = f'<div id="{MARK}-notice">{NOTICE} <small>({version})</small></div>' if page.name == 'index.html' else ''
     html = re.sub(r'<title>', '<title>[BETA] ', html, count=1, flags=re.I)
+    # Plan client-logs: the console goes to the server; loaded first so it sees the page's own start-up
+    head = re.search(r'<head[^>]*>', html, re.I)
+    if head:
+        html = html[:head.end()] + '\n' + CLIENTLOG + html[head.end():]
+    else:
+        html = CLIENTLOG + html
     if re.search(r'</head>', html, re.I):
         html = re.sub(r'</head>', STYLE + '\n</head>', html, count=1, flags=re.I)
     else:
