@@ -1,0 +1,6 @@
+ok   classic: marker (1) and uncaught exception (1) logged, level error, page /gemp-swccg/index.html
+ok   gemparena: marker (1) and uncaught exception (1) logged, level error, page /GempArena/
+ok   gemparena: Unity's own console lines arrive too (78 lines in that session)
+ok   ?debug=0: nothing sent (0 lines)
+limits: rehearsal only
+ALL CHECKS PASSED

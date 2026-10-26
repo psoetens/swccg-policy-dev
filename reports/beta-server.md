@@ -50,10 +50,27 @@ Unity's archive; the Hub's headless install failed), the project's `New Web Prof
 - Not verified: a GempArena login, game and bot game on the beta (Peter's test); the GempArena page has no beta
   ribbon (the banner is added to Gemp's pages only).
 
+## Client logs (plan client-logs, 2026-10-26)
+
+Every page of both clients sends its browser console to the server: `clientlog.js` (loaded first in every Gemp page
+and in GempArena's page) catches console lines of all levels, uncaught errors and failed promises, with page, account
+(once logged in) and a per-page session id; the `clientlog` container writes `/opt/brainiac/clientlogs/<date>.jsonl`
+(14 days; 64 KB per request, 20,000 lines per session, 600 requests a minute per address). On by default (Peter: "i
+want all of it"); `?debug=0` in a page address turns it off for that browser, `?debug=1` on again; the login notice
+says so. Read with `deploy/beta/deploy.sh clientlogs [N] [filter]` (Peter allows reading server logs at any time).
+
+Checks: rehearsal, all pass including the limits (`data/beta-server/clientlog-check-rehearsal.txt`); live
+(`dev-551d96b6a-gemp-65ec549ad`): classic and GempArena markers and uncaught exceptions arrive, Unity's own lines
+too, nothing with `?debug=0` (`data/beta-server/clientlog-check-live.txt`); `check.sh` passes
+(`data/beta-server/live-check-clientlogs.txt`, account `t93049496` deleted); Brainiac in GempArena: 20/20 rankings
+identical live (`data/beta-server/arena-brainiac-check-live.txt`). Not exercised: the 14-day clean-up (no deletion
+tests). The hall's "Public Beta: New UI" link opens `/GempArena/`.
+
 ## Admin how-to (from the dev repo, on this PC)
 
 ```bash
 deploy/beta/deploy.sh status
+deploy/beta/deploy.sh clientlogs 100 Brainiac   # last browser console lines, filtered
 deploy/beta/deploy.sh promote <account>          # make a registered account admin
 deploy/beta/deploy.sh push models/brainiac/releases/<release>   # new commit/release: build, copy
 deploy/beta/deploy.sh up <release>                # restart on it
