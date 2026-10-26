@@ -84,6 +84,6 @@ Registration switch, bans, message of the day: Gemp's admin pages (Admin → set
 - Testers without IPv6 cannot reach the site (an IPv4 address on the server + the DuckDNS ipv4 field fixes it).
 - The live check's two test accounts (`t92934247`, `y92934247`) were deleted on Peter's word, as were those of
   the release-update check (`t92937882`, `y92937882`) and the GempArena check (`t93025281`); accounts now:
-  Librarian, betaops, peter, test1 (registered by someone else on 2026-10-25/26, left as is). `check.sh` makes two
+  Librarian, betaops, peter, test1 (not made by the checks; left as is). `check.sh` makes two
   test accounts on each run; delete them afterwards.
 - A crawler found the site within seconds of the certificate (Let's Encrypt logs are public): expect probes.
