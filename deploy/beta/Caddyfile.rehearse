@@ -6,5 +6,13 @@
 	bind 127.0.0.1
 	encode gzip
 	redir / /gemp-swccg/
-	reverse_proxy 127.0.0.1:{$GEMP_PORT}
+	redir /GempArena /GempArena/
+	# Amendment 4: the GempArena WebGL client (deploy.sh arena); it talks to this Gemp (same site)
+	handle_path /GempArena/* {
+		root * /srv/gemparena/current
+		file_server
+	}
+	handle {
+		reverse_proxy 127.0.0.1:{$GEMP_PORT}
+	}
 }

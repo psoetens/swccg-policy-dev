@@ -22,6 +22,8 @@ case "${1:-}" in
     sed -i '/^TAG=/d; /^RELEASE_DIR=/d; /^BRAINIAC_DIR=/d; /^RELEASE_NAME=/d' "$S/.env"
     printf 'TAG=%s\nRELEASE_DIR=%s\nBRAINIAC_DIR=%s\nRELEASE_NAME=%s\n' "$TAG" "$RELEASE" "$(dirname "$(dirname "$RELEASE")")" \
         "$(basename "$RELEASE")" >> "$S/.env"
+    grep -q '^GEMPARENA_DIR=' "$S/.env" || echo "GEMPARENA_DIR=$S/gemparena" >> "$S/.env"
+    mkdir -p "$S/gemparena"
     compose up -d
     for _ in $(seq 1 90); do
         compose logs gemp 2>/dev/null | grep -q 'beta: hall' && break; sleep 2

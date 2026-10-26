@@ -7,6 +7,7 @@
 #   deploy/beta/deploy.sh promote NAME         # make a registered account admin (Peter's own)
 #   deploy/beta/deploy.sh backup-install       # nightly DB dump at 04:00, 14 kept (/opt/brainiac/backups)
 #   deploy/beta/deploy.sh harden               # SSH: keys only
+#   deploy/beta/deploy.sh arena BUILD_DIR      # GempArena WebGL build (build_arena.sh) -> /GempArena/ (Amendment 4)
 #   deploy/beta/deploy.sh status
 # Env: BETA_SSH (ssh target, default root@2a01:4f9:c014:53f4::1), BETA_KEY (~/.ssh/claude-swccg), SITE for init
 # (brainiac-beta.duckdns.org). The live server runs pushed commits only (plan Amendment 1): push refuses otherwise.
@@ -41,7 +42,7 @@ case "${1:-}" in
     remote "mkdir -p $R/brainiac/releases $R/brainiac/runtime $R/backups"
     echo "copying images ($TAG)"
     docker save "brainiac-beta-gemp:$TAG" "brainiac-beta-db:$TAG" caddy:2.8.4 | gzip -1 | remote "gunzip | docker load"
-    tar -C "$HERE" -cf - compose.yml Caddyfile backup.sh | remote "tar -C $R -xf -"
+    tar -C "$HERE" -cf - compose.yml Caddyfile backup.sh | remote "tar -C $R -xf - && mkdir -p $R/gemparena"
     echo "copying release $(basename "$RELEASE")"
     RUNTIME=$("$ROOT/.venv/bin/python" -c 'import json,sys;print(json.load(open(sys.argv[1]))["runtime"])' "$RELEASE/manifest.json")
     tar -C "$(dirname "$(dirname "$RELEASE")")" -cf - "releases/$(basename "$RELEASE")" "runtime/$RUNTIME" \
@@ -81,6 +82,15 @@ case "${1:-}" in
     remote "printf '# Plan beta-server: SSH keys only\nPasswordAuthentication no\nKbdInteractiveAuthentication no\n' \
         > /etc/ssh/sshd_config.d/00-beta-keys-only.conf && sshd -t && systemctl reload ssh && sshd -T | grep -E '^passwordauthentication'"
     remote true && echo "key login still works"
+    ;;
+  arena)  # Amendment 4: GempArena is exempt from the pushed-commits rule, but only a clean-tree build_arena.sh output ships
+    BUILD=$(cd "${2:?GempArena WebGL build folder (build_arena.sh output)}" && pwd)
+    NAME=$(basename "$BUILD")
+    [[ "$NAME" =~ ^webgl-[0-9a-f]{7,40}$ ]] && [ -f "$BUILD/BUILD_INFO" ] && [ -f "$BUILD/index.html" ] \
+        || { echo "$BUILD is not a build_arena.sh output (webgl-<sha> with BUILD_INFO and index.html)"; exit 1; }
+    echo "copying $NAME ($(du -sh "$BUILD" | cut -f1))"
+    tar -C "$(dirname "$BUILD")" -cf - "$NAME" | gzip -1 | remote "set -e; mkdir -p $R/gemparena; gunzip | tar -C $R/gemparena -xf -
+        ln -sfn $NAME $R/gemparena/current.new && mv -T $R/gemparena/current.new $R/gemparena/current; ls -l $R/gemparena"
     ;;
   status)
     remote "cd $R && grep -E '^(TAG|RELEASE_NAME|SITE)=' .env; docker compose ps --format 'table {{.Service}}\t{{.Status}}'; free -h | sed -n 2p; df -h / | tail -1"

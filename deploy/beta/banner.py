@@ -13,7 +13,8 @@ from pathlib import Path
 
 MARK = 'brainiac-beta-banner'
 NOTICE = ('UNOFFICIAL BETA TEST SERVER for the Brainiac bot. This is not gemp.starwarsccg.org: accounts, decks and '
-          'games may be wiped at any time. Passwords are stored without salt, so use one you use nowhere else.')
+          'games may be wiped at any time. Passwords are stored without salt, so use one you use nowhere else. '
+          'Also on this server: the <a href="/GempArena/" style="color: #fff">GempArena</a> client (beta).')
 STYLE = f"""<style id="{MARK}-style">
 #{MARK}-corner {{position: fixed; top: 0; right: 0; width: 90px; height: 90px; overflow: hidden;
   z-index: 2147483647; pointer-events: none;}}

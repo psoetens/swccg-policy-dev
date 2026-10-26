@@ -48,6 +48,7 @@ services:
       GEMP_PORT: ${GEMP_PORT:-17101}
     volumes:
       - ${CADDYFILE:-./Caddyfile}:/etc/caddy/Caddyfile:ro
+      - ${GEMPARENA_DIR:-./gemparena}:/srv/gemparena:ro  # Amendment 4: GempArena builds, current -> webgl-<sha>
       - caddy-data:/data
       - caddy-config:/config
 volumes:
