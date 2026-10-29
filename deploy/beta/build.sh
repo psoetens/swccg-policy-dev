@@ -33,6 +33,13 @@ for module in async server cards logic common; do
 done
 tr ':' '\n' < "$B/cp-async.txt" | grep -v '/com/gempukku/' | grep . | while read -r jar; do cp "$jar" "$STAGE/lib/"; done
 cp -a "$B/gemp-swccg-async/src/main/web" "$STAGE/web"
+# GempArena plan card-data-from-gemp: the card data file GempArena loads (web/gemparena/cards.json), made by the Gemp
+# branch's own generator (Gemp's Maven build runs it too); it downloads swccg-card-json, at build time only.
+GEN=$(mktemp)
+git -C "$GEMP_REPO" show "$GEMP_BRANCH:bin/gemparena_cards" > "$GEN" \
+    || { echo "gemp $GEMP_BRANCH has no bin/gemparena_cards (GempArena card data)" >&2; exit 1; }
+python3 "$GEN" --web "$STAGE/web" >&2 || { echo "bin/gemparena_cards failed" >&2; exit 1; }
+rm -f "$GEN"
 "$ROOT/.venv/bin/python" "$HERE/banner.py" "$STAGE/web" "dev $DEV_SHA · gemp $GEMP_SHA" >&2
 cp "$HERE/log4j.xml" "$HERE/entrypoint.sh" "$STAGE/"
 docker build -q -t "brainiac-beta-gemp:$TAG" -f "$HERE/gemp.Dockerfile" "$STAGE" >&2
