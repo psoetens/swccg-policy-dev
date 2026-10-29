@@ -32,6 +32,26 @@ nice -n 10 "$UNITY" -batchmode -quit -nographics -projectPath "$REPO" \
 [ -f "$OUT/index.html" ] || { echo "no index.html in $OUT" >&2; exit 1; }
 ! grep -q "Blender could not be launched" "$PARENT/build-$SHA.log" \
     || { echo "the card mesh was not imported (Blender); log $PARENT/build-$SHA.log" >&2; exit 1; }
+# GempArena plan web-texture-formats: a second data file with the textures in ASTC, for browsers without DXT (iPad,
+# iPhone, most Android). Same code, so only the data file is kept; the page template picks it (const astcDataFile).
+ASTC_PROFILE="Assets/Settings/Build Profiles/Web ASTC Profile.asset"
+if [ -f "$REPO/$ASTC_PROFILE" ]; then
+    ASTC_OUT=$PARENT/astc-$SHA
+    rm -rf "${ASTC_OUT:?}"
+    nice -n 10 "$UNITY" -batchmode -quit -nographics -projectPath "$REPO" \
+        -activeBuildProfile "$ASTC_PROFILE" -build "$ASTC_OUT" -logFile "$PARENT/build-$SHA-astc.log" >&2 \
+        || { echo "Unity failed (ASTC); log $PARENT/build-$SHA-astc.log" >&2; exit 1; }
+    for f in "$OUT"/Build/*.framework.js* "$OUT"/Build/*.wasm*; do
+        cmp -s "$f" "$ASTC_OUT/Build/$(basename "$f")" \
+            || { echo "the ASTC build's code differs from the DXT build's ($(basename "$f"))" >&2; exit 1; }
+    done
+    ASTC_DATA=$(cd "$ASTC_OUT/Build" && ls *.data*)
+    cp "$ASTC_OUT/Build/$ASTC_DATA" "$OUT/Build/"
+    grep -q 'const astcDataFile = "";' "$OUT/index.html" \
+        || { echo "index.html has no astcDataFile line (GempArena page template)" >&2; exit 1; }
+    sed -i "s/const astcDataFile = \"\";/const astcDataFile = \"$ASTC_DATA\";/" "$OUT/index.html"
+    rm -rf "${ASTC_OUT:?}"
+fi
 "$(dirname "$0")/inject_clientlog.sh" "$OUT"  # plan client-logs
 printf 'commit=%s%s\nbranch=%s\nbuilt=%s\nunity=%s\n' "$(git -C "$REPO" rev-parse HEAD)" "${SUFFIX:-}" "$(git -C "$REPO" rev-parse --abbrev-ref HEAD)" \
     "$(date -Is)" "$(basename "$(dirname "$(dirname "$UNITY")")")" > "$OUT/BUILD_INFO"
